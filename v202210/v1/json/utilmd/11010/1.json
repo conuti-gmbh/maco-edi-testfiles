@@ -1,0 +1,87 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "marktlokationsId": "50188881541"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "lokationsId": "50188881541",
+            "lokationsTyp": "MALO",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "geschaeftspartnerrolle": ["KUNDE"],
+                "gewerbekennzeichnung": false,
+                "name1": "Mustermann",
+                "name2": "Max"
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "energierichtung": "AUSSP",
+            "marktlokationsId" : "50188881541"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsende": "2023-02-28T23:00:00+00:00",
+            "lokationsTyp": "MALO",
+            "lokationsId": "50188881541"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "358005",
+        "sparte": "STROM",
+        "vorgangsnummer": "785378641",
+        "pruefidentifikator": "11010",
+        "transaktionsgrund": "E01",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900599000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "483631BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2023-01-24T06:24:00Z",
+        "nachrichtenreferenznummer": "483631",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4048454000005",
+          "rollencodetyp": "BDEW"
+        }
+      }
+    }
+  }
+]

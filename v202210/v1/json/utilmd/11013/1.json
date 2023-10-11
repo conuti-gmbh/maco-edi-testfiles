@@ -1,0 +1,374 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "netzebene": "NSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Musterstadt",
+              "strasse": "Musterstr.",
+              "hausnummer": "1337",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "4045399000077",
+                "marktrolle": "UENB"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG",
+                      "ENDKUNDENABRECHNUNG",
+                      "MEHRMINDERMENGENABRECHNUNG"
+                    ]
+                  }
+                ],
+                "verbrauchsart": "KL",
+                "unterbrechbarkeit": "NUV",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messtechnischeEinordnung": "KME_MME",
+            "netznutzungsabrechnungsdaten": [
+              {
+                "artikelId": "1-06-0-001",
+                "artikelIdTyp": "ARTIKELID",
+                "anzahl": 1,
+                "gemeinderabatt": 0
+              }
+            ],
+            "sperrstatus": "ENTSPERRT",
+            "eigentuemer": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "EIGENTUEMER"
+              ]
+            },
+            "hausverwalter": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "HAUSVERWALTER"
+              ]
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "netzebenemessung": "NSP",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Musterstadt",
+                "strasse": "Musterstr.",
+                "hausnummer": "1337",
+                "landescode": "DE"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "GMSB"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2023-04-30T22:00:00Z",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Musterhausen",
+                  "strasse": "Musterstrasse",
+                  "hausnummer": "1a",
+                  "landescode": "DE",
+                  "ortsteil": "Musterortsteil",
+                  "zusatzInformation": {
+                    "zusatz1": "Musteraddresszusatz"
+                  }
+                },
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "vertragskonditionen": {
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              },
+              "netznutzungsabrechnungIntervall": 12,
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT",
+              "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+              "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+              "naechstenetznutzungsabrechnung": "2024"
+            },
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Musterstadt",
+                "strasse": "Musterstr.",
+                "hausnummer": "1337",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "abrechnungUeberNna": true
+            },
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO"
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Musterstadt",
+                "strasse": "Musterstr.",
+                "hausnummer": "1337",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "123456789",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+            "tarifart": "EINTARIF",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-0:1.8.0",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "fernschaltung": "NICHT_VORHANDEN",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "geraete": [
+              {
+                "geraetenummer": "123456789"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "lastprofile": [
+              {
+                "bezeichnung": "1D3",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "einspeisung": false,
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzierungsbeginn": "2023-04-30T22:00:00Z",
+            "bilanzierungsende": "2023-05-31T22:00:00Z",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "aggregationsverantwortung": "VNB",
+            "zeitreihentyp": "SLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "208987",
+        "sparte": "STROM",
+        "transaktionsgrund": "E06",
+        "vorgangsnummer": "164631551",
+        "pruefidentifikator": "11013",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Hans Mustermann",
+            "eMailAdresse": "hans@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123 456789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123 456789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123 456789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123 456789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "184967BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2023-04-03T12:05:00Z",
+        "nachrichtenreferenznummer": "184967"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

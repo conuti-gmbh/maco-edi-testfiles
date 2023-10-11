@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource":"OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data":{
+      "stammdaten":{
+        "BILANZIERUNG":[
+          {
+            "boTyp":"BILANZIERUNG",
+            "marktlokationsId":"50188881541"
+          }
+        ],
+        "MARKTLOKATION":[
+          {
+            "boTyp":"MARKTLOKATION",
+            "energierichtung":"AUSSP",
+            "marktlokationsId": "50188881541"
+          }
+        ]
+      },
+      "transaktionsdaten":{
+        "datenaustauschreferenz":"118765",
+        "sparte":"STROM",
+        "transaktionsgrund":"Z26",
+        "vorgangsnummer":"1607972662",
+        "pruefidentifikator":"11036",
+        "absender":{
+          "boTyp":"MARKTTEILNEHMER",
+          "versionStruktur":"1",
+          "rollencodenummer":"9900599000001",
+          "rollencodetyp":"BDEW",
+          "ansprechpartner":{
+            "boTyp":"ANSPRECHPARTNER",
+            "versionStruktur":"1",
+            "nachname":"Max Mustermann",
+            "eMailAdresse":"max@mustermann.de",
+            "rufnummern":[
+              {
+                "nummerntyp":"RUF_ZENTRALE",
+                "rufnummer":"0123 45678910"
+              },
+              {
+                "nummerntyp":"FAX_DURCHWAHL",
+                "rufnummer":"0123 45678910"
+              },
+              {
+                "nummerntyp":"RUF_DURCHWAHL",
+                "rufnummer":"0123 45678910"
+              },
+              {
+                "nummerntyp":"MOBIL_NUMMER",
+                "rufnummer":"0123 45678910"
+              }
+            ]
+          }
+        },
+        "empfaenger":{
+          "boTyp":"MARKTTEILNEHMER",
+          "versionStruktur":"1",
+          "rollencodenummer":"9904079000002",
+          "rollencodetyp":"BDEW"
+        },
+        "dokumentennummer":"277913BGM",
+        "kategorie":"E44",
+        "nachrichtendatum":"2023-01-25T07:57:00Z",
+        "nachrichtenreferenznummer":"277913",
+        "anfragereferenznummer":"TN123456",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4048454000005",
+          "rollencodetyp": "BDEW"
+        },
+        "beteiligterMarktpartnerReferenz":"50188881541",
+        "beteiligterMarktpartnerReferenzcode":"MARKTLOKATION"
+      }
+    }
+  }
+]

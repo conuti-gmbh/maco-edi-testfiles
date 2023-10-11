@@ -1,0 +1,171 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "75395",
+              "ort": "Ort",
+              "strasse": "Str.",
+              "hausnummer": "123",
+              "landescode": "DE"
+            }
+          }
+        ],
+        "RECHNUNG": [
+          {
+            "boTyp": "RECHNUNG",
+            "versionStruktur": "1",
+            "rechnungsstatus": "ORIGINAL",
+            "storno": false,
+            "rechnungsdatum": "2023-05-16T06:48:00Z",
+            "istSelbstausgestellt": false,
+            "faelligkeitsdatum": "2023-06-05T22:00:00Z",
+            "bearbeitungsdatum": "2023-05-16T06:48:00Z",
+            "gesamtbrutto": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "zuZahlen": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "steuerbetraege": [
+              {
+                "steuerkennzeichen": "UST_19",
+                "basiswert": 1000,
+                "steuerwert": 190,
+                "waehrung": "EUR"
+              }
+            ],
+            "rechnungspositionen": [
+              {
+                "positionsnummer": 1,
+                "artikelnummer": "ABSCHLAG",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "lieferungVon": "2023-02-28T23:00:00Z",
+                "lieferungBis": "2023-03-31T22:00:00Z",
+                "einzelpreis": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "teilsummeNetto": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              },
+              {
+                "positionsnummer": 2,
+                "artikelnummer": "ABSCHLAG",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "lieferungVon": "2023-02-28T23:00:00Z",
+                "lieferungBis": "2023-03-31T22:00:00Z",
+                "einzelpreis": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "teilsummeNetto": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              }
+            ],
+            "vorlaeufigerAbrechnungszeitraum": {
+              "startdatum": "2023-02-28T23:00:00Z",
+              "enddatum": "2023-03-31T22:00:00Z"
+            },
+            "rechnungstyp": "ABSCHLAGSRECHNUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "168546",
+        "sparte": "STROM",
+        "pruefidentifikator": "31001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "name1": "Stadtwerke",
+          "steuernummer": "12345678910",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "9",
+            "landescode": "DE"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0234 56789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0234 56789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0234 56789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0234 56789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "name1": "Lieferant",
+          "partneradresse": {
+            "postleitzahl": "54321",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "1",
+            "landescode": "DE"
+          }
+        },
+        "dokumentennummer": "714669BGM",
+        "kategorie": "380",
+        "nachrichtenreferenznummer": "NIK KIRS714669"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

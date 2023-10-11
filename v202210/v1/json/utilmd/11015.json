@@ -1,0 +1,83 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "51126057194",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "51126057194"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "183663",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZC7",
+        "vorgangsnummer": "2009084540",
+        "pruefidentifikator": "11015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904620000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "mustermann@mustermail.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "123456789"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "123456789"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "123456789"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "123456789"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900599000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "983468BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2022-12-12T08:25:00Z",
+        "nachrichtenreferenznummer": "983468",
+        "anfragereferenznummer": "124792551",
+        "antwortstatus": "Z30",
+        "antwortstatusCodeliste": "S_0004",
+        "freitext": {
+          "freitext1": "Test"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+      },
+      "transaktionsdaten": {
+        "typ": "VL",
+        "datenaustauschreferenz": "SEBAS743670271",
+        "sparte": "STROM",
+        "vorgangsnummer": "",
+        "pruefidentifikator": "13006",
+        "nachrichtenfunktion": "1",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "musterfrau",
+            "eMailAdresse": "kontakt@mail.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "123456789"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "SEBAS271819091BGM",
+        "nachrichtenreferenznummer": "SEBAS271819091",
+        "kategorie": "Z27",
+        "nachrichtendatum": "2023-01-30T18:25:00Z",
+        "vorgangsreferenznummer": "99999999999"
+      }
+    }
+  }
+]

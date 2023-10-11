@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSBERICHT": [
+          {
+            "boTyp": "STATUSBERICHT",
+            "versionStruktur": "1",
+            "status": "FEHLER",
+            "pruefgegenstand": "DDBECHBJFGFHFK",
+            "datumPruefung": "2023-08-07T10:00:00Z",
+            "fehler": {
+              "typ": "VERARBEITUNG",
+              "fehlerDetails": [
+                {
+                  "ursache": {
+                    "dokument": "DDBECHBJFGFIBE",
+                    "nachricht": "02502203160845479903913000003641816"
+                  },
+                  "code": "TUPEL_UNBEKANNT"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DDBEDJCBCJBDJB",
+        "sparte": "STROM",
+        "pruefidentifikator": "99999",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "81952203281018029903913000003068198",
+        "kategorie": "313",
+        "nachrichtendatum": "2023-08-07T07:59:00Z",
+        "nachrichtenreferenznummer": "DDBEDJCBCJBDJB"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

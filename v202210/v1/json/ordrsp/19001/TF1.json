@@ -1,0 +1,99 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEUEBERNAHME",
+            "anfragetyp": "NUTZUNGSUEBERLASSUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2023-02-28T23:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "positionsnummerAngebot": "1",
+                "artikelnummer": "ZAEHLEINRICHTUNG",
+                "positionsbetrag": "3000,00",
+                "istBestand": "1",
+                "allgemeineInformationen": {
+                  "info1": "Freier Text"
+                }
+              }
+            ],
+            "berechnungspreis": 3000.00,
+            "summeGesamt": 3000.00
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "zaehlernummer": "G0815"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LEZF4PNB",
+        "sparte": "STROM",
+        "pruefidentifikator": "19001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLF3TI0K9",
+        "kategorie": "Z10",
+        "nachrichtendatum": "2023-02-23T10:55:00Z",
+        "nachrichtenreferenznummer": "UNHLENKCK8G",
+        "auftragsReferenz": "012345678910",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "S_0067"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

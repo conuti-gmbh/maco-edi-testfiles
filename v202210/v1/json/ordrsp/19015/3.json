@@ -1,0 +1,79 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEWECHSELABSICHT"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "lieferadresseAltgeraete": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr-",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Musterort",
+                "strasse": "Musterstr.",
+                "hausnummer": "10",
+                "landescode": "DE",
+                "ortsteil": "Mitte"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA318093",
+        "sparte": "STROM",
+        "pruefidentifikator": "19015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "mustermann@mail.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030123456"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "111",
+        "kategorie": "Z13",
+        "nachrichtendatum": "2023-04-19T08:43:00Z",
+        "nachrichtenreferenznummer": "YASMINJA741327",
+        "auftragsReferenz": "REF987654321",
+        "antwortstatus": "ZB4",
+        "antwortstatusCodeliste": "S_0065"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

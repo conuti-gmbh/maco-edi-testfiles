@@ -1,0 +1,89 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "BERECHNUNGSFORMEL": [
+          {
+            "boTyp": "BERECHNUNGSFORMEL",
+            "versionStruktur": "1",
+            "beginndatum": "2023-07-31T22:00:00Z",
+            "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+            "lieferrichtung": "AUSSP",
+            "verwendungszweck": [
+              {
+                "zweck": [
+                  "NETZNUTZUNGSABRECHNUNG",
+                  "BILANZKREISABRECHNUNG",
+                  "ENDKUNDENABRECHNUNG"
+                ]
+              }
+            ],
+            "rechenschrittId": 1,
+            "rechenschritte": [
+              {
+                "rechenschrittBestandteilId": 1,
+                "operation": "ADDITION",
+                "messlokationsId": "DE0032106765712000000000000000037",
+                "energieflussrichtung": "AUSSP"
+              },
+              {
+                "rechenschrittBestandteilId": 1,
+                "operation": "ADDITION",
+                "messlokationsId": "DE0032106765712000000000000000038",
+                "energieflussrichtung": "AUSSP"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "116030",
+        "sparte": "STROM",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "25001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "m@m.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "01234 5678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "240859BGM",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2023-06-20T10:13:00Z",
+        "nachrichtenreferenznummer": "240859"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

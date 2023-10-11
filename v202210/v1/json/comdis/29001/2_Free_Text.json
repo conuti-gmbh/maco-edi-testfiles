@@ -1,0 +1,64 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "HANDELSUNSTIMMIGKEIT": [
+          {
+            "boTyp": "HANDELSUNSTIMMIGKEIT",
+            "versionStruktur": "1",
+            "nummer": "Rechnung123456",
+            "typ": "HANDELSRECHNUNG",
+            "begruendung": {
+              "richtigkeit": "UTILMD",
+              "grund": "SONSTIGES",
+              "hinweis": "Ein elegant formulierter Hinweis"
+            },
+            "zuZahlen": {
+              "wert": 3000,
+              "waehrung": "EUR"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "antwortstatusCodeliste": "S_0109",
+        "datenaustauschreferenz": "155645",
+        "sparte": "STROM",
+        "pruefidentifikator": "29001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "123456789"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "486158BGM",
+        "kategorie": "456",
+        "nachrichtendatum": "2023-02-15T07:50:00Z",
+        "nachrichtenreferenznummer": "486158"
+      }
+    }
+  }
+]

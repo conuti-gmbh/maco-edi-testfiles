@@ -1,0 +1,44 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LFWJT8WA",
+        "sparte": "STROM",
+        "vorgangsnummer": "VorgangsId12345",
+        "pruefidentifikator": "25003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "063780BGM",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2023-01-23T07:30:00Z",
+        "nachrichtenreferenznummer": "063780",
+        "anfragereferenznummer": "NNV12345678941",
+        "antwortstatus": "A11",
+        "antwortstatusCodeliste": "E_0218"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

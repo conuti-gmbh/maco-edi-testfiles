@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "startdatum": "2023-07-01T04:00:00Z",
+                "enddatum": "2023-08-01T04:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "268274",
+        "sparte": "GAS",
+        "pruefidentifikator": "17103",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW",
+          "marktrolle": "LF"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW",
+          "marktrolle": "NB"
+        },
+        "dokumentennummer": "337278BGM",
+        "kategorie": "7",
+        "nachrichtendatum": "2023-09-07T06:50:00Z",
+        "nachrichtenreferenznummer": "337278"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEUEBERNAHME",
+            "anfragetyp": "NUTZUNGSUEBERLASSUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2021-10-03T11:12:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "positionsnummerAngebot": "99999999999",
+                "artikelnummer": "ZAEHLEINRICHTUNG",
+                "positionsbetrag": "22",
+                "istBestand": "111"
+              }
+            ],
+            "berechnungspreis": 22,
+            "summeGesamt": 13241247123
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "56465465456",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA462084",
+        "sparte": "STROM",
+        "pruefidentifikator": "19001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Test2312312",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "Test2312312"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "111",
+        "kategorie": "Z10",
+        "nachrichtendatum": "2023-04-19T09:48:00Z",
+        "nachrichtenreferenznummer": "YASMINJA234639",
+        "auftragsReferenz": "DE1241241241412412412412123635498",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "S_0067"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

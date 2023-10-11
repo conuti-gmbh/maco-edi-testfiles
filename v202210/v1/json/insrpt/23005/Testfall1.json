@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "verwendungAb": "2023-01-31T23:00:00Z",
+                "enddatum": "2023-02-06T23:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "antwortstatus": "E15",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Freier Text"
+                },
+                "lokationsId": "DE0073395252733953513649640711234"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "405553",
+        "sparte": "STROM",
+        "vorgangsnummer": "12345678910",
+        "pruefidentifikator": "23005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9905058000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "552448BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-02-16T12:50:00Z",
+        "nachrichtenreferenznummer": "552448"
+      }
+    }
+  }
+]
