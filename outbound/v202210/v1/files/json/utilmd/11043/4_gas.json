@@ -1,0 +1,344 @@
+[
+  {
+    "businessKey": "ea55e359-ac70-4c19-b12c-01aa99ee4b83",
+    "processDate": "",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "sparte": "GAS",
+            "messlokationsId": "DE0032106765700000000000000000699",
+            "gasqualitaet": "H_GAS",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "3",
+              "landescode": "DE"
+            },
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ],
+              "versionStruktur": "1",
+              "gewerbekennzeichnung": false,
+              "name1": "Mustermann",
+              "name2": "Max",
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "3",
+                "landescode": "DE"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSBA",
+                "rollencodenummer": "9800110000002",
+                "rollencodetyp": "DVGW",
+                "weiterverpflichtet": true
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9800110000003",
+                "rollencodetyp": "DVGW",
+                "weiterverpflichtet": true
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000383",
+                "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+                "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN"
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765700000000000000000699",
+            "zaehlernummer": "7EMH00007121511",
+            "sparte": "GAS",
+            "zaehlergroesse": "GAS_G100",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "befestigungsart": "EINSTUTZEN",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "volumenerfassung": "HOCHFREQUENZSONDE",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-0:3.2.0",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "geraete": [
+              {
+                "geraetenummer": "123456789",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MENGENUMWERTER",
+                  "geraetemerkmal": "TEMPERATURMENGENUMWERTER",
+                  "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG"
+                }
+              },
+              {
+                "geraetenummer": "555555",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MESSDATENREGISTRIERGERAET"
+                }
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2023-09-01T04:00:00Z",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "1231"
+              },
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              }
+            },
+            "lokationsId": "50188881541",
+            "lokationsTyp": "MALO"
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2023-09-01T04:00:00Z",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "1231"
+              },
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              }
+            },
+            "lokationsId": "DE0032106765700000000000000000699",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2023-09-01T04:00:00Z",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE0032106765700000000000000000699",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": false,
+                "anrede": null,
+                "name1": "Mustermann",
+                "name2": "Max",
+                "name3": null,
+                "name4": null,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Ort",
+                  "strasse": "Str",
+                  "hausnummer": "3",
+                  "landescode": "DE"
+                }
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50188881541",
+            "sparte": "GAS"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50188881541",
+            "sparte": "GAS"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "referenzPreisschluesselstamm": null,
+        "naechstebearbeitung": null,
+        "nachrichtendatum": "2023-07-19T12:22:16Z",
+        "freitext": null,
+        "typ": null,
+        "angebotsnummer": null,
+        "anfrageReferenz": null,
+        "antwortstatusdritter": null,
+        "meldepunkt": null,
+        "beteiligterMarktpartnerReferenz": null,
+        "sendungsposition": null,
+        "vorgangsreferenznummer": null,
+        "angebotsart": null,
+        "zaehlerstandsinfo": null,
+        "datumleistungsbeginn": "2023-09-01T04:00:00Z",
+        "lieferdatum": null,
+        "menge": null,
+        "datumsformat": null,
+        "beteiligterMarktpartnerReferenzcode": null,
+        "anfragereferenznummer": "687480264",
+        "bestellungzaehlzeiten": null,
+        "begruendung": null,
+        "vorgangsnummer": "FEAA45611C863C1C228BE8B9339422FDE0",
+        "netznutzungsabrechnungsintervall": null,
+        "nachrichtenreferenznummer": "E8B9339422FDE0",
+        "antwortstatusCodelistedritter": null,
+        "sparte": "GAS",
+        "dokumentenname": null,
+        "positionsnummer": null,
+        "verwendungBis": null,
+        "lokationsId": "keinWert",
+        "lieferbeginndatuminbearbeitung": null,
+        "dokumentennummer": "C228BE8B9339422FDE0",
+        "tarifstufe": null,
+        "startdatum": null,
+        "mitteilungsnummer": null,
+        "vertragsbeginn": null,
+        "infoAbweichung": null,
+        "prozessdatum": null,
+        "verwendungAb": null,
+        "kategorie": "E01",
+        "bilanzkreiszuordnung": null,
+        "produktbeschreibung": null,
+        "transaktionsgrundergaenzung": null,
+        "empfaenger": {
+          "rollencodenummer": "9800172600006",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "steuernummer": "07\/428\/1234\/5",
+          "name1": "Rechnungsempf\u00e4nger AG",
+          "partneradresse": {
+            "postleitzahl": "04105",
+            "ort": "Leipzig",
+            "strasse": "Emil-Fuchs-Str.",
+            "hausnummer": "4",
+            "landescode": "DE"
+          }
+        },
+        "auftragsReferenz": null,
+        "angebotsreferenz": null,
+        "naechsteTurnusAblesungStrom": null,
+        "transaktionsgrund": "E01",
+        "abonnement": null,
+        "identifikationslogik": null,
+        "datenaustauschreferenz": "E8B9339422FDE0",
+        "antwortstatusCodeliste": "G_0054",
+        "antwortstatus": "E15",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "umsatzsteuerId": "DE999999999",
+          "name1": "Rechnungsersteller GmbH",
+          "partneradresse": {
+            "postleitzahl": "76229",
+            "ort": "Karlsruhe",
+            "strasse": "Greschbachstr.",
+            "hausnummer": "12",
+            "landescode": "DE"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "D BOWEN",
+            "eMailAdresse": "m.mustermann@email.de"
+          }
+        },
+        "enddatum": null,
+        "endezumtermin": null,
+        "pruefidentifikator": "11043",
+        "fertigstellungsdatum": null,
+        "ausfuehrungsdatum": null,
+        "referenzMelo": null,
+        "lieferrichtung": null,
+        "vertragsende": null,
+        "fehlerbeschreibung": null,
+        "referenzMalo": null,
+        "naechsteNetznutzungsabrechnung": null,
+        "leistungsperiode": null,
+        "naechsteTurnusAblesungGas": null,
+        "gueltigAb": null,
+        "nachrichtenfunktion": null
+      },
+      "zusatzdaten": []
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messadresse": {
+              "postleitzahl": "54321",
+              "ort": "Eisenstadt",
+              "strasse": "Ferritplatz",
+              "hausnummer": "27a",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Hinter",
+                "zusatz2": "hof",
+                "zusatz3": "ganz",
+                "zusatz4": "am Ende",
+                "zusatz5": "links"
+              }
+            },
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "versionStruktur": "1",
+              "gewerbekennzeichnung": false,
+              "name1": "Mustermann",
+              "name2": "Max",
+              "partneradresse": {
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "ortsteil": "Musterortsteil",
+                "ort": "Musterstadt",
+                "postleitzahl": "55555",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "vertragskonditionen": {
+              "beauftragungMsb": "VERTRAGSBEENDIGUNG_MSB"
+            },
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "geschaeftspartnerrolle": [
+                "KORRESPONDENZEMPFAENGER"
+              ],
+              "versionStruktur": "1",
+              "gewerbekennzeichnung": false,
+              "name1": "Mustermann",
+              "partneradresse": {
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "ortsteil": "Musterortsteil",
+                "ort": "Musterstadt",
+                "postleitzahl": "55555",
+                "landescode": "DE"
+              }
+            },
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": false,
+                "name1": "Mustermann",
+                "name2": "Max",
+                "anrede": "Dr"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "pruefidentifikator": "11042",
+        "datenaustauschreferenz": "LG2ICP46",
+        "nachrichtenreferenznummer": "UNHLFSBJZFQ",
+        "dokumentennummer": "BGMLFPKB0KD",
+        "kategorie": "E01",
+        "sparte": "STROM",
+        "nachrichtendatum": "2023-03-13T14:58:00Z",
+        "vorgangsnummer": "44444444444",
+        "datumleistungsbeginn": "2023-03-31T22:00:00Z",
+        "transaktionsgrund": "E02",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123456789-10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123456789-20"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123456789-30"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123456789-40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0073395252733953513649640711234",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "position": 1,
+                "nutzungszeitpunkt": "2023-01-30T23:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.8.0",
+                "wert": 33123,
+                "ablesedatum": "2023-01-30T23:00:00Z",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "KUNDENSELBSTABLESUNG"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "G123456789"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "800859",
+        "sparte": "STROM",
+        "pruefidentifikator": "13017",
+        "nachrichtenfunktion": "9",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "123456",
+        "kategorie": "7",
+        "nachrichtendatum": "2023-02-17T10:48:00Z",
+        "nachrichtenreferenznummer": "548777",
+        "typ": "VL"
+      }
+    }
+  }
+]

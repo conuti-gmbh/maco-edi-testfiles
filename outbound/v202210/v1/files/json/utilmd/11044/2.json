@@ -1,0 +1,72 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "481641",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "vorgangsnummer": "1603633193",
+        "pruefidentifikator": "11044",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Hans Mustermann",
+            "eMailAdresse": "hans@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123 456789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123 456789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123 456789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123 456789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "320859BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2023-04-05T16:12:00Z",
+        "nachrichtenreferenznummer": "320859",
+        "anfragereferenznummer": "REF12345678910",
+        "antwortstatus": "E17",
+        "antwortstatusCodeliste": "S_0056"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

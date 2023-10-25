@@ -1,0 +1,51 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "STAMMDATEN_MALO_ODER_MELO",
+            "abonnement": "ENDE_ABO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "998606",
+        "pruefidentifikator": "19302",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4399902157025",
+          "rollencodetyp": "GS1"
+        },
+        "dokumentennummer": "BGM12345",
+        "kategorie": "Z14",
+        "nachrichtendatum": "2023-10-04T13:12:00Z",
+        "nachrichtenreferenznummer": "568843",
+        "auftragsReferenz": "12345678910",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "S_0093"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

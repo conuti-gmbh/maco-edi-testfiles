@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "bearbeitungsdatum": "2023-01-31T23:00:00Z",
+                "verwendungAb": "2023-02-17T23:00:00Z",
+                "enddatum": "2023-02-19T23:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Freier Text1"
+                },
+                "lokationsId": "50188881541",
+                "referenzMelo": "DE0073395252733953513649640711234"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LF41IMMN",
+        "sparte": "STROM",
+        "vorgangsnummer": "12345678910",
+        "pruefidentifikator": "23011",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9905058000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900599000001",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF"
+        },
+        "dokumentennummer": "BGMLELS2VYR",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-02-21T08:19:00Z",
+        "nachrichtenreferenznummer": "UNHLF0I1T5Q"
+      }
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "lieferadresseAltgeraete": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Herr",
+              "name1": "Name1",
+              "name2": "Name2",
+              "name3": "Name3",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Musterhausen",
+                "strasse": "Musterstrasse",
+                "hausnummer": "1a",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil",
+                "zusatzInformation": {
+                  "zusatz1": "Musteraddresszusatz"
+                }
+              }
+            }
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEWECHSELABSICHT"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LFUS7FYU",
+        "sparte": "STROM",
+        "pruefidentifikator": "19015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLFEZPU4B",
+        "nachrichtendatum": "2023-03-07T08:14:00Z",
+        "nachrichtenreferenznummer": "UNHLFUUDQKY",
+        "auftragsReferenz": "REF12345678910",
+        "antwortstatus": "ZB5",
+        "antwortstatusCodeliste": "S_0066"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

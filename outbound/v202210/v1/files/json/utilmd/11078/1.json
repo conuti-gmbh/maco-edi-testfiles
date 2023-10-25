@@ -1,0 +1,240 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "EINSP",
+            "netzebene": "NSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Strasse",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Hans",
+                "zusatz3": "von",
+                "zusatz4": "zu",
+                "zusatz5": "Dr."
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "4045399000077",
+                "marktrolle": "UENB"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-0:2.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG",
+                      "MEHRMINDERMENGENABRECHNUNG",
+                      "ENDKUNDENABRECHNUNG"
+                    ]
+                  }
+                ],
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messtechnischeEinordnung": "KME_MME",
+            "energieherkunft": [
+              {
+                "erzeugungsart": "EEG"
+              }
+            ],
+            "statusErzeugendeMalo": "VERMARKTUNG_OHNE_GESETZL_VERGUETUNG"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "netzebenemessung": "NSP",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "GMSB"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2023-05-31T22:00:00Z",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "EL001IK01013852469",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+            "tarifart": "EINTARIF",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-0:2.8.0",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "fernschaltung": "NICHT_VORHANDEN",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "geraete": [
+              {
+                "geraetenummer": "EL001IK01013852469"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "lastprofile": [
+              {
+                "bezeichnung": "E01",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "einspeisung": true,
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzierungsbeginn": "2023-05-31T22:00:00Z",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "jahresverbrauchsprognose": {
+              "wert": 100,
+              "einheit": "KWH"
+            },
+            "aggregationsverantwortung": "VNB",
+            "zeitreihentyp": "SOP",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "936521",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1829631672",
+        "pruefidentifikator": "11078",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123 456789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123 456789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123 456789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123 456789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "990227BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2023-04-04T07:59:00Z",
+        "nachrichtenreferenznummer": "990227",
+        "anfragereferenznummer": "REF12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "S_0049",
+        "lokationsId": "50074561188",
+        "bilanzkreis": [
+          {
+            "bezeichnung": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

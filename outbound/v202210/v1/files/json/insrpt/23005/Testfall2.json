@@ -1,0 +1,50 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "enddatum": "2023-04-11T13:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "lokationsId": "DE0032106765712000000000000000037"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "679021",
+        "sparte": "STROM",
+        "vorgangsnummer": "123",
+        "pruefidentifikator": "23005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "NIK KIRS635896BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-04-14T09:52:00Z",
+        "nachrichtenreferenznummer": "635896"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

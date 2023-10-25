@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA193323",
+        "sparte": "STROM",
+        "pruefidentifikator": "19117",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "Mustermann@mail.com",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030123456"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "9955",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2023-04-19T13:18:00Z",
+        "nachrichtenreferenznummer": "YASMINJA222558",
+        "auftragsReferenz": "REF123456789",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0470",
+        "freitext": {
+          "freitext1": "Anlage wurde bereits am 31.03.2023 gesperrt"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

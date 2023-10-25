@@ -1,0 +1,79 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0073395252733953513649640711234"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "GERAET",
+            "statusanlass": "AUSGEBAUT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "595436",
+        "sparte": "STROM",
+        "pruefidentifikator": "21036",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "12345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "301372BGM",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2023-02-16T08:10:00Z",
+        "nachrichtenreferenznummer": "301372",
+        "fertigstellungsdatum": "2022-10-14T07:52:00Z"
+      }
+    }
+  }
+]

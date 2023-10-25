@@ -1,0 +1,99 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561228",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561228",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2021-08-22T09:13:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "allgemeineInformationen": {
+                  "info1": "TestText12345"
+                }
+              }
+            ]
+          }
+        ],
+        "SPERRAUFTRAG": [
+          {
+            "boTyp": "SPERRAUFTRAG",
+            "versionStruktur": "1",
+            "treffpunkt": {
+              "postleitzahl": "12345",
+              "ort": "Musterort",
+              "strasse": "Musterstr.",
+              "hausnummer": "10",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Max",
+                "zusatz2": "Mustermann"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA491727",
+        "sparte": "STROM",
+        "pruefidentifikator": "17116",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "mustermann@mail.com",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030565656"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "YASMINJA459165BGM",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2023-04-21T09:36:00Z",
+        "nachrichtenreferenznummer": "YASMINJA459165",
+        "freitext": {
+          "freitext1": "TestText12345"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50188881541",
+            "lokationsadresse": {
+              "postleitzahl": "54321",
+              "ort": "Teststadt",
+              "strasse": "Beispielstraße",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        ],
+        "RECHNUNG": [
+          {
+            "boTyp": "RECHNUNG",
+            "versionStruktur": "1",
+            "storno": false,
+            "rechnungsstatus": "ORIGINAL",
+            "rechnungsdatum": "2023-03-10T10:46:00Z",
+            "faelligkeitsdatum": "2023-03-28T22:00:00Z",
+            "bearbeitungsdatum": "2023-03-10T10:46:00Z",
+            "referenzDokumentennummer": "88888888",
+            "istSelbstausgestellt": false,
+            "rechnungsperiode": {
+              "startdatum": "2022-12-31T23:00:00Z",
+              "enddatum": "2023-02-28T23:00:00Z"
+            },
+            "gesamtbrutto": {
+              "wert": 1785.00
+            },
+            "zuZahlen": {
+              "wert": 1785.00
+            },
+            "steuerbetraege": [
+              {
+                "steuerkennzeichen": "UST_19",
+                "basiswert": 1500.00,
+                "steuerwert": 285.00
+              }
+            ],
+            "rechnungspositionen": [
+              {
+                "positionsnummer": 1,
+                "artikelnummer": "MSB_INKL_MESSUNG",
+                "lieferungVon": "2022-12-31T23:00:00Z",
+                "lieferungBis": "2023-02-28T23:00:00Z",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "zeitbezogeneMenge": {
+                  "wert": 2,
+                  "einheit": "MONAT"
+                },
+                "einzelpreis": {
+                  "wert": 500,
+                  "bezugswert": "JAHR"
+                },
+                "teilsummeNetto": {
+                  "wert": 1000.00
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              },
+              {
+                "positionsnummer": 2,
+                "artikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_1_MSBG",
+                "lieferungVon": "2022-12-31T23:00:00Z",
+                "lieferungBis": "2023-02-28T23:00:00Z",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "zeitbezogeneMenge": {
+                  "wert": 2,
+                  "einheit": "MONAT"
+                },
+                "einzelpreis": {
+                  "wert": 250.000000,
+                  "bezugswert": "JAHR"
+                },
+                "teilsummeNetto": {
+                  "wert": 500.00
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              }
+            ],
+            "rechnungstyp": "MSBRECHNUNG",
+            "istReverseCharge": false
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LFH5D2XY",
+        "sparte": "STROM",
+        "pruefidentifikator": "31009",
+        "nachrichtenreferenznummer": "UNHLFMSN0FJ",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "steuernummer": "DE999999999",
+          "name1": "Rechnungsersteller GmbH",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Testort",
+            "strasse": "Teststraße",
+            "hausnummer": "123",
+            "landescode": "DE"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123456789-3"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123456789-1"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123456789-2"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123456789-4"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "name1": "Rechnungsempfänger AG",
+          "partneradresse": {
+            "postleitzahl": "54321",
+            "ort": "Teststadt",
+            "strasse": "Beispielstraße",
+            "hausnummer": "123",
+            "landescode": "DE"
+          }
+        },
+        "dokumentennummer": "BGMLFFESVNW",
+        "kategorie": "380"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

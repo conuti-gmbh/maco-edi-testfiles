@@ -1,0 +1,70 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0073395252733953513649640711234",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9906687000002",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "antwortstatus": "Z66",
+        "antwortstatusCodeliste": "S_0057",
+        "datenaustauschreferenz": "883546",
+        "sparte": "STROM",
+        "pruefidentifikator": "21011",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "NIK KIRS982866BGM",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2023-02-09T19:05:00Z",
+        "nachrichtenreferenznummer": "NIK KIRS982866",
+        "lokationsId": "DE0073395252733953513649640711234",
+        "vorgangsreferenznummer": "REF12345",
+        "mitteilungsnummer": "1",
+        "lieferdatum": "2023-01-31T23:00:00Z"
+      }
+    }
+  }
+]

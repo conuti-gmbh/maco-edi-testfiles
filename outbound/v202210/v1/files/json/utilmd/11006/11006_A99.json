@@ -1,0 +1,81 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "edifactVersion": 202210,
+    "version": 1,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "marktlokationsId": "50188881541"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50188881541"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "129879",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "550147175",
+        "pruefidentifikator": "11006",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "12345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "044023BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2023-02-15T12:08:00Z",
+        "nachrichtenreferenznummer": "044023",
+        "anfragereferenznummer": "REF12345",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0401",
+        "freitext": {
+          "freitext1": "A99 Texttest"
+        }
+      }
+    }
+  }
+]

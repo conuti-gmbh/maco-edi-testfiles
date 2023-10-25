@@ -1,0 +1,62 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "ENERGIELIEFERVERTRAG",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "kuendigungsfrist": {
+                "zeitraumText": "01MT"
+              },
+              "kuendigungstermin": "2023-06-30T22:00:00Z"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "121147",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1997276511",
+        "pruefidentifikator": "11041",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "148203BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2023-05-26T10:13:00Z",
+        "nachrichtenreferenznummer": "148203",
+        "anfragereferenznummer": "REF12345678910",
+        "gueltigAb": "2023-06-30T22:00:00Z",
+        "antwortstatus": "Z12",
+        "antwortstatusCodeliste": "S_0054"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

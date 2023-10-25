@@ -1,0 +1,96 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "positionsnummerAngebot": "1",
+                "artikelnummer": "WANDLER_MENGENUMWERTER",
+                "positionsbetrag": "5000.00",
+                "istBestand": "1",
+                "allgemeineInformationen": {
+                  "info1": "Testtext"
+                }
+              }
+            ],
+            "berechnungspreis": 5000,
+            "summeGesamt": 5000.00,
+            "ausfuehrungsdatum": "2023-02-25T23:00:00Z"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0073395252733953513649640711234",
+            "anfragekategorie": "GERAETEUEBERNAHME",
+            "anfragetyp": "NUTZUNGSUEBERLASSUNG"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "zaehlernummer": "G123456789"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "220837",
+        "sparte": "STROM",
+        "pruefidentifikator": "17001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "12345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "12345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9910046000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "602803BGM",
+        "nachrichtendatum": "2023-02-16T08:23:00Z",
+        "nachrichtenreferenznummer": "602803",
+        "angebotsnummer": "123456"
+      }
+    }
+  }
+]

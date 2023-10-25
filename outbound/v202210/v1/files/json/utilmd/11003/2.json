@@ -1,0 +1,80 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "energierichtung": "AUSSP",
+            "marktlokationsId": "50188881541"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "119627",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "226013613",
+        "pruefidentifikator": "11003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900599000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123 1234567"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123 1234567"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123 1234567"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123 1234567"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "755883BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2023-01-24T12:35:00Z",
+        "nachrichtenreferenznummer": "755883",
+        "anfragereferenznummer": "NNV12345",
+        "antwortstatus": "A04",
+        "antwortstatusCodeliste": "E_0462",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4048454000005",
+          "rollencodetyp": "BDEW"
+        },
+        "beteiligterMarktpartnerReferenz": "50188881541",
+        "beteiligterMarktpartnerReferenzcode": "MARKTLOKATION",
+        "naechsteBearbeitung": "2023-01-31T23:00:00Z",
+        "lieferbeginndatuminbearbeitung": "2023-02-28T23:00:00Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "referenzMarktlokationsId": "50074561188"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "WEITERVERPFLICHTUNG_BETRIEB_MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "verschobenerAbmeldetermin": "2023-10-31T23:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "755230",
+        "sparte": "STROM",
+        "pruefidentifikator": "17002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB"
+        },
+        "dokumentennummer": "783112BGM",
+        "kategorie": "Z11",
+        "nachrichtendatum": "2023-10-04T08:59:00Z",
+        "nachrichtenreferenznummer": "783112"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

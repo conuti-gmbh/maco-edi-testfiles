@@ -1,0 +1,57 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSBERICHT": [
+          {
+            "boTyp": "STATUSBERICHT",
+            "versionStruktur": "1",
+            "status": "FEHLER",
+            "pruefgegenstand": "DDBEDKCEEGDIFH",
+            "datumPruefung": "2023-08-07T07:58:00Z",
+            "fehler": {
+              "typ": "VERARBEITUNG",
+              "fehlerDetails": [
+                {
+                  "ursache": {
+                    "dokument": "DDBEDKCEEGDJCE",
+                    "nachricht": "12322203291335289903913000003744293",
+                    "transaktion": "1"
+                  },
+                  "code": "ID_UNBEKANNT"
+                }
+              ]
+            }
+          }
+        ]
+      },
+        "transaktionsdaten": {
+          "datenaustauschreferenz": "DDBEDKCEEGFIEF",
+          "sparte": "STROM",
+          "pruefidentifikator": "99999",
+          "absender": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "rollencodenummer": "9900321000005",
+            "rollencodetyp": "BDEW"
+          },
+          "empfaenger": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "rollencodenummer": "9903790000002",
+            "rollencodetyp": "BDEW"
+          },
+          "dokumentennummer": "35012203291335479903913000003026271",
+          "kategorie": "313",
+          "nachrichtendatum": "2023-08-07T07:59:00Z",
+          "nachrichtenreferenznummer": "DDBEDKCEEGFIEF"
+        },
+        "zusatzdaten": {}
+      }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "99999",
+              "ort": "Ort",
+              "strasse": "Str.",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        ],
+        "RECHNUNG": [
+          {
+            "boTyp": "RECHNUNG",
+            "versionStruktur": "1",
+            "rechnungsstatus": "ORIGINAL",
+            "storno": true,
+            "rechnungsdatum": "2023-05-16T06:48:00Z",
+            "istSelbstausgestellt": true,
+            "bearbeitungsdatum": "2023-05-16T06:48:00Z",
+            "originalRechnungsnummer": "REF12345678910",
+            "referenzNachrichtendatum": "2023-03-15T23:00:00Z",
+            "rechnungsperiode": {
+              "startdatum": "2023-02-28T23:00:00Z",
+              "enddatum": "2023-03-31T22:00:00Z"
+            },
+            "faelligkeitsdatum": "2023-06-05T22:00:00Z",
+            "rechnungstyp": "ABSCHLUSSRECHNUNG",
+            "gesamtbrutto": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "zuZahlen": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "steuerbetraege": [
+              {
+                "steuerkennzeichen": "UST_19",
+                "basiswert": 1000,
+                "steuerwert": 1000,
+                "waehrung": "EUR"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "184706",
+        "sparte": "STROM",
+        "pruefidentifikator": "31004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "name1": "Stadtwerke",
+          "steuernummer": "12345678910",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "1",
+            "landescode": "DE"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0234 56789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0234 56789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0234 56789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0234 56789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "name1": "Lieferant",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "landescode": "DE"
+          }
+        },
+        "dokumentennummer": "550028BGM",
+        "kategorie": "Z25",
+        "nachrichtenreferenznummer": "550028"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
