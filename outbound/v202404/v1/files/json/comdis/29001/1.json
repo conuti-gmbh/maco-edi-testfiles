@@ -1,0 +1,81 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "HANDELSUNSTIMMIGKEIT": [
+          {
+            "boTyp": "HANDELSUNSTIMMIGKEIT",
+            "versionStruktur": "1",
+            "nummer": "Rechnung123456",
+            "typ": "HANDELSRECHNUNG",
+            "begruendung": {
+              "richtigkeit": "PRICAT",
+              "referenzDar": "REF111111",
+              "referenznummer": "REF2222222",
+              "bestaetigungDar": "REF3333333333",
+              "grund": "GUELTIGES_PREISBLATT_BLINDARBEIT_VERSENDET"
+            },
+            "zuZahlen": {
+              "wert": 5000,
+              "waehrung": "EUR"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "130010",
+        "sparte": "STROM",
+        "pruefidentifikator": "29001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermannn",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+234 56789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+234 56789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+234 56789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+234 56789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "435575BGM",
+        "kategorie": "456",
+        "nachrichtendatum": "2023-04-18T09:55:00Z",
+        "nachrichtenreferenznummer": "435575",
+        "antwortstatusCodeliste": "E_0504"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
