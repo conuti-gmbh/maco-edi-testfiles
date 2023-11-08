@@ -1,0 +1,55 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.6.0",
+                "wert": 5000,
+                "leistungsperiode": "202301",
+                "position": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "927877",
+        "sparte": "STROM",
+        "pruefidentifikator": "13016",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "780170BGM",
+        "kategorie": "Z28",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2023-10-05T08:38:00Z",
+        "nachrichtenreferenznummer": "780170",
+        "typ": "EM",
+        "anfrageReferenz": "12345678910"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
