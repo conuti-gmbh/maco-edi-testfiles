@@ -1,0 +1,76 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50188881541"
+          }
+        ],
+        "BERECHNUNGSFORMEL": [
+          {
+            "boTyp": "BERECHNUNGSFORMEL",
+            "versionStruktur": "1",
+            "beginndatum": "2023-03-31T22:00:00Z",
+            "notwendigkeit": "BERECHNUNGSFORMEL_NICHT_NOTWENDIG",
+            "lieferrichtung": "AUSSP"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "183350",
+        "sparte": "STROM",
+        "vorgangsnummer": "12345678910",
+        "pruefidentifikator": "25001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900599000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0123478910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0123478910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0123478910"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0123478910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9978960000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "068395BGM",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2023-02-28T09:52:00Z",
+        "nachrichtenreferenznummer": "068395",
+        "lokationsId": "50188881541"
+      }
+    }
+  }
+]
