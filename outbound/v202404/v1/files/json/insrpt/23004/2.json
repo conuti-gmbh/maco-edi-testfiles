@@ -1,0 +1,65 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202210,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "enddatum": "2023-04-11T12:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "antwortstatus": "E15",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Freier Text"
+                },
+                "lokationsId": "DE0032106765712000000000000000037"
+              },
+              {
+                "positionsnummer": 2,
+                "verwendungAb": "2023-04-08T13:00:00Z",
+                "enddatum": "2023-04-11T12:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "antwortstatus": "E15",
+                "lokationsId": "DE0032106765712000000000000000038"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "728864",
+        "sparte": "STROM",
+        "vorgangsnummer": "123",
+        "pruefidentifikator": "23004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "NIK KIRS288964BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-04-14T08:24:00Z",
+        "nachrichtenreferenznummer": "288964",
+        "anfragereferenznummer": "REF12345678910"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
