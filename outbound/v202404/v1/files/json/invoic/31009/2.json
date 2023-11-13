@@ -1,0 +1,153 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "landescode": "DE"
+            }
+          }
+        ],
+        "RECHNUNG": [
+          {
+            "boTyp": "RECHNUNG",
+            "versionStruktur": "1",
+            "rechnungsstatus": "ORIGINAL",
+            "storno": false,
+            "rechnungsdatum": "2023-05-16T06:47:00Z",
+            "istSelbstausgestellt": false,
+            "bearbeitungsdatum": "2023-05-16T06:47:00Z",
+            "referenzDokumentennummer": "REF12345678910",
+            "rechnungsperiode": {
+              "startdatum": "2023-02-28T23:00:00Z",
+              "enddatum": "2023-03-31T22:00:00Z"
+            },
+            "faelligkeitsdatum": "2023-06-05T22:00:00Z",
+            "rechnungstyp": "MSBRECHNUNG",
+            "rechnungspositionen": [
+              {
+                "positionsnummer": 1,
+                "artikelnummer": "MSB_INKL_MESSUNG",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "zeitbezogeneMenge": {
+                  "wert": 30,
+                  "einheit": "TAG"
+                },
+                "lieferungVon": "2023-02-28T23:00:00Z",
+                "lieferungBis": "2023-03-31T22:00:00Z",
+                "teilsummeNetto": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "einzelpreis": {
+                  "wert": 1,
+                  "waehrung": "EUR",
+                  "bezugswert": "JAHR"
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              },
+              {
+                "positionsnummer": 1,
+                "artikelnummer": "MSB_INKL_MESSUNG",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "zeitbezogeneMenge": {
+                  "wert": 30,
+                  "einheit": "TAG"
+                },
+                "lieferungVon": "2023-02-28T23:00:00Z",
+                "lieferungBis": "2023-03-31T22:00:00Z",
+                "teilsummeNetto": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "einzelpreis": {
+                  "wert": 1,
+                  "waehrung": "EUR",
+                  "bezugswert": "JAHR"
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                }
+              }
+            ],
+            "gesamtbrutto": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "zuZahlen": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "steuerbetraege": [
+              {
+                "steuerkennzeichen": "UST_19",
+                "basiswert": 1000,
+                "steuerwert": 1000,
+                "waehrung": "EUR"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "267632",
+        "sparte": "STROM",
+        "pruefidentifikator": "31009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "name1": "MSB",
+          "steuernummer": "12345678910",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "1",
+            "landescode": "DE"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "name1": "Lieferant",
+          "marktrolle": "LF",
+          "partneradresse": {
+            "postleitzahl": "11111",
+            "ort": "Ort",
+            "landescode": "DE"
+          }
+        },
+        "dokumentennummer": "686595BGM",
+        "kategorie": "380",
+        "nachrichtenreferenznummer": "686595"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
