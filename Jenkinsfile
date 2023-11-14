@@ -40,7 +40,6 @@ pipeline {
                kubectl rollout status deployment/app -n $BASE_NAMESPACE-$HASH
                pod_name=\$(kubectl get pod -n $BASE_NAMESPACE-$HASH | grep app | awk '{print \$1}')
                kubectl cp . \$pod_name:/var/www/html -n $BASE_NAMESPACE-$HASH
-	       kubectl exec \$pod_name -n $BASE_NAMESPACE-$HASH -- composer install
 			   """
             }
         }
