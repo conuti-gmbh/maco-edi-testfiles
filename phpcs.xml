@@ -6,9 +6,6 @@
     <arg name="colors"/>
     <arg name="encoding" value="utf-8"/>
 
-    <file>inbound</file>
-    <file>outbound</file>
-
     <config name="installed_paths" value="vendor/conuti/coding-standard/src/Standards/Conuti,vendor/escapestudios/symfony2-coding-standard/Symfony,vendor/slevomat/tasker-lib/SlevomatCodingStandard"/>
     <rule ref="Conuti"/>
 </ruleset>
