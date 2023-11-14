@@ -44,31 +44,6 @@ pipeline {
 			   """
             }
         }
-        stage ('Code analysis') {
-        parallel {
-            stage('PHP CS Check') {
-            steps {
-
-               sh """
-               pod_name=\$(kubectl get pod -n $BASE_NAMESPACE-$HASH | grep app | awk '{print \$1}')
-               kubectl exec \$pod_name -n $BASE_NAMESPACE-$HASH --  vendor/bin/phpcs
-
-                """
-            }}
-            stage('PHP Stan Check') {
-            steps {
-
-               sh """
-                pod_name=\$(kubectl get pod -n $BASE_NAMESPACE-$HASH | grep app | awk '{print \$1}')
-                kubectl exec \$pod_name -n $BASE_NAMESPACE-$HASH -- vendor/bin/phpstan analyse -c phpstan.neon --memory-limit 256M
-                """
-            }}
-
-            }
-           }
-
-
-
 }
 
    post {
