@@ -22,7 +22,7 @@ pipeline {
                  set +x
                  mkdir -p ~/.docker
                  cp $DOCKER_JSON  ~/.docker/config.json
-                 cd docker/webserver && docker build --build-arg SSH_PRV_KEY="\$(cat $GIT_ID_RSA)" -t registry.conuti.de/cu-powercloud/lib/cdoc-specification:$HASH .
+                 cd docker/webserver && docker build --build-arg SSH_PRV_KEY="\$(cat $GIT_ID_RSA)" -t registry.conuti.de/cu-powercloud/lib/edi-testfiles:$HASH .
                  docker push  registry.conuti.de/cu-powercloud/lib/edi-testfiles:$HASH
                  """
                }
