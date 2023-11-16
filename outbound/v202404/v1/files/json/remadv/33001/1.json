@@ -1,0 +1,74 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "AVIS": [
+          {
+            "boTyp": "AVIS",
+            "versionStruktur": "1",
+            "avisNummer": "YASMINJA842320BGM",
+            "avisTyp": "ZAHLUNGSAVIS",
+            "positionen": [
+              {
+                "zuZahlen": {
+                  "wert": 1500,
+                  "waehrung": "EUR"
+                },
+                "gesamtBrutto": {
+                  "wert": 1500,
+                  "waehrung": "EUR"
+                },
+                "rechnungsNummer": "4777777",
+                "rechnungsDatum": "2023-03-28T00:00:00Z",
+                "istStorno": false,
+                "istSelbstausgestellt": false
+              }
+            ],
+            "zuZahlen": {
+              "wert": 1500,
+              "waehrung": "EUR"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA864443",
+        "sparte": "STROM",
+        "pruefidentifikator": "33001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Fleeberg",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+305685852"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "YASMINJA842320BGM",
+        "kategorie": "481",
+        "nachrichtendatum": "2023-03-28T10:12:00Z",
+        "nachrichtenreferenznummer": "YASMINJA842320"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
