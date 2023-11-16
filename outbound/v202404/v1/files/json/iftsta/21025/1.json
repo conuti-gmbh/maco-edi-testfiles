@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "UMBAUMELO",
+            "statusanlass": "KEIN_ZUGANG",
+            "antwortstatus": "Z74",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "183797",
+        "sparte": "STROM",
+        "pruefidentifikator": "21025",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+234 56789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+234 56789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+234 56789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+234 56789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "400887BGM",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2023-04-25T08:13:00Z",
+        "nachrichtenreferenznummer": "400887"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
