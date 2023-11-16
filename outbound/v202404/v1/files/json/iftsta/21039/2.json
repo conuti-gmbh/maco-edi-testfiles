@@ -1,0 +1,74 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "ENTSPERREN",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "allgemeineInformationen": {
+                  "info1": "Text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "151656",
+        "sparte": "STROM",
+        "pruefidentifikator": "21039",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+234 56789 10"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "212442BGM",
+        "kategorie": "Z33",
+        "nachrichtendatum": "2023-04-21T09:13:00Z",
+        "sendungsposition": "1",
+        "nachrichtenreferenznummer": "212442",
+        "antwortstatusCodeliste": "E_0499",
+        "antwortstatus": "A02"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
