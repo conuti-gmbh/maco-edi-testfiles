@@ -1,0 +1,70 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "10017211334",
+            "energierichtung": "AUSSP",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "LF",
+              "rollencodenummer": "9903790000002",
+              "rollencodetyp": "BDEW"
+            }
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "10017211334",
+            "bilanzierungsende": "2024-04-30T22:00:00Z"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-04-30T22:00:00Z",
+            "lokationsId": "10017211334",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "607048",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZH1",
+        "vorgangsnummer": "1631102530",
+        "pruefidentifikator": "55038",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "893296BGM",
+        "kategorie": "E44",
+        "nachrichtendatum": "2024-04-01T08:07:00Z",
+        "nachrichtenreferenznummer": "893296"
+      }
+    }
+  }
+]
