@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50265690948",
+            "energierichtung": "AUSSP",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "LF",
+              "rollencodenummer": "9903274000007",
+              "rollencodetyp": "BDEW"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "24284121",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "K12235526",
+        "pruefidentifikator": "55003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "172168941",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-01T07:08:00Z",
+        "nachrichtenreferenznummer": "172168941",
+        "anfragereferenznummer": "PCL84023100514431299116940000022871",
+        "antwortstatus": "A50",
+        "antwortstatusCodeliste": "E_0404",
+        "antwortstatusdritter": "A35",
+        "antwortstatusCodelistedritter": "E_0403"
+      }
+    }
+  }
+]
