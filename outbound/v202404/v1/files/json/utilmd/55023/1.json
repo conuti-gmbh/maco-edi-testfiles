@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "energierichtung": "AUSSP"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "185644",
+        "sparte": "STROM",
+        "transaktionsgrund": "E05",
+        "vorgangsnummer": "2072002208",
+        "pruefidentifikator": "55023",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "745384BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2024-04-01T13:55:00Z",
+        "nachrichtenreferenznummer": "745384",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "S_0086"
+      }
+    }
+  }
+]
