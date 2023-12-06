@@ -1,0 +1,269 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "energierichtung": "AUSSP",
+            "netzebene": "NSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "102",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "4045399000077",
+                "marktrolle": "UENB"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "ENDKUNDENABRECHNUNG",
+                      "NETZNUTZUNGSABRECHNUNG",
+                      "MEHRMINDERMENGENABRECHNUNG"
+                    ]
+                  }
+                ],
+                "verbrauchsart": "KL",
+                "unterbrechbarkeit": "NUV",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messtechnischeEinordnung": "KME_MME",
+            "netznutzungsabrechnungsdaten": [
+              {
+                "artikelId": "1-02-0-002",
+                "artikelIdTyp": "ARTIKELID",
+                "gemeinderabatt": 0
+              }
+            ],
+            "sperrstatus": "ENTSPERRT"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "netzebenemessung": "NSP",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "GMSB"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-04-30T22:00:00Z",
+            "vertragskonditionen": {
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              },
+              "netznutzungsabrechnungIntervall": 12,
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT",
+              "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+              "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+              "naechstenetznutzungsabrechnung": "2025"
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              },
+              "abrechnungUeberNna": true
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "EL001IK01013852469",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "DREHSTROMZAEHLER",
+            "tarifart": "EINTARIF",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.8.0",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "fernschaltung": "NICHT_VORHANDEN",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "geraete": [
+              {
+                "geraetenummer": "EL001IK01013852469"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "einspeisung": false,
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzierungsbeginn": "2024-04-30T22:00:00Z",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "aggregationsverantwortung": "VNB",
+            "zeitreihentyp": "SLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ],
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "150201",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZT6",
+        "vorgangsnummer": "151123881",
+        "pruefidentifikator": "55013",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "445778BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-01T12:56:00Z",
+        "nachrichtenreferenznummer": "445778"
+      }
+    }
+  }
+]
