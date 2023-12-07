@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "ENERGIELIEFERVERTRAG",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "kuendigungsfrist": {
+                "zeitraumText": "30TM"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "132921",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "4444444",
+        "pruefidentifikator": "55041",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "838326BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2024-04-01T10:38:00Z",
+        "nachrichtenreferenznummer": "838326",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "Z12",
+        "antwortstatusCodeliste": "S_0054",
+        "gueltigAb": "2024-04-01T22:00:00Z"
+      }
+    }
+  }
+]
