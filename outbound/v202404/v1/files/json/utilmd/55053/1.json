@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "545603",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1981499403",
+        "pruefidentifikator": "55053",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+2345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "324283BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-01T09:47:00Z",
+        "nachrichtenreferenznummer": "324283",
+        "anfragereferenznummer": "REF12345678910",
+        "antwortstatus": "Z09",
+        "antwortstatusCodeliste": "S_0060"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
