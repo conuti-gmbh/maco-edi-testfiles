@@ -1,0 +1,73 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-07-31T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "159816",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZH1",
+        "vorgangsnummer": "918376003",
+        "pruefidentifikator": "55052",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "a@b.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "373923BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-01T09:16:00Z",
+        "nachrichtenreferenznummer": "373923",
+        "anfragereferenznummer": "REF12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "S_0059"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
