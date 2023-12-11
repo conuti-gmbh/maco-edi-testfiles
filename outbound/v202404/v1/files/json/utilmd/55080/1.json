@@ -1,0 +1,65 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "EINSP",
+            "energieherkunft": [
+              {
+                "erzeugungsart": "KWK"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "VAL36POS",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55080",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLO920KQX",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-01T19:54:00Z",
+        "nachrichtenreferenznummer": "UNHLOF9PGSF",
+        "anfragereferenznummer": "999999",
+        "antwortstatus": "ZC5",
+        "antwortstatusCodeliste": "S_0051",
+        "lieferbeginndatuminbearbeitung": "2024-10-31T22:00:00Z",
+        "naechsteBearbeitung": "2024-10-25T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
