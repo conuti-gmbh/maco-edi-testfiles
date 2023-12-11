@@ -1,0 +1,100 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "EINSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "NB",
+              "rollencodenummer": "4045458000000",
+              "rollencodetyp": "BDEW"
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "rollencodenummer": "9903790000002",
+                "marktrolle": "LF"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-07-31T22:00:00Z"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "lastprofile": [
+              {
+                "bezeichnung": "E6",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "einspeisung": true,
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzierungsbeginn": "2024-07-31T22:00:00Z",
+            "jahresverbrauchsprognose": {
+              "wert": 500,
+              "einheit": "KWH"
+            },
+            "zeitreihentyp": "SLS",
+            "aggregationsverantwortung": "VNB",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "295456",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZE3",
+        "vorgangsnummer": "1415606771",
+        "pruefidentifikator": "55107",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "766068BGM",
+        "kategorie": "Z22",
+        "nachrichtendatum": "2024-04-01T09:45:00Z",
+        "nachrichtenreferenznummer": "766068",
+        "gueltigAb": "2024-07-31T22:00:00Z",
+        "bilanzkreiszuordnung": "ERFOLGREICH"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
