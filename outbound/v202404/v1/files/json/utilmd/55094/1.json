@@ -1,0 +1,80 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "EINSP",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903790000002",
+              "rollencodetyp": "BDEW"
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-05-31T22:00:00Z"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "189741",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZH0",
+        "vorgangsnummer": "1355020713",
+        "pruefidentifikator": "55094",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+2345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "575741BGM",
+        "kategorie": "E44",
+        "nachrichtendatum": "2024-04-01T11:23:00Z",
+        "nachrichtenreferenznummer": "575741"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
