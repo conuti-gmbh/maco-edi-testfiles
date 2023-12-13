@@ -1,0 +1,71 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "netzebene": "NSP",
+            "messtechnischeEinordnung": "KME_MME"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2024-10-31T23:00:00Z",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T10:11:00Z",
+        "anfragereferenznummer": "687480264",
+        "vorgangsnummer": "707877160",
+        "nachrichtenreferenznummer": "901216",
+        "sparte": "STROM",
+        "dokumentennummer": "901216BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZE7",
+        "datenaustauschreferenz": "679728",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55113",
+        "gueltigAb": "2024-10-31T23:00:00Z"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
