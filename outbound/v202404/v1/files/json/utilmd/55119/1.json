@@ -1,0 +1,72 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "108456",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZE8",
+        "vorgangsnummer": "194523086",
+        "pruefidentifikator": "55119",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Hans Mustermann",
+            "eMailAdresse": "hans@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+2345678930"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+2345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+2345678920"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+2345678940"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "432357BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T19:32:00Z",
+        "nachrichtenreferenznummer": "108456",
+        "anfragereferenznummer": "IDE123456789",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "S_0018"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
