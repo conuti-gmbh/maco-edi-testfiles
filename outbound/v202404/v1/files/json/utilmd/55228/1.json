@@ -1,0 +1,72 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "50074561188",
+            "sparte": "STROM",
+            "abrechnungsdaten": [
+              {
+                "artikelId": "1-03-3",
+                "artikelIdTyp": "GRUPPENARTIKELID",
+                "abrechnungBlindarbeit": true,
+                "zahlerBlindarbeit": "ANSCHLUSSNUTZER"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2024-10-31T23:00:00Z",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T07:15:00Z",
+        "vorgangsnummer": "610853047",
+        "anfragereferenznummer": "12345678910",
+        "nachrichtenreferenznummer": "731390",
+        "sparte": "STROM",
+        "dokumentennummer": "731390BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZS6",
+        "datenaustauschreferenz": "120031",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55228",
+        "gueltigAb": "2024-10-31T23:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "S_0021"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
