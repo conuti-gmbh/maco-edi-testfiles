@@ -1,0 +1,90 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationszuordnung": "UNVERAENDERT"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "referenzMarktlokationsId": "50074561188",
+            "verwendungsumfang": "MESSLOKATION_LOKATIONSBUENDEL",
+            "lokationszuordnung": "ENDET"
+          },
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000048",
+            "sparte": "STROM",
+            "referenzMarktlokationsId": "50074561188",
+            "verwendungsumfang": "MESSLOKATION_PROZESSUAL_BEHANDELT",
+            "lokationszuordnung": "BEGINNT"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2024-10-31T23:00:00Z",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T11:07:00Z",
+        "vorgangsnummer": "1615221370",
+        "nachrichtenreferenznummer": "763036",
+        "sparte": "STROM",
+        "dokumentennummer": "763036BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZI8",
+        "datenaustauschreferenz": "217848",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55173",
+        "gueltigAb": "2024-08-31T23:00:00Z"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
