@@ -1,0 +1,102 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "energierichtung": "AUSSP",
+            "sparte": "STROM",
+            "netzbetreiberCodeNr": "9900321000005",
+            "netzebene": "NSP",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "LF",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9903790000002",
+                "rollencodetyp": "BDEW"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "4045399000077",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I",
+            "bilanzierungsgebiet": "11YR00000002596Z"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "zeitreihentyp": "SLS",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "prognosegrundlage": "PROFILE",
+            "aggregationsverantwortung": "VNB",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ],
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T09:39:00Z",
+        "vorgangsnummer": "2090354192",
+        "nachrichtenreferenznummer": "669571",
+        "sparte": "STROM",
+        "dokumentennummer": "669571BGM",
+        "kategorie": "Z38",
+        "empfaenger": {
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZP1",
+        "datenaustauschreferenz": "164850",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55185",
+        "verwendungAb": "2024-10-31T23:00:00Z",
+        "verarbeitungsReihenfolge": "12345"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
