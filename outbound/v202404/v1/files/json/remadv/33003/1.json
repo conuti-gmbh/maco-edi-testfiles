@@ -23,18 +23,19 @@
                   "wert": 0,
                   "waehrung": "EUR"
                 },
-                "referenz": "COMDIS-123",
                 "abweichung": [
                   {
-                    "abweichungsgrundBemerkung1": "Korrekturrechnung nicht zulässig",
-                    "abweichungsgrundCodeliste": "E_0243",
-                    "abweichungsgrundCode": "A99"
+                    "abweichungsgrundBemerkung1": "Die Artikel-ID xy ist im Zeitraum 1.12.22-31.12.22 ungültig.",
+                    "abweichungsgrundCodeliste": "E_0407",
+                    "abweichungsgrundCode": "A80",
+                    "zugehoerigeRechnung": "1234567890"
                   }
                 ],
                 "rechnungsNummer": "458011",
                 "rechnungsDatum": "2023-06-03T22:00:00Z",
                 "istStorno": false,
-                "istSelbstausgestellt": false
+                "istSelbstausgestellt": false,
+                "referenz": "COMDIS-123"
               }
             ],
             "zuZahlen": {
@@ -47,7 +48,7 @@
       "transaktionsdaten": {
         "datenaustauschreferenz": "SEBAS126271264",
         "sparte": "STROM",
-        "pruefidentifikator": "33002",
+        "pruefidentifikator": "33003",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
@@ -57,11 +58,10 @@
             "boTyp": "ANSPRECHPARTNER",
             "versionStruktur": "1",
             "nachname": "D BOWEN",
-            "eMailAdresse": "kontakt@mail.de",
             "rufnummern": [
               {
                 "nummerntyp": "RUF_DURCHWAHL",
-                "rufnummer": "+4922271020"
+                "rufnummer": "+004922271020"
               }
             ]
           }
@@ -74,8 +74,9 @@
         },
         "dokumentennummer": "MSI5422",
         "kategorie": "239",
-        "nachrichtendatum": "2023-06-03T22:00:00Z",
-        "nachrichtenreferenznummer": "1"
+        "nachrichtendatum": "2024-04-01T22:00:00Z",
+        "nachrichtenreferenznummer": "1",
+        "vorgangsreferenznummer": "COMDIS-123"
       },
       "zusatzdaten": {}
     }
