@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "WERTEERMITTLUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "182443",
+        "sparte": "STROM",
+        "pruefidentifikator": "19007",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGM12345",
+        "kategorie": "7",
+        "nachrichtendatum": "2024-04-01T08:20:00Z",
+        "nachrichtenreferenznummer": "673085",
+        "auftragsReferenz": "12345678910",
+        "antwortstatus": "Z19",
+        "antwortstatusCodeliste": "S_0073"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
