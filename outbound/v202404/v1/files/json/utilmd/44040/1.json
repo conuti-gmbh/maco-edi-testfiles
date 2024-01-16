@@ -1,0 +1,101 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsende": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "ABC123456",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "119817",
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "274384680",
+        "pruefidentifikator": "44040",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "249061BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2023-12-07T13:20:00Z",
+        "nachrichtenreferenznummer": "249061",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "G_0052"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
