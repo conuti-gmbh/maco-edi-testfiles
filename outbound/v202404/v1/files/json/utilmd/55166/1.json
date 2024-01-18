@@ -1,0 +1,125 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "ort",
+              "strasse": "Straße",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "versionStruktur": "1",
+              "gewerbekennzeichnung": false,
+              "name1": "Mustermann",
+              "name2": "Max",
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "ort",
+                "strasse": "Straße",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2024-10-31T23:00:00Z",
+            "sparte": "STROM",
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": false,
+                "name1": "Mustermann",
+                "name2": "Max"
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "ort",
+                "strasse": "Straße",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T12:23:00Z",
+        "vorgangsnummer": "1686017410",
+        "nachrichtenreferenznummer": "990147",
+        "sparte": "STROM",
+        "dokumentennummer": "990147BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZG8",
+        "datenaustauschreferenz": "144604",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55166",
+        "gueltigAb": "2024-10-31T23:00:00Z"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
