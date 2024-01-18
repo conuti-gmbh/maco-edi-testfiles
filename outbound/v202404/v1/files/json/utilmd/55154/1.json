@@ -1,0 +1,75 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "regelzone": "10YDE-RWENET---I"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2024-10-31T23:00:00Z",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2024-04-01T07:28:00Z",
+        "anfragereferenznummer": "12345678910",
+        "vorgangsnummer": "2070491148",
+        "nachrichtenreferenznummer": "025403",
+        "sparte": "STROM",
+        "dokumentennummer": "025403BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZF7",
+        "datenaustauschreferenz": "125541",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55154",
+        "gueltigAb": "2024-10-31T23:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "S_0023"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
