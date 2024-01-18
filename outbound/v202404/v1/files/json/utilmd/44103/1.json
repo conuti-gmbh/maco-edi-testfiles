@@ -1,0 +1,73 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "bilanzierungsbeginn": "2024-06-01T04:00:00Z",
+            "prognosegrundlage": "WERTE",
+            "fallgruppenzuordnung": "GABI_RLMmT"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "166061",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZE5",
+        "vorgangsnummer": "1000425961",
+        "pruefidentifikator": "44103",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "999134BGM",
+        "kategorie": "Z22",
+        "nachrichtendatum": "2024-04-01T14:54:00Z",
+        "nachrichtenreferenznummer": "999134",
+        "gueltigAb": "2024-06-01T04:00:00Z",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "bilanzkreiszuordnung": "ERFOLGREICH"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
