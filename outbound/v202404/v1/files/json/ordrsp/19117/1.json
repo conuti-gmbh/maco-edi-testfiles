@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "ENTSPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA171328",
+        "sparte": "STROM",
+        "pruefidentifikator": "19117",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030123456"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "1005",
+        "kategorie": "Z52",
+        "nachrichtendatum": "2024-04-01T13:41:00Z",
+        "nachrichtenreferenznummer": "YASMINJA803802",
+        "auftragsReferenz": "REF987456",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0497",
+        "freitext": {
+          "freitext1": "Entsperrauftrag liegt mit DAR 4545648185 vor"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
