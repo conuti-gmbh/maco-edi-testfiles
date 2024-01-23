@@ -1,0 +1,57 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA187345",
+        "sparte": "STROM",
+        "pruefidentifikator": "19129",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "mustermann@mail.com",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030123456789"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903004000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "123456",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2024-04-01T11:50:00Z",
+        "nachrichtenreferenznummer": "YASMINJA820465",
+        "vorgangsreferenznummer": "REF565656",
+        "antwortstatus": "A06",
+        "antwortstatusCodeliste": "E_0468"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
