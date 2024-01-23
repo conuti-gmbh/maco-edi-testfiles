@@ -69,21 +69,6 @@
             ]
           }
         ],
-        "NETZNUTZUNGSVERTRAG": [
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "NETZNUTZUNGSVERTRAG",
-            "sparte": "GAS",
-            "vertragskonditionen": {
-              "geplanteTurnusablesung": {
-                "ableseZeitraum": "0101"
-              }
-            },
-            "lokationsId": "DE70016045739G0000000000000042897",
-            "lokationsTyp": "MELO"
-          }
-        ],
         "MESSSTELLENBETRIEBSVERTRAG": [
           {
             "boTyp": "VERTRAG",
@@ -115,7 +100,12 @@
               }
             },
             "lokationsId": "DE70016045739G0000000000000042897",
-            "lokationsTyp": "MELO"
+            "lokationsTyp": "MELO",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            }
           }
         ],
         "ZAEHLER": [
