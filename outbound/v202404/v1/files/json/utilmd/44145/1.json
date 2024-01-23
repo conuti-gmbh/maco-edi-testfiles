@@ -1,0 +1,103 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "GAS66666",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-20:3.0.0",
+                "vorkommastelle": 5,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlergroesse": "GAS_G4",
+            "geraete": [
+              {
+                "geraetenummer": "XYZ123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MESSDATENREGISTRIERGERAET"
+                }
+              },
+              {
+                "geraetenummer": "ASDF1234",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MENGENUMWERTER",
+                  "geraetemerkmal": "DICHTEMENGENUMWERTER"
+                }
+              },
+              {
+                "geraetenummer": "ROFLCOPTER123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                  "geraetemerkmal": "LTE_KOM"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "124229",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF5",
+        "vorgangsnummer": "2014001738",
+        "pruefidentifikator": "44145",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870102100003",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW",
+          "marktrolle": "LF"
+        },
+        "dokumentennummer": "725698BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T09:03:00Z",
+        "nachrichtenreferenznummer": "725698",
+        "anfragereferenznummer": "ABC12345678910",
+        "gueltigAb": "2024-06-01T04:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "G_0047"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
