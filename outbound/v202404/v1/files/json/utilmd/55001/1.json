@@ -1,0 +1,172 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "zaehlwerke": [
+              {
+                "steuerbefreit": false
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-05-15T22:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT"
+            },
+            "gemeinderabatt": 0
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "externeReferenzen": [
+                  {
+                    "exRefName": "Kundennummer beim Altlieferanten",
+                    "exRefWert": "12345678910"
+                  }
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "ERFUELLT_NICHT_VORAUSSETZUNG_NACH_ENFG"
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "EL001IK01013852469",
+            "sparte": "STROM"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "jahresverbrauchsprognose": {
+              "wert": 3800,
+              "einheit": "KWH"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "979350",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1183042912",
+        "pruefidentifikator": "55001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "855457BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-03T08:07:00Z",
+        "nachrichtenreferenznummer": "855457",
+        "identifikationslogik": "Z13",
+        "freitext": {
+          "freitext1": "BLABLA"
+        },
+        "bilanzkreis": [
+          {
+            "bezeichnung": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
