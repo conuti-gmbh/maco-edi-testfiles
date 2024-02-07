@@ -1,0 +1,66 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-06-30T22:00:00Z",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "bilanzkreis": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "107740",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZE9",
+        "vorgangsnummer": "484563265",
+        "pruefidentifikator": "55120",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "996397BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T10:07:00Z",
+        "nachrichtenreferenznummer": "996397",
+        "gueltigAb": "2024-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
