@@ -1,0 +1,117 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            },
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "187713",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZG8",
+        "vorgangsnummer": "1924941667",
+        "pruefidentifikator": "44166",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "913149BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T11:04:00Z",
+        "nachrichtenreferenznummer": "913149",
+        "gueltigAb": "2024-06-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
