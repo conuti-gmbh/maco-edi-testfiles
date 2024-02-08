@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9904446000007",
+                "rollencodetyp": "BDEW",
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "998273",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZF4",
+        "vorgangsnummer": "701613029",
+        "pruefidentifikator": "55139",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "767329BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T07:46:00Z",
+        "nachrichtenreferenznummer": "767329",
+        "gueltigAb": "2023-06-30T22:00:00Z",
+        "vertragsbeginn": "2023-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
