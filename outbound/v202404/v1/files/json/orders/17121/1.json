@@ -1,0 +1,88 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000044",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "MEHRMINDERMENGENABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "ENDKUNDENABRECHNUNG"
+                    ]
+                  }
+                ],
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": null
+                }
+              }
+            ]
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "AENDERUNG",
+            "energierichtung": "AUSSP"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-10-31T23:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ],
+            "energierichtung": "AUSSP"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "677740",
+        "sparte": "STROM",
+        "pruefidentifikator": "17121",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "483161BGM",
+        "kategorie": "Z68",
+        "nachrichtendatum": "2024-04-01T11:31:00Z",
+        "nachrichtenreferenznummer": "483161"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
