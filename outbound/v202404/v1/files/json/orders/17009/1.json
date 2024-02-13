@@ -1,0 +1,84 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000057",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "GERAETEWECHSELABSICHT",
+            "anfragetyp": "WECHSEL_SAEMTLICHER_EINRICHTUNGEN"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-08-22T09:13:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "geraete": [
+              {
+                "geraetenummer": "1EMH0054654564",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "WANDLER"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "YASMINJA190987",
+        "sparte": "STROM",
+        "pruefidentifikator": "17009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "eMailAdresse": "mustermann@mail.com",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "030123456789"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "YASMINJA746582BGM",
+        "kategorie": "Z13",
+        "nachrichtendatum": "2024-04-01T12:32:00Z",
+        "nachrichtenreferenznummer": "YASMINJA746582"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
