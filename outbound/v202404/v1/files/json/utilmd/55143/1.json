@@ -1,0 +1,69 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
+                  }
+                ],
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "109633",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZF5",
+        "vorgangsnummer": "1236512383",
+        "pruefidentifikator": "55143",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "325573BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T08:16:00Z",
+        "nachrichtenreferenznummer": "325573",
+        "gueltigAb": "2024-06-30T22:00:00Z",
+        "vertragsbeginn": "2024-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
