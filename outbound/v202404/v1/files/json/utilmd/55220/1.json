@@ -1,0 +1,75 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "netznutzungsabrechnungsdaten": [
+              {
+                "artikelId": "1-02-0-002",
+                "artikelIdTyp": "ARTIKELID",
+                "gemeinderabatt": 0,
+                "abschlag": 1
+              },
+              {
+                "artikelId": "1-06-7-004",
+                "artikelIdTyp": "ARTIKELID",
+                "anzahl": 1,
+                "gemeinderabatt": 0,
+                "zuschlag": 1
+              },
+              {
+                "artikelId": "1-10-4",
+                "artikelIdTyp": "GRUPPENARTIKELID",
+                "gemeinderabatt": 0
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-06-30T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "839093",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZS4",
+        "vorgangsnummer": "2105062674",
+        "pruefidentifikator": "55220",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "940225BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T10:58:00Z",
+        "nachrichtenreferenznummer": "940225",
+        "gueltigAb": "2024-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
