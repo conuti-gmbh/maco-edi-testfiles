@@ -4,14 +4,14 @@
     "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
-    "edifactVersion": 202210,
+    "edifactVersion": 202404,
     "data": {
       "stammdaten": {
         "MESSLOKATION": [
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
-            "messlokationsId": "DE0073395252733953513649640711234",
+            "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM"
           }
         ],
@@ -19,27 +19,26 @@
           {
             "boTyp": "ANFRAGE",
             "versionStruktur": "1",
-            "lokationsId": "DE0073395252733953513649640711234",
+            "lokationsId": "DE0032106765712000000000000000037",
             "lokationsTyp": "MELO",
-            "anfragereferenz": "REF123456",
-            "anfragetyp": "NUTZUNGSUEBERLASSUNG"
+            "anfragetyp": "KAUF"
           }
         ],
         "ANGEBOT": [
           {
             "boTyp": "ANGEBOT",
             "versionStruktur": "1",
-            "anfragereferenz": "REF123456",
-            "angebotsdatum": "2023-03-31T22:00:00Z",
+            "anfragereferenz": "REF12345678910",
+            "angebotsdatum": "2024-05-31T22:00:00Z",
             "sparte": "STROM",
             "varianten": [
               {
                 "gesamtmenge": {
                   "wert": 1,
-                  "einheit": "ANZAHL"
+                  "einheit": "STUECK"
                 },
                 "gesamtkosten": {
-                  "wert": 1000.00,
+                  "wert": 2000,
                   "waehrung": "EUR"
                 },
                 "teile": [
@@ -48,10 +47,10 @@
                       {
                         "positionsbezeichung": "1",
                         "positionspreis": {
-                          "wert": 150.000001
+                          "wert": 2000
                         },
                         "positionsbetrag": {
-                          "wert": 1000.00
+                          "wert": 2000
                         },
                         "artikelnummer": "ZAEHLEINRICHTUNG"
                       }
@@ -71,23 +70,28 @@
           {
             "boTyp": "ZAEHLER",
             "versionStruktur": "1",
-            "zaehlernummer": "S12345678910",
+            "zaehlernummer": "EL001IK01013852469",
             "sparte": "STROM",
             "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-            "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
             "tarifart": "EINTARIF",
-            "herstellungsdatum": "2015",
-            "eichungBis": "2025",
+            "eichungBis": "2032",
             "messwerterfassung": "MANUELL_AUSGELESENE",
-            "zaehlertypspezifikation": "EDL40",
-            "befestigungsart": "DREIPUNKT",
-            "serialnummer": "12345678910",
-            "herstellungsdatum": "2015"
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "befestigungsart": "HUTSCHIENE",
+            "geraete": [
+              {
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MESSDATENREGISTRIERGERAET"
+                }
+              }
+            ],
+            "baujahr": "2022"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "LF4CXU80",
+        "datenaustauschreferenz": "LHK7IXQ2",
         "sparte": "STROM",
         "pruefidentifikator": "15001",
         "absender": {
@@ -103,19 +107,19 @@
             "rufnummern": [
               {
                 "nummerntyp": "FAX_DURCHWAHL",
-                "rufnummer": "012345678910"
+                "rufnummer": "0234 56789 10"
               },
               {
                 "nummerntyp": "RUF_DURCHWAHL",
-                "rufnummer": "012345678910"
+                "rufnummer": "0234 56789 20"
               },
               {
                 "nummerntyp": "RUF_ZENTRALE",
-                "rufnummer": "012345678910"
+                "rufnummer": "0234 56789 30"
               },
               {
                 "nummerntyp": "MOBIL_NUMMER",
-                "rufnummer": "012345678910"
+                "rufnummer": "0234 56789 40"
               }
             ]
           }
@@ -123,19 +127,19 @@
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9905058000005",
+          "rollencodenummer": "9904446000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMLF8O9UTZ",
+        "dokumentennummer": "BGMLHAVR6GQ",
         "kategorie": "310",
-        "nachrichtendatum": "2023-03-09T12:31:00Z",
-        "nachrichtenreferenznummer": "UNHLFO99VSZ",
+        "nachrichtendatum": "2024-04-01T08:58:00Z",
+        "nachrichtenreferenznummer": "UNHLHUFLFK6",
         "freitext": {
-          "freitext1": "Text1",
-          "freitext2": "Text2",
-          "freitext3": "Text3",
-          "freitext4": "Text4",
-          "freitext5": "Text5"
+          "freitext1": "Freier Text1",
+          "freitext2": "Freier Text2",
+          "freitext3": "Freier Text3",
+          "freitext4": "Freier Text4",
+          "freitext5": "Freier Text5"
         }
       },
       "zusatzdaten": {}
