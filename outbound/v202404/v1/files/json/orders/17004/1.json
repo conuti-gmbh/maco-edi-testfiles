@@ -1,0 +1,67 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "WERTEERMITTLUNG",
+            "gueltigAb": "2024-02-11T23:00:00Z"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "anfragegrund": "ABGRENZUNG_VON_ENERGIEMENGEN"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "206723",
+        "sparte": "STROM",
+        "pruefidentifikator": "17004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "055994BGM",
+        "kategorie": "7",
+        "nachrichtendatum": "2024-04-03T09:58:00Z",
+        "nachrichtenreferenznummer": "055994",
+        "gueltigAb": "2024-02-11T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
