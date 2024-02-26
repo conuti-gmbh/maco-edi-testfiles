@@ -1,0 +1,71 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ZAEHLZEITDEFINITION": [
+          {
+            "boTyp": "ZAEHLZEITDEFINITION",
+            "versionStruktur": "1",
+            "beginndatum": "2024-06-30T22:00:00Z",
+            "version": "2024-06-30T22:00:00Z",
+            "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+            "zaehlzeiten": [
+              {
+                "code": "ABC",
+                "haeufigkeit": "EINMALIG",
+                "uebermittelbarkeit": "ELEKTRONISCH",
+                "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
+                "istBestellbar": true,
+                "typ": "HOCHLASTZEITFENSTER",
+                "beschreibungTyp": "Beschreibungstext"
+              }
+            ],
+            "zaehlzeitregister": [
+              {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XY1",
+                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+              },
+              {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XY2",
+                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "327945",
+        "sparte": "STROM",
+        "vorgangsnummer": "ABC123456",
+        "pruefidentifikator": "25004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF"
+        },
+        "dokumentennummer": "310879BGM",
+        "kategorie": "Z60",
+        "nachrichtendatum": "2024-04-01T12:07:00Z",
+        "nachrichtenreferenznummer": "310879",
+        "anfrageReferenz": "ABCABC123123"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
