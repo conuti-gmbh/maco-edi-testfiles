@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ZAEHLZEITDEFINITION": [
+          {
+            "boTyp": "ZAEHLZEITDEFINITION",
+            "versionStruktur": "1",
+            "code": "ABC",
+            "beginndatum": "2023-12-31T23:00:00Z",
+            "endedatum": "2024-12-31T23:00:00Z",
+            "version": "2023-12-31T23:00:00Z",
+            "zaehlzeiten": [
+              {
+                "aenderungszeitpunkt": "2024-12-31T23:00:00Z",
+                "register": "XYZ"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "894125",
+        "sparte": "STROM",
+        "vorgangsnummer": "12345678910",
+        "pruefidentifikator": "25005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "511122BGM",
+        "kategorie": "Z59",
+        "nachrichtendatum": "2024-04-03T13:17:00Z",
+        "nachrichtenreferenznummer": "511122",
+        "anfrageReferenz": "ABC123456"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
