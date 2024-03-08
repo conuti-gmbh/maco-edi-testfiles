@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000001498"
+              }
+            ]
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "AENDERUNG_ZAEHLZEITDEFINITION",
+            "anfragetyp": "AENDERUNG_KONFIGURATION"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-06-30T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "ZAEHLZEITDEFINITION": [
+          {
+            "boTyp": "ZAEHLZEITDEFINITION",
+            "versionStruktur": "1",
+            "zaehlzeiten": [
+              {
+                "code": "ABC"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "141841",
+        "sparte": "STROM",
+        "pruefidentifikator": "17123",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "854110BGM",
+        "kategorie": "Z56",
+        "nachrichtendatum": "2024-04-03T09:22:00Z",
+        "nachrichtenreferenznummer": "854110"
+      },
+      "zusatzdaten": {}
+    }
+  }
+
+]
