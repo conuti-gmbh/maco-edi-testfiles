@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+            "abonnement": "ENDE_ABO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-06-30T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "anfragegrund": "DIREKTER_VERTRAG_MSB_AN"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "108777",
+        "sparte": "STROM",
+        "pruefidentifikator": "17006",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "091055BGM",
+        "kategorie": "Z29",
+        "nachrichtendatum": "2024-04-03T09:22:00Z",
+        "nachrichtenreferenznummer": "091055"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
