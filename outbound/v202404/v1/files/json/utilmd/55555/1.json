@@ -1,0 +1,101 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.1",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              },
+              {
+                "obisKennzahl": "1-1:1.9.2",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "MONATLICH"
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "ABC123456",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "gateway": "1234567890"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "151497",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZT9",
+        "vorgangsnummer": "1797075344",
+        "pruefidentifikator": "55555",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "721517BGM",
+        "kategorie": "Z56",
+        "nachrichtendatum": "2024-04-03T12:28:00Z",
+        "nachrichtenreferenznummer": "721517",
+        "gueltigAb": "2024-06-30T22:00:00Z",
+        "nachrichtenReferenzBestellbestaetigung": "ABC123456",
+        "vorgangsReferenzBestellbestaetigung": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
