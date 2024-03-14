@@ -1,0 +1,77 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "REKLAMATION_EINER_KONFIGURATION"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "REKLAMATION": [
+          {
+            "boTyp": "REKLAMATION",
+            "versionStruktur": "1",
+            "reklamationsgrund": "WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT",
+            "reklamationsgrundBemerkung": {
+              "bemerkung1": "BLABLA"
+            }
+          }
+        ],
+        "SCHALTZEITDEFINITION": [
+          {
+            "boTyp": "SCHALTZEITDEFINITIONEN",
+            "versionStruktur": "1",
+            "schaltzeiten": [
+              {
+                "code": "XYZ",
+                "konfigurationsprodukt": "9991000000713"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "201953",
+        "sparte": "STROM",
+        "pruefidentifikator": "17128",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "609917BGM",
+        "kategorie": "Z76",
+        "nachrichtendatum": "2024-04-03T09:36:00Z",
+        "nachrichtenreferenznummer": "609917",
+        "nachrichtenReferenzBestellbestaetigung": "ABC123456",
+        "vorgangsReferenzBestellbestaetigung": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
