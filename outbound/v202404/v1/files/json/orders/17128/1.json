@@ -37,7 +37,7 @@
         ],
         "SCHALTZEITDEFINITION": [
           {
-            "boTyp": "SCHALTZEITDEFINITIONEN",
+            "boTyp": "SCHALTZEITDEFINITION",
             "versionStruktur": "1",
             "schaltzeiten": [
               {

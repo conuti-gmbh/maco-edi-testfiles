@@ -9,7 +9,7 @@
       "stammdaten": {
         "SCHALTZEITDEFINITION": [
           {
-            "boTyp": "SCHALTZEITDEFINITIONEN",
+            "boTyp": "SCHALTZEITDEFINITION",
             "versionStruktur": "1",
             "code": "AC",
             "beginndatum": "2024-06-30T22:00:00Z",

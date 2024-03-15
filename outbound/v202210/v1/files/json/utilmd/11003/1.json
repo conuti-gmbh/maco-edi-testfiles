@@ -10,6 +10,7 @@
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
             "energierichtung": "AUSSP",
             "marktlokationsId": "50188881541"
           }
