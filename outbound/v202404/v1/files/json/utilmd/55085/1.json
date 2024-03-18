@@ -1,0 +1,69 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "energierichtung": "EINSP"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsende": "2024-06-30T22:00:00Z",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "bilanzierungsende": "2024-06-30T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "851345",
+        "sparte": "STROM",
+        "transaktionsgrund": "Z33",
+        "vorgangsnummer": "1106378813",
+        "pruefidentifikator": "55085",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904079000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900051000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "648615BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-03T07:37:00Z",
+        "nachrichtenreferenznummer": "648615",
+        "anfragereferenznummer": "ABC123456",
+        "antwortstatus": "A10",
+        "antwortstatusCodeliste": "E_0302",
+        "vertragsende": "2024-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
