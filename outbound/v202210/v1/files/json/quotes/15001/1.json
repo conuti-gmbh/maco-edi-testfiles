@@ -76,13 +76,12 @@
             "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
             "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
             "tarifart": "EINTARIF",
-            "herstellungsdatum": "2015",
-            "eichungBis": "2025",
+            "herstellungsdatum": "2015-01-01T00:00:00Z",
+            "eichungBis": "2025-01-01T00:00:00Z",
             "messwerterfassung": "MANUELL_AUSGELESENE",
             "zaehlertypspezifikation": "EDL40",
             "befestigungsart": "DREIPUNKT",
-            "serialnummer": "12345678910",
-            "herstellungsdatum": "2015"
+            "serialnummer": "12345678910"
           }
         ]
       },

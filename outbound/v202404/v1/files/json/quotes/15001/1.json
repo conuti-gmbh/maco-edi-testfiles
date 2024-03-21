@@ -75,7 +75,7 @@
             "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
             "zaehlertyp": "MODERNEMESSEINRICHTUNG",
             "tarifart": "EINTARIF",
-            "eichungBis": "2032",
+            "eichungBis": "2032-01-01T00:00:00Z",
             "messwerterfassung": "MANUELL_AUSGELESENE",
             "zaehlertypspezifikation": "MME_STANDARD",
             "befestigungsart": "HUTSCHIENE",
