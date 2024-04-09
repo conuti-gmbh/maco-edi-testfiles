@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "UEBERMITTLUNG_WERTE_AN_ESA",
+            "abonnement": "START_ABO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LS1LFI9W",
+        "sparte": "STROM",
+        "pruefidentifikator": "19012",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906485000006",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Netznutzung",
+            "eMailAdresse": "netznutzung@wemag-netz.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9984778000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "LSPTA2OL",
+        "kategorie": "Z57",
+        "nachrichtendatum": "2024-04-03T07:15:00Z",
+        "nachrichtenreferenznummer": "LSQV6P1G",
+        "auftragsReferenz": "LS9JI9N0",
+        "antwortstatus": "A08",
+        "antwortstatusCodeliste": "E_0256"
+      },
+      "zusatzdaten": {}
+    }
+  }
+
+]
