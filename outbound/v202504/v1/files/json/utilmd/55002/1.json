@@ -1,0 +1,127 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9904446000007",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ]
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9904446000007",
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ]
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9904446000007",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "rollencodenummer": "9904446000007"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragsende": "2025-07-31T22:00:00Z",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2025-04-01T22:01:00Z",
+        "vorgangsnummer": "297590681",
+        "nachrichtenreferenznummer": "268219",
+        "sparte": "STROM",
+        "dokumentennummer": "268219BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW7",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "datenaustauschreferenz": "150621",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55002",
+        "vertragsbeginn": "2025-06-30T22:00:00Z",
+        "vertragsende": "2025-07-31T22:00:00Z",
+        "antwortstatus": "A51",
+        "antwortstatusCodeliste": "E_0404",
+        "anfragereferenznummer": "12345678910"
+      },
+      "zusatzdaten": []
+    }
+  }
+]
