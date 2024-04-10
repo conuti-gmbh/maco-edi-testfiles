@@ -1,0 +1,115 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-06-30T22:00:00Z",
+            "zeitraumId": 1,
+            "qualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 1,
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "rollencodenummer": "9911835000001"
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I",
+            "bilanzierungsgebiet": "11YR00000002596Z"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 1,
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "ANALYTISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "bilanzkreis": "11X0-0000-0528-Q",
+            "zeitreihentyp": "SLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ],
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
+            "aggregationsverantwortung": "VNB"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "nachrichtendatum": "2025-04-01T22:01:00Z",
+        "vorgangsnummer": "919373923",
+        "nachrichtenreferenznummer": "170034",
+        "sparte": "STROM",
+        "dokumentennummer": "170034BGM",
+        "kategorie": "E03",
+        "empfaenger": {
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "transaktionsgrund": "ZX3",
+        "datenaustauschreferenz": "841571",
+        "absender": {
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true
+        },
+        "pruefidentifikator": "55126",
+        "gueltigAb": "2025-06-30T22:00:00Z",
+        "vertragsbeginn": "2025-06-30T22:00:00Z"
+      },
+      "zusatzdaten": []
+    }
+  }
+]

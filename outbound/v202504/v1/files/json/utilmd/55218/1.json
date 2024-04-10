@@ -1,0 +1,118 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-06-30T22:00:00Z",
+            "zeitraumId": 1,
+            "qualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 1,
+            "netzbetreiberCodeNr": "9900321000005",
+            "netznutzungsabrechnungsdaten": [
+              {
+                "artikelId": "1-02-0-001",
+                "artikelIdTyp": "ARTIKELID",
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-02-0-002",
+                "artikelIdTyp": "ARTIKELID",
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-06-7-004",
+                "artikelIdTyp": "ARTIKELID",
+                "anzahl": 1,
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-08-4-003",
+                "artikelIdTyp": "ARTIKELID",
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-10-1",
+                "artikelIdTyp": "GRUPPENARTIKELID",
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-10-2",
+                "artikelIdTyp": "GRUPPENARTIKELID",
+                "gemeinderabatt": 0
+              },
+              {
+                "artikelId": "1-10-4",
+                "artikelIdTyp": "GRUPPENARTIKELID",
+                "gemeinderabatt": 0
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragskonditionen": {
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              },
+              "netznutzungsabrechnungIntervall": 12,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT",
+              "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+              "naechstenetznutzungsabrechnung": "2026"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "200172",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX4",
+        "vorgangsnummer": "297590681",
+        "pruefidentifikator": "55218",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "879584BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-01T22:01:00Z",
+        "nachrichtenreferenznummer": "879584",
+        "gueltigAb": "2025-06-30T22:00:00Z",
+        "vertragsbeginn": "2025-06-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
