@@ -1,0 +1,70 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "24471812600",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "ANGEBOTANFRAGE",
+            "auftragsstatus": "ABGELEHNT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LS8Q6ZEA",
+        "sparte": "STROM",
+        "pruefidentifikator": "21033",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906485000006",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Martens, Holger",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "03857552445"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9984778000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "LSH7ZRQU",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-04-03T07:15:00Z",
+        "nachrichtenreferenznummer": "LSP0AHO9",
+        "anfragereferenznummer": "LSK6TP0W",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0252"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
