@@ -103,7 +103,7 @@
         "nachrichtendatum": "2024-04-10T13:52:00Z",
         "nachrichtenreferenznummer": "324795",
         "anfragereferenznummer": "ABC1234",
-        "gueltigAb": "202404",
+        "gueltigAb": "2024-04-01T22:00:00Z",
         "infoAbweichung": "Blabla",
         "ergaenzteMarktlokation": false
       },
