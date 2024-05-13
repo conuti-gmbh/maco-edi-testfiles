@@ -1,0 +1,172 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            }
+          }
+        ],
+        "RECHNUNG": [
+          {
+            "boTyp": "RECHNUNG",
+            "versionStruktur": "1",
+            "rechnungsstatus": "ORIGINAL",
+            "storno": false,
+            "rechnungsdatum": "2024-04-03T11:57:00Z",
+            "faelligkeitsdatum": "2024-04-04T22:00:00Z",
+            "bearbeitungsdatum": "2024-02-07T06:48:00Z",
+            "originalRechnungsnummer": "ABC12345678910",
+            "referenzNachrichtendatum": "2024-01-01T23:00:00Z",
+            "rechnungsperiode": {
+              "startdatum": "2023-02-28T23:00:00Z",
+              "enddatum": "2023-03-31T22:00:00Z"
+            },
+            "gesamtbrutto": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "zuZahlen": {
+              "wert": 1000,
+              "waehrung": "EUR"
+            },
+            "steuerbetraege": [
+              {
+                "steuerkennzeichen": "UST_19",
+                "basiswert": 1000,
+                "steuerwert": 1000,
+                "waehrung": "EUR",
+                "basiswertVorausbezahlt": 1000,
+                "steuerwertVorausbezahhlt": 1000
+              }
+            ],
+            "sonderrechnungsart": "KONZESSIONSABGABE_TESTAT",
+            "rechnungspositionen": [
+              {
+                "positionsnummer": 1,
+                "artikelnummer": "1-10-1-002",
+                "lieferungVon": "2023-02-28T23:00:00Z",
+                "lieferungBis": "2023-03-31T22:00:00Z",
+                "positionsMenge": {
+                  "wert": 1,
+                  "einheit": "STUECK"
+                },
+                "zeitbezogeneMenge": {
+                  "wert": 30,
+                  "einheit": "TAG"
+                },
+                "einzelpreis": {
+                  "wert": 1000,
+                  "waehrung": "EUR",
+                  "bezugswert": "TAG"
+                },
+                "teilsummeNetto": {
+                  "wert": 1000,
+                  "waehrung": "EUR"
+                },
+                "teilsummeSteuer": {
+                  "steuerkennzeichen": "UST_19"
+                },
+                "gesamtZuAbschlagsbetrag": 10,
+                "abschlag": {
+                  "typ": "GEMEINDERABATT_KAV",
+                  "prozent": 10
+                },
+                "zuschlag": {
+                  "typ": "ANPASSUNG_PAUSCHALE_NETZENTGELTREDUZIERUNG_NACH_P14A_ENWG_AUF_HOEHE_DER_NNE"
+                },
+                "gemeinderabatt": {
+                  "wert": 10,
+                  "bemessungsgrundlage": 1000
+                }
+              }
+            ],
+            "istSelbstausgestellt": false,
+            "rechnungstyp": "SONDERRECHNUNG",
+            "vorauszahlungen": {
+              "betrag": {
+                "wert": 1000,
+                "waehrung": "EUR"
+              }
+            },
+            "gemeinderabatt": {
+              "wert": 10
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "156260",
+        "sparte": "STROM",
+        "pruefidentifikator": "31002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "name1": "Stadtwerke",
+          "gewerbekennzeichnung": true,
+          "steuernummer": "12345678910",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+2345678930"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "name1": "Lieferant",
+          "gewerbekennzeichnung": true,
+          "steuernummer": "12345678910",
+          "partneradresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE"
+          }
+        },
+        "dokumentennummer": "332496BGM",
+        "kategorie": "380",
+        "nachrichtenfunktion": "9",
+        "nachrichtenreferenznummer": "332496"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
