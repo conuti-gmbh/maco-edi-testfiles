@@ -1,0 +1,139 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "24471812600",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.29.0",
+                "messprodukt": "9991000000747"
+              }
+            ]
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "24471812600",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "UEBERMITTLUNG_WERTE_AN_ESA"
+          }
+        ],
+        "ANGEBOT": [
+          {
+            "boTyp": "ANGEBOT",
+            "versionStruktur": "1",
+            "anfragereferenz": "123456789",
+            "sparte": "STROM",
+            "zeitspanneEinrichtungUebermittlungWerte": {
+              "dauer": 4,
+              "einheit": "WOCHE"
+            },
+            "bindefristAngebot": {
+              "dauer": 2,
+              "einheit": "MONAT"
+            },
+            "varianten": [
+              {
+                "gesamtkosten": {
+                  "waehrung": "EUR"
+                },
+                "teile": [
+                  {
+                    "positionen": [
+                      {
+                        "positionsbezeichung": "1",
+                        "positionspreis": {
+                          "wert": 5
+                        },
+                        "positionsbetrag": {
+                          "wert": 20
+                        },
+                        "artikelId": [
+                          "9991000000747-01"
+                        ]
+                      },
+                      {
+                        "positionsbezeichung": "2",
+                        "positionspreis": {
+                          "wert": 5
+                        },
+                        "positionsbetrag": {
+                          "wert": 20
+                        },
+                        "artikelId": [
+                          "9991000000747-02"
+                        ]
+                      },
+                      {
+                        "positionsbezeichung": "3",
+                        "positionspreis": {
+                          "wert": 10
+                        },
+                        "positionsbetrag": {
+                          "wert": 20
+                        },
+                        "artikelId": [
+                          "9991000000747-03"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "131253",
+        "sparte": "STROM",
+        "pruefidentifikator": "15003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9984778000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGM12345",
+        "kategorie": "Z57",
+        "nachrichtendatum": "2024-04-03T07:15:00Z",
+        "nachrichtenreferenznummer": "647809",
+        "ausfuehrungsdatum": "2024-06-30T22:00:00Z",
+        "gueltigkeitszeitspanne": "2024-06-03T07:15:00Z",
+        "freitext": {
+          "freitext1": "Blabla"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
