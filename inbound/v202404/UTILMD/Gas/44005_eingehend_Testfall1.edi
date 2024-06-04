@@ -1,57 +1,15 @@
-{
-  "businessKey": "<businessKey>",
-  "processDate": "<prozessDatum>",
-  "dataSource": "OUTBOUND",
-  "version": 1,
-  "edifactVersion": 202404,
-  "data": {
-    "stammdaten": {
-      "MARKTLOKATION": [
-        {
-          "boTyp": "MARKTLOKATION",
-          "versionStruktur": "1",
-          "marktlokationsId": "50604096153",
-          "sparte": "GAS"
-        }
-      ],
-      "NETZNUTZUNGSVERTRAG": [
-        {
-          "boTyp": "VERTRAG",
-          "versionStruktur": "1",
-          "vertragsart": "NETZNUTZUNGSVERTRAG",
-          "sparte": "GAS",
-          "vertragsende": "2024-06-01T04:00:00Z",
-          "lokationsId": "50604096153",
-          "lokationsTyp": "MALO"
-        }
-      ]
-    },
-    "transaktionsdaten": {
-      "datenaustauschreferenz": "BC93559745A",
-      "sparte": "GAS",
-      "transaktionsgrund": "ZT5",
-      "vorgangsnummer": "ECOUNT_WN_2277609499",
-      "pruefidentifikator": "44005",
-      "absender": {
-        "boTyp": "MARKTTEILNEHMER",
-        "versionStruktur": "1",
-        "rollencodenummer": "9870016000000",
-        "rollencodetyp": "DVGW"
-      },
-      "empfaenger": {
-        "boTyp": "MARKTTEILNEHMER",
-        "versionStruktur": "1",
-        "rollencodenummer": "9800080300003",
-        "rollencodetyp": "DVGW"
-      },
-      "dokumentennummer": "BC93559745A-1",
-      "kategorie": "E02",
-      "nachrichtendatum": "2024-04-01T11:33:00Z",
-      "nachrichtenreferenznummer": "1",
-      "anfragereferenznummer": "DA326823120508271098000803000037865",
-      "antwortstatus": "E15",
-      "antwortstatusCodeliste": "G_0008"
-    },
-    "zusatzdaten": {}
-  }
-}
+UNB+UNOC:3+9870016000000:502+9800080300003:502+240402:1133+BC93559745A'
+UNH+1+UTILMD:D:11A:UN:G1.0a'
+BGM+E02+BC93559745A-1'
+DTM+137:202404011133?+00:303'
+NAD+MS+9870016000000::332'
+NAD+MR+9800080300003::332'
+IDE+24+ECOUNT_WN_2277609499'
+DTM+93:202406010400?+00:303'
+STS+7++ZT5'
+STS+E01++E15:G_0008'
+LOC+172+50604096153'
+RFF+Z13:44005'
+RFF+TN:DA326823120508271098000803000037865'
+UNT+13+1'
+UNZ+1+BC93559745A'
