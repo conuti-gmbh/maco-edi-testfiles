@@ -1,0 +1,80 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "UMBAUMELO",
+          "statusanlass": "KEIN_ZUGANG",
+          "auftragsstatus": "GESCHEITERT",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "425040",
+      "sparte": "STROM",
+      "pruefidentifikator": "21027",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Hans Mustermann",
+          "eMailAdresse": "hans@mustermann.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "0123 456789 30"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "0123 456789 10"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "0123 456789 20"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "0123 456789 40"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "936703BGM",
+      "kategorie": "Z09",
+      "nachrichtendatum": "2024-04-01T09:39:00Z",
+      "nachrichtenreferenznummer": "936703",
+      "antwortstatus": "Z74"
+    },
+    "zusatzdaten": {}
+  }
+}

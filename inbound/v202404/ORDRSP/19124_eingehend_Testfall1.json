@@ -1,0 +1,52 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "AENDERUNG_ZAEHLZEITDEFINITION"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "148455",
+      "sparte": "STROM",
+      "pruefidentifikator": "19124",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z56",
+      "nachrichtendatum": "2024-04-05T10:14:00Z",
+      "nachrichtenreferenznummer": "845153",
+      "auftragsReferenz": "ABC123",
+      "antwortstatus": "A99",
+      "antwortstatusCodeliste": "E_0523",
+      "freitext": {
+        "freitext1": "Blabla"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

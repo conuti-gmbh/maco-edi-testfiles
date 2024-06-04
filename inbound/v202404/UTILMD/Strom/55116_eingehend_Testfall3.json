@@ -1,0 +1,65 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "STEUERBARE_RESSOURCE": [
+        {
+          "boTyp": "STEUERBARE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "C816417ST77",
+          "sparte": "STROM",
+          "steuerkanal": "AN_AUS",
+          "konfigurationsprodukt": "9991000000713",
+          "produktdatenRelevanteRolle": "NB",
+          "auftraggebenderMarktpartner": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "marktrolle": "NB",
+            "rollencodenummer": "9900321000005"
+          },
+          "zugeordneteDefinition": {
+            "schaltzeitdefinition": "ABC"
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "147408",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZE8",
+      "vorgangsnummer": "54231714",
+      "pruefidentifikator": "55116",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "406609BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-01T09:23:00Z",
+      "nachrichtenreferenznummer": "406609",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

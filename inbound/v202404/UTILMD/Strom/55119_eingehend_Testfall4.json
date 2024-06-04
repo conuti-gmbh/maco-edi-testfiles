@@ -1,0 +1,46 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "STEUERBARE_RESSOURCE": [
+        {
+          "boTyp": "STEUERBARE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "C816417ST77",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "800689",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZE8",
+      "vorgangsnummer": "777839079",
+      "pruefidentifikator": "55119",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "82636BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-18T09:12:00Z",
+      "nachrichtenreferenznummer": "682636",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "E15",
+      "antwortstatusCodeliste": "S_0019"
+    },
+    "zusatzdaten": {}
+  }
+}

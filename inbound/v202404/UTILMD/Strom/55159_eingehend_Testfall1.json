@@ -1,0 +1,75 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "STROM",
+          "vertragskonditionen": {
+            "geplanteTurnusablesung": {
+              "ableseZeitraum": "0101"
+            }
+          }
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "206244",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZG7",
+      "vorgangsnummer": "165906352",
+      "pruefidentifikator": "55159",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "130263BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-11T08:28:00Z",
+      "nachrichtenreferenznummer": "130263",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

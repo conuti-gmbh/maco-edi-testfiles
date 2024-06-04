@@ -1,0 +1,54 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "LEISTUNGSKURVENDEFINITION": [
+        {
+          "boTyp": "LEISTUNGSKURVENDEFINITION",
+          "versionStruktur": "1",
+          "code": "ABC",
+          "beginndatum": "2024-06-30T22:00:00Z",
+          "endedatum": "2024-08-30T22:00:00Z",
+          "version": "2024-06-30T22:00:00Z",
+          "leistungskurven": [
+            {
+              "aenderungszeitpunkt": "2024-06-30T22:00:00Z",
+              "haeufigkeit": "JAEHRLICH",
+              "schwellwert": {
+                "obererSchwellwert": 50
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "175295",
+      "sparte": "STROM",
+      "vorgangsnummer": "IDE123456",
+      "pruefidentifikator": "25009",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "760316BGM",
+      "kategorie": "Z81",
+      "nachrichtendatum": "2024-04-03T22:00:00Z",
+      "nachrichtenreferenznummer": "760316",
+      "anfrageReferenz": "ABC123456"
+    },
+    "zusatzdaten": {}
+  }
+}

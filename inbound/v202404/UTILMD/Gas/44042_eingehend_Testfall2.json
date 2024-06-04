@@ -1,0 +1,128 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "sparte": "GAS",
+          "messadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          },
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "GAS",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+          ],
+          "vertragskonditionen": {
+            "beauftragungMsb": "VERTRAG_AN_MSB"
+          },
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "ABC12344",
+          "sparte": "GAS"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "166585",
+      "sparte": "GAS",
+      "transaktionsgrund": "E01",
+      "vorgangsnummer": "59600045",
+      "pruefidentifikator": "44042",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "958394BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-05-13T13:09:00Z",
+      "nachrichtenreferenznummer": "958394",
+      "datumleistungsbeginn": "2024-06-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

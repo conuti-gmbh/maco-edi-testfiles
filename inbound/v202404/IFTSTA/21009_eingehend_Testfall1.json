@@ -1,0 +1,65 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE00713739359S0000000000001222221",
+          "sparte": "GAS"
+        }
+      ],
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "MSBWECHSEL",
+          "auftragsstatus": "GESCHEITERT",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LUPEYULW",
+      "sparte": "GAS",
+      "pruefidentifikator": "21009",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800496000009",
+        "rollencodetyp": "DVGW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "+234 56789 40"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800496000001",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "LV11VFFU",
+      "kategorie": "Z09",
+      "nachrichtendatum": "2024-03-27T22:00:00Z",
+      "nachrichtenreferenznummer": "LUU2LHWT"
+    },
+    "zusatzdaten": {}
+  }
+}

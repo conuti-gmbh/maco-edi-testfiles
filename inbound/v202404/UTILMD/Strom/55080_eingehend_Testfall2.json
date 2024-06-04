@@ -1,0 +1,102 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "EINSP",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561189",
+          "sparte": "STROM",
+          "referenzTranche": "50074561189",
+          "aufteilungsmenge": {
+            "wert": 50,
+            "einheit": "PROZENT"
+          },
+          "bildungTranchengroesse": "PROZENTUAL",
+          "beteiligterMarktpartner": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "rollencodenummer": "9903790000002",
+            "rollencodetyp": "BDEW"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "700413",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "1207741603",
+      "pruefidentifikator": "55080",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "258950BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-03T08:52:00Z",
+      "nachrichtenreferenznummer": "258950",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "Z35",
+      "antwortstatusCodeliste": "S_0051",
+      "antwortstatusdritter": "Z12",
+      "antwortstatusCodelistedritter": "S_0048",
+      "naechsteBearbeitung": "2024-04-20T22:00:00Z",
+      "lieferbeginndatuminbearbeitung": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

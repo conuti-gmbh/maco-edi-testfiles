@@ -1,0 +1,48 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "STATUSBESTELLUNG",
+          "auftragsstatus": "BEENDET",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1,
+              "statusVeraenderungsZeitpunkt": "2024-06-30T22:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "170341",
+      "sparte": "STROM",
+      "pruefidentifikator": "21044",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "380465BGM",
+      "kategorie": "Z72",
+      "nachrichtendatum": "2024-04-03T13:42:00Z",
+      "nachrichtenreferenznummer": "380465",
+      "anfrageReferenz": "ORDERS123456"
+    },
+    "zusatzdaten": {}
+  }
+}

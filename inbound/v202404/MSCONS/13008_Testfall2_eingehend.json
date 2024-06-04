@@ -1,0 +1,112 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-10-11T04:00:00Z",
+              "enddatum": "2023-10-11T05:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 492.146,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T05:00:00Z",
+              "enddatum": "2023-10-11T06:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 686.72,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T06:00:00Z",
+              "enddatum": "2023-10-11T07:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 624.598,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T07:00:00Z",
+              "enddatum": "2023-10-11T08:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 346.483,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T08:00:00Z",
+              "enddatum": "2023-10-11T09:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 460.761,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T09:00:00Z",
+              "enddatum": "2023-10-11T10:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-10:99.33.17",
+              "wert": 444.601,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-11T04:00:00Z",
+              "enddatum": "2023-10-11T10:00:00Z",
+              "messwertstatus": "PROGNOSEWERT",
+              "obiskennzahl": "7-0:54.0.22",
+              "wert": 11.563,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-11T04:00:00Z",
+              "enddatum": "2023-10-11T10:00:00Z",
+              "messwertstatus": "NICHT_VERWENDBAR",
+              "obiskennzahl": "7-0:52.0.22",
+              "wert": 1.0000,
+              "position": 3
+            }
+          ],
+          "startdatum": "2023-10-11T04:00:00Z",
+          "enddatum": "2023-10-11T10:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "10626280501",
+      "sparte": "GAS",
+      "pruefidentifikator": "13008",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870047700009",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800130000008",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "10626280501001B",
+      "kategorie": "7",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-03T12:23:00Z",
+      "nachrichtenreferenznummer": "10626280501001",
+      "typ": "TL",
+      "anfrageReferenz": "AFNXXXX"
+    },
+    "zusatzdaten": {}
+  }
+}

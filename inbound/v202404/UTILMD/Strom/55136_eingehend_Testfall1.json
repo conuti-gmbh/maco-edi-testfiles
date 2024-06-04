@@ -1,0 +1,105 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50754153861",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50754153861",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "STROM",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+          ],
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "lokationsId": "50754153861",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50754153861"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "168755",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF3",
+      "vorgangsnummer": "03B8E7BD",
+      "pruefidentifikator": "55136",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "LTDH5TAH",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T08:17:00Z",
+      "nachrichtenreferenznummer": "LT5UZVQ4",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

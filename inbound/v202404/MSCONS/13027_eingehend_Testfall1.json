@@ -1,0 +1,77 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-03-01T12:00:00Z",
+              "enddatum": "2024-03-01T12:15:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:2.29.0",
+              "wert": 500,
+              "position": 1
+            },
+            {
+              "startdatum": "2024-03-01T12:15:00Z",
+              "enddatum": "2024-03-01T12:30:00Z",
+              "messwertstatus": "ERSATZWERT",
+              "obiskennzahl": "1-1:2.29.0",
+              "wert": 10,
+              "position": 1
+            },
+            {
+              "startdatum": "2024-03-01T12:30:00Z",
+              "enddatum": "2024-03-01T12:45:00Z",
+              "messwertstatus": "VOLAEUFIGERWERT",
+              "obiskennzahl": "1-1:2.29.0",
+              "wert": 20,
+              "position": 1
+            },
+            {
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-2:2.29.0",
+              "wert": 500,
+              "nutzungszeitpunkt": "2024-03-01T12:30:00Z",
+              "position": 2
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "505653",
+      "sparte": "STROM",
+      "pruefidentifikator": "13027",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "278045BGM",
+      "kategorie": "Z83",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-03T12:06:00Z",
+      "nachrichtenreferenznummer": "278045",
+      "typ": "TL",
+      "anfrageReferenz": "ORDERS123456"
+    },
+    "zusatzdaten": {}
+  }
+}

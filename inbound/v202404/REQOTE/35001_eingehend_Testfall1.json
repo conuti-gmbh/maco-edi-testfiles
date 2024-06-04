@@ -1,0 +1,49 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "OUTBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000060",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "YASMINJA145588",
+      "sparte": "STROM",
+      "pruefidentifikator": "35001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Mustermann",
+          "eMailAdresse": "mustermann@mail.com"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "456",
+      "kategorie": "311",
+      "nachrichtendatum": "2024-04-01T11:01:00Z",
+      "nachrichtenreferenznummer": "YASMINJA086730",
+      "positionsnummer": 1,
+      "lieferdatum": "2024-03-31T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

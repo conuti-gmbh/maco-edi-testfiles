@@ -1,0 +1,77 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-12-31T23:00:00Z",
+              "enddatum": "2024-03-15T23:00:00Z",
+              "messwertstatus": "ANGABE_FUER_LIEFERSCHEIN",
+              "obiskennzahl": "1-0:1.9.0",
+              "wert": 2000,
+              "position": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "510029",
+      "sparte": "STROM",
+      "pruefidentifikator": "13019",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "+12345678920"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "+12345678940"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+12345678910"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "+12345678930"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "621092BGM",
+      "kategorie": "Z41",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-03-29T13:13:00Z",
+      "nachrichtenreferenznummer": "621092",
+      "typ": "EM"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "lastprofile": [
+            {
+              "bezeichnung": "H0",
+              "verfahren": "SYNTHETISCH",
+              "einspeisung": false,
+              "tagesparameter": {
+                "temperaturmessstelle": "1234",
+                "dienstanbieter": "DWD",
+                "herausgeber": "BDEW"
+              },
+              "profilart": "ART_LASTPROFIL",
+              "herausgeber": "NB"
+            }
+          ],
+          "jahresverbrauchsprognose": {
+            "wert": 333,
+            "einheit": "KWH"
+          },
+          "prognosegrundlage": "PROFILE"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "789826",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZF8",
+      "vorgangsnummer": "1269322005",
+      "pruefidentifikator": "44157",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "024734BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T13:21:00Z",
+      "nachrichtenreferenznummer": "024734",
+      "anfragereferenznummer": "ABC1234567",
+      "gueltigAb": "2024-07-01T04:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "G_0034"
+    },
+    "zusatzdaten": {}
+  }
+}

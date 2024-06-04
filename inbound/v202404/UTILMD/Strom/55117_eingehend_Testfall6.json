@@ -1,0 +1,113 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "netzebenemessung": "NSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "ABC12345678910",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+          "zaehlertyp": "DREHSTROMZAEHLER",
+          "tarifart": "EINTARIF",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "1",
+              "obisKennzahl": "1-1:1.8.1",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            },
+            {
+              "bezeichnung": "2",
+              "obisKennzahl": "1-1:1.8.2",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "fernschaltung": "VORHANDEN",
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "geraete": [
+            {
+              "geraetenummer": "ABC12345678910"
+            },
+            {
+              "geraetenummer": "ABC1",
+              "geraeteeigenschaften": {
+                "geraetetyp": "WANDLER",
+                "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
+                "faktor": 1
+              }
+            },
+            {
+              "geraetenummer": "YYY123456",
+              "geraeteeigenschaften": {
+                "geraetetyp": "STEUEREINRICHTUNG",
+                "geraetemerkmal": "RUNDSTEUEREMPFAENGER"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "515108",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZE8",
+      "vorgangsnummer": "710947104",
+      "pruefidentifikator": "55117",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "902638BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T13:49:00Z",
+      "nachrichtenreferenznummer": "902638",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

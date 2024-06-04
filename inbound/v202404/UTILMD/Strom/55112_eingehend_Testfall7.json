@@ -1,0 +1,55 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561188",
+          "sparte": "STROM",
+          "verguetungEmpfaenger": "LIEFERANT",
+          "referenzTranche": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "917482",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZE7",
+      "vorgangsnummer": "969925361",
+      "pruefidentifikator": "55112",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "035066BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-03-09T08:15:00Z",
+      "nachrichtenreferenznummer": "035066",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

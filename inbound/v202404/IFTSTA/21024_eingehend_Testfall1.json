@@ -1,0 +1,55 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS"
+        }
+      ],
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "UMBAUMELO",
+          "auftragsstatus": "ERFOLGREICH",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "610395",
+      "sparte": "GAS",
+      "pruefidentifikator": "21024",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "448369BGM",
+      "kategorie": "Z09",
+      "nachrichtendatum": "2024-05-07T09:01:00Z",
+      "nachrichtenreferenznummer": "448369",
+      "fertigstellungsdatum": "2024-04-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

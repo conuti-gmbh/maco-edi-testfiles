@@ -1,0 +1,65 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "TECHNISCHE_RESSOURCE": [
+        {
+          "boTyp": "TECHNISCHE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "D417MLM8164",
+          "sparte": "STROM",
+          "referenzMesslokation": "DE0032106765712000000000000000037",
+          "referenzMarktlokation": "50074561188",
+          "referenzNetzlokation": "E1688117482",
+          "referenzSteuerbareRessource": "C816417ST77",
+          "nennleistung": {
+            "aufnahme": 1000
+          },
+          "verbrauchsart": "EMOB",
+          "artEMobilitaet": "WB",
+          "enwg": true,
+          "weitereEinrichtung": false,
+          "art": "STROMVERBRAUCH"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "136508",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF4",
+      "vorgangsnummer": "190582209",
+      "pruefidentifikator": "55140",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "942981BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-19T09:21:00Z",
+      "nachrichtenreferenznummer": "942981",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

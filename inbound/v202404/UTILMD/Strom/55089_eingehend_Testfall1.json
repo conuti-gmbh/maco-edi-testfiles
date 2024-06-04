@@ -1,0 +1,62 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "EINSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "107030",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "1429816899",
+      "pruefidentifikator": "55089",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "954570BGM",
+      "kategorie": "E35",
+      "nachrichtendatum": "2024-04-03T07:37:00Z",
+      "nachrichtenreferenznummer": "954570",
+      "endezumtermin": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

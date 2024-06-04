@@ -1,0 +1,192 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0010647773100000000000000033612",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-10-08T22:00:00Z",
+              "enddatum": "2023-10-08T22:15:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 9.25,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T22:15:00Z",
+              "enddatum": "2023-10-08T22:30:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 8,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T22:30:00Z",
+              "enddatum": "2023-10-08T22:45:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 7,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T22:45:00Z",
+              "enddatum": "2023-10-08T23:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 8.5,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T23:00:00Z",
+              "enddatum": "2023-10-08T23:15:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 8.5,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T23:15:00Z",
+              "enddatum": "2023-10-08T23:30:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 9,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T23:30:00Z",
+              "enddatum": "2023-10-08T23:45:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 8.75,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-08T23:45:00Z",
+              "enddatum": "2023-10-09T00:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:3.29.0",
+              "wert": 8.75,
+              "position": 1
+            },
+            {
+              "startdatum": "2023-10-09T00:00:00Z",
+              "enddatum": "2023-10-09T00:15:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 9.25,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-09T00:15:00Z",
+              "enddatum": "2023-10-09T00:30:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 9.25,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-09T00:30:00Z",
+              "enddatum": "2023-10-09T00:45:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 9,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-09T00:45:00Z",
+              "enddatum": "2023-10-09T01:00:00Z",
+              "messwertstatus": "ERSATZWERT",
+              "statuszusatzinformationen": [
+                {
+                  "art": "PLAUSIBILISIERUNGSHINWEIS",
+                  "status": "PLAUSIBEL_WG_KONTROLLABLESUNG"
+                },
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "INTERPOLATION"
+                },
+                {
+                  "art": "KORREKTURGRUND",
+                  "status": "UNSICHERHEIT_MESSUNG"
+                }
+              ],
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 9.25,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-09T01:00:00Z",
+              "enddatum": "2023-10-09T01:15:00Z",
+              "messwertstatus": "ERSATZWERT",
+              "statuszusatzinformationen": [
+                {
+                  "art": "PLAUSIBILISIERUNGSHINWEIS",
+                  "status": "RECHENWERT"
+                },
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "HISTORISCHE_MESSWERTE"
+                },
+                {
+                  "art": "KORREKTURGRUND",
+                  "status": "KALIBRIERUNG"
+                },
+                {
+                  "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "AENDERUNG_DER_BERECHNUNG"
+                }
+              ],
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 9,
+              "position": 2
+            },
+            {
+              "startdatum": "2023-10-09T01:15:00Z",
+              "enddatum": "2023-10-09T01:30:00Z",
+              "messwertstatus": "VOLAEUFIGERWERT",
+              "obiskennzahl": "1-1:4.29.0",
+              "wert": 8.75,
+              "position": 2
+            }
+          ],
+          "startdatum": "2023-10-08T22:00:00Z",
+          "enddatum": "2023-10-09T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "24328082",
+      "sparte": "STROM",
+      "pruefidentifikator": "13018",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9910634000006",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9911694000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "172282517",
+      "kategorie": "7",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-03T07:30:00Z",
+      "nachrichtenreferenznummer": "172282517",
+      "typ": "TL",
+      "anfrageReferenz": "AFN9523"
+    },
+    "zusatzdaten": {}
+  }
+}

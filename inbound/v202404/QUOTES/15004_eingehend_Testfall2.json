@@ -1,0 +1,98 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragetyp": "AENDERUNG_KONFIGURATION"
+        }
+      ],
+      "ANGEBOT": [
+        {
+          "boTyp": "ANGEBOT",
+          "versionStruktur": "1",
+          "anfragereferenz": "ABC123456",
+          "sparte": "STROM",
+          "varianten": [
+            {
+              "teile": [
+                {
+                  "positionen": [
+                    {
+                      "positionsbezeichung": "1",
+                      "artikelId": [
+                        "9991000000721-01",
+                        "9991000000721-02",
+                        "9991000000721-03"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "LEISTUNGSKURVENDEFINITION": [
+        {
+          "boTyp": "LEISTUNGSKURVENDEFINITION",
+          "versionStruktur": "1",
+          "sparte": "STROM",
+          "leistungskurven": [
+            {
+              "code": "XYZ",
+              "konfigurationsprodukt": "9991000000721"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "115081",
+      "sparte": "STROM",
+      "pruefidentifikator": "15004",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "01234567"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z74",
+      "nachrichtendatum": "2024-04-03T15:54:00Z",
+      "nachrichtenreferenznummer": "137936"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-12-31T23:00:00Z",
+              "enddatum": "2024-01-31T23:00:00Z",
+              "messwertstatus": "ANGABE_FUER_LIEFERSCHEIN",
+              "obiskennzahl": "1-1:1.9.0",
+              "wert": 1000,
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "137424",
+      "sparte": "STROM",
+      "pruefidentifikator": "13016",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "703252BGM",
+      "kategorie": "Z42",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-01T09:07:00Z",
+      "nachrichtenreferenznummer": "703252",
+      "typ": "EM"
+    },
+    "zusatzdaten": {}
+  }
+}

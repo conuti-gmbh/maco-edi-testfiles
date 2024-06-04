@@ -1,0 +1,198 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP",
+          "netzebene": "NSP",
+          "umspannung": "MSP_NSP_UMSP",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903790000002",
+              "marktrolle": "LF"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4045399000077",
+              "marktrolle": "UENB"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9904446000007",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false,
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            }
+          ],
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.9.0",
+              "verbrauchsart": "W",
+              "unterbrechbarkeit": "NUV",
+              "waermenutzung": "SPEICHERHEIZUNG",
+              "konzessionsabgabe": {
+                "satz": "SA"
+              },
+              "steuerbefreit": false
+            }
+          ],
+          "messtechnischeEinordnung": "KME_MME",
+          "eigentuemer": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "EIGENTUEMER"
+            ]
+          },
+          "hausverwalter": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "HAUSVERWALTER"
+            ]
+          },
+          "verguetungEmpfaenger": "LIEFERANT",
+          "fernsteuerbarkeit": "DURCH_LF_FERNSTEUERBAR"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+        ],
+          "vertragskonditionen": {
+            "netznutzungsabrechnung": {
+              "abrechnungsZeitraum": "0101"
+            },
+            "netznutzungsabrechnungIntervall": 12,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT",
+            "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+            "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+            "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+            "naechstenetznutzungsabrechnung": "2025"
+          },
+          "gemeinderabatt": 0,
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str.",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "verbrauchsaufteilung": {
+            "wert": 50,
+            "einheit": "PROZENT"
+          },
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "TLP_TEP"
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "130421",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF4",
+      "vorgangsnummer": "1681288136",
+      "pruefidentifikator": "55142",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "877316BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T08:09:00Z",
+      "nachrichtenreferenznummer": "877316",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "S_0021"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "sparte": "STROM",
+          "bilanzierungsgebiet": "11YR00000002596Z"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "bilanzkreisAn": "11Y0-0000-0076-N",
+          "bilanzkreisVon": "11Y0-0000-0077-N",
+          "zeitreihentyp": "EGS"
+        }
+      ],
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-03-31T22:00:00Z",
+              "enddatum": "2024-03-31T22:15:00Z",
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "AUA",
+              "wert": 500,
+              "einheit": "KWH",
+              "position": 1
+            },
+            {
+              "startdatum": "2024-03-31T22:15:00Z",
+              "enddatum": "2024-03-31T22:30:00Z",
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "AUA",
+              "wert": 1000,
+              "einheit": "KWH",
+              "position": 1
+            }
+          ],
+          "fertigstellungsdatum": "2024-04-30T22:00:00Z",
+          "startdatum": "2024-03-31T22:00:00Z",
+          "enddatum": "2024-04-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "349754",
+      "sparte": "STROM",
+      "pruefidentifikator": "13026",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "4033872000027",
+        "rollencodetyp": "GLN"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9978730000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "006051BGM",
+      "kategorie": "Z50",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-05-14T09:36:00Z",
+      "nachrichtenreferenznummer": "006051",
+      "typ": "TL"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "STEUERBARE_RESSOURCE": [
+        {
+          "boTyp": "STEUERBARE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "C816417ST77",
+          "sparte": "STROM",
+          "steuerkanal": "GESTUFT",
+          "konfigurationsprodukt": "9991000000713",
+          "produktdatenRelevanteRolle": "NB",
+          "auftraggebenderMarktpartner": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "marktrolle": "NB",
+            "rollencodenummer": "9900321000005"
+          },
+          "zugeordneteDefinition": {
+            "schaltzeitdefinition": "ABC"
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "613651",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "1962314992",
+      "pruefidentifikator": "55145",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "189899BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T09:20:00Z",
+      "nachrichtenreferenznummer": "189899",
+      "anfragereferenznummer": "ABC12345678910",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "S_0036"
+    },
+    "zusatzdaten": {}
+  }
+}

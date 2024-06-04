@@ -1,0 +1,80 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM",
+          "lokationszuordnung": "BEGINNT"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "lokationszuordnung": "UNVERAENDERT"
+        }
+      ],
+      "TECHNISCHE_RESSOURCE": [
+        {
+          "boTyp": "TECHNISCHE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "D417MLM8164",
+          "sparte": "STROM",
+          "lokationszuordnung": "UNVERAENDERT"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "476540",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZJ1",
+      "vorgangsnummer": "1510534253",
+      "pruefidentifikator": "55180",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "059433BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:31:00Z",
+      "nachrichtenreferenznummer": "059433",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

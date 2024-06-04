@@ -1,0 +1,202 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "GAS",
+          "netzebene": "ND",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "4",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          },
+          "marktgebiet": "37Y005053MH0000R",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "7-0:33.86.0",
+              "konzessionsabgabe": {
+                "satz": "TAS",
+                "kosten": 0.123,
+                "kategorie": "1"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "eigentuemer": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "EIGENTUEMER"
+            ]
+          },
+          "hausverwalter": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "HAUSVERWALTER"
+            ]
+          }
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "gasqualitaet": "L_GAS",
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": true
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "GMSB"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+        ],
+          "vertragskonditionen": {
+            "startAbrechnungsjahr": "2025-01-01T05:00:00Z",
+            "netznutzungsabrechnung": {
+              "abrechnungsZeitraum": "0101"
+            },
+            "netznutzungsabrechnungIntervall": 12,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT",
+            "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+            "naechstenetznutzungsabrechnung": "2025"
+          },
+          "gemeinderabatt": 0,
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "GAS",
+          "vertragskonditionen": {
+            "geplanteTurnusablesung": {
+              "ableseZeitraum": "0101"
+            }
+          },
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "prognosegrundlage": "PROFILE"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "318300",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZF4",
+      "vorgangsnummer": "1868743782",
+      "pruefidentifikator": "44142",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "461870BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:02:00Z",
+      "nachrichtenreferenznummer": "461870",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-07-01T04:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "G_0031"
+    },
+    "zusatzdaten": {}
+  }
+}

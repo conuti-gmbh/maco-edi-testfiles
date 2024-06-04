@@ -1,0 +1,136 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "GAS",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Prof."
+            }
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-06-01T04:00:00Z",
+          "vertragsende": "2024-07-01T04:00:00Z",
+          "vertragskonditionen": {
+            "haushaltskunde": true,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT"
+          },
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "GAS",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Prof.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "lastprofile": [
+            {
+              "bezeichnung": "H0",
+              "verfahren": "SYNTHETISCH",
+              "einspeisung": false,
+              "tagesparameter": {
+                "temperaturmessstelle": "1234",
+                "dienstanbieter": "DWD",
+                "herausgeber": "NB"
+              },
+              "profilart": "ART_LASTPROFIL",
+              "herausgeber": "TUM"
+            }
+          ],
+          "bilanzierungsbeginn": "2024-06-01T04:00:00Z",
+          "bilanzierungsende": "2024-07-01T04:00:00Z",
+          "bilanzkreis": "11Y0-0000-0076-N",
+          "jahresverbrauchsprognose": {
+            "wert": 5000,
+            "einheit": "KWH"
+          },
+          "kundenwert": {
+            "wert": 10
+          },
+          "prognosegrundlage": "PROFILE"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "S211335",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZD0",
+      "vorgangsnummer": "1236858874",
+      "pruefidentifikator": "44021",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "642622BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-23T08:42:00Z",
+      "nachrichtenreferenznummer": "642622",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "E15",
+      "antwortstatusCodeliste": "G_0002",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11Y0-0000-0076-N"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

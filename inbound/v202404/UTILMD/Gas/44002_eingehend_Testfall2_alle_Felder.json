@@ -1,0 +1,302 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "GAS",
+          "netzebene": "HD",
+          "lokationsadresse": {
+            "postleitzahl": "11111",
+            "ort": "Dummyort",
+            "strasse": "Dummyweg",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          },
+          "marktgebiet": "Test2312312",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "7-0:33.86.0",
+              "konzessionsabgabe": {
+                "satz": "TA",
+                "kosten": 1,
+                "kategorie": "2"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ]
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "gasqualitaet": "H_GAS",
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "11111",
+              "ort": "Dummyort",
+              "strasse": "Dummygasse",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "GMSB"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-06-01T04:00:00Z",
+          "vertragsende": "2024-07-01T04:00:00Z",
+          "vertragskonditionen": {
+            "netznutzungsabrechnung": {
+              "abrechnungsZeitraum": "01010104"
+            },
+            "netznutzungsabrechnungIntervall": 4,
+            "haushaltskunde": true,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT",
+            "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+            "naechstenetznutzungsabrechnung": "2025"
+          },
+          "gemeinderabatt": 0,
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "GAS",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ],
+              "externeReferenzen": [
+                {
+                  "exRefName": "Kundennummer beim Lieferanten",
+                  "exRefWert": "ABC12345678910"
+                }
+              ]
+            }
+          ],
+          "vertragskonditionen": {
+            "abrechnungsintervall": 12
+          },
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "11111",
+              "ort": "Dummycity",
+              "strasse": "Dummyweg",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "EL001IK01013852469",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "zaehlertyp": "BALGENGASZAEHLER",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "ABC",
+              "obisKennzahl": "7-20:3.0.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "zaehlergroesse": "GAS_G10",
+          "geraete": [
+            {
+              "geraetenummer": "ABC123436534",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MESSDATENREGISTRIERGERAET"
+              }
+            },
+            {
+              "geraetenummer": "GGGGGGG",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MENGENUMWERTER",
+                "geraetemerkmal": "DICHTEMENGENUMWERTER"
+              }
+            },
+            {
+              "geraetenummer": "EL001IK01013852469"
+            },
+            {
+              "geraetenummer": "AAAAAAAAA1111",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "LTE_KOM"
+              }
+            },
+            {
+              "geraetenummer": "CCCCCCCCCC1111",
+              "geraeteeigenschaften": {
+                "geraetetyp": "SMARTMETERGATEWAY"
+              }
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "lastprofile": [
+            {
+              "bezeichnung": "ABC",
+              "verfahren": "ANALYTISCH",
+              "profilart": "ART_LASTPROFIL",
+              "einspeisung": false,
+              "herausgeber": "NB",
+              "tagesparameter": {
+                "klimazone": "ZT1",
+                "herausgeber": "BDEW"
+              }
+            }
+          ],
+          "bilanzierungsbeginn": "2024-06-01T04:00:00Z",
+          "bilanzierungsende": "2024-07-01T04:00:00Z",
+          "jahresverbrauchsprognose": {
+            "wert": 50000,
+            "einheit": "KWH"
+          },
+          "kundenwert": {
+            "wert": 100
+          },
+          "prognosegrundlage": "WERTE"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "195218",
+      "sparte": "GAS",
+      "transaktionsgrund": "E01",
+      "transaktionsgrundergaenzung": "E03",
+      "vorgangsnummer": "405719160",
+      "pruefidentifikator": "44002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "+012345678910"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "+012345678910"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+012345678910"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "+012345678910"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "797557BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-03T08:24:00Z",
+      "nachrichtenreferenznummer": "797557",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "E15",
+      "antwortstatusCodeliste": "G_0012",
+      "freitext": {
+        "freitext1": "BLABLA"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

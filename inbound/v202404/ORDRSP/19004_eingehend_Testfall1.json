@@ -1,0 +1,50 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "WEITERVERPFLICHTUNG_BETRIEB_MELO"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "verschobenerAbmeldetermin": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "916203",
+      "sparte": "STROM",
+      "pruefidentifikator": "19004",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z11",
+      "nachrichtendatum": "2024-05-22T10:34:00Z",
+      "nachrichtenreferenznummer": "910830",
+      "auftragsReferenz": "ABC1234567",
+      "antwortstatus": "Z22",
+      "antwortstatusCodeliste": "S_0062"
+    },
+    "zusatzdaten": {}
+  }
+}

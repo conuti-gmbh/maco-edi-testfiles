@@ -1,0 +1,53 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "LIEFERSCHEIN",
+          "auftragsstatus": "WIDERSPROCHEN",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LQZALDXA",
+      "sparte": "STROM",
+      "pruefidentifikator": "21035",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGMLQKWDDL0",
+      "kategorie": "Z33",
+      "nachrichtendatum": "2024-04-01T13:29:00Z",
+      "nachrichtenreferenznummer": "UNHLQLAZ98X",
+      "vorgangsreferenznummer": "ABC2222",
+      "verwendungAb": "2022-12-31T23:00:00Z",
+      "verwendungBis": "2023-12-31T23:00:00Z",
+      "antwortstatus": "A01",
+      "antwortstatusCodeliste": "E_0456",
+      "menge": 1000,
+      "tarifstufe": "TARIFSTUFE_3"
+    },
+    "zusatzdaten": {}
+  }
+}

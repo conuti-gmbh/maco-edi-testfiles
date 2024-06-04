@@ -1,0 +1,40 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {},
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "128197",
+      "sparte": "GAS",
+      "transaktionsgrund": "E05",
+      "vorgangsnummer": "1719317644",
+      "pruefidentifikator": "44024",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "552881BGM",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-04-03T11:30:00Z",
+      "nachrichtenreferenznummer": "552881",
+      "anfragereferenznummer": "12345678910",
+      "antwortstatus": "E14",
+      "antwortstatusCodeliste": "G_0003",
+      "freitext": {
+        "freitext1": "ABCDEFGH"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

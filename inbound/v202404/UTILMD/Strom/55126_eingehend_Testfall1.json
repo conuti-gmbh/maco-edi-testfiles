@@ -1,0 +1,87 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP",
+          "bilanzierungsgebiet": "11YR00000002596Z",
+          "regelzone": "10YDE-RWENET---I"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "lastprofile": [
+            {
+              "bezeichnung": "H0",
+              "verfahren": "SYNTHETISCH",
+              "einspeisung": false,
+              "profilart": "ART_STANDARDLASTPROFIL",
+              "herausgeber": "NB"
+            }
+          ],
+          "jahresverbrauchsprognose": {
+            "wert": 2000,
+            "einheit": "KWH"
+          },
+          "aggregationsverantwortung": "UENB",
+          "zeitreihentyp": "SLS",
+          "wahlrechtPrognosegrundlage": "DURCH_LF_NICHT_GEGEBEN",
+          "grundWahlrechtPrognosegrundlage": "NICHT_WEGEN_GROSSEN_VERBRAUCHS",
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "SLP_SEP"
+          ],
+          "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "210725",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF1",
+      "vorgangsnummer": "1993667915",
+      "pruefidentifikator": "55126",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "117458BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:03:00Z",
+      "nachrichtenreferenznummer": "117458",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "20072281644",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE00713739359S0000000000001222221",
+          "sparte": "STROM"
+        }
+      ],
+      "TECHNISCHE_RESSOURCE": [
+        {
+          "boTyp": "TECHNISCHE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "D417MLM8164",
+          "sparte": "STROM"
+        }
+      ],
+      "STEUERBARE_RESSOURCE": [
+        {
+          "boTyp": "STEUERBARE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "C816417ST77",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2023-05-27T22:00:00Z",
+          "vertragsende": "2024-05-27T22:00:00Z"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "20072281644",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LUACFCSA",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "0C36EE0D",
+      "pruefidentifikator": "55052",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "LUPSJ7UB",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-03-27T22:00:00Z",
+      "nachrichtenreferenznummer": "LUPHIJ8Y",
+      "anfragereferenznummer": "NNV1000",
+      "antwortstatus": "Z01",
+      "antwortstatusCodeliste": "S_0059"
+    },
+    "zusatzdaten": {}
+  }
+}

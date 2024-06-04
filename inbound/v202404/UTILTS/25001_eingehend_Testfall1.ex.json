@@ -1,0 +1,76 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "BERECHNUNGSFORMEL": [
+        {
+          "boTyp": "BERECHNUNGSFORMEL",
+          "versionStruktur": "1",
+          "beginndatum": "2024-06-30T22:00:00Z",
+          "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+          "lieferrichtung": "AUSSP",
+          "verwendungszweck": [
+            {
+              "zweck": [
+                "NETZNUTZUNGSABRECHNUNG"
+              ]
+            }
+          ],
+          "rechenschrittId": 1,
+          "rechenschritte": [
+            {
+              "rechenschrittBestandteilId": 1,
+              "operation": "MULTIPLIKATION",
+              "messlokationsId": "DE0032106765712000000000000000037",
+              "energieflussrichtung": "AUSSP",
+              "aufteilungsfaktorEnergiemenge": 10
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "716736",
+      "sparte": "STROM",
+      "vorgangsnummer": "IDE12345678910",
+      "pruefidentifikator": "25001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "736180BGM",
+      "kategorie": "Z36",
+      "nachrichtendatum": "2024-04-01T11:57:00Z",
+      "nachrichtenreferenznummer": "736180"
+    },
+    "zusatzdaten": {}
+  }
+}

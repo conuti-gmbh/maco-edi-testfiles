@@ -1,0 +1,78 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str.",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "107298",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZG8",
+      "vorgangsnummer": "1079178576",
+      "pruefidentifikator": "44163",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "132960BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:21:00Z",
+      "nachrichtenreferenznummer": "132960",
+      "anfragereferenznummer": "ABC1234567",
+      "gueltigAb": "2024-07-01T04:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "G_0044"
+    },
+    "zusatzdaten": {}
+  }
+}

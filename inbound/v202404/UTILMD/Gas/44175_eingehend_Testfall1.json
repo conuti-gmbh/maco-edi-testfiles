@@ -1,0 +1,69 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "GAS"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS"
+        },
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000038",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "133185",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZI9",
+      "vorgangsnummer": "1972900142",
+      "pruefidentifikator": "44175",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "130654BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:26:00Z",
+      "nachrichtenreferenznummer": "130654",
+      "gueltigAb": "2024-07-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50263417906",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP",
+          "lokationsadresse": {
+            "postleitzahl": "71409",
+            "ort": "Schwaikheim",
+            "strasse": "Kleistweg",
+            "hausnummer": "11",
+            "landescode": "DE"
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50263417906",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "STROM",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Weigert",
+              "name2": "Tanja",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ],
+              "externeReferenzen": [
+                {
+                  "exRefName": "Kundennummer beim Altlieferanten",
+                  "exRefWert": "KD_NB_09881"
+                }
+              ]
+            }
+          ],
+          "lokationsId": "50263417906",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50263417906",
+          "vorjahresverbrauch": {
+            "wert": 6460,
+            "einheit": "KWH"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "P102845739A",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "ECOUNT_207917572",
+      "pruefidentifikator": "55017",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903448000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9911694000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "P102845739A-1",
+      "kategorie": "E35",
+      "nachrichtendatum": "2024-04-01T15:47:00Z",
+      "nachrichtenreferenznummer": "1",
+      "anfragereferenznummer": "PCL09023100613515599116940000022246",
+      "antwortstatus": "A11",
+      "antwortstatusCodeliste": "E_0400",
+      "endezumtermin": "2023-11-30T23:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

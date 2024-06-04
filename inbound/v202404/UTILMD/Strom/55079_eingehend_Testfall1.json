@@ -1,0 +1,242 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50021440933",
+          "sparte": "STROM",
+          "energierichtung": "EINSP",
+          "netzebene": "NSP",
+          "bilanzierungsgebiet": "11YR00000003039P",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Prof."
+            }
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4045399000077",
+              "marktrolle": "UENB"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903372000008",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false,
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            }
+          ],
+          "regelzone": "10YDE-RWENET---I",
+          "messtechnischeEinordnung": "KME_MME",
+          "energieherkunft": [
+            {
+              "erzeugungsart": "EEG"
+            }
+          ],
+          "verguetungEmpfaenger": "LIEFERANT",
+          "statusErzeugendeMalo": "GEFOERDERTE_DIREKTVERMARKTUNG",
+          "fernsteuerbarkeit": "TECHNISCH_NICHT_FERNSTEUERBAR",
+          "foerderungsLand": "DE"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0073324156900000000000000711048",
+          "sparte": "STROM",
+          "netzebenemessung": "NSP",
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903372000008",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false,
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903372000008",
+              "marktrolle": "GMSB"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50021440933",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "STROM",
+          "vertragskonditionen": {
+            "geplanteTurnusablesung": {
+              "ableseZeitraum": "0101"
+            },
+            "abrechnungUeberNna": false
+          },
+          "lokationsId": "DE0073324156900000000000000711048",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "1EMH0010068119",
+          "messlokationsId": "DE0073324156900000000000000711048",
+          "sparte": "STROM",
+          "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+          "zaehlertyp": "LEISTUNGSZAEHLER",
+          "tarifart": "EINTARIF",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "1",
+              "obisKennzahl": "1-1:4.29.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "MONATLICH"
+            },
+            {
+              "bezeichnung": "2",
+              "obisKennzahl": "1-1:2.29.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "MONATLICH"
+            }
+          ],
+          "fernschaltung": "NICHT_VORHANDEN",
+          "messwerterfassung": "FERNAUSLESBAR",
+          "geraete": [
+            {
+              "geraetenummer": "1EMH0010068119"
+            },
+            {
+              "geraetenummer": "KOM12345",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "LTE_KOM"
+              }
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50021440933",
+          "bilanzierungsbeginn": "2024-06-30T22:00:00Z",
+          "bilanzkreis": "11X0-0000-0453-Y",
+          "aggregationsverantwortung": "UENB",
+          "zeitreihentyp": "EGS",
+          "prognosegrundlage": "WERTE"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50642965568",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:4.29.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "ENDKUNDENABRECHNUNG"
+                  ]
+                }
+              ]
+            },
+            {
+              "obisKennzahl": "1-1:2.29.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "ENDKUNDENABRECHNUNG"
+                  ]
+                }
+              ]
+            }
+          ],
+          "verguetungEmpfaenger": "LIEFERANT",
+          "referenzTranche": "50642965568",
+          "aufteilungsmenge": {
+            "wert": 50,
+            "einheit": "PROZENT"
+          },
+          "bilanzkreis": "11X0-0000-0453-Y",
+          "bildungTranchengroesse": "PROZENTUAL"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "110212",
+      "sparte": "STROM",
+      "transaktionsgrund": "E02",
+      "vorgangsnummer": "173040445",
+      "pruefidentifikator": "55079",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "963776BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-23T09:16:00Z",
+      "nachrichtenreferenznummer": "963776",
+      "antwortstatus": "E15",
+      "antwortstatusCodeliste": "S_0050",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11X0-0000-0453-Y"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

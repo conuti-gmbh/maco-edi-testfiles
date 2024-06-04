@@ -1,0 +1,82 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.9.1",
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "MONATLICH"
+            },
+            {
+              "obisKennzahl": "1-1:1.9.2",
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "MONATLICH"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "194421",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZT9",
+      "vorgangsnummer": "1189179279",
+      "pruefidentifikator": "55556",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "589357BGM",
+      "kategorie": "Z56",
+      "nachrichtendatum": "2024-04-03T12:29:00Z",
+      "nachrichtenreferenznummer": "589357",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "A01",
+      "antwortstatusCodeliste": "E_0557"
+    },
+    "zusatzdaten": {}
+  }
+}

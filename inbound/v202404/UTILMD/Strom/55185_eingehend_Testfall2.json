@@ -1,0 +1,135 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "EINSP",
+          "netzebene": "NSP",
+          "netzbetreiberCodeNr": "9900321000005",
+          "bilanzierungsgebiet": "11YR00000002596Z",
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4045399000077",
+              "marktrolle": "UENB"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9900259000002",
+              "marktrolle": "MSB",
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            }
+          ],
+          "regelzone": "10YDE-RWENET---I"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "bilanzkreis": "11Y0-0000-0076-N",
+          "aggregationsverantwortung": "UENB",
+          "zeitreihentyp": "LGS",
+          "prognosegrundlage": "WERTE",
+          "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561189",
+          "sparte": "STROM",
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903790000002",
+              "marktrolle": "LF"
+            }
+          ],
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:2.9.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG"
+                  ]
+                },
+                {
+                  "marktrolle": "UENB",
+                  "zweck": [
+                    "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                  ]
+                }
+              ]
+            }
+          ],
+          "referenzTranche": "50074561189",
+          "aufteilungsmenge": {
+            "wert": 50,
+            "einheit": "PROZENT"
+          },
+          "bilanzkreis": "11Y0-0000-0076-N",
+          "bildungTranchengroesse": "PROZENTUAL"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "167862",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZP0",
+      "verarbeitungsReihenfolge": "12345",
+      "vorgangsnummer": "929398201",
+      "pruefidentifikator": "55185",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "275714BGM",
+      "kategorie": "Z38",
+      "nachrichtendatum": "2024-04-03T12:01:00Z",
+      "nachrichtenreferenznummer": "275714",
+      "verwendungAb": "2024-10-31T23:00:00Z",
+      "verwendungBis": "2024-12-31T23:00:00Z",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11Y0-0000-0076-N"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

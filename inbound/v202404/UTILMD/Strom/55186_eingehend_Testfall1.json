@@ -1,0 +1,140 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP",
+          "netzebene": "NSP",
+          "netzbetreiberCodeNr": "9900321000005",
+          "bilanzierungsgebiet": "11YR00000002596Z",
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9903790000002",
+              "marktrolle": "LF"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4045399000077",
+              "marktrolle": "UENB"
+            }
+          ],
+          "regelzone": "10YDE-RWENET---I",
+          "datenDerBeteiligtenMarktrolle": [
+            {
+              "marktlokationsId": "50074561188",
+              "regelzone": "10YDE-RWENET---I",
+              "bilanzierungsgebiet": "11YR00000002596Z",
+              "netzebene": "NSP"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "lastprofile": [
+            {
+              "bezeichnung": "H1",
+              "verfahren": "SYNTHETISCH",
+              "einspeisung": false,
+              "profilart": "ART_STANDARDLASTPROFIL",
+              "herausgeber": "NB"
+            }
+          ],
+          "bilanzkreis": "11Y0-0000-0076-N",
+          "jahresverbrauchsprognose": {
+            "wert": 2000,
+            "einheit": "KWH"
+          },
+          "aggregationsverantwortung": "VNB",
+          "zeitreihentyp": "SLS",
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "SLP_SEP"
+          ],
+          "datenDerBeteiligtenMarktrolle": [
+            {
+              "marktlokationsId": "50074561188",
+              "lastprofile": [
+                {
+                  "bezeichnung": "H0",
+                  "verfahren": "SYNTHETISCH",
+                  "einspeisung": false,
+                  "profilart": "ART_STANDARDLASTPROFIL",
+                  "herausgeber": "NB"
+                }
+              ],
+              "jahresverbrauchsprognose": {
+                "wert": 5000,
+                "einheit": "KWH"
+              },
+              "bilanzkreis": "11Y0-0000-0076-N",
+              "zeitreihentyp": "SLS",
+              "aggregationsverantwortung": "UENB",
+              "prognosegrundlage": "PROFILE",
+              "detailsPrognosegrundlage": [
+                "SLP_SEP"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "199928",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZP1",
+      "verarbeitungsReihenfolge": "12345",
+      "vorgangsnummer": "1351353832",
+      "pruefidentifikator": "55186",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "747441BGM",
+      "kategorie": "Z38",
+      "nachrichtendatum": "2024-04-03T06:38:00Z",
+      "nachrichtenreferenznummer": "747441",
+      "anfragereferenznummer": "ABC123456",
+      "verwendungAb": "2024-06-30T22:00:00Z",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11Y0-0000-0076-N"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

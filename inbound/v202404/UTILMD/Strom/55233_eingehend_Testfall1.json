@@ -1,0 +1,61 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM",
+          "abrechnungsdaten": [
+            {
+              "zahlerBlindarbeitLf": true
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "598639",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZS8",
+      "vorgangsnummer": "1235159538",
+      "pruefidentifikator": "55233",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "647272BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-19T09:25:00Z",
+      "nachrichtenreferenznummer": "647272",
+      "anfragereferenznummer": "ABC1234567",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "S_0031"
+    },
+    "zusatzdaten": {}
+  }
+}

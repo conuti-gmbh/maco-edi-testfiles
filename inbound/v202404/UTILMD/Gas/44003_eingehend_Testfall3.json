@@ -1,0 +1,54 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50608284019",
+          "sparte": "GAS"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "703022",
+      "sparte": "GAS",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "1489369429",
+      "pruefidentifikator": "44003",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870016000000",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800080300003",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "858551BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-03T07:56:00Z",
+      "nachrichtenreferenznummer": "858551",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "Z35",
+      "antwortstatusCodeliste": "G_0011",
+      "antwortstatusdritter": "Z09",
+      "antwortstatusCodelistedritter": "G_0009",
+      "beteiligterMarktpartner": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800080300003",
+        "rollencodetyp": "DVGW"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-03-01T04:00:00Z",
+              "enddatum": "2024-04-01T04:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-0:54.0.22",
+              "wert": 123.123,
+              "position": 1
+            }
+          ],
+          "fertigstellungsdatum": "2024-05-01T04:00:00Z",
+          "startdatum": "2024-03-01T04:00:00Z",
+          "enddatum": "2024-04-01T04:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "175554",
+      "sparte": "GAS",
+      "pruefidentifikator": "13007",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "534865BGM",
+      "kategorie": "Z21",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-23T07:13:00Z",
+      "nachrichtenreferenznummer": "534865",
+      "typ": "TL"
+    },
+    "zusatzdaten": {}
+  }
+}

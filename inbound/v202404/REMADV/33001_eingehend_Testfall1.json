@@ -1,0 +1,61 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AVIS": [
+        {
+          "boTyp": "AVIS",
+          "versionStruktur": "1",
+          "avisNummer": "BGM555555",
+          "avisTyp": "ZAHLUNGSAVIS",
+          "positionen": [
+            {
+              "zuZahlen": {
+                "wert": 5000,
+                "waehrung": "EUR"
+              },
+              "gesamtBrutto": {
+                "wert": 5000,
+                "waehrung": "EUR"
+              },
+              "rechnungsNummer": "BGM56151515",
+              "rechnungsDatum": "2024-03-15T12:00:00Z",
+              "istStorno": false,
+              "istSelbstausgestellt": false
+            }
+          ],
+          "zuZahlen": {
+            "wert": 5000,
+            "waehrung": "EUR"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "197691",
+      "sparte": "STROM",
+      "pruefidentifikator": "33001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM555555",
+      "kategorie": "481",
+      "nachrichtendatum": "2024-04-03T12:00:00Z",
+      "nachrichtenreferenznummer": "617415"
+    },
+    "zusatzdaten": {}
+  }
+}

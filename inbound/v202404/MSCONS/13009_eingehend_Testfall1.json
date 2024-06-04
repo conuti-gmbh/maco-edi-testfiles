@@ -1,0 +1,67 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-06-01T04:00:00Z",
+              "enddatum": "2024-07-01T04:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "obiskennzahl": "7-0:33.86.0",
+              "wert": 1000,
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "165425",
+      "sparte": "GAS",
+      "pruefidentifikator": "13009",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "marktrolle": "NB",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+12345678910"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "marktrolle": "LF",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "34072BGM",
+      "kategorie": "7",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-01T09:39:00Z",
+      "nachrichtenreferenznummer": "434072",
+      "typ": "EM",
+      "anfrageReferenz": "12345678910"
+    },
+    "zusatzdaten": []
+  }
+}

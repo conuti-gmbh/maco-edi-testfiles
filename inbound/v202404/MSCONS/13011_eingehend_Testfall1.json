@@ -1,0 +1,62 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "lastprofile": [
+            {
+              "profilschar": "T0"
+            }
+          ]
+        }
+      ],
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "energieverbrauch": [
+            {
+              "messwertstatus": "PROGNOSEWERT",
+              "obiskennzahl": "1-1:1.29.0",
+              "wert": 0,
+              "position": 1
+            }
+          ],
+          "fertigstellungsdatum": "2021-06-01T06:00:30Z",
+          "beginndatum": "202406"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "10620230301",
+      "sparte": "STROM",
+      "pruefidentifikator": "13011",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9907047000004",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905079000000",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "10620230301001B",
+      "kategorie": "Z16",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2023-10-09T16:12:00Z",
+      "nachrichtenreferenznummer": "10620230301001",
+      "typ": "TL"
+    },
+    "zusatzdaten": {}
+  }
+}

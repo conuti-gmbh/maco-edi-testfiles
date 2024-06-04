@@ -1,0 +1,91 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "12345678910",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "1",
+              "obisKennzahl": "1-1:1.8.1",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "konfiguration": "34590456ujdfsdghdlktztwqq-053trg",
+              "wertegranularitaet": "MONATLICH"
+            },
+            {
+              "bezeichnung": "2",
+              "obisKennzahl": "1-1:1.8.2",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "konfiguration": "34590456ujdfsdghdlktztwqq-053trg",
+              "wertegranularitaet": "MONATLICH"
+            }
+          ],
+          "gateway": "7ELS9636042229",
+          "geraete": [
+            {
+              "geraetenummer": "7ELS9636042229",
+              "geraeteeigenschaften": {
+                "geraetetyp": "SMARTMETERGATEWAY"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "194421",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZT9",
+      "vorgangsnummer": "1189179279",
+      "pruefidentifikator": "55556",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "589357BGM",
+      "kategorie": "Z56",
+      "nachrichtendatum": "2024-04-03T12:29:00Z",
+      "nachrichtenreferenznummer": "589357",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "A01",
+      "antwortstatusCodeliste": "E_0557"
+    },
+    "zusatzdaten": {}
+  }
+}

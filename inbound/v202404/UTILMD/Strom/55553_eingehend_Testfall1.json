@@ -1,0 +1,151 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AD_HOC_STEUERKANAL": [
+        {
+          "boTyp": "AD_HOC_STEUERKANAL",
+          "versionStruktur": "1",
+          "zieladresse": {
+            "zieladresse1": "XXX"
+          },
+          "aussteller": {
+            "aussteller1": "SERIALNUMBER = 3, C = DE, O = SM-PKI-DE, CN = T-Systems-EnergyCA.CA"
+          },
+          "zertifikatsNutzer": {
+            "zertifikatsNutzer1": "XXX"
+          },
+          "IPAdresseCLSDevice": {
+            "IPAdresseCLSDevice1": "123.222.345.876"
+          }
+        }
+      ],
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-0:1.9.1",
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "MONATLICH"
+            },
+            {
+              "obisKennzahl": "1-0:1.9.2",
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "MONATLICH"
+            }
+          ]
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "ABC123456",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "T1",
+              "obisKennzahl": "1-0:1.8.1",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "konfiguration": "9991000000193",
+              "wertegranularitaet": "MONATLICH"
+            },
+            {
+              "bezeichnung": "T2",
+              "obisKennzahl": "1-0:1.8.2",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "konfiguration": "9991000000193",
+              "wertegranularitaet": "MONATLICH"
+            }
+          ],
+          "gateway": "1LGZ0063539421",
+          "geraete": [
+            {
+              "geraetenummer": "1LGZ0063539421",
+              "geraeteeigenschaften": {
+                "geraetetyp": "SMARTMETERGATEWAY"
+              }
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "142802",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZP3",
+      "vorgangsnummer": "762597384",
+      "pruefidentifikator": "55553",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "901645BGM",
+      "kategorie": "Z56",
+      "nachrichtendatum": "2024-04-03T13:12:00Z",
+      "nachrichtenreferenznummer": "901645",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "nachrichtenReferenzBestellbestaetigung": "RFF12345678910",
+      "vorgangsReferenzBestellbestaetigung": "RFF109876543210"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "798492",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "440559143",
+      "pruefidentifikator": "55146",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900051000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "039822BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T11:14:00Z",
+      "nachrichtenreferenznummer": "039822",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "ZD3",
+      "antwortstatusCodeliste": "S_0037"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "1234567",
+          "sparte": "GAS"
+        }
+      ],
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000041",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-02-01T05:00:00Z",
+              "enddatum": "2024-03-01T05:00:00Z",
+              "messwertstatus": "VOLAEUFIGERWERT",
+              "obiskennzahl": "7-0:3.0.0",
+              "wert": 11111,
+              "nutzungszeitpunkt": "2024-04-01T04:00:00Z",
+              "ausfuehrungszeitpunkt": "2024-04-01T04:00:00Z",
+              "position": 1
+            },
+            {
+              "messwertstatus": "ERSATZWERT",
+              "statuszusatzinformationen": [
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "INTERPOLATION"
+                },
+                {
+                  "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "KEIN_ZUGANG"
+                }
+              ],
+              "obiskennzahl": "7-0:3.0.0",
+              "wert": 33333,
+              "nutzungszeitpunkt": "2024-03-01T05:00:00Z",
+              "ausfuehrungszeitpunkt": "2024-03-01T05:00:00Z",
+              "position": 2,
+              "ablesedatum": "2024-03-01T05:00:00Z"
+            },
+            {
+              "messwertstatus": "ERSATZWERT",
+              "statuszusatzinformationen": [
+                {
+                  "art": "PLAUSIBILISIERUNGSHINWEIS",
+                  "status": "REALER_ZAEHLERUEBERLAUF_GEPRUEFT"
+                },
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "MESSWERTNACHBILDUNG_AUS_NICHT_GEEICHTEN_WERTEN"
+                },
+                {
+                  "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "UNSICHERHEIT_MESSUNG"
+                }
+              ],
+              "obiskennzahl": "7-0:3.0.0",
+              "wert": 435435,
+              "nutzungszeitpunkt": "2024-03-01T05:00:00Z",
+              "ausfuehrungszeitpunkt": "2024-03-01T05:00:00Z",
+              "position": 3
+            }
+          ],
+          "referenzStammdatenmeldungMsb": "ABC123"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "399755",
+      "sparte": "GAS",
+      "pruefidentifikator": "13002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "204616BGM",
+      "kategorie": "7",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-03T12:33:00Z",
+      "nachrichtenreferenznummer": "204616",
+      "typ": "VL"
+    },
+    "zusatzdaten": {}
+  }
+}

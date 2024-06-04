@@ -1,0 +1,188 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "EINSP",
+          "netzebene": "NSP",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:2.9.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG"
+                  ]
+                },
+                {
+                  "marktrolle": "UENB",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                  ]
+                }
+              ]
+            }
+          ],
+          "datenDerBeteiligtenMarktrolle": [
+            {
+              "marktlokationsId": "50074561188",
+              "netzebene": "NSP",
+              "zaehlwerke": [
+                {
+                  "obisKennzahl": "1-1:2.9.0",
+                  "verwendungszwecke": [
+                    {
+                      "zweck": [
+                        "BILANZKREISABRECHNUNG"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "lastprofile": [
+            {
+              "profilschar": "E1",
+              "einspeisung": true
+            }
+          ],
+          "aggregationsverantwortung": "UENB",
+          "zeitreihentyp": "TES",
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "TEP"
+          ],
+          "datenDerBeteiligtenMarktrolle": [
+            {
+              "marktlokationsId": "50074561188",
+              "lastprofile": [
+                {
+                  "profilschar": "E1",
+                  "einspeisung": true
+                }
+              ],
+              "zeitreihentyp": "TES",
+              "aggregationsverantwortung": "UENB",
+              "prognosegrundlage": "PROFILE",
+              "detailsPrognosegrundlage": [
+                "TEP"
+              ]
+            }
+          ]
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561189",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:2.9.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG"
+                  ]
+                },
+                {
+                  "marktrolle": "UENB",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                  ]
+                }
+              ]
+            }
+          ],
+          "referenzTranche": "50074561189",
+          "aufteilungsmenge": {
+            "wert": 50,
+            "einheit": "PROZENT"
+          },
+          "bildungTranchengroesse": "PROZENTUAL",
+          "datenDerBeteiligtenMarktrolle": [
+            {
+              "zaehlwerke": [
+                {
+                  "obisKennzahl": "1-1:2.9.0",
+                  "verwendungszwecke": [
+                    {
+                      "zweck": [
+                        "BILANZKREISABRECHNUNG"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "628734",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZP1",
+      "verarbeitungsReihenfolge": "12345",
+      "vorgangsnummer": "1555448706",
+      "pruefidentifikator": "55187",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "4045399000077",
+        "rollencodetyp": "GLN"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "452245BGM",
+      "kategorie": "Z38",
+      "nachrichtendatum": "2024-05-13T12:12:00Z",
+      "nachrichtenreferenznummer": "452245",
+      "anfragereferenznummer": "ABC23456",
+      "verwendungAb": "2024-06-30T22:00:00Z",
+      "verwendungBis": "2024-08-30T22:00:00Z",
+      "antwortstatus": "A13",
+      "antwortstatusCodeliste": "E_0453",
+      "freitext": {
+        "freitext1": "Blabla"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

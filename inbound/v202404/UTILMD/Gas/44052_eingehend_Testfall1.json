@@ -1,0 +1,69 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE00713739359S0000000000001222221",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2023-01-01T23:00:00Z",
+          "vertragsende": "2024-09-30T22:00:00Z",
+          "lokationsId": "DE00713739359S0000000000001222221",
+          "lokationsTyp": "MELO"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LUA1OF21",
+      "sparte": "GAS",
+      "transaktionsgrund": "E01",
+      "vorgangsnummer": "LUXPD2RS",
+      "pruefidentifikator": "44052",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800496000009",
+        "rollencodetyp": "DVGW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "9800496000001",
+          "rufnummern": [
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "0049882506641"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800496000001",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "LUWZFNN8",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-04-04T22:00:00Z",
+      "nachrichtenreferenznummer": "LUL79N1V",
+      "anfragereferenznummer": "NNV1000",
+      "antwortstatus": "Z01",
+      "antwortstatusCodeliste": "G_0058"
+    },
+    "zusatzdaten": {}
+  }
+}

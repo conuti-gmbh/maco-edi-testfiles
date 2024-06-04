@@ -1,0 +1,85 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AVIS": [
+        {
+          "boTyp": "AVIS",
+          "versionStruktur": "1",
+          "avisNummer": "YASMINJA436082BGM",
+          "avisTyp": "ABGELEHNTE_FORDERUNG",
+          "positionen": [
+            {
+              "zuZahlen": {
+                "wert": 10000.00,
+                "waehrung": "EUR"
+              },
+              "gesamtBrutto": {
+                "wert": 0,
+                "waehrung": "EUR"
+              },
+              "rechnungsNummer": "87897485",
+              "rechnungsDatum": "2023-03-28T00:00:00Z",
+              "istStorno": false,
+              "istSelbstausgestellt": false,
+              "referenz": "545848485",
+              "positionen": [
+                {
+                  "positionsnummer": 1,
+                  "abweichung": [
+                    {
+                      "abweichungsgrundCodeliste": "E_0406",
+                      "abweichungsgrundCode": "A20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "zuZahlen": {
+            "wert": 0,
+            "waehrung": "EUR"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "YASMINJA219556",
+      "sparte": "STROM",
+      "pruefidentifikator": "33004",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Fleeberg",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+03044848548"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "YASMINJA436082BGM",
+      "kategorie": "239",
+      "nachrichtendatum": "2024-04-01T11:26:00Z",
+      "nachrichtenreferenznummer": "YASMINJA436082",
+      "vorgangsreferenznummer": "545848485"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50754496956",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP",
+          "netzebene": "NSP",
+          "bilanzierungsgebiet": "11YW-STU-NETZE-R",
+          "lokationsadresse": {
+            "postleitzahl": "70569",
+            "ort": "Stuttgart",
+            "strasse": "Schwarzwaldstr.",
+            "hausnummer": "102",
+            "landescode": "DE",
+            "ortsteil": "Kaltental"
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4045399000077",
+              "marktrolle": "UENB"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "1234567890128",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false,
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            }
+          ],
+          "regelzone": "10YDE-RWENET---I",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.9.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "ENDKUNDENABRECHNUNG",
+                    "NETZNUTZUNGSABRECHNUNG",
+                    "MEHRMINDERMENGENABRECHNUNG"
+                  ]
+                }
+              ],
+              "verbrauchsart": "KL",
+              "unterbrechbarkeit": "NUV",
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "messtechnischeEinordnung": "KME_MME",
+          "netznutzungsabrechnungsdaten": [
+            {
+              "artikelId": "1-02-0-002",
+              "artikelIdTyp": "ARTIKELID",
+              "gemeinderabatt": 0
+            },
+            {
+              "artikelId": "1-06-7-004",
+              "artikelIdTyp": "ARTIKELID",
+              "anzahl": 1,
+              "gemeinderabatt": 0
+            },
+            {
+              "artikelId": "1-08-4-004",
+              "artikelIdTyp": "ARTIKELID",
+              "gemeinderabatt": 0
+            },
+            {
+              "artikelId": "1-10-1",
+              "artikelIdTyp": "GRUPPENARTIKELID",
+              "gemeinderabatt": 0
+            },
+            {
+              "artikelId": "1-10-2",
+              "artikelIdTyp": "GRUPPENARTIKELID",
+              "gemeinderabatt": 0
+            },
+            {
+              "artikelId": "1-10-4",
+              "artikelIdTyp": "GRUPPENARTIKELID",
+              "gemeinderabatt": 0
+            }
+          ]
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0009697056900614312080040415184",
+          "sparte": "STROM",
+          "netzebenemessung": "NSP",
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "name1": "Schmidgall",
+            "name2": "Sandra-Martina",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "70569",
+              "ort": "Stuttgart",
+              "strasse": "Schwarzwaldstr.",
+              "hausnummer": "102",
+              "landescode": "DE",
+              "ortsteil": "Kaltental"
+            }
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9977764000009",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": false,
+              "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9977764000009",
+              "marktrolle": "GMSB"
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-05-30T22:00:00Z",
+          "vertragskonditionen": {
+            "netznutzungsabrechnung": {
+              "abrechnungsZeitraum": "03020401"
+            },
+            "netznutzungsabrechnungIntervall": 12,
+            "haushaltskunde": true,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT",
+            "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS",
+            "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+            "naechstenetznutzungsabrechnung": "2025"
+          },
+          "lokationsId": "50754496956",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "STROM",
+          "vertragskonditionen": {
+            "geplanteTurnusablesung": {
+              "ableseZeitraum": "03020401"
+            },
+            "abrechnungUeberNna": true
+          },
+          "lokationsId": "DE0009697056900614312080040415184",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "STROM",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Schmidgall",
+              "name2": "Sandra-Martina",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+          ],
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "name1": "Schmidgall",
+            "name2": "Sandra-Martina",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "70569",
+              "ort": "Stuttgart",
+              "strasse": "Schwarzwaldstr.",
+              "hausnummer": "102",
+              "landescode": "DE",
+              "ortsteil": "Kaltental"
+            }
+          },
+          "lokationsId": "50754496956",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "21520022",
+          "messlokationsId": "DE0009697056900614312080040415184",
+          "sparte": "STROM",
+          "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+          "zaehlertyp": "ELEKTRONISCHERHAUSHALTSZAEHLER",
+          "tarifart": "MEHRTARIF",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.8.0",
+              "vorkommastelle": 6,
+              "nachkommastelle": 0,
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "fernschaltung": "NICHT_VORHANDEN",
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "zaehlertypspezifikation": "EDL21",
+          "geraete": [
+            {
+              "geraetenummer": "21520022"
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50754496956",
+          "lastprofile": [
+            {
+              "bezeichnung": "H0",
+              "verfahren": "SYNTHETISCH",
+              "profilart": "ART_STANDARDLASTPROFIL",
+              "einspeisung": false,
+              "herausgeber": "NB"
+            }
+          ],
+          "bilanzierungsbeginn": "2024-05-30T22:00:00Z",
+          "bilanzkreis": "11X0-0000-0528-Q",
+          "jahresverbrauchsprognose": {
+            "wert": 1263,
+            "einheit": "KWH"
+          },
+          "aggregationsverantwortung": "VNB",
+          "zeitreihentyp": "SLS",
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "SLP_SEP"
+          ],
+          "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "040171951518",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "XX50568560A21EDE99F14E7ADF35549F",
+      "pruefidentifikator": "55002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "040171951519",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-03T16:50:00Z",
+      "nachrichtenreferenznummer": "040171951519",
+      "anfragereferenznummer": "PCL10023101014163399116940000025123",
+      "antwortstatus": "A51",
+      "antwortstatusCodeliste": "E_0404",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11X0-0000-0528-Q"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-06-01T04:00:00Z",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "G123456",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "zaehlertyp": "BALGENGASZAEHLER",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "1",
+              "obisKennzahl": "7-0:3.0.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "befestigungsart": "EINSTUTZEN",
+          "zaehlergroesse": "GAS_G10",
+          "geraete": [
+            {
+              "geraetenummer": "G123456"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "161069",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "1739983914",
+      "pruefidentifikator": "44149",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "164859BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-16T07:20:00Z",
+      "nachrichtenreferenznummer": "164859",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-01T04:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "G_0044"
+    },
+    "zusatzdaten": {}
+  }
+}

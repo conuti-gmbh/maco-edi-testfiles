@@ -1,0 +1,46 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "158466",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZJ1",
+      "vorgangsnummer": "508226309",
+      "pruefidentifikator": "55182",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "032537BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:12:00Z",
+      "nachrichtenreferenznummer": "032537",
+      "anfragereferenznummer": "ABC1234567",
+      "antwortstatus": "ZJ5",
+      "antwortstatusCodeliste": "S_0027"
+    },
+    "zusatzdaten": {}
+  }
+}

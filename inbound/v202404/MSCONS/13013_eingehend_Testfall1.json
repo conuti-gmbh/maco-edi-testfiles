@@ -1,0 +1,55 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50702761898",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "7-0:9.98.0",
+              "wert": 123.123,
+              "position": 1,
+              "leistungsperiode": "20240601"
+            }
+          ],
+          "fertigstellungsdatum": "2024-06-01T04:00:00Z",
+          "bilanzierungsdatum": "202406"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "481316",
+      "sparte": "GAS",
+      "pruefidentifikator": "13013",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "997973BGM",
+      "kategorie": "Z24",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-05-03T06:41:00Z",
+      "nachrichtenreferenznummer": "997973",
+      "typ": "EM",
+      "anfrageReferenz": "ABC12346"
+    },
+    "zusatzdaten": {}
+  }
+}

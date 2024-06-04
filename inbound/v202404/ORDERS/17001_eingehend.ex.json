@@ -1,0 +1,85 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000057",
+          "lokationsTyp": "MELO",
+          "anfragekategorie": "GERAETEUEBERNAHME",
+          "anfragetyp": "NUTZUNGSUEBERLASSUNG"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "ausfuehrungsdatum": "2024-03-11T23:00:00Z",
+          "mindestpreis": {
+            "einheit": "EUR"
+          },
+          "positionsdaten": [
+            {
+              "positionsnummer": 1,
+              "positionsnummerAngebot": "45454566",
+              "artikelnummer": "ZAEHLEINRICHTUNG",
+              "positionsbetrag": "250",
+              "istBestand": "24",
+              "allgemeineInformationen": {
+                "info1": "TestText1"
+              }
+            }
+          ],
+          "berechnungspreis": 22,
+          "summeGesamt": 1250
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "5656565656",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "YASMINJA627075",
+      "sparte": "STROM",
+      "pruefidentifikator": "17001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Mustermann",
+          "eMailAdresse": "mustermann@mail.com"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "YASMINJA291082BGM",
+      "kategorie": "Z10",
+      "nachrichtendatum": "2024-04-01T11:58:00Z",
+      "nachrichtenreferenznummer": "YASMINJA291082",
+      "angebotsnummer": "124124121236",
+      "freitext": {
+        "freitext1": "TestText1"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "anfragekategorie": "SPERRUNG"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "ausfuehrungsdatum": "2024-05-31T22:00:00Z"
+        }
+      ],
+      "SPERRAUFTRAG": [
+        {
+          "boTyp": "SPERRAUFTRAG",
+          "versionStruktur": "1",
+          "treffpunkt": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "999",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "info1": "Mustermann",
+              "info2": "Max",
+              "info3": "von",
+              "info4": "zu",
+              "info5": "Dr."
+            }
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "746659",
+      "sparte": "STROM",
+      "pruefidentifikator": "17115",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "0234 56789 30"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "0234 56789 10"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "0234 56789 20"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "0234 56789 40"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "244908BGM",
+      "kategorie": "Z51",
+      "nachrichtendatum": "2024-04-01T10:43:00Z",
+      "nachrichtenreferenznummer": "244908"
+    },
+    "zusatzdaten": {}
+  }
+}

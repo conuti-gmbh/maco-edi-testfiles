@@ -1,0 +1,123 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann"
+            }
+          }
+        }
+      ],
+      "RECHNUNG": [
+        {
+          "boTyp": "RECHNUNG",
+          "versionStruktur": "1",
+          "rechnungsstatus": "ORIGINAL",
+          "storno": false,
+          "rechnungsdatum": "2024-04-01T12:49:00Z",
+          "faelligkeitsdatum": "2024-04-30T22:00:00Z",
+          "bearbeitungsdatum": "2024-04-01T11:49:00Z",
+          "referenzDokumentennummer": "ABC12345",
+          "rechnungsperiode": {
+            "startdatum": "2024-02-29T23:00:00Z",
+            "enddatum": "2024-03-31T22:00:00Z"
+          },
+          "gesamtbrutto": {
+            "wert": 1000,
+            "waehrung": "EUR"
+          },
+          "zuZahlen": {
+            "wert": 1000,
+            "waehrung": "EUR"
+          },
+          "steuerbetraege": [
+            {
+              "steuerkennzeichen": "UST_19",
+              "basiswert": 1000,
+              "steuerwert": 1000,
+              "waehrung": "EUR"
+            }
+          ],
+          "rechnungspositionen": [
+            {
+              "positionsnummer": 1,
+              "artikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_2_MSBG",
+              "positionsMenge": {
+                "wert": 1,
+                "einheit": "STUECK"
+              },
+              "einzelpreis": {
+                "wert": 1000,
+                "waehrung": "EUR"
+              },
+              "teilsummeNetto": {
+                "wert": 1000,
+                "waehrung": "EUR"
+              },
+              "teilsummeSteuer": {
+                "steuerkennzeichen": "UST_19"
+              },
+              "ausfuehrungsdatum": "2024-04-30T22:00:00Z"
+            }
+          ],
+          "istSelbstausgestellt": false,
+          "rechnungstyp": "MSBRECHNUNG"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "565586",
+      "sparte": "STROM",
+      "pruefidentifikator": "31009",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "name1": "Mustermann",
+        "gewerbekennzeichnung": false,
+        "steuernummer": "12345678910",
+        "partneradresse": {
+          "postleitzahl": "12345",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "name1": "Mustermann",
+        "gewerbekennzeichnung": false,
+        "partneradresse": {
+          "postleitzahl": "12345",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "dokumentennummer": "151151BGM",
+      "kategorie": "380",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-01T12:49:00Z",
+      "nachrichtenreferenznummer": "151151"
+    },
+    "zusatzdaten": {}
+  }
+}

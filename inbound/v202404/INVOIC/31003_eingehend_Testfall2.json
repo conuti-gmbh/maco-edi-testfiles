@@ -1,0 +1,145 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "messadresse": {
+            "postleitzahl": "55555",
+            "ort": "Ort",
+            "strasse": "Str.",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          }
+        }
+      ],
+      "RECHNUNG": [
+        {
+          "boTyp": "RECHNUNG",
+          "versionStruktur": "1",
+          "rechnungsstatus": "ORIGINAL",
+          "storno": false,
+          "rechnungsdatum": "2024-02-08T07:57:00Z",
+          "faelligkeitsdatum": "2024-05-30T22:00:00Z",
+          "bearbeitungsdatum": "2024-02-08T07:57:00Z",
+          "referenzDokumentennummer": "ABC1234567",
+          "gesamtbrutto": {
+            "wert": 1500,
+            "waehrung": "EUR"
+          },
+          "zuZahlen": {
+            "wert": 2000,
+            "waehrung": "EUR"
+          },
+          "steuerbetraege": [
+            {
+              "steuerkennzeichen": "UST_19",
+              "basiswert": 2500,
+              "steuerwert": 500,
+              "waehrung": "EUR"
+            }
+          ],
+          "rechnungspositionen": [
+            {
+              "positionsnummer": 1,
+              "artikelnummer": "ZAEHLEINRICHTUNG",
+              "positionsMenge": {
+                "wert": 1,
+                "einheit": "STUECK"
+              },
+              "einzelpreis": {
+                "wert": 100,
+                "waehrung": "EUR"
+              },
+              "teilsummeNetto": {
+                "wert": 1000,
+                "waehrung": "EUR"
+              },
+              "teilsummeSteuer": {
+                "steuerkennzeichen": "UST_19"
+              },
+              "ausfuehrungsdatum": "2024-01-31T23:00:00Z"
+            }
+            {
+              "positionsnummer": 2,
+              "artikelnummer": "TECHNISCHE_STEUEREINRICHTUNG",
+              "positionsMenge": {
+                "wert": 1,
+                "einheit": "STUECK"
+              },
+              "einzelpreis": {
+                "wert": 750,
+                "waehrung": "EUR"
+              },
+              "teilsummeNetto": {
+                "wert": 750,
+                "waehrung": "EUR"
+              },
+              "teilsummeSteuer": {
+                "steuerkennzeichen": "UST_19"
+              },
+              "ausfuehrungsdatum": "2024-01-31T23:00:00Z"
+            }
+          ],
+          "istSelbstausgestellt": false,
+          "ausfuehrungsdatum": "2024-01-31T23:00:00Z",
+          "rechnungstyp": "WIMRECHNUNG"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "183303",
+      "sparte": "STROM",
+      "pruefidentifikator": "31003",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "name1": "MSB",
+        "gewerbekennzeichnung": true,
+        "steuernummer": "123456789",
+        "partneradresse": {
+          "postleitzahl": "12345",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "name1": "LF",
+        "gewerbekennzeichnung": true,
+        "steuernummer": "123456789",
+        "partneradresse": {
+          "postleitzahl": "54321",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "dokumentennummer": "245182BGM",
+      "kategorie": "380",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-02-08T07:57:00Z",
+      "nachrichtenreferenznummer": "245182"
+    },
+    "zusatzdaten": {}
+  }
+}

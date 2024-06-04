@@ -1,0 +1,95 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AVIS": [
+        {
+          "boTyp": "AVIS",
+          "versionStruktur": "1",
+          "avisNummer": "BGM12345",
+          "avisTyp": "ABGELEHNTE_FORDERUNG",
+          "positionen": [
+            {
+              "zuZahlen": {
+                "wert": 5000,
+                "waehrung": "EUR"
+              },
+              "gesamtBrutto": {
+                "wert": 0,
+                "waehrung": "EUR"
+              },
+              "abweichung": [
+                {
+                  "abweichungsgrundBemerkung": "Rechnung entspricht nicht Â§14 UstG",
+                  "abweichungsgrundCodeliste": "E_0503",
+                  "abweichungsgrundCode": "A01"
+                },
+                {
+                  "abweichungsgrundCodeliste": "E_0506",
+                  "abweichungsgrundCode": "A04"
+                }
+              ],
+              "rechnungsNummer": "BGM111111111",
+              "rechnungsDatum": "2024-03-01T12:00:00Z",
+              "istStorno": false,
+              "istSelbstausgestellt": false,
+              "referenz": "ABC123456"
+            },
+            {
+              "zuZahlen": {
+                "wert": 7000,
+                "waehrung": "EUR"
+              },
+              "gesamtBrutto": {
+                "wert": 0,
+                "waehrung": "EUR"
+              },
+              "abweichung": [
+                {
+                  "abweichungsgrundBemerkung": "Blabla",
+                  "abweichungsgrundCodeliste": "E_0503",
+                  "abweichungsgrundCode": "A01"
+                }
+              ],
+              "rechnungsNummer": "BGM235555",
+              "rechnungsDatum": "2024-03-01T12:00:00Z",
+              "istStorno": false,
+              "istSelbstausgestellt": false
+            }
+          ],
+          "zuZahlen": {
+            "wert": 0,
+            "waehrung": "EUR"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "166216",
+      "sparte": "STROM",
+      "pruefidentifikator": "33002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "239",
+      "nachrichtendatum": "2024-04-03T11:48:00Z",
+      "nachrichtenreferenznummer": "494930",
+      "vorgangsreferenznummer": "ABC123456"
+    },
+    "zusatzdaten": {}
+  }
+}

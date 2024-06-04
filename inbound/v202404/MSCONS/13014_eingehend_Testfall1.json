@@ -1,0 +1,53 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50702761898",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2022-09-03T22:00:00Z",
+              "enddatum": "2023-02-28T23:00:00Z",
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "1-0:1.98.0",
+              "wert": 832.438,
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "000005097908",
+      "sparte": "STROM",
+      "pruefidentifikator": "13014",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900772000000",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905079000000",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "000005097908",
+      "kategorie": "Z23",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2023-10-04T22:29:00Z",
+      "nachrichtenreferenznummer": "000005097908",
+      "typ": "EM"
+    },
+    "zusatzdaten": {}
+  }
+}

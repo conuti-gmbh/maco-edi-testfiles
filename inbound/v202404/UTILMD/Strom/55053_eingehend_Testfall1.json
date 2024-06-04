@@ -1,0 +1,52 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE00713739359S0000000000001222221",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LUKAU3IJ",
+      "sparte": "STROM",
+      "transaktionsgrund": "E01",
+      "vorgangsnummer": "00FEFA53",
+      "pruefidentifikator": "55053",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "LUHMH109",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-03-27T22:00:00Z",
+      "nachrichtenreferenznummer": "LUAGYA0I",
+      "anfragereferenznummer": "NNV1000",
+      "antwortstatus": "E17",
+      "antwortstatusCodeliste": "S_0060"
+    },
+    "zusatzdaten": {}
+  }
+}

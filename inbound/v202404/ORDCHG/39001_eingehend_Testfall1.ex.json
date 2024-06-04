@@ -1,0 +1,43 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "ENTSPERRUNG"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "602713",
+      "sparte": "STROM",
+      "pruefidentifikator": "39001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "ABC123456",
+      "kategorie": "Z52",
+      "nachrichtenfunktion": "1",
+      "nachrichtendatum": "2024-04-01T12:00:00Z",
+      "nachrichtenreferenznummer": "078603",
+      "auftragsReferenz": "ABC12345678910",
+      "anfragereferenznummer": "1"
+    },
+    "zusatzdaten": {}
+  }
+}

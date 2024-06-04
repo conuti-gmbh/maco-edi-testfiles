@@ -1,0 +1,122 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "netzebenemessung": "NSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "EHZ1234",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+          "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+          "tarifart": "EINTARIF",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.8.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "konfiguration": "34590456ujdfsdghdlktztwqq 053trg",
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "gateway": "1LGZ0063539421",
+          "fernschaltung": "NICHT_VORHANDEN",
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "zaehlertypspezifikation": "MME_MEDA",
+          "befestigungsart": "STECKTECHNIK",
+          "geraete": [
+            {
+              "geraetenummer": "2134234",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "LTE_KOM"
+              }
+            },
+            {
+              "geraetenummer": "1LGZ0063539421",
+              "geraeteeigenschaften": {
+                "geraetetyp": "SMARTMETERGATEWAY"
+              }
+            },
+            {
+              "geraetenummer": "1LGZ0063539422",
+              "geraeteeigenschaften": {
+                "geraetetyp": "STEUERBOX"
+              }
+            }
+          ]
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "248467",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "979402574",
+      "pruefidentifikator": "55149",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "875911BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-17T10:03:00Z",
+      "nachrichtenreferenznummer": "875911",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "S_0038"
+    },
+    "zusatzdaten": {}
+  }
+}

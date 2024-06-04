@@ -1,0 +1,201 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "messadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann",
+              "zusatz2": "Max",
+              "zusatz3": "von",
+              "zusatz4": "zu",
+              "zusatz5": "Dr."
+            }
+          },
+          "gasqualitaet": "H_GAS",
+          "zaehlwerke": [
+            {
+              "messprodukt": "9991000000408"
+            }
+          ],
+          "betriebszustand": "REGELBETRIEB",
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "marktrollen": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "MSB",
+              "weiterverpflichtet": true
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "GMSB"
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9800110000002",
+              "marktrolle": "MSBA"
+            }
+          ]
+        }
+      ],
+      "MESSSTELLENBETRIEBSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+          "sparte": "GAS",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ]
+            }
+          ],
+          "vertragskonditionen": {
+            "geplanteTurnusablesung": {
+              "ableseZeitraum": "0101"
+            }
+          },
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "anrede": "Dr.",
+            "name1": "Mustermann",
+            "name2": "Max",
+            "name3": "von",
+            "name4": "zu",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          },
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "EL001IK01013852469",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "zaehlertyp": "BALGENGASZAEHLER",
+          "zaehlwerke": [
+            {
+              "bezeichnung": "ABC",
+              "obisKennzahl": "7-1:3.0.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "messwerterfassung": "FERNAUSLESBAR",
+          "befestigungsart": "EINSTUTZEN",
+          "zaehlergroesse": "GAS_G10",
+          "geraete": [
+            {
+              "geraetenummer": "MDRG123456",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MESSDATENREGISTRIERGERAET"
+              }
+            },
+            {
+              "geraetenummer": "MUW12345",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MENGENUMWERTER",
+                "geraetemerkmal": "DICHTEMENGENUMWERTER",
+                "volumenerfassung": "SCHLEICHMENGENUNTERDRUECKUNG"
+              }
+            },
+            {
+              "geraetenummer": "LTE12345",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "LTE_KOM"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "518788",
+      "sparte": "GAS",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "2035862642",
+      "pruefidentifikator": "44169",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "644038BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-05-23T07:00:00Z",
+      "nachrichtenreferenznummer": "644038",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "E15",
+      "antwortstatusCodeliste": "G_0070",
+      "datumleistungsbeginn": "2024-06-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

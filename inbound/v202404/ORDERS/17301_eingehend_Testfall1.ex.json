@@ -1,0 +1,58 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "anfragekategorie": "STAMMDATEN_MALO_ODER_MELO",
+          "anfragetyp": "START_ABO"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "ausfuehrungsdatum": "2023-10-31T23:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "117694",
+      "sparte": "STROM",
+      "pruefidentifikator": "17301",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9978730000007",
+        "rollencodetyp": "GLN"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "221857BGM",
+      "kategorie": "Z14",
+      "nachrichtendatum": "2024-04-01T13:55:00Z",
+      "nachrichtenreferenznummer": "221857"
+    },
+    "zusatzdaten": {}
+  }
+}

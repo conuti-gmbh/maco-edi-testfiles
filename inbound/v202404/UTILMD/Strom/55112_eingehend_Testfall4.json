@@ -1,0 +1,66 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "TECHNISCHE_RESSOURCE": [
+        {
+          "boTyp": "TECHNISCHE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "D417MLM8164",
+          "sparte": "STROM",
+          "referenzMesslokation": "DE0032106765712000000000000000037",
+          "referenzMarktlokation": "50074561188",
+          "referenzNetzlokation": "E1688117482",
+          "referenzSteuerbareRessource": "C816417ST77",
+          "nennleistung": {
+            "aufnahme": 500,
+            "abgabe": 750
+          },
+          "speicherkapazitaet": 1000,
+          "speicherart": "BATTERIESPEICHER",
+          "enwg": true,
+          "weitereEinrichtung": true,
+          "art": "SPEICHER"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "164603",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZE7",
+      "vorgangsnummer": "725673070",
+      "pruefidentifikator": "55112",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "322173BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T08:01:00Z",
+      "nachrichtenreferenznummer": "322173",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

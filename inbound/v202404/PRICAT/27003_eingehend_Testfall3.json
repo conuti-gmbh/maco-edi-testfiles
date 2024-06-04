@@ -1,0 +1,68 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "PREISBLATT": [
+        {
+          "boTyp": "PREISBLATT",
+          "versionStruktur": "1",
+          "gueltigkeit": {
+            "startdatum": "2024-12-31T23:00:00Z"
+          },
+          "preispositionen": [
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 1.23456,
+                  "staffelgrenzeVon": 10,
+                  "staffelgrenzeBis": 20
+                }
+              ],
+              "positionsnummer": 1,
+              "artikelId": "1-08-3-12345678"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 1.23456
+                }
+              ],
+              "positionsnummer": 2,
+              "artikelId": "1-08-3-12345678"
+            }
+          ],
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "119477",
+      "sparte": "STROM",
+      "pruefidentifikator": "27003",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900371000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903526000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "861628BGM",
+      "kategorie": "Z70",
+      "nachrichtendatum": "2024-05-02T09:50:00Z",
+      "nachrichtenreferenznummer": "861628",
+      "vorgangsreferenznummer": "123465"
+    },
+    "zusatzdaten": {}
+  }
+}

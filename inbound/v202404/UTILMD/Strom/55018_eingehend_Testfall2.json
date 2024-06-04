@@ -1,0 +1,48 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "125532",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "399126623",
+      "pruefidentifikator": "55018",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "758672BGM",
+      "kategorie": "E35",
+      "nachrichtendatum": "2024-04-01T06:34:00Z",
+      "nachrichtenreferenznummer": "758672",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "A07",
+      "antwortstatusCodeliste": "E_0400",
+      "datumKuendigungKd": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

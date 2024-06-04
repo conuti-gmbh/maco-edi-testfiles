@@ -1,0 +1,49 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50608284019",
+          "sparte": "GAS"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "625690",
+      "sparte": "GAS",
+      "transaktionsgrund": "E03",
+      "transaktionsgrundergaenzung": "E03",
+      "vorgangsnummer": "385407992",
+      "pruefidentifikator": "44003",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870016000000",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800080300003",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "873731BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-03T07:48:00Z",
+      "nachrichtenreferenznummer": "873731",
+      "anfragereferenznummer": "ABC123456",
+      "antwortstatus": "ZC5",
+      "antwortstatusCodeliste": "G_0011",
+      "naechsteBearbeitung": "2024-05-01T04:00:00Z",
+      "lieferbeginndatuminbearbeitung": "2024-05-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

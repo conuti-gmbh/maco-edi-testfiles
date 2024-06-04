@@ -1,0 +1,54 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50359445704",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsende": "2024-10-27T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "401309049419",
+      "sparte": "STROM",
+      "transaktionsgrund": "E03",
+      "vorgangsnummer": "2P_00000000000319961872",
+      "pruefidentifikator": "55016",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904383000003",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905079000000",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "000276528014",
+      "kategorie": "E35",
+      "nachrichtendatum": "2024-04-01T22:42:00Z",
+      "nachrichtenreferenznummer": "000276528014",
+      "identifikationslogik": "Z12"
+    },
+    "zusatzdaten": {}
+  }
+}

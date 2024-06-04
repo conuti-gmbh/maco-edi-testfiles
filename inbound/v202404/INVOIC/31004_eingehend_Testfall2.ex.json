@@ -1,0 +1,116 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "51071564898",
+          "sparte": "GAS",
+          "lokationsadresse": {
+            "postleitzahl": "56567",
+            "ort": "Neuwied",
+            "strasse": "Irlicher Str.",
+            "hausnummer": "42",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Meldepunkt 51071564898"
+            }
+          }
+        }
+      ],
+      "RECHNUNG": [
+        {
+          "boTyp": "RECHNUNG",
+          "versionStruktur": "1",
+          "rechnungsstatus": "ORIGINAL",
+          "storno": true,
+          "rechnungsdatum": "2024-04-01T23:00:00Z",
+          "faelligkeitsdatum": "2023-10-08T22:00:00Z",
+          "bearbeitungsdatum": "2023-10-09T13:44:00Z",
+          "originalRechnungsnummer": "01-ARV-2022-723268",
+          "referenzNachrichtendatum": "2023-02-12T23:00:00Z",
+          "rechnungsperiode": {
+            "startdatum": "2022-01-01T05:00:00Z",
+            "enddatum": "2023-01-01T05:00:00Z"
+          },
+          "gesamtbrutto": {
+            "wert": -548.33,
+            "waehrung": "EUR"
+          },
+          "zuZahlen": {
+            "wert": -42.33,
+            "waehrung": "EUR"
+          },
+          "steuerbetraege": [
+            {
+              "steuerkennzeichen": "UST_19",
+              "basiswert": -460.78,
+              "steuerwert": -87.55,
+              "waehrung": "EUR",
+              "basiswertVorausbezahlt": -506.00,
+              "steuerwertVorausbezahhlt": -80.74
+            }
+          ],
+          "istSelbstausgestellt": false,
+          "rechnungstyp": "TURNUSRECHNUNG",
+          "vorauszahlungen": {
+            "betrag": {
+              "wert": -506.00,
+              "waehrung": "EUR"
+            }
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "C3AAAAAAAERWMU",
+      "sparte": "GAS",
+      "pruefidentifikator": "31004",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870033500009",
+        "rollencodetyp": "DVGW",
+        "name1": "Stadtwerke Neuwied GmbH Gas",
+        "gewerbekennzeichnung": true,
+        "umsatzsteuerId": "DE149519568",
+        "partneradresse": {
+          "postleitzahl": "56564",
+          "ort": "Neuwied",
+          "strasse": "Hafenstr.",
+          "hausnummer": "90",
+          "landescode": "DE"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800130000008",
+        "rollencodetyp": "DVGW",
+        "name1": "SCHARR WAERME GmbH & Co. KG",
+        "name3": "Gas_Lieferant",
+        "gewerbekennzeichnung": true,
+        "umsatzsteuerId": "DE234716924",
+        "partneradresse": {
+          "postleitzahl": "26844",
+          "ort": "Jemgum",
+          "strasse": "Nendorpderstr.",
+          "hausnummer": "15",
+          "landescode": "DE"
+        }
+      },
+      "dokumentennummer": "01-RKV-2023-601493",
+      "kategorie": "457",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-01T23:00:00Z",
+      "nachrichtenreferenznummer": "1"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "HANDELSUNSTIMMIGKEIT": [
+        {
+          "boTyp": "HANDELSUNSTIMMIGKEIT",
+          "versionStruktur": "1",
+          "nummer": "P1000947628969",
+          "typ": "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+          "begruendung": {
+            "grund": "SONSTIGES_SIEHE_BEGRUENDUNG",
+            "hinweis": "Nach unserer Pruefung stimmen die Energiemengen ueberein."
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "P1000947962141",
+      "sparte": "STROM",
+      "pruefidentifikator": "29002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900496000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Marktpartnerservice EWE NETZ GmbH",
+          "eMailAdresse": "Marktpartnerservice@ewe-netz.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "+044148081195"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+044148085454"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905079000000",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "P1000947962142",
+      "kategorie": "739",
+      "nachrichtendatum": "2024-04-03T21:12:00Z",
+      "nachrichtenreferenznummer": "P1000947962142",
+      "antwortstatusCodeliste": "S_0108"
+    },
+    "zusatzdaten": {}
+  }
+}

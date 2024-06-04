@@ -1,0 +1,82 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AVIS": [
+        {
+          "boTyp": "AVIS",
+          "versionStruktur": "1",
+          "avisNummer": "MSI5422",
+          "avisTyp": "ABGELEHNTE_FORDERUNG",
+          "positionen": [
+            {
+              "zuZahlen": {
+                "wert": 10000,
+                "waehrung": "EUR"
+              },
+              "gesamtBrutto": {
+                "wert": 0,
+                "waehrung": "EUR"
+              },
+              "abweichung": [
+                {
+                  "abweichungsgrundBemerkung": "Korrekturrechnung nicht zulÃ¤ssig",
+                  "abweichungsgrundCodeliste": "E_0243",
+                  "abweichungsgrundCode": "A01"
+                }
+              ],
+              "rechnungsNummer": "458011",
+              "rechnungsDatum": "2023-06-03T22:00:00Z",
+              "istStorno": false,
+              "istSelbstausgestellt": false,
+              "referenz": "COMDIS-123"
+            }
+          ],
+          "zuZahlen": {
+            "wert": 0,
+            "waehrung": "EUR"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "SEBAS126271264",
+      "sparte": "STROM",
+      "pruefidentifikator": "33002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900051000002",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "D BOWEN",
+          "eMailAdresse": "kontakt@mail.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+004922271020"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9910046000008",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "MSI5422",
+      "kategorie": "239",
+      "nachrichtendatum": "2024-04-01T22:00:00Z",
+      "nachrichtenreferenznummer": "1",
+      "vorgangsreferenznummer": "COMDIS-123"
+    },
+    "zusatzdaten": {}
+  }
+}

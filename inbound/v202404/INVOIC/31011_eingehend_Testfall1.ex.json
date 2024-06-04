@@ -1,0 +1,115 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "lokationsadresse": {
+            "postleitzahl": "55555",
+            "ort": "Ort",
+            "landescode": "DE"
+          }
+        }
+      ],
+      "RECHNUNG": [
+        {
+          "boTyp": "RECHNUNG",
+          "versionStruktur": "1",
+          "rechnungsstatus": "ORIGINAL",
+          "storno": false,
+          "rechnungsdatum": "2024-04-01T12:21:00Z",
+          "faelligkeitsdatum": "2023-10-19T22:00:00Z",
+          "bearbeitungsdatum": "2023-10-05T12:21:00Z",
+          "referenzDokumentennummer": "12345",
+          "gesamtbrutto": {
+            "wert": 5000,
+            "waehrung": "EUR"
+          },
+          "zuZahlen": {
+            "wert": 5000,
+            "waehrung": "EUR"
+          },
+          "steuerbetraege": [
+            {
+              "steuerkennzeichen": "UST_19",
+              "basiswert": 5000,
+              "steuerwert": 5000,
+              "waehrung": "EUR"
+            }
+          ],
+          "rechnungspositionen": [
+            {
+              "positionsnummer": 1,
+              "artikelnummer": "2-01-7-001",
+              "positionsMenge": {
+                "wert": 1,
+                "einheit": "STUECK"
+              },
+              "einzelpreis": {
+                "wert": 5000,
+                "waehrung": "EUR"
+              },
+              "teilsummeNetto": {
+                "wert": 5000,
+                "waehrung": "EUR"
+              },
+              "teilsummeSteuer": {
+                "steuerkennzeichen": "UST_19"
+              },
+              "ausfuehrungsdatum": "2023-09-14T22:00:00Z"
+            }
+          ],
+          "istSelbstausgestellt": false,
+          "ausfuehrungsdatum": "2023-09-14T22:00:00Z",
+          "rechnungstyp": "SPERRUNG_INBETRIEBNAHME"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "365037",
+      "sparte": "STROM",
+      "pruefidentifikator": "31011",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW",
+        "name1": "Netzbetreiber",
+        "gewerbekennzeichnung": true,
+        "steuernummer": "12345678910",
+        "partneradresse": {
+          "postleitzahl": "12345",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "name1": "Lieferant",
+        "gewerbekennzeichnung": true,
+        "partneradresse": {
+          "postleitzahl": "54321",
+          "ort": "Ort",
+          "landescode": "DE"
+        }
+      },
+      "dokumentennummer": "687907BGM",
+      "kategorie": "380",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-04-01T12:21:00Z",
+      "nachrichtenreferenznummer": "687907"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "KOMMUNIKATIONSDATEN": [
+        {
+          "boTyp": "KOMMUNIKATIONSDATEN",
+          "versionStruktur": "1",
+          "marktteilnehmer": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "kommunikationsparameter": {
+              "zieladresse": {
+                "zieladresse1": "https://api.firma.de/api:8443",
+                "zieladresse2": "X",
+                "zieladresse3": "X",
+                "zieladresse4": "X",
+                "zieladresse5": "X"
+              },
+              "zertifikatsAussteller": {
+                "zertifikatsAussteller1": "CN = T-Systems-EnergyCA.CA, O = SM-PKI-DE, C = DE, SERIALNUMBER = 3",
+                "zertifikatsAussteller2": "X",
+                "zertifikatsAussteller3": "X",
+                "zertifikatsAussteller4": "X",
+                "zertifikatsAussteller5": "X"
+              },
+              "zertifikatsNutzer": {
+                "zertifikatsNutzer1": "CN = Firma.EMT.Erweiterung, O = SM-PKI-DE, C = DE, SERIALNUMBER = 1, L = Stadt",
+                "zertifikatsNutzer2": "X",
+                "zertifikatsNutzer3": "X",
+                "zertifikatsNutzer4": "X",
+                "zertifikatsNutzer5": "X"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "179480",
+      "sparte": "STROM",
+      "pruefidentifikator": "37007",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "306714BGM",
+      "kategorie": "Z87",
+      "nachrichtendatum": "2024-04-01T06:23:00Z",
+      "nachrichtenreferenznummer": "306714",
+      "anwendungsreferenznummer": "1"
+    },
+    "zusatzdaten": {}
+  }
+}

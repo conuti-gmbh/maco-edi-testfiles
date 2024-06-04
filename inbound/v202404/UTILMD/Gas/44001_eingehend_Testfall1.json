@@ -1,0 +1,190 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "sparte": "GAS",
+          "lokationsadresse": {
+            "postleitzahl": "12345",
+            "ort": "Ort",
+            "strasse": "Str",
+            "hausnummer": "1",
+            "landescode": "DE",
+            "zusatzInformation": {
+              "zusatz1": "Mustermann"
+            }
+          },
+          "zaehlwerke": [
+            {
+              "konzessionsabgabe": {
+                "satz": "TAS",
+                "kosten": 0.11,
+                "kategorie": "0.05"
+              }
+            }
+          ]
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "sparte": "GAS",
+          "ablesekartenempfaenger": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "name1": "Mustermann",
+            "gewerbekennzeichnung": false,
+            "geschaeftspartnerrolle": [
+              "ABLESEKARTENEMPFAENGER"
+            ],
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-06-01T04:00:00Z",
+          "vertragsende": "2024-07-01T04:00:00Z",
+          "vertragskonditionen": {
+            "haushaltskunde": true,
+            "netznutzungsvertrag": "LIEFERANTEN_NB",
+            "netznutzungszahler": "LIEFERANT"
+          },
+          "gemeinderabatt": 0
+        }
+      ],
+      "ENERGIELIEFERVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "ENERGIELIEFERVERTRAG",
+          "sparte": "GAS",
+          "vertragspartner2": [
+            {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "KUNDE"
+              ],
+              "externeReferenzen": [
+                {
+                  "exRefName": "Kundennummer beim Altlieferanten",
+                  "exRefWert": "ABC11111"
+                },
+                {
+                  "exRefName": "Kundennummer beim Lieferanten",
+                  "exRefWert": "ABC12345"
+                }
+              ]
+            }
+          ],
+          "vertragskonditionen": {
+            "abrechnungsintervall": 12
+          },
+          "korrespondenzpartner": {
+            "boTyp": "GESCHAEFTSPARTNER",
+            "versionStruktur": "1",
+            "name1": "Mustermann",
+            "gewerbekennzeichnung": false,
+            "partneradresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE"
+            }
+          }
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "G12345",
+          "sparte": "GAS"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "lastprofile": [
+            {
+              "bezeichnung": "H0",
+              "verfahren": "ANALYTISCH",
+              "einspeisung": false,
+              "profilart": "ART_LASTPROFIL",
+              "herausgeber": "TUM"
+            }
+          ],
+          "bilanzkreis": "11Y0-0000-0076-N",
+          "jahresverbrauchsprognose": {
+            "wert": 5000,
+            "einheit": "KWH"
+          },
+          "kundenwert": {
+            "wert": 10
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "233808",
+      "sparte": "GAS",
+      "transaktionsgrund": "E03",
+      "transaktionsgrundergaenzung": "E01",
+      "vorgangsnummer": "1452176992",
+      "pruefidentifikator": "44001",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "417738BGM",
+      "kategorie": "E01",
+      "nachrichtendatum": "2024-04-11T10:51:00Z",
+      "nachrichtenreferenznummer": "417738",
+      "freitext": {
+        "freitext1": "Blabla"
+      },
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11Y0-0000-0076-N",
+          "prioritaet": 1
+        },
+        {
+          "bezeichnung": "11Y0-0000-0077-N",
+          "prioritaet": 2
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

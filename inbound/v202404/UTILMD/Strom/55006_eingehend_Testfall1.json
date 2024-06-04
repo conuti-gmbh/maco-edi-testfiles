@@ -1,0 +1,64 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "51216620950",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "lokationsId": "51216620950",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "51216620950"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "D0000000762312",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZT4",
+      "vorgangsnummer": "VID00000000002244135231010104605000",
+      "pruefidentifikator": "55006",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "UT0000377481",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-04-01T08:46:00Z",
+      "nachrichtenreferenznummer": "UT0000377481",
+      "anfragereferenznummer": "PCL_7823101008565599050790000006659",
+      "antwortstatus": "A07",
+      "antwortstatusCodeliste": "E_0401"
+    },
+    "zusatzdaten": {}
+  }
+}

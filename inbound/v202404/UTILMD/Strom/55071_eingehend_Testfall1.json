@@ -1,0 +1,86 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "sparte": "STROM",
+          "bilanzierungsgebiet": "11Y0-0000-0411- 5"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "bilanzierungsbeginn": "2024-03-31T22:00:00Z",
+          "bilanzkreis": "11YW-KARLSRUH--7",
+          "zeitreihentyp": "SLS"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "MST1229112324",
+      "sparte": "STROM",
+      "vorgangsnummer": "MST1407607097",
+      "pruefidentifikator": "55071",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903913000003",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "M Mustermann",
+          "eMailAdresse": "kontakt@mail.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "016090531344"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "016090531343"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "016090531342"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "016090531345"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900327000009",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "MKIDI5422",
+      "kategorie": "Z17",
+      "nachrichtendatum": "2024-04-01T07:52:00Z",
+      "nachrichtenreferenznummer": "MST49764349950",
+      "beteiligterMarktpartner": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903328000002",
+        "rollencodetyp": "BDEW"
+      },
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11YW-KARLSRUH--7"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

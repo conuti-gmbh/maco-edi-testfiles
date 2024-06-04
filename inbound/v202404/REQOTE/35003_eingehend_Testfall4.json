@@ -1,0 +1,59 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561189",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "messprodukt": "9991000000755"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "126897",
+      "sparte": "STROM",
+      "pruefidentifikator": "35003",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9984778000008",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "+012345678910"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9906485000006",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z57",
+      "nachrichtendatum": "2024-04-03T13:06:00Z",
+      "nachrichtenreferenznummer": "655479",
+      "positionsnummer": 1,
+      "lieferdatum": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

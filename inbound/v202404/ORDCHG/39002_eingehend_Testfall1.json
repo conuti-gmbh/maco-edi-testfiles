@@ -1,0 +1,43 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "storno": true,
+          "anfragekategorie": "UEBERMITTLUNG_WERTE_AN_ESA"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "469581",
+      "sparte": "STROM",
+      "pruefidentifikator": "39002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900599000001",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905058000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z57",
+      "nachrichtenfunktion": "1",
+      "nachrichtendatum": "2024-03-21T11:27:00Z",
+      "nachrichtenreferenznummer": "895951",
+      "auftragsReferenz": "LS9JI9N0"
+    },
+    "zusatzdaten": {}
+  }
+}

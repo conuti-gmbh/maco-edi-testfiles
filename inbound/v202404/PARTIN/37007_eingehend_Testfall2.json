@@ -1,0 +1,41 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "KOMMUNIKATIONSDATEN": [
+        {
+          "boTyp": "KOMMUNIKATIONSDATEN",
+          "versionStruktur": "1",
+          "kommunikationsDatenBlattInaktiv": true
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "179480",
+      "sparte": "STROM",
+      "pruefidentifikator": "37007",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "306714BGM",
+      "kategorie": "Z87",
+      "nachrichtendatum": "2024-04-01T06:23:00Z",
+      "nachrichtenreferenznummer": "306714",
+      "anwendungsreferenznummer": "1"
+    },
+    "zusatzdaten": {}
+  }
+}

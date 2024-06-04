@@ -1,0 +1,106 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "GAS123456",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "zaehlertyp": "BALGENGASZAEHLER",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "7-20:3.0.0",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "zaehlergroesse": "GAS_G10",
+          "geraete": [
+            {
+              "geraetenummer": "MDR12346",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MESSDATENREGISTRIERGERAET"
+              }
+            },
+            {
+              "geraetenummer": "M123456",
+              "geraeteeigenschaften": {
+                "geraetetyp": "MENGENUMWERTER",
+                "geraetemerkmal": "DICHTEMENGENUMWERTER"
+              }
+            },
+            {
+              "geraetenummer": "DSL123456",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "DSL_KOM"
+              }
+            },
+            {
+              "geraetenummer": "7ELS9636042229",
+              "geraeteeigenschaften": {
+                "geraetetyp": "SMARTMETERGATEWAY"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "241530",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "1795171536",
+      "pruefidentifikator": "44145",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "312500BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:34:00Z",
+      "nachrichtenreferenznummer": "312500",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-07-01T04:00:00Z",
+      "antwortstatus": "ZG2",
+      "antwortstatusCodeliste": "G_0047"
+    },
+    "zusatzdaten": {}
+  }
+}

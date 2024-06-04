@@ -1,0 +1,52 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "AENDERUNG_PROGNOSEGRUNDLAGE_GERAETEKONFIGURATION"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "185421",
+      "sparte": "STROM",
+      "pruefidentifikator": "19121",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM123456",
+      "kategorie": "Z30",
+      "nachrichtendatum": "2024-04-03T09:26:00Z",
+      "nachrichtenreferenznummer": "468880",
+      "auftragsReferenz": "12345678910",
+      "antwortstatus": "A99",
+      "antwortstatusCodeliste": "E_0523",
+      "freitext": {
+        "freitext1": "Blabla"
+      }
+    },
+    "zusatzdaten": {}
+  }
+}

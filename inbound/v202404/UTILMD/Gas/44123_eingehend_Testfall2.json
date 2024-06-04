@@ -1,0 +1,63 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50605869880",
+          "sparte": "GAS"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "GAS",
+          "vertragsbeginn": "2024-07-01T04:00:00Z",
+          "lokationsId": "50605869880",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "prognosegrundlage": "WERTE",
+          "fallgruppenzuordnung": "GABI_RLMmT"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "196824",
+      "sparte": "GAS",
+      "transaktionsgrund": "ZF0",
+      "vorgangsnummer": "1378373906",
+      "pruefidentifikator": "44123",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800044300007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "152930BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T12:15:00Z",
+      "nachrichtenreferenznummer": "152930",
+      "gueltigAb": "2024-07-01T04:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

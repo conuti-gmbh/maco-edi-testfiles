@@ -1,0 +1,83 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM",
+          "energierichtung": "EINSP",
+          "bilanzierungsgebiet": "11YR00000002596Z",
+          "regelzone": "10YDE-RWENET---I",
+          "messtechnischeEinordnung": "KME_MME"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "lastprofile": [
+            {
+              "profilschar": "AB1",
+              "einspeisung": true
+            }
+          ],
+          "temperaturarbeit": {
+            "wert": 8,
+            "einheit": "KW"
+          },
+          "aggregationsverantwortung": "VNB",
+          "zeitreihentyp": "SES",
+          "prognosegrundlage": "PROFILE",
+          "detailsPrognosegrundlage": [
+            "TEP"
+          ],
+          "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "744637",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF8",
+      "vorgangsnummer": "369295651",
+      "pruefidentifikator": "55156",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "436183BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-16T09:09:00Z",
+      "nachrichtenreferenznummer": "436183",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

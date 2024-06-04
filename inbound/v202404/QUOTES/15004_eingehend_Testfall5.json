@@ -1,0 +1,102 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "WERTE_NACH_TYP2": [
+        {
+          "boTyp": "WERTE_NACH_TYP2",
+          "versionStruktur": "1",
+          "konfigurationsprodukt": "9991000000911",
+          "aenderungsmoeglichkeitKonfiguration": "NICHT_ERFORDERLICH",
+          "schwellwerte": [
+            {
+              "konfigurationsprodukt": "9991000000911",
+              "obererSchwellwert": 100.000,
+              "untererSchwellwert": 50.000
+            }
+          ]
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "anfragetyp": "NEUKONFIGURATION"
+        }
+      ],
+      "ANGEBOT": [
+        {
+          "boTyp": "ANGEBOT",
+          "versionStruktur": "1",
+          "anfragereferenz": "ABC123456",
+          "sparte": "STROM",
+          "varianten": [
+            {
+              "teile": [
+                {
+                  "positionen": [
+                    {
+                      "positionsbezeichung": "1",
+                      "artikelID": [
+                        "9991000000911-01",
+                        "9991000000911-02",
+                        "9991000000911-03"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "115081",
+      "sparte": "STROM",
+      "pruefidentifikator": "15004",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "01234567"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z74",
+      "nachrichtendatum": "2024-04-03T15:54:00Z",
+      "nachrichtenreferenznummer": "137936"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202310,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-12-31T23:00:00Z",
+              "enddatum": "2024-01-31T23:00:00Z",
+              "messwertstatus": "ABGELESEN",
+              "statuszusatzinformationen": [
+                {
+                  "art": "PLAUSIBILISIERUNGSHINWEIS",
+                  "status": "LEERSTAND"
+                },
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "VERGLEICHSMESSUNG_NICHT_GEEICHT"
+                },
+                {
+                  "art": "KORREKTURGRUND",
+                  "status": "DATENBEARBEITUNGSFEHLER"
+                },
+                {
+                  "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "GERAET_ARBEITET_AUSSERHALB_DER_BETRIEBSBEDINGUNGEN"
+                }
+              ],
+              "obiskennzahl": "1-1:1.9.0",
+              "wert": 1000,
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "188374",
+      "sparte": "STROM",
+      "pruefidentifikator": "13016",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "293840BGM",
+      "kategorie": "Z28",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-01-09T09:14:00Z",
+      "nachrichtenreferenznummer": "293840",
+      "typ": "EM",
+      "anfrageReferenz": "ABC123"
+    },
+    "zusatzdaten": {}
+  }
+}

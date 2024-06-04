@@ -1,0 +1,71 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS",
+          "messadresse": {
+            "postleitzahl": "12345",
+            "ort": "Testort",
+            "strasse": "Musterstrasse",
+            "hausnummer": "123",
+            "landescode": "DE",
+            "ortsteil": "Testortsteil",
+            "zusatzInformation": {
+              "zusatz1": "Hinterhof",
+              "zusatz2": "ganz",
+              "zusatz3": "am",
+              "zusatz4": "Ende",
+              "zusatz5": "links"
+            }
+          }
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "anfragekategorie": "STAMMDATEN_MALO_ODER_MELO"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "152343",
+      "sparte": "GAS",
+      "pruefidentifikator": "17104",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "566704BGM",
+      "kategorie": "Z14",
+      "nachrichtendatum": "2024-04-01T13:47:00Z",
+      "nachrichtenreferenznummer": "566704"
+    },
+    "zusatzdaten": {}
+  }
+}

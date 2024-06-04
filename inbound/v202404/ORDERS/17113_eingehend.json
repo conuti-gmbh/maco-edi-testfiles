@@ -1,0 +1,103 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "anfragekategorie": "REKLAMATION_VON_WERTEN",
+          "anfragetyp": "ZAEHLERSTAENDE",
+          "gueltigAb": "2024-03-15T23:00:00Z"
+        }
+      ],
+      "REKLAMATION": [
+        {
+          "boTyp": "REKLAMATION",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "obiskennzahl": "1-1:1.8.0",
+          "reklamationsgrund": "WERTE_ZU_HOCH",
+          "reklamationsgrundBemerkung": {
+            "bemerkung1": "BLABLA",
+            "bemerkung2": "111"
+          }
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1,
+              "obiskennzahl": "1-1:1.8.0"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "986679",
+      "sparte": "STROM",
+      "pruefidentifikator": "17113",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "+12345678910"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "+12345678910"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+12345678910"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "+12345678910"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "744915BGM",
+      "kategorie": "Z34",
+      "nachrichtendatum": "2024-04-03T10:04:00Z",
+      "nachrichtenreferenznummer": "744915",
+      "angebotsreferenz": "ABC1234"
+    },
+    "zusatzdaten": {}
+  }
+}

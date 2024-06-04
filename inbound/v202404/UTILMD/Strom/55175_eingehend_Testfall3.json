@@ -1,0 +1,170 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202410,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "NETZLOKATION": [
+        {
+          "boTyp": "NETZLOKATION",
+          "versionStruktur": "1",
+          "netzlokationsId": "E1688117482",
+          "sparte": "STROM",
+          "lokationszuordnung": "BEGINNT"
+        }
+      ],
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "lokationszuordnung": "UNVERAENDERT"
+        },
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000038",
+          "sparte": "STROM",
+          "lokationszuordnung": "UNVERAENDERT"
+        }
+      ],
+      "TECHNISCHE_RESSOURCE": [
+        {
+          "boTyp": "TECHNISCHE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "D417MLM8164",
+          "sparte": "STROM",
+          "lokationszuordnung": "BEGINNT"
+        }
+      ],
+      "STEUERBARE_RESSOURCE": [
+        {
+          "boTyp": "STEUERBARE_RESSOURCE",
+          "versionStruktur": "1",
+          "ressourcenId": "C816417ST77",
+          "sparte": "STROM",
+          "lokationszuordnung": "BEGINNT"
+        }
+      ],
+      "LOKATIONSBUENDEL": [
+        {
+          "boTyp": "LOKATIONSBUENDEL",
+          "versionStruktur": "1",
+          "lokationsbuendelstrukturId": "9992000000109",
+          "standardisierteLokationsbuendelstruktur": true,
+          "zuordnungObjectcode": [
+            {
+              "referenzLokationsTyp": "NELO",
+              "referenzLokationsId": "E1688117482",
+              "objectcode": [
+                {
+                  "objectcode": "9992000001256"
+                }
+              ]
+            },
+            {
+              "referenzLokationsTyp": "MALO",
+              "referenzLokationsId": "50074561188",
+              "objectcode": [
+                {
+                  "objectcode": "9992000001016"
+                }
+              ]
+            },
+            {
+              "referenzLokationsTyp": "MELO",
+              "referenzLokationsId": "DE0032106765712000000000000000037",
+              "objectcode": [
+                {
+                  "objectcode": "9992000001032"
+                }
+              ]
+            },
+            {
+              "referenzLokationsTyp": "MELO",
+              "referenzLokationsId": "DE0032106765712000000000000000038",
+              "objectcode": [
+                {
+                  "objectcode": "9992000001032"
+                }
+              ],
+              "vorgelagerteLokationTyp": "MELO",
+              "vorgelagerteLokationId": "DE0032106765712000000000000000037"
+            },
+            {
+              "referenzLokationsTyp": "TECHNISCHE_RESSOURCE",
+              "referenzLokationsId": "D417MLM8164",
+              "objectcode": [
+                {
+                  "objectcode": "9992000001024"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-10-30T23:00:00Z",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561189",
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "200188",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZI9",
+      "vorgangsnummer": "1344264506",
+      "pruefidentifikator": "55175",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "494851BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-10-15T07:22:00Z",
+      "nachrichtenreferenznummer": "494851",
+      "gueltigAb": "2024-10-30T23:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

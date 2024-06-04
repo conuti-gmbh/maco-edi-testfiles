@@ -1,0 +1,64 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2023-12-31T23:00:00Z",
+              "enddatum": "2024-03-15T23:00:00Z",
+              "messwertstatus": "ERSATZWERT",
+              "statuszusatzinformationen": [
+                {
+                  "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "INTERPOLATION"
+                },
+                {
+                  "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                  "status": "KEIN_ZUGANG"
+                }
+              ],
+              "obiskennzahl": "1-0:1.8.0",
+              "wert": 2000,
+              "position": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "177706",
+      "sparte": "STROM",
+      "pruefidentifikator": "13019",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "039126BGM",
+      "kategorie": "7",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-03-29T13:23:00Z",
+      "nachrichtenreferenznummer": "039126",
+      "typ": "EM",
+      "anfrageReferenz": "REF12345678910"
+    },
+    "zusatzdaten": {}
+  }
+}

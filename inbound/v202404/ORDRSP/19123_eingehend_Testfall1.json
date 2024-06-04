@@ -1,0 +1,44 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "REKLAMATION_ZAEHLZEITDEFINITION"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "721394",
+      "sparte": "STROM",
+      "pruefidentifikator": "19123",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z55",
+      "nachrichtendatum": "2024-04-03T08:53:00Z",
+      "nachrichtenreferenznummer": "204679",
+      "anfragereferenznummer": "ABC123456",
+      "auftragsReferenz": "123",
+      "antwortstatus": "A03",
+      "antwortstatusCodeliste": "E_0548"
+    },
+    "zusatzdaten": {}
+  }
+}

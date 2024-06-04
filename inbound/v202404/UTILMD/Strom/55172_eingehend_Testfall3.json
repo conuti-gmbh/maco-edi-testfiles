@@ -1,0 +1,81 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50074561188",
+          "sparte": "STROM",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:2.9.0",
+              "verwendungszwecke": [
+                {
+                  "marktrolle": "NB",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "UEBERMITTLUNG_AN_DAS_HKNR"
+                  ]
+                },
+                {
+                  "marktrolle": "LF",
+                  "zweck": [
+                    "BILANZKREISABRECHNUNG",
+                    "ENDKUNDENABRECHNUNG"
+                  ]
+                },
+                {
+                  "marktrolle": "UENB",
+                  "zweck": [
+                    "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                  ]
+                }
+              ]
+            }
+          ],
+          "referenzTranche": "50074561188"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "667814",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "263372045",
+      "pruefidentifikator": "55172",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "852983BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-22T10:01:00Z",
+      "nachrichtenreferenznummer": "852983",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

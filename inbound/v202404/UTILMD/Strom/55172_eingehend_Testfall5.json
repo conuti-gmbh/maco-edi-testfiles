@@ -1,0 +1,111 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "netzebenemessung": "NSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ],
+      "ZAEHLER": [
+        {
+          "boTyp": "ZAEHLER",
+          "versionStruktur": "1",
+          "zaehlernummer": "1LGZ0063539421",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM",
+          "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+          "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+          "tarifart": "EINTARIF",
+          "zaehlwerke": [
+            {
+              "obisKennzahl": "1-1:1.8.1",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            },
+            {
+              "obisKennzahl": "1-1:1.8.2",
+              "vorkommastelle": 7,
+              "nachkommastelle": 3,
+              "zaehlzeiten": {
+                "zaehlzeitDefinition": "ABC",
+                "register": "XYZ"
+              },
+              "wertegranularitaet": "JAEHRLICH"
+            }
+          ],
+          "fernschaltung": "NICHT_VORHANDEN",
+          "messwerterfassung": "MANUELL_AUSGELESENE",
+          "zaehlertypspezifikation": "MME_STANDARD",
+          "geraete": [
+            {
+              "geraetenummer": "1LGZ0063539421"
+            },
+            {
+              "geraetenummer": "WANDLER1",
+              "geraeteeigenschaften": {
+                "geraetetyp": "WANDLER",
+                "geraetemerkmal": "BLOCKSTROMWANDLER",
+                "faktor": 10
+              }
+            },
+            {
+              "geraetenummer": "ABC1234",
+              "geraeteeigenschaften": {
+                "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                "geraetemerkmal": "LTE_KOM"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "667814",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF5",
+      "vorgangsnummer": "263372045",
+      "pruefidentifikator": "55172",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "852983BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-22T10:01:00Z",
+      "nachrichtenreferenznummer": "852983",
+      "gueltigAb": "2024-06-30T22:00:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

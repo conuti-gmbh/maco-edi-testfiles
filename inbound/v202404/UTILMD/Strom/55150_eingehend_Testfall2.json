@@ -1,0 +1,67 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsbeginn": "2024-06-30T22:00:00Z"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "bilanzkreis": "11Y0-0000-0076-N"
+        }
+      ],
+      "TRANCHE": [
+        {
+          "boTyp": "TRANCHE",
+          "versionStruktur": "1",
+          "tranchenId": "50754153861",
+          "sparte": "STROM",
+          "referenzTranche": "50754153861",
+          "bilanzkreis": "11Y0-0000-0076-N"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "440871",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZF6",
+      "vorgangsnummer": "803266342",
+      "pruefidentifikator": "55150",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "514284BGM",
+      "kategorie": "E03",
+      "nachrichtendatum": "2024-04-03T09:14:00Z",
+      "nachrichtenreferenznummer": "514284",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "bilanzkreis": [
+        {
+          "bezeichnung": "11Y0-0000-0076-N"
+        }
+      ]
+    },
+    "zusatzdaten": {}
+  }
+}

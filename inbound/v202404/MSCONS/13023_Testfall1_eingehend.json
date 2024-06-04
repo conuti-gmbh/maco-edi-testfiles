@@ -1,0 +1,65 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ENERGIEMENGE": [
+        {
+          "boTyp": "ENERGIEMENGE",
+          "versionStruktur": "1",
+          "lokationsId": "DE0032106765712000000000000000037",
+          "lokationsTyp": "MELO",
+          "energieverbrauch": [
+            {
+              "startdatum": "2024-04-01T04:00:00Z",
+              "enddatum": "2024-04-01T04:15:00Z",
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "AUA",
+              "wert": 123,
+              "einheit": "KWH",
+              "position": 1
+            },
+            {
+              "startdatum": "2024-04-01T04:15:00Z",
+              "enddatum": "2024-04-01T04:30:00Z",
+              "messwertstatus": "ENERGIEMENGESUMMIERT",
+              "obiskennzahl": "AUA",
+              "wert": 5,
+              "einheit": "KWH",
+              "position": 1
+            }
+          ],
+          "fertigstellungsdatum": "2024-05-01T04:00:00Z",
+          "bilanzierungsdatum": "202404"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "113424",
+      "sparte": "STROM",
+      "pruefidentifikator": "13023",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "166256BGM",
+      "kategorie": "Z46",
+      "nachrichtenfunktion": "9",
+      "nachrichtendatum": "2024-05-07T07:57:00Z",
+      "nachrichtenreferenznummer": "166256",
+      "typ": "TL"
+    },
+    "zusatzdaten": {}
+  }
+}

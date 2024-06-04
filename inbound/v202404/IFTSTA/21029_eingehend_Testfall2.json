@@ -1,0 +1,57 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "STROM"
+        }
+      ],
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "ERSTEINBAUMME",
+          "auftragsstatus": "GEPLANT",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LU1QZ5U1",
+      "sparte": "STROM",
+      "pruefidentifikator": "21029",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGMLUAFXT2B",
+      "kategorie": "Z09",
+      "nachrichtendatum": "2024-04-03T12:42:00Z",
+      "nachrichtenreferenznummer": "UNHLTWLWT35",
+      "startdatum": "2024-05-31T22:00:00Z",
+      "enddatum": "2024-06-30T22:00:00Z",
+      "referenzMalo": "50074561188"
+    },
+    "zusatzdaten": {}
+  }
+}

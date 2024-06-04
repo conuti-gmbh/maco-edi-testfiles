@@ -1,0 +1,57 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "AD_HOC_STEUERKANAL": [
+        {
+          "boTyp": "AD_HOC_STEUERKANAL",
+          "versionStruktur": "1",
+          "zieladresse": {
+            "zieladresse1": "X"
+          },
+          "aussteller": {
+            "aussteller1": "SERIALNUMBER = 3, C = DE, O = SM-PKI-DE, CN = T-Systems-EnergyCA.CA"
+          },
+          "zertifikatsNutzer": {
+            "zertifikatsNutzer1": "X"
+          },
+          "IPAdresseCLSDevice": {
+            "IPAdresseCLSDevice1": "123.222.345.876"
+          }
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "194421",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZT9",
+      "vorgangsnummer": "1189179279",
+      "pruefidentifikator": "55556",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "589357BGM",
+      "kategorie": "Z56",
+      "nachrichtendatum": "2024-04-03T12:29:00Z",
+      "nachrichtenreferenznummer": "589357",
+      "anfragereferenznummer": "ABC123456",
+      "gueltigAb": "2024-06-30T22:00:00Z",
+      "antwortstatus": "A01",
+      "antwortstatusCodeliste": "E_0557"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,691 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "PREISBLATT": [
+        {
+          "boTyp": "PREISBLATT",
+          "versionStruktur": "1",
+          "gueltigkeit": {
+            "startdatum": "2023-12-31T23:00:00Z"
+          },
+          "preispositionen": [
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 1,
+              "artikelId": "9991000000713-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 2,
+              "artikelId": "9991000000713-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 3,
+              "artikelId": "9991000000713-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 4,
+              "artikelId": "9991000000721-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 5,
+              "artikelId": "9991000000721-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 6,
+              "artikelId": "9991000000721-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 7,
+              "artikelId": "9991000000739-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 8,
+              "artikelId": "9991000000739-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 9,
+              "artikelId": "9991000000739-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 10,
+              "artikelId": "9991000000812-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 11,
+              "artikelId": "9991000000812-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 12,
+              "artikelId": "9991000000812-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 13,
+              "artikelId": "9991000000820-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 14,
+              "artikelId": "9991000000820-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 15,
+              "artikelId": "9991000000820-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 16,
+              "artikelId": "9991000000838-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 17,
+              "artikelId": "9991000000838-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 18,
+              "artikelId": "9991000000838-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 19,
+              "artikelId": "9991000000846-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 20,
+              "artikelId": "9991000000846-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 21,
+              "artikelId": "9991000000846-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 22,
+              "artikelId": "9991000000854-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 23,
+              "artikelId": "9991000000854-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 24,
+              "artikelId": "9991000000854-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 25,
+              "artikelId": "9991000000862-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 26,
+              "artikelId": "9991000000862-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 27,
+              "artikelId": "9991000000862-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 28,
+              "artikelId": "9991000000870-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 29,
+              "artikelId": "9991000000870-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 30,
+              "artikelId": "9991000000870-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 31,
+              "artikelId": "9991000000888-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 32,
+              "artikelId": "9991000000888-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 33,
+              "artikelId": "9991000000888-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 34,
+              "artikelId": "9991000000896-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 35,
+              "artikelId": "9991000000896-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 36,
+              "artikelId": "9991000000896-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 37,
+              "artikelId": "9991000000903-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 38,
+              "artikelId": "9991000000903-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 39,
+              "artikelId": "9991000000903-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 40,
+              "artikelId": "9991000000911-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 41,
+              "artikelId": "9991000000911-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 42,
+              "artikelId": "9991000000911-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 43,
+              "artikelId": "9991000000929-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 44,
+              "artikelId": "9991000000929-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 45,
+              "artikelId": "9991000000929-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 46,
+              "artikelId": "9991000000937-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 47,
+              "artikelId": "9991000000937-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 48,
+              "artikelId": "9991000000937-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 49,
+              "artikelId": "9991000000945-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 50,
+              "artikelId": "9991000000945-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 51,
+              "artikelId": "9991000000945-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 52,
+              "artikelId": "9991000000953-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 53,
+              "artikelId": "9991000000953-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 54,
+              "artikelId": "9991000000953-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 55,
+              "artikelId": "9991000001430-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 56,
+              "artikelId": "9991000001430-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 57,
+              "artikelId": "9991000001430-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 58,
+              "artikelId": "9991000001448-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 59,
+              "artikelId": "9991000001448-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 60,
+              "artikelId": "9991000001448-03"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 61,
+              "artikelId": "9991000001456-01"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 62,
+              "artikelId": "9991000001456-02"
+            },
+            {
+              "preiseinheit": "EUR",
+              "preisstaffeln": [
+                {
+                  "einheitspreis": 0
+                }
+              ],
+              "positionsnummer": 63,
+              "artikelId": "9991000001456-03"
+            }
+          ],
+          "sparte": "STROM"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "5576673PF",
+      "sparte": "STROM",
+      "pruefidentifikator": "27002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905628000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Gross",
+          "eMailAdresse": "m.gross@swe-emmendingen.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "07641 / 46899-10"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "07641 / 46899-28"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9905079000000",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "990562800000505102023000001733337",
+      "kategorie": "Z77",
+      "nachrichtendatum": "2023-10-05T12:21:00Z",
+      "nachrichtenreferenznummer": "5576674PF"
+    },
+    "zusatzdaten": {}
+  }
+}

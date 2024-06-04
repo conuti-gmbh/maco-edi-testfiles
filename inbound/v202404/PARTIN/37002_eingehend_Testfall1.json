@@ -1,0 +1,311 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "KOMMUNIKATIONSDATEN": [
+        {
+          "boTyp": "KOMMUNIKATIONSDATEN",
+          "versionStruktur": "1",
+          "gueltigkeit": "2024-04-31T22:00:00Z",
+          "marktteilnehmer": {
+            "boTyp": "MARKTTEILNEHMER",
+            "versionStruktur": "1",
+            "marktrolle": "MSB",
+            "bankverbindung": [
+              {
+                "iban": "DE00000000000000000000",
+                "kontoinhaber": "Unternehmens GmbH",
+                "bic": "BICXXXXXXXX",
+                "kreditinstitut": "Bankname"
+              }
+            ],
+            "erreichbarkeit": [
+              {
+                "verfuegbarkeit": "MONTAG",
+                "zeit": "08:00-16:00"
+              },
+              {
+                "verfuegbarkeit": "DIENSTAG",
+                "zeit": "08:00-16:00"
+              },
+              {
+                "verfuegbarkeit": "MITTWOCH",
+                "zeit": "08:00-16:00"
+              },
+              {
+                "verfuegbarkeit": "DONNERSTAG",
+                "zeit": "08:00-16:00"
+              },
+              {
+                "verfuegbarkeit": "FREITAG",
+                "zeit": "08:00-16:00"
+              }
+            ],
+            "name1": "Stadtwerke Heidelberg Energie GmbH",
+            "gewerbekennzeichnung": true,
+            "hrnummer": "331079",
+            "amtsgericht": "Amtsgericht Mannheim",
+            "umsatzsteuerId": "DE814905955",
+            "website": "www.swhd.de",
+            "faxnummer": "+4962215133333",
+            "partneradresse": {
+              "postleitzahl": "69115",
+              "ort": "Heidelberg",
+              "strasse": "KurfÃ¼rsten-Anlage",
+              "hausnummer": "42-50",
+              "landescode": "DE",
+              "ortsteil": "Bergheim"
+            }
+          },
+          "kommunikationsangaben": [
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "DATENAUSTAUSCH",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Marktkommunikation",
+                "eMailAdresse": "marktkommunikation@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+49622151340764917407741374042"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "RAHMENVERTRAEGE",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Marktkommunikation",
+                "eMailAdresse": "marktkommunikation@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+49622151340764917407741374042"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "WECHSELPROZESSE",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Marktkommunikation",
+                "eMailAdresse": "marktkommunikation@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+49622151340764917407741374042"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "STAMMDATENPROZESSE",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Marktkommunikation",
+                "eMailAdresse": "marktkommunikation@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+49622151340764917407741374042"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "EINSPEISEPROZESSE",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Kreditorenmanagement",
+                "eMailAdresse": "kreditorenmanagement@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+4962215132094"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team Kreditorenmanagement",
+                "eMailAdresse": "kreditorenmanagement@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+4962215132094"
+                  }
+                ]
+              }
+            },
+            {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "name1": "Stadtwerke Heidelberg Energie GmbH",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "69115",
+                "ort": "Heidelberg",
+                "strasse": "KurfÃ¼rsten-Anlage",
+                "hausnummer": "42-50",
+                "landescode": "DE",
+                "ortsteil": "Bergheim"
+              },
+              "kommunikationsrolle": "BEWEGUNGSDATEN",
+              "ansprechpartner": {
+                "boTyp": "ANSPRECHPARTNER",
+                "versionStruktur": "1",
+                "nachname": "Team EDM",
+                "eMailAdresse": "lastprofile@swhd.de",
+                "rufnummern": [
+                  {
+                    "nummerntyp": "FAX_DURCHWAHL",
+                    "rufnummer": "+4962215133333"
+                  },
+                  {
+                    "nummerntyp": "RUF_DURCHWAHL",
+                    "rufnummer": "+496221513408240812724"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "52000000017742",
+      "sparte": "STROM",
+      "pruefidentifikator": "37002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "52000000017742",
+      "kategorie": "10",
+      "nachrichtendatum": "2024-04-01T12:44:00Z",
+      "nachrichtenreferenznummer": "52000000017742",
+      "vorgangsreferenznummer": "1",
+      "anwendungsreferenznummer": "2"
+    },
+    "zusatzdaten": {}
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "anfragekategorie": "UEBERMITTLUNG_WERTE_AN_ESA",
+          "abonnement": "START_ABO"
+        }
+      ],
+      "AUFTRAG": [
+        {
+          "boTyp": "AUFTRAG",
+          "versionStruktur": "1",
+          "ausfuehrungsdatum": "2024-06-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "LSF1MFNS",
+      "sparte": "STROM",
+      "pruefidentifikator": "17007",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": " 9984778000008",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Hoettger, Robert",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "015255233280"
+            }
+          ]
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9906485000006",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "LS9JI9N0",
+      "kategorie": "Z57",
+      "nachrichtendatum": "2024-04-03T12:39:00Z",
+      "nachrichtenreferenznummer": "LSWQNOK3",
+      "angebotsnummer": "LS3U9OGB"
+    },
+    "zusatzdaten": {}
+  }
+}

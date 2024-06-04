@@ -1,0 +1,111 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50074561188",
+          "sparte": "STROM"
+        }
+      ],
+      "ANFRAGE": [
+        {
+          "boTyp": "ANFRAGE",
+          "versionStruktur": "1",
+          "lokationsId": "50074561188",
+          "lokationsTyp": "MALO",
+          "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+          "anfragetyp": "ANGEBOT_AUF_BASIS_PREISBLATT"
+        }
+      ],
+      "ANGEBOT": [
+        {
+          "boTyp": "ANGEBOT",
+          "versionStruktur": "1",
+          "anfragereferenz": "ABC12345",
+          "sparte": "STROM",
+          "varianten": [
+            {
+              "teile": [
+                {
+                  "lieferstellenangebotsteil": [
+                    {
+                      "boTyp": "MARKTLOKATION",
+                      "versionStruktur": "1",
+                      "marktlokationsId": "50074561189"
+                    }
+                  ],
+                  "positionen": [
+                    {
+                      "positionsbezeichung": "1",
+                      "positionsmenge": {
+                        "wert": 1,
+                        "einheit": "STUECK"
+                      },
+                      "zeitlichePositionsmenge": {
+                        "wert": 30,
+                        "einheit": "TAG"
+                      },
+                      "artikelID": [
+                        "4-02-0-001"
+                      ]
+                    },
+                    {
+                      "positionsbezeichung": "2",
+                      "positionsmenge": {
+                        "wert": 2,
+                        "einheit": "STUECK"
+                      },
+                      "zeitlichePositionsmenge": {
+                        "wert": 1,
+                        "einheit": "MONAT"
+                      },
+                      "artikelID": [
+                        "4-02-0-001"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "122575",
+      "sparte": "STROM",
+      "pruefidentifikator": "15002",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9904446000007",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Max Mustermann",
+          "eMailAdresse": "max@mustermann.de"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "BGM12345",
+      "kategorie": "Z29",
+      "nachrichtendatum": "2024-03-19T10:19:00Z",
+      "nachrichtenreferenznummer": "030850",
+      "ausfuehrungsdatum": "2024-04-03T08:16:00Z"
+    },
+    "zusatzdaten": {}
+  }
+}

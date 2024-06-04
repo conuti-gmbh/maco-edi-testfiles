@@ -1,0 +1,72 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MARKTLOKATION": [
+        {
+          "boTyp": "MARKTLOKATION",
+          "versionStruktur": "1",
+          "marktlokationsId": "50263461490",
+          "sparte": "STROM",
+          "energierichtung": "AUSSP"
+        }
+      ],
+      "NETZNUTZUNGSVERTRAG": [
+        {
+          "boTyp": "VERTRAG",
+          "versionStruktur": "1",
+          "vertragsart": "NETZNUTZUNGSVERTRAG",
+          "sparte": "STROM",
+          "vertragsende": "2024-04-30T22:00:00Z",
+          "lokationsId": "50263461490",
+          "lokationsTyp": "MALO"
+        }
+      ],
+      "BILANZIERUNG": [
+        {
+          "boTyp": "BILANZIERUNG",
+          "versionStruktur": "1",
+          "marktlokationsId": "50263461490",
+          "bilanzierungsende": "2024-04-30T22:00:00Z"
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "10000159359739",
+      "sparte": "STROM",
+      "transaktionsgrund": "ZT4",
+      "vorgangsnummer": "BE08461C62B11EEE99D02638E374580A",
+      "pruefidentifikator": "55005",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9900321000005",
+        "rollencodetyp": "BDEW",
+        "ansprechpartner": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Ansprechpartner GPKE SWBK Netz",
+          "eMailAdresse": "marktpartnerwechsel.swbk@energis-netzgesellschaft.de"
+        }
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9903790000002",
+        "rollencodetyp": "BDEW"
+      },
+      "dokumentennummer": "10000159359739",
+      "kategorie": "E02",
+      "nachrichtendatum": "2024-04-01T08:52:00Z",
+      "nachrichtenreferenznummer": "10000159359739",
+      "anfragereferenznummer": "PCL_5923100909360499050790000005011",
+      "antwortstatus": "A06",
+      "antwortstatusCodeliste": "E_0401"
+    },
+    "zusatzdaten": {}
+  }
+}
