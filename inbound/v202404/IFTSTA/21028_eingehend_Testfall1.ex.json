@@ -1,0 +1,57 @@
+{
+  "businessKey": "<businessKey>",
+  "processDate": null,
+  "dataSource": "INBOUND",
+  "version": 1,
+  "edifactVersion": 202404,
+  "data": {
+    "stammdaten": {
+      "MESSLOKATION": [
+        {
+          "boTyp": "MESSLOKATION",
+          "versionStruktur": "1",
+          "messlokationsId": "DE0032106765712000000000000000037",
+          "sparte": "GAS"
+        }
+      ],
+      "STATUSMITTEILUNG": [
+        {
+          "boTyp": "STATUSMITTEILUNG",
+          "versionStruktur": "1",
+          "statusObjekt": "TURNUSAUSLESUNG",
+          "auftragsstatus": "GESCHEITERT",
+          "positionsdaten": [
+            {
+              "positionsnummer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "transaktionsdaten": {
+      "datenaustauschreferenz": "572589",
+      "sparte": "GAS",
+      "pruefidentifikator": "21028",
+      "absender": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9800110000002",
+        "rollencodetyp": "DVGW"
+      },
+      "empfaenger": {
+        "boTyp": "MARKTTEILNEHMER",
+        "versionStruktur": "1",
+        "rollencodenummer": "9870013800007",
+        "rollencodetyp": "DVGW"
+      },
+      "dokumentennummer": "866061BGM",
+      "kategorie": "Z09",
+      "nachrichtendatum": "2024-06-10T11:23:00Z",
+      "nachrichtenreferenznummer": "866061",
+      "antwortstatus": "Z74",
+      "antwortstatusCodeliste": "G_0077",
+      "gueltigAb": "2024-06-01T04:00:00Z",
+    },
+    "zusatzdaten": {}
+  }
+}
