@@ -1,0 +1,96 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "KOMMUNIKATIONSDATEN": [
+          {
+            "boTyp": "KOMMUNIKATIONSDATEN",
+            "versionStruktur": "1",
+            "gueltigkeit": "2024-06-30T22:00:00Z",
+            "marktteilnehmer": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "kommunikationsparameter": {
+                "zieladresse": {
+                  "zieladresse1": "https://api.firma.de/api:8443",
+                  "zieladresse2": "x",
+                  "zieladresse3": "x",
+                  "zieladresse4": "x",
+                  "zieladresse5": "x"
+                },
+                "zertifikatsAussteller": {
+                  "zertifikatsAussteller1": "CN = T-Systems-EnergyCA.CA, O = SM-PKI-DE, C = DE, SERIALNUMBER = 3",
+                  "zertifikatsAussteller2": "x",
+                  "zertifikatsAussteller3": "x",
+                  "zertifikatsAussteller4": "x",
+                  "zertifikatsAussteller5": "x"
+                },
+                "zertifikatsNutzer": {
+                  "zertifikatsNutzer1": "CN = Firma.EMT.Erweiterung, O = SM-PKI-DE, C = DE, SERIALNUMBER = 1, L = Stadt",
+                  "zertifikatsNutzer2": "x",
+                  "zertifikatsNutzer3": "x",
+                  "zertifikatsNutzer4": "x",
+                  "zertifikatsNutzer5": "x"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LU6WXA5U",
+        "sparte": "STROM",
+        "pruefidentifikator": "37007",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermmann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+01234567891"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+01234567892"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+01234567893"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+01234567894"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "LTSKBHAD",
+        "kategorie": "Z87",
+        "nachrichtendatum": "2024-04-03T12:15:00Z",
+        "nachrichtenreferenznummer": "LUCGU2JD",
+        "vorgangsreferenznummer": "2",
+        "anwendungsreferenznummer": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

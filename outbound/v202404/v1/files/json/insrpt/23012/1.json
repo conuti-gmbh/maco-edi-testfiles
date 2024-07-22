@@ -4,7 +4,7 @@
     "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
-    "edifactVersion": 202210,
+    "edifactVersion": 202404,
     "data": {
       "stammdaten": {
         "STATUSMITTEILUNG": [

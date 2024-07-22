@@ -1,0 +1,103 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "verwendungAb": "2023-02-15T16:00:00Z",
+                "auftragsstatus": "VERMUTETE_STOERUNG",
+                "begruendung": {
+                  "begruendung1": "Freier Text1"
+                },
+                "lokationsId": "DE0032106765712000000000000000037"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LEZCLJ55",
+        "sparte": "STROM",
+        "vorgangsnummer": "12345678910",
+        "pruefidentifikator": "23001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9907297000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "ansprechpartnerKunde": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Ute Musterfrau",
+          "eMailAdresse": "ute@musterfrau.de",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_ZENTRALE",
+              "rufnummer": "0123 456789 30"
+            },
+            {
+              "nummerntyp": "FAX_DURCHWAHL",
+              "rufnummer": "0123 456789 10"
+            },
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "0123 456789 20"
+            },
+            {
+              "nummerntyp": "MOBIL_NUMMER",
+              "rufnummer": "0123 456789 40"
+            }
+          ]
+        },
+        "dokumentennummer": "831848BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-02-21T11:37:00Z",
+        "nachrichtenreferenznummer": "831848"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

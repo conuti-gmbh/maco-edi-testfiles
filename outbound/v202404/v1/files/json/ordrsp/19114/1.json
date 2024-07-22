@@ -1,0 +1,76 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202404,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "REKLAMATION_VON_WERTEN",
+            "anfragetyp": "ZAEHLERSTAENDE"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "142226",
+        "sparte": "GAS",
+        "pruefidentifikator": "19114",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              },
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+012345678910"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "ABC12345",
+        "kategorie": "Z34",
+        "nachrichtendatum": "2024-04-03T12:31:00Z",
+        "nachrichtenreferenznummer": "193124",
+        "auftragsReferenz": "REF12345",
+        "antwortstatus": "Z54",
+        "antwortstatusCodeliste": "G_0066"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

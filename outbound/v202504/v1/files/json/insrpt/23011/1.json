@@ -1,0 +1,57 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "verwendungAb": "2023-03-30T15:47:00Z",
+                "enddatum": "2023-03-30T15:47:00Z",
+                "auftragsstatus": "GESTOERT",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Test123456"
+                },
+                "lokationsId": "50074561222",
+                "referenzMelo": "DE0032106765712000000000000000054"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LGO8FPVF",
+        "sparte": "STROM",
+        "vorgangsnummer": "202303301531",
+        "pruefidentifikator": "23011",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLGO2Q0VF",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-03-30T15:47:00Z",
+        "nachrichtenreferenznummer": "UNHLGGEOGSZ"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
