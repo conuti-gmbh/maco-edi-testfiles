@@ -13,7 +13,7 @@
             "versionStruktur": "1",
             "verwendungAb": "2025-06-30T22:00:00Z",
             "zeitraumId": 1,
-            "qualitaet": "GUELTIGE_DATEN"
+            "datenqualitaet": "GUELTIGE_DATEN"
           }
         ],
         "MARKTLOKATION": [
