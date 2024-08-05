@@ -1,0 +1,189 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561192",
+            "sparte": "STROM",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002032",
+                    "codeProdukteigenschaft": "9991000002959"
+                  },
+                  {
+                    "produktCode": "9991000002040",
+                    "codeProdukteigenschaft": "9991000002230"
+                  },
+                  {
+                    "produktCode": "9991000002058",
+                    "codeProdukteigenschaft": "9991000002256"
+                  },
+                  {
+                    "produktCode": "9991000002074",
+                    "codeProdukteigenschaft": "9991000002280"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
+              },
+              {
+                "produktpaketId": 2,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002032",
+                    "codeProdukteigenschaft": "9991000002959"
+                  },
+                  {
+                    "produktCode": "9991000002040",
+                    "codeProdukteigenschaft": "9991000002230"
+                  },
+                  {
+                    "produktCode": "9991000002058",
+                    "codeProdukteigenschaft": "9991000002256"
+                  },
+                  {
+                    "produktCode": "9991000002074",
+                    "codeProdukteigenschaft": "9991000002280"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+                "priorisierung": "PRIORITAET2"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragsende": "2025-07-30T22:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "lokationsId": "50074561192",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "anrede": "Dr.",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "114622",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E03",
+        "vorgangsnummer": "ABC488710359",
+        "pruefidentifikator": "55001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "+012345678902"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678901"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "+012345678903"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "933588BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-01T22:01:00Z",
+        "nachrichtenreferenznummer": "S933588",
+        "vertragsbeginn": "2025-06-30T22:00:00Z",
+        "vertragsende": "2025-07-30T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
