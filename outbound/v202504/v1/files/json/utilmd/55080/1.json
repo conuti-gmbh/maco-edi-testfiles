@@ -1,0 +1,41 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": [],
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "VAL36POS",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW3",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55080",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLO920KQX",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-01T19:54:00Z",
+        "nachrichtenreferenznummer": "UNHLOF9PGSF",
+        "anfragereferenznummer": "999999",
+        "antwortstatus": "A45",
+        "antwortstatusCodeliste": "E_0622",
+        "naechsteBearbeitung": "2025-10-25T22:00:00Z",
+        "lieferbeginndatuminbearbeitung": "2025-10-31T23:00:00Z"
+      }
+    }
+  }
+]
