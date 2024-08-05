@@ -11,6 +11,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
+            "datenqualitaet": "INFORMATIVE_DATEN",
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "marktrollen": [
@@ -19,7 +20,7 @@
                 "versionStruktur": "1",
                 "marktrolle": "MSB",
                 "rollencodenummer": "9904446000007",
-                "weiterverpflichtet": true,
+                "weiterverpflichtet": false,
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
               }
             ]
@@ -29,6 +30,7 @@
           {
             "boTyp": "NETZLOKATION",
             "versionStruktur": "1",
+            "datenqualitaet": "INFORMATIVE_DATEN",
             "netzlokationsId": "E1688117482",
             "sparte": "STROM",
             "marktrollen": [
@@ -54,6 +56,7 @@
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
+            "datenqualitaet": "INFORMATIVE_DATEN",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",
             "marktrollen": [
@@ -62,7 +65,7 @@
                 "versionStruktur": "1",
                 "marktrolle": "MSB",
                 "rollencodenummer": "9904446000007",
-                "weiterverpflichtet": true,
+                "weiterverpflichtet": false,
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
               },
               {
@@ -89,11 +92,11 @@
       },
       "transaktionsdaten": {
         "nachrichtendatum": "2025-04-01T22:01:00Z",
-        "vorgangsnummer": "297590681",
+        "vorgangsnummer": "1610071045",
         "nachrichtenreferenznummer": "268219",
         "sparte": "STROM",
         "dokumentennummer": "268219BGM",
-        "kategorie": "E03",
+        "kategorie": "E01",
         "empfaenger": {
           "rollencodenummer": "9903790000002",
           "rollencodetyp": "BDEW",
@@ -102,9 +105,9 @@
           "versionStruktur": "1",
           "gewerbekennzeichnung": true
         },
-        "transaktionsgrund": "E03",
+        "transaktionsgrund": "E01",
         "transaktionsgrundergaenzung": "ZW7",
-        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E03",
         "datenaustauschreferenz": "150621",
         "absender": {
           "rollencodenummer": "9900321000005",
@@ -118,8 +121,9 @@
         "vertragsbeginn": "2025-06-30T22:00:00Z",
         "vertragsende": "2025-07-31T22:00:00Z",
         "antwortstatus": "A51",
-        "antwortstatusCodeliste": "E_0404",
-        "anfragereferenznummer": "12345678910"
+        "antwortstatusCodeliste": "E_0623",
+        "anfragereferenznummer": "12345678910",
+        "geplantesProduktpaket": 1
       },
       "zusatzdaten": []
     }
