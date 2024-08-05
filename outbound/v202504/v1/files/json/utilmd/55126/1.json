@@ -72,7 +72,6 @@
             "versionStruktur": "1",
             "zeitraumId": 1,
             "vertragsart": "NETZNUTZUNGSVERTRAG",
-            "vertragsbeginn": "2025-06-30T22:00:00Z",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",
             "lokationsId": "50074561188",
@@ -81,7 +80,7 @@
         ]
       },
       "transaktionsdaten": {
-        "nachrichtendatum": "2025-04-01T22:01:00Z",
+        "nachrichtendatum": "2025-04-04T22:01:00Z",
         "vorgangsnummer": "919373923",
         "nachrichtenreferenznummer": "170034",
         "sparte": "STROM",
@@ -105,9 +104,7 @@
           "versionStruktur": "1",
           "gewerbekennzeichnung": true
         },
-        "pruefidentifikator": "55126",
-        "gueltigAb": "2025-06-30T22:00:00Z",
-        "vertragsbeginn": "2025-06-30T22:00:00Z"
+        "pruefidentifikator": "55126"
       },
       "zusatzdaten": []
     }
