@@ -1,0 +1,171 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002032",
+                    "codeProdukteigenschaft": "9991000002959"
+                  },
+                  {
+                    "produktCode": "9991000002040",
+                    "codeProdukteigenschaft": "9991000002230"
+                  },
+                  {
+                    "produktCode": "9991000002058",
+                    "codeProdukteigenschaft": "9991000002256"
+                  },
+                  {
+                    "produktCode": "9991000002074",
+                    "codeProdukteigenschaft": "9991000002280"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
+              },
+              {
+                "produktpaketId": 2,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002032",
+                    "codeProdukteigenschaft": "9991000002959"
+                  },
+                  {
+                    "produktCode": "9991000002040",
+                    "codeProdukteigenschaft": "9991000002230"
+                  },
+                  {
+                    "produktCode": "9991000002058",
+                    "codeProdukteigenschaft": "9991000002256"
+                  },
+                  {
+                    "produktCode": "9991000002074",
+                    "codeProdukteigenschaft": "9991000002280"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+                "priorisierung": "PRIORITAET2"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            }
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "anrede": "Dr.",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "name3": "von",
+                "name4": "zu",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Stadt",
+                "strasse": "Str.",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZO0Y56I",
+        "sparte": "STROM",
+        "transaktionsgrund": "E02",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55600",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZYU0DXB",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZNLZLN5",
+        "freitext": {
+          "freitext1": "Bla1",
+          "freitext2": "Bla2",
+          "freitext3": "Bla3",
+          "freitext4": "Bla4",
+          "freitext5": "Bla5"
+        },
+        "vertragsbeginn": "2025-06-30T22:00:00Z"
+      }
+    }
+  }
+]
