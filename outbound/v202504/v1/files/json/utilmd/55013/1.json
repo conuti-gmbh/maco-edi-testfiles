@@ -1,0 +1,151 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "netzebene": "NSP",
+            "sperrstatus": "ENTSPERRT",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9904446000007",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Stadt",
+              "strasse": "Str.",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max",
+                "zusatz3": "von",
+                "zusatz4": "zu",
+                "zusatz5": "Dr."
+              }
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "9904446000007",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "rollencodenummer": "9904446000007"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "vertragsbeginn": "2025-06-30T22:00:00Z"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": false,
+                "anrede": "Dr.",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "name3": "von",
+                "name4": "zu",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ],
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZMJPI8M",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZT6",
+        "transaktionsgrundergaenzung": "ZW7",
+        "vorgangsnummer": "12345",
+        "pruefidentifikator": "55013",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZP6YKTF",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZYE53OT",
+        "anfragereferenznummer": "ABC123456",
+        "vertragsbeginn": "2025-06-30T22:00:00Z"
+      }
+    }
+  }
+]
