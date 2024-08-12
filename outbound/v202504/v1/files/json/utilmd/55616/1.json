@@ -1,0 +1,124 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "KEINE_DATEN",
+            "verwendungAb": "2025-02-28T23:00:00Z",
+            "verwendungBis": "2025-03-31T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-03-31T22:00:00Z",
+            "verwendungBis": "2025-04-02T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 3,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-04-02T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 2,
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": true,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "messtechnischeEinordnung": "KME_MME"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 3,
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Musterfrau",
+                "zusatz2": "Erika"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "messtechnischeEinordnung": "KME_MME"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZU7O7IY",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55616",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZIC94CT",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZQQ5VBT"
+      }
+    }
+  }
+]
