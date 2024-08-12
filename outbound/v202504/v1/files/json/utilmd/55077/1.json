@@ -1,0 +1,96 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "foerderungsLand": "DE",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002066",
+                    "codeProdukteigenschaft": "9991000002272"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  },
+                  {
+                    "produktCode": "9991000002074",
+                    "codeProdukteigenschaft": "9991000002298"
+                  },
+                  {
+                    "produktCode": "9991000002404",
+                    "codeProdukteigenschaft": "9991000002420"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-06-30T22:00:00Z",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "553578",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW0",
+        "vorgangsnummer": "159441502",
+        "pruefidentifikator": "55077",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "779523BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-03T07:37:00Z",
+        "nachrichtenreferenznummer": "779523",
+        "abtretungserklaerung": {
+          "passwort": "BLABLA",
+          "link1": "https://www.Stadtwerk_xy.de/...",
+          "link2": "X",
+          "link3": "X",
+          "link4": "X",
+          "link5": "X"
+        },
+        "vertragsbeginn": "2024-06-30T22:00:00Z"
+      }
+    }
+  }
+]
