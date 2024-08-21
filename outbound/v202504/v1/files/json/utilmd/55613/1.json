@@ -1,0 +1,115 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-06-30T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 1,
+            "netzebene": "NSP",
+            "bilanzierungsgebiet": "11YR00000002596Z",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9903790000002",
+                "marktrolle": "LF"
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9904446000007",
+                "marktrolle": "MSB"
+              }
+            ],
+            "regelzone": "10YDE-RWENET---I"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "datenqualitaet": "DATEN",
+            "zeitraumId": 1,
+            "versionStruktur": "1",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzkreis": "11X0-0000-0528-Q",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "zeitreihentyp": "SLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZDNFXNR",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX3",
+        "vorgangsnummer": "12345",
+        "pruefidentifikator": "55613",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4045399000077",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZL813XL",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZOWMMGO",
+        "verwendungAb": "2025-06-30T22:00:00Z",
+        "bilanzkreis": [
+          {
+            "bezeichnung": "11X0-0000-0528-Q"
+          }
+        ]
+      }
+    }
+  }
+]
