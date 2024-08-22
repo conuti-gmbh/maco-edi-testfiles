@@ -1,0 +1,71 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2024-09-26T22:00:00Z",
+            "verwendungBis": "2024-09-28T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "BERECHNUNGSFORMEL": [
+          {
+            "boTyp": "BERECHNUNGSFORMEL",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
+            "rechenschrittId": 1,
+            "rechenschritte": [
+              {
+                "rechenschrittBestandteilId": 1,
+                "messlokationsId": "DE00014545768S0000000000000003054",
+                "referenzRechenschrittId": 1,
+                "operation": "ADDITION",
+                "energieflussrichtung": "AUSSP"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0L6ONEX",
+        "sparte": "STROM",
+        "vorgangsnummer": "Vorgang1",
+        "pruefidentifikator": "25001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Laue",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M09LEKGQ",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2024-08-13T10:45:00Z",
+        "nachrichtenreferenznummer": "M06YULG1",
+        "lokationsId": "55123678945"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
