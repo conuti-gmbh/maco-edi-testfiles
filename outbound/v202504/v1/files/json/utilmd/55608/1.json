@@ -1,0 +1,80 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11Y0-0000-0076-N"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragsende": "2025-07-31T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZPDTRGJ",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW8",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E03",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55608",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZHKW289",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZFYNGI4",
+        "anfragereferenznummer": "ABC123456",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0603",
+        "vertragsbeginn": "2025-06-30T22:00:00Z",
+        "vertragsende": "2025-07-31T22:00:00Z",
+        "abtretungserklaerung": {
+          "passwort": "asdf1234",
+          "link1": "http:\\www.link.de/abtretungserklärung"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
