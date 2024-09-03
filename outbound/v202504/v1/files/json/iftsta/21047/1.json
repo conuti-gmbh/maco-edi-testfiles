@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "VERAENDERUNGSSTATUS_DER_DATEN",
+            "auftragsstatus": "KEINE_AENDERUNG_DER_DATEN",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0M56B09",
+        "sparte": "STROM",
+        "pruefidentifikator": "21047",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0M7F86Z",
+        "kategorie": "Z33",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM09Y0DVP",
+        "antwortstatusCodeliste": "E_0588",
+        "antwortstatus": "A01",
+        "vorgangsreferenznummer": "ABC12345"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
