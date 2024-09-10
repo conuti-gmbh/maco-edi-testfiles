@@ -1,0 +1,70 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "rollencodenummer": "4045399000053",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "LIEFERUNG_GEPLANT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0YC76PM",
+        "sparte": "STROM",
+        "pruefidentifikator": "21007",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M03Z0I79",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "M0S1BE8C",
+        "anfragereferenznummer": "2",
+        "lieferdatum": "2024-08-30T22:00:00Z",
+        "antwortstatus": "ZI1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
