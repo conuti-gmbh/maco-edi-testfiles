@@ -1,0 +1,62 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0VKB4AA",
+        "sparte": "STROM",
+        "pruefidentifikator": "21011",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "4045399000060",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0NF0OLD",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-20T07:26:00Z",
+        "nachrichtenreferenznummer": "M0OA53FP",
+        "antwortstatus": "Z66",
+        "antwortstatusCodeliste": "S_0057",
+        "vorgangsreferenznummer": "123",
+        "mitteilungsnummer": "123"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
