@@ -1,0 +1,72 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "44152365487",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "ANGEBOTANFRAGE",
+            "auftragsstatus": "ABGELEHNT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "allgemeineInformationen": {
+                  "info1": "lalalaa"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0KXRR1W",
+        "sparte": "STROM",
+        "pruefidentifikator": "21033",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9978414000000",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "lieferantenwechsel@eon-energie.com"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903323000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0YOR4X5",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-21T06:36:00Z",
+        "nachrichtenreferenznummer": "M11I1RWQ",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0207",
+        "anfragereferenznummer": "7584",
+        "startdatum": "2024-10-15T22:00:00Z",
+        "sendungsposition": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
