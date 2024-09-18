@@ -1,0 +1,65 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "UMBAUMELO",
+            "auftragsstatus": "GESCHEITERT",
+            "statusanlass": "KOMMUNIKATIONSSTOERUNG",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0A0BC6S",
+        "sparte": "STROM",
+        "pruefidentifikator": "21027",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "4045399000053",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "andre.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0AZW9E4",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-21T06:05:00Z",
+        "nachrichtenreferenznummer": "M0T2ACVY"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
