@@ -1,0 +1,67 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "ERFOLGREICH",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0YCDDMQ",
+        "sparte": "STROM",
+        "pruefidentifikator": "21012",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "4045399000053",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M06Y0DSH",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-20T07:37:00Z",
+        "nachrichtenreferenznummer": "M0K8WKVU",
+        "vorgangsreferenznummer": "1234",
+        "mitteilungsnummer": "234",
+        "fertigstellungsdatum": "2024-08-29T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
