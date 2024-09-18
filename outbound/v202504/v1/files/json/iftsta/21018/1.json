@@ -1,0 +1,75 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "4045399000053",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "ERFOLGREICH",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0GEKY8N",
+        "sparte": "STROM",
+        "pruefidentifikator": "21018",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@con.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0OUN4PI",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-20T09:41:00Z",
+        "nachrichtenreferenznummer": "M0CKGMIJ",
+        "fertigstellungsdatum": "2024-08-23T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
