@@ -1,0 +1,75 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "4045399000053",
+                "rollencodetyp": "DVGW"
+              }
+            ]
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "MSBWECHSEL",
+            "auftragsstatus": "ERFOLGREICH",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M05K6RXO",
+        "sparte": "STROM",
+        "pruefidentifikator": "21015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "4045399000015",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andree",
+            "eMailAdresse": "a.l@con.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "4045399000053",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "M0JV7MKO",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2024-08-20T09:39:00Z",
+        "nachrichtenreferenznummer": "M03WBZ3J",
+        "fertigstellungsdatum": "2024-08-23T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
