@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+            "abonnement": "START_ABO",
+            "lokationsId": "55123678945",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-09-27T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0R5SAGD",
+        "sparte": "STROM",
+        "pruefidentifikator": "17005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "mako@enercity.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0GKHDMO",
+        "nachrichtendatum": "2024-08-15T05:50:00Z",
+        "nachrichtenreferenznummer": "M0LOG9NO",
+        "angebotsnummer": "115456678"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
