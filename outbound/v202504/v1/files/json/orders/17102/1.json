@@ -1,0 +1,63 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "ENERGIEMENGE_UND_LEISTUNGSMAXIMUM",
+            "anfragetyp": "ZAEHLERSTAENDE",
+            "lokationsId": "55123678945",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "startdatum": "2024-03-01T23:00:00Z",
+                "enddatum": "2024-07-31T22:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0KI6ETQ",
+        "sparte": "STROM",
+        "pruefidentifikator": "17102",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "andre.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0D3Z18B",
+        "nachrichtendatum": "2024-08-15T06:15:00Z",
+        "nachrichtenreferenznummer": "M0AVYA9Y"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
