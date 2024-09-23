@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsende": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "214159",
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1380904479",
+        "pruefidentifikator": "44052",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "555278BGM",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-01T14:38:00Z",
+        "nachrichtenreferenznummer": "555278",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "G_0058"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

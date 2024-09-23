@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "ABC123",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-20:3.0.0",
+                "vorkommastelle": 5,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlergroesse": "GAS_G4",
+            "geraete": [
+              {
+                "geraetenummer": "ABC123"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "161592",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF5",
+        "vorgangsnummer": "329507502",
+        "pruefidentifikator": "44147",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "739669BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T09:28:00Z",
+        "nachrichtenreferenznummer": "739669",
+        "gueltigAb": "2024-06-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

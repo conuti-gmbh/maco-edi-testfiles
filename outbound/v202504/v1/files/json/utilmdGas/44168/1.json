@@ -1,0 +1,199 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            },
+            "gasqualitaet": "H_GAS",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000383"
+              }
+            ],
+            "betriebszustand": "REGELBETRIEB",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800110000002",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": false
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800110000002",
+                "marktrolle": "GMSB"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800172600006",
+                "marktrolle": "MSBA"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "ABC123456",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-20:3.0.0",
+                "vorkommastelle": 5,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "befestigungsart": "EINSTUTZEN",
+            "zaehlergroesse": "GAS_G4",
+            "geraete": [
+              {
+                "geraetenummer": "ABC123456"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "111553",
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "695016629",
+        "pruefidentifikator": "44168",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "977307BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-01T07:20:00Z",
+        "nachrichtenreferenznummer": "977307",
+        "datumleistungsbeginn": "2024-06-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "GAS"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "ABC123456",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlergroesse": "GAS_G10"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "128804",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF5",
+        "vorgangsnummer": "87372022",
+        "pruefidentifikator": "44143",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "498255BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T13:53:00Z",
+        "nachrichtenreferenznummer": "498255",
+        "gueltigAb": "2024-07-01T04:00:00Z",
+        "vertragsbeginn": "2024-07-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

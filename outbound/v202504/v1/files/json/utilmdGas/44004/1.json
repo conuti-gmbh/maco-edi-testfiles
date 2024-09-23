@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50818928514",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsende": "2024-11-01T05:00:00Z",
+            "lokationsId": "50818928514",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DECDBCCCEDFEHJ",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "vorgangsnummer": "70246223120111324340414087000133771",
+        "pruefidentifikator": "44004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4041408700013",
+          "rollencodetyp": "GLN"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870033100007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "70032312011132434041408700013296380",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-01T10:32:00Z",
+        "nachrichtenreferenznummer": "DECDBCCCEDFEHJ"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

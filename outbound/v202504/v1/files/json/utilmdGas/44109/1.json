@@ -1,0 +1,118 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "anrede": "Dr.",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "name3": "von",
+                "name4": "zu",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "externeReferenzen": [
+                  {
+                    "exRefName": "Kundennummer beim Lieferanten",
+                    "exRefWert": "ABC123456"
+                  }
+                ]
+              }
+            ],
+            "vertragskonditionen": {
+              "abrechnungsintervall": 12
+            },
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "name3": "von",
+              "name4": "zu",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "209497",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZE6",
+        "vorgangsnummer": "1047518565",
+        "pruefidentifikator": "44109",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "759399BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T13:30:00Z",
+        "nachrichtenreferenznummer": "759399",
+        "gueltigAb": "2024-07-01T04:00:00Z",
+        "vertragsbeginn": "2024-07-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

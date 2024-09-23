@@ -1,0 +1,64 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragskonditionen": {
+              "kuendigungsfrist": {
+                "zeitraumText": "30TM"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "155020",
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1557044959",
+        "pruefidentifikator": "44041",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "762142BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2023-12-07T13:22:00Z",
+        "nachrichtenreferenznummer": "762142",
+        "anfragereferenznummer": "12345678910",
+        "gueltigAb": "2024-06-01T04:00:00Z",
+        "antwortstatus": "Z12",
+        "antwortstatusCodeliste": "G_0051"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

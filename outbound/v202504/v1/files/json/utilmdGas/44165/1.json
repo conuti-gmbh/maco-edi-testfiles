@@ -1,0 +1,73 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "382616",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZG8",
+        "vorgangsnummer": "1079201456",
+        "pruefidentifikator": "44165",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "765850BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T11:00:00Z",
+        "nachrichtenreferenznummer": "765850",
+        "gueltigAb": "2024-06-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

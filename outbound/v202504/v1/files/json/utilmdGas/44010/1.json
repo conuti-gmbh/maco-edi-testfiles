@@ -1,0 +1,90 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "GAS",
+            "marktlokationsId": "50444668523"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsende": "2024-07-01T04:00:00Z",
+            "lokationsId": "50444668523",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Laue",
+                "name2": "Andre",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "lokationsId": "50754153861",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50754153861"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "Al34565645454",
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "Vorgang1",
+        "pruefidentifikator": "44010",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "AN25334L",
+        "kategorie": "E02",
+        "nachrichtendatum": "2024-04-01T09:38:00Z",
+        "nachrichtenreferenznummer": "Al34565645454",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        }
+      }
+    }
+  }
+]

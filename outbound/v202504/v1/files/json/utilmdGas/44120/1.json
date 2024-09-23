@@ -1,0 +1,54 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "bilanzkreis": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "757353",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZE9",
+        "vorgangsnummer": "1582811270",
+        "pruefidentifikator": "44120",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "65723BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-03T13:40:00Z",
+        "nachrichtenreferenznummer": "765723",
+        "gueltigAb": "2024-07-01T04:00:00Z",
+        "vertragsbeginn": "2024-07-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

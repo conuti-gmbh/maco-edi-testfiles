@@ -1,0 +1,113 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "vertragsende": "2024-07-01T04:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT"
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "einspeisung": false,
+                "tagesparameter": {
+                  "temperaturmessstelle": "1234",
+                  "dienstanbieter": "DWD",
+                  "herausgeber": "BDEW"
+                },
+                "profilart": "ART_LASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzierungsbeginn": "2024-06-01T04:00:00Z",
+            "bilanzierungsende": "2024-07-01T04:00:00Z",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "jahresverbrauchsprognose": {
+              "wert": 5000,
+              "einheit": "KWH"
+            },
+            "prognosegrundlage": "PROFILE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "107959",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZD0",
+        "vorgangsnummer": "315547734",
+        "pruefidentifikator": "44020",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "324795BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-10T13:52:00Z",
+        "nachrichtenreferenznummer": "324795",
+        "anfragereferenznummer": "ABC1234",
+        "gueltigAb": "2024-04-01T22:00:00Z",
+        "infoAbweichung": "Blabla",
+        "ergaenzteMarktlokation": false
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Hans",
+                "zusatz3": "von",
+                "zusatz4": "zu",
+                "zusatz5": "Dr"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-05-01T04:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT"
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "anrede": "Dr",
+                "name1": "Mustermann",
+                "name2": "Hans",
+                "name3": "von",
+                "name4": "zu",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_LASTPROFIL",
+                "einspeisung": false,
+                "herausgeber": "TUM",
+                "tagesparameter": {
+                  "temperaturmessstelle": "1234",
+                  "dienstanbieter": "DWD",
+                  "herausgeber": "BDEW"
+                }
+              }
+            ],
+            "bilanzierungsbeginn": "2024-05-01T04:00:00Z",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
+            "kundenwert": {
+              "wert": 100
+            },
+            "prognosegrundlage": "PROFILE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "213157",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZD0",
+        "vorgangsnummer": "1574822580",
+        "pruefidentifikator": "44021",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "max@mustermann.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_ZENTRALE",
+                "rufnummer": "0234 56789 30"
+              },
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "0234 56789 10"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "0234 56789 20"
+              },
+              {
+                "nummerntyp": "MOBIL_NUMMER",
+                "rufnummer": "0234 56789 40"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "905894BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T11:17:00Z",
+        "nachrichtenreferenznummer": "905894",
+        "anfragereferenznummer": "REF12345678910",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "G_0002",
+        "bilanzkreis": [
+          {
+            "bezeichnung": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

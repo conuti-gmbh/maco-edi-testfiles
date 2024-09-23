@@ -1,0 +1,156 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "GAS",
+            "eigentuemer": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "EIGENTUEMER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "hausverwalter": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "HAUSVERWALTER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "gasqualitaet": "H_GAS",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800110000002",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": false
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800110000002",
+                "marktrolle": "GMSB"
+              }
+            ]
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "GAS",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2024-06-01T04:00:00Z",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "578017",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZE7",
+        "vorgangsnummer": "2069373586",
+        "pruefidentifikator": "44113",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800110000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "304615BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-04-01T15:28:00Z",
+        "nachrichtenreferenznummer": "304615",
+        "gueltigAb": "2024-06-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
