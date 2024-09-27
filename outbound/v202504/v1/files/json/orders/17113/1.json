@@ -1,0 +1,74 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "REKLAMATION_VON_WERTEN",
+            "anfragetyp": "LASTGANGDATEN"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "REKLAMATION": [
+          {
+            "boTyp": "REKLAMATION",
+            "versionStruktur": "1",
+            "lokationsId": "55123678945",
+            "lokationsTyp": "MALO",
+            "obiskennzahl": "1:1.1.9.0",
+            "zeitraumMesswertanfrage": {
+              "startdatum": "2024-04-28T22:00:00Z",
+              "enddatum": "2024-08-11T22:00:00Z"
+            },
+            "reklamationsgrund": "WERTE_ZU_HOCH"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0OYS007",
+        "sparte": "STROM",
+        "pruefidentifikator": "17113",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@ronny.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0HC9M6V",
+        "nachrichtendatum": "2024-08-19T06:39:00Z",
+        "nachrichtenreferenznummer": "M104QEDN",
+        "angebotsreferenz": "12345"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
