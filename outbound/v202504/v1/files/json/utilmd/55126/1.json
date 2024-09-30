@@ -23,7 +23,9 @@
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
@@ -42,7 +44,9 @@
             "versionStruktur": "1",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "lastprofile": [
               {
                 "bezeichnung": "H0",
@@ -70,7 +74,9 @@
           {
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",

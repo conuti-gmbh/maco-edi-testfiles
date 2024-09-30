@@ -20,7 +20,9 @@
           {
             "boTyp": "STEUERBARE_RESSOURCE",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "sparte": "STROM",
             "marktrollen": [

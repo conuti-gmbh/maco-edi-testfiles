@@ -21,7 +21,9 @@
           {
             "boTyp": "BERECHNUNGSFORMEL",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "notwendigkeit": "BERECHNUNGSFORMEL_NOTWENDIG",
             "rechenschrittId": 1,
             "rechenschritte": [

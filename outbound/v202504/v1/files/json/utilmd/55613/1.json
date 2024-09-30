@@ -23,7 +23,9 @@
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "netzebene": "NSP",
             "bilanzierungsgebiet": "11YR00000002596Z",
             "marktrollen": [
@@ -57,7 +59,9 @@
           {
             "boTyp": "BILANZIERUNG",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "versionStruktur": "1",
             "lastprofile": [
               {

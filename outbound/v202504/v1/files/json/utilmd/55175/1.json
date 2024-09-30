@@ -20,7 +20,9 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "marktlokationsId": "50074561188",
             "sparte": "STROM"
           }
@@ -29,7 +31,9 @@
           {
             "boTyp": "NETZLOKATION",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "netzlokationsId": "E1688117482",
             "sparte": "STROM"
           }
@@ -38,7 +42,9 @@
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM"
           }
@@ -47,7 +53,9 @@
           {
             "boTyp": "LOKATIONSBUENDEL",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "lokationsbuendelstrukturId": "9992000000026",
             "standardisierteLokationsbuendelstruktur": true,

@@ -20,7 +20,9 @@
           {
             "boTyp": "TECHNISCHE_RESSOURCE",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "ressourcenId": "D417MLM8164",
             "sparte": "STROM",

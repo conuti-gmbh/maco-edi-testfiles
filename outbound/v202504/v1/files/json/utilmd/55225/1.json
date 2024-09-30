@@ -21,7 +21,9 @@
             "boTyp": "NETZLOKATION",
             "versionStruktur": "1",
             "netzlokationsId": "E1688117482",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "sparte": "STROM",
             "abrechnungsdaten": [

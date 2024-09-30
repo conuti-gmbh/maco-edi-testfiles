@@ -22,7 +22,9 @@
             "versionStruktur": "1",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "marktrollen": [
               {
@@ -48,7 +50,9 @@
           {
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
             "sparte": "STROM",

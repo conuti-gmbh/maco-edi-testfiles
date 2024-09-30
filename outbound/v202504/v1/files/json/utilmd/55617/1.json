@@ -22,7 +22,9 @@
             "versionStruktur": "1",
             "ressourcenId": "D417MLM8164",
             "sparte": "STROM",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "referenzNetzlokation": "E1688117482",
             "nennleistung": {

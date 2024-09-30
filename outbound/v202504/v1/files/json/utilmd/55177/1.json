@@ -12,7 +12,9 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "sparte": "STROM"
           }
         ]

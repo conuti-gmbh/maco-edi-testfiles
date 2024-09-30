@@ -20,7 +20,9 @@
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",

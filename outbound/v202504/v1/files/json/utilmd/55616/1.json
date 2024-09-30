@@ -37,7 +37,9 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2
+            },
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "lokationsadresse": {
@@ -67,7 +69,9 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 3,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3
+            },
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "lokationsadresse": {

@@ -38,7 +38,9 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2
+            },
             "sparte": "STROM",
             "netzebene": "NSP",
             "marktrollen": [
@@ -64,7 +66,9 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 3,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3
+            },
             "sparte": "STROM",
             "netzebene": "NSP",
             "marktrollen": [
@@ -92,7 +96,9 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "zeitraumId": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2
+            },
             "datenqualitaet": "DATEN",
             "vertragspartner2": [
               {
@@ -112,7 +118,9 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "zeitraumId": 3,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3
+            },
             "datenqualitaet": "DATEN",
             "vertragspartner2": [
               {
@@ -133,7 +141,9 @@
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2
+            },
             "lastprofile": [
               {
                 "bezeichnung": "H0",
@@ -156,7 +166,9 @@
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 3,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3
+            },
             "lastprofile": [
               {
                 "bezeichnung": "H0",

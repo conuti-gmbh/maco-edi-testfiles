@@ -23,7 +23,9 @@
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "netzbetreiberCodeNr": "9900321000005",
             "netznutzungsabrechnungsdaten": [
               {
@@ -69,7 +71,9 @@
           {
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
             "datenqualitaet": "DATEN",

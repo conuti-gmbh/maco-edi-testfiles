@@ -20,7 +20,9 @@
           {
             "boTyp": "NETZLOKATION",
             "versionStruktur": "1",
-            "zeitraumId": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
             "datenqualitaet": "DATEN",
             "netzlokationsId": "E1688117482",
             "sparte": "STROM",

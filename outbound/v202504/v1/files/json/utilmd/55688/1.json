@@ -38,7 +38,9 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2
+            },
             "sparte": "STROM",
             "marktrollen": [
               {
@@ -54,7 +56,9 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "datenqualitaet": "DATEN",
-            "zeitraumId": 3,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3
+            },
             "sparte": "STROM",
             "marktrollen": [
               {
