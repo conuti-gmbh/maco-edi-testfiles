@@ -1,0 +1,92 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "STAMMDATEN_MELO",
+            "lokationsId": "DE00014545768S0000045800000003054",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-08-29T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "allgemeineInformationen": {
+                  "info1": "SD bitte"
+                }
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messadresse": {
+              "postleitzahl": "54432 ",
+              "ort": "Velbert ",
+              "strasse": "Ronnystraße 12 ",
+              "gewerbekennzeichnung": true,
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Ronny",
+                "zusatz2": "Bauer"
+              }
+            }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "geraete": [
+              {
+                "geraetenummer": "1234567890987654"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0UWDOWR",
+        "sparte": "STROM",
+        "pruefidentifikator": "17126",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "M0QIP3KB",
+        "nachrichtendatum": "2024-08-19T07:53:00Z",
+        "nachrichtenreferenznummer": "M0NMN1EG"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
