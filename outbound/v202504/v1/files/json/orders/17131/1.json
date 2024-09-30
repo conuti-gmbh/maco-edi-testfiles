@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "BESTELLUNG_EINES_ANGEBOTS_EINER_KONFIGURATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M03UGIN5",
+        "sparte": "STROM",
+        "pruefidentifikator": "17131",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "A. Laue",
+            "eMailAdresse": "andre.l@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0ACK2J3",
+        "nachrichtendatum": "2024-08-19T08:06:00Z",
+        "nachrichtenreferenznummer": "M01KAXGA",
+        "angebotsnummer": "12474"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
