@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "REKLAMATION_DEFINITION"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "definitionsTyp": "ZAEHLZEIT"
+              }
+            ]
+          }
+        ],
+        "REKLAMATION": [
+          {
+            "boTyp": "REKLAMATION",
+            "versionStruktur": "1",
+            "reklamationsgrund": "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL",
+            "reklamationsgrundBemerkung": {
+              "bemerkung1": "nicht plausibel "
+            }
+          }
+        ],
+        "ZAEHLZEITDEFINITION": [
+          {
+            "boTyp": "ZAEHLZEITDEFINITION",
+            "versionStruktur": "1",
+            "zaehlzeiten": [
+              {
+                "code": "AAL"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0C872AF",
+        "sparte": "STROM",
+        "pruefidentifikator": "17122",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0BCYD36",
+        "nachrichtendatum": "2024-08-19T07:00:00Z",
+        "nachrichtenreferenznummer": "M0JD5O8M",
+        "angebotsreferenz": "12365",
+        "anfragereferenznummer": "35852"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
