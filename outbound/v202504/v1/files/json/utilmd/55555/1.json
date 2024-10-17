@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-04T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZOG19F2",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY9",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55555",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM07VCUXF",
+        "kategorie": "Z88",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0CBOHOW",
+        "verwendungAb": "2025-04-04T12:00:00Z",
+        "nachrichtenReferenzBestellbestaetigung": "ABC123456",
+        "vorgangsReferenzBestellbestaetigung": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
