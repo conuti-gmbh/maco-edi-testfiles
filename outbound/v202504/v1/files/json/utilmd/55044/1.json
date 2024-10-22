@@ -1,0 +1,46 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "826946",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "1539948277",
+        "pruefidentifikator": "55044",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "211900BGM",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-04T11:17:00Z",
+        "nachrichtenreferenznummer": "211900",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "E17",
+        "antwortstatusCodeliste": "S_0056"
+      }
+    }
+  }
+]
