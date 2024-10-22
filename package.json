@@ -1,9 +1,0 @@
-{
-  "name": "gridmako-backoffice-editestfiles",
-  "version": "1.1.0",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.conuti.de:cu-powercloud/lib/edi-testfiles.git"
-  }
-}
