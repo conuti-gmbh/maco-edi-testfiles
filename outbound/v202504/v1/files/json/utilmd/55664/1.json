@@ -1,0 +1,57 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "DATEN",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZR98SP7",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX8",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55664",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0DSH660",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0DWR5BN",
+        "anfragereferenznummer": "ABC123456",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A01",
+            "liste": "E_0583",
+            "zeitraumId": 1
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
