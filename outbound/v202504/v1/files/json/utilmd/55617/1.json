@@ -25,7 +25,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "referenzNetzlokation": "E1688117482",
             "nennleistung": {
               "aufnahme": 1000

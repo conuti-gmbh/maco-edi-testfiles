@@ -23,7 +23,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "sparte": "STROM",
             "marktrollen": [
               {

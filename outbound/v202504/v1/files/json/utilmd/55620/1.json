@@ -25,7 +25,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
@@ -53,7 +53,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
             "sparte": "STROM",
             "vertragskonditionen": {

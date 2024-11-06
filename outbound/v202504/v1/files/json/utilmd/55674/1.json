@@ -20,7 +20,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
@@ -58,7 +58,7 @@
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },

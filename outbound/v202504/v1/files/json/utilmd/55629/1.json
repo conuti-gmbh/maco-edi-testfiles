@@ -23,7 +23,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "ressourcenId": "D417MLM8164",
             "sparte": "STROM",
             "nennleistung": {

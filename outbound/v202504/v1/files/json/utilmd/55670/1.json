@@ -23,7 +23,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "bilanzierungsgebiet": "11YR00000002596Z",
@@ -60,7 +60,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "bilanzkreis": "11Y0-0000-0076-N",
             "zeitreihentyp": "SLS"
           },

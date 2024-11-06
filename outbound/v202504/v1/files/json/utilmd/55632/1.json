@@ -23,7 +23,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",
             "betriebszustand": "REGELBETRIEB",

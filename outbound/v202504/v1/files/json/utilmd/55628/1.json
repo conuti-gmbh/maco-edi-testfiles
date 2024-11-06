@@ -37,7 +37,7 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 2
             },
@@ -65,7 +65,7 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 3
             },
@@ -99,7 +99,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 2
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "vertragspartner2": [
               {
                 "boTyp": "GESCHAEFTSPARTNER",
@@ -121,7 +121,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 3
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "vertragspartner2": [
               {
                 "boTyp": "GESCHAEFTSPARTNER",
@@ -140,7 +140,7 @@
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 2
             },
@@ -165,7 +165,7 @@
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 3
             },

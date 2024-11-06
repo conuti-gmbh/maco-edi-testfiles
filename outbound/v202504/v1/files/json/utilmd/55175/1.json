@@ -56,7 +56,7 @@
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "lokationsbuendelstrukturId": "9992000000026",
             "standardisierteLokationsbuendelstruktur": true,
             "zuordnungObjectcode": [

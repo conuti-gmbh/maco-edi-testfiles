@@ -11,7 +11,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
             "lokationsadresse": {
@@ -75,7 +75,7 @@
           {
             "boTyp": "ZAEHLER",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "zaehlernummer": "ABC123456",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",
@@ -98,7 +98,7 @@
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "marktlokationsId": "50074561188",
             "bilanzkreis": "11Y0-0000-0076-N",
             "zeitreihentyp": "EGS"

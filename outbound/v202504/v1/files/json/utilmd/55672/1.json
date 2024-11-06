@@ -22,7 +22,7 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },
@@ -42,7 +42,7 @@
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1
             },

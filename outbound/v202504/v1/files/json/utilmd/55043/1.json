@@ -13,7 +13,7 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "sparte": "STROM",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "energierichtung": "AUSSP",
             "netzebene": "NSP",
             "marktrollen": [
@@ -64,7 +64,7 @@
             "versionStruktur": "1",
             "messlokationsId": "DE0032106765712000000000000000037",
             "sparte": "STROM",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "netzebenemessung": "NSP",
             "messadresse": {
               "postleitzahl": "12345",
@@ -135,7 +135,7 @@
           {
             "boTyp": "LOKATIONSBUENDEL",
             "versionStruktur": "1",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "lokationsbuendelstrukturId": "9992000000026",
             "standardisierteLokationsbuendelstruktur": true,
             "zuordnungObjectcode": [
@@ -230,7 +230,7 @@
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
-            "datenqualitaet": "DATEN",
+            "datenqualitaet": "GUELTIGE_DATEN",
             "lastprofile": [
               {
                 "bezeichnung": "H0",
