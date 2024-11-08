@@ -1,0 +1,111 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.1",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": []
+                  }
+                ],
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              },
+              {
+                "obisKennzahl": "1-1:1.9.2",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": []
+                  }
+                ],
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "konfigurationsprodukt": null,
+            "produktdatenRelevanteRolle": "NB",
+            "leistungskurvendefinition": "ABC"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragskonditionen": {
+              "geplanteTurnusablesung": {
+                "ableseZeitraum": "0101"
+              }
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZU87CWO",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55640",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0GM77SR",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0B24EP6"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
