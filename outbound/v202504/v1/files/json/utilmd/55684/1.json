@@ -1,0 +1,73 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0FPR7L7",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55684",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "4045399000077",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0H6H2K4",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0471K05"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
