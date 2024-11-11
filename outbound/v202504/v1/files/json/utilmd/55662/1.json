@@ -1,0 +1,85 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:2.9.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZZUYCSN",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY1",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55662",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM07EWGS8",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0ITAQQ3"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
