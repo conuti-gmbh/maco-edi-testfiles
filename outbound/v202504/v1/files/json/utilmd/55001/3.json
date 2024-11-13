@@ -11,16 +11,11 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50363198100",
             "sparte": "STROM",
             "erforderlichesProduktpaket": [
               {
                 "produktpaketId": 1,
                 "produkt": [
-                  {
-                    "produktCode": "9991000002016",
-                    "codeProdukteigenschaft": "9991000002131"
-                  },
                   {
                     "produktCode": "9991000002082",
                     "wertedetails": "11XEONBAYERN---I"
@@ -32,11 +27,24 @@
                   {
                     "produktCode": "9991000002727",
                     "codeProdukteigenschaft": "9991000002785"
+                  },
+                  {
+                    "produktCode": "9991000002769",
+                    "codeProdukteigenschaft": "9991000002933"
                   }
                 ],
-                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR"
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
               }
             ]
+          }
+        ],
+        "RUHENDE_MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198102",
+            "sparte": "STROM"
           }
         ],
         "NETZNUTZUNGSVERTRAG": [
@@ -46,12 +54,7 @@
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
             "vertragsbeginn": "2024-12-01T23:00:00Z",
-            "vertragsende": "2024-12-02T23:00:00Z",
-            "vertragskonditionen": {
-              "haushaltskunde": true
-            },
-            "lokationsId": "50363198100",
-            "lokationsTyp": "MALO"
+            "vertragsende": "2024-12-02T23:00:00Z"
           }
         ],
         "ENERGIELIEFERVERTRAG": [
@@ -76,13 +79,13 @@
               "boTyp": "GESCHAEFTSPARTNER",
               "versionStruktur": "1",
               "name1": "Max",
+              "name2": "Mustermann",
               "gewerbekennzeichnung": false,
               "partneradresse": {
-                "postleitzahl": "99423",
-                "ort": "Weimar",
+                "postleitzahl": "Weimar",
+                "ort": "99423",
                 "strasse": "Erfurter",
-                "hausnummer": "46",
-                "postfach": "Str",
+                "postfach": "46",
                 "landescode": "DE"
               }
             },
@@ -98,10 +101,10 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M2N2K9NH",
+        "datenaustauschreferenz": "M2U7UFHY",
         "sparte": "STROM",
         "transaktionsgrund": "E01",
-        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzung": "ZAP",
         "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
         "vorgangsnummer": "KBG27094210000000000929931413171000",
         "pruefidentifikator": "55001",
@@ -119,10 +122,10 @@
           "rollencodenummer": "9980000000002",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMM2RS5P0Q",
+        "dokumentennummer": "BGMM3CRJ7EH",
         "kategorie": "E01",
         "nachrichtendatum": "2024-10-14T09:45:00Z",
-        "nachrichtenreferenznummer": "UNHM2M4CSVV",
+        "nachrichtenreferenznummer": "UNHM2QRCG4G",
         "vertragsbeginn": "2024-12-01T23:00:00Z",
         "vertragsende": "2024-12-02T23:00:00Z"
       },

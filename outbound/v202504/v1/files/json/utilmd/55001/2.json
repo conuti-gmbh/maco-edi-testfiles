@@ -18,20 +18,8 @@
                 "produktpaketId": 1,
                 "produkt": [
                   {
-                    "produktCode": "9991000002016",
-                    "codeProdukteigenschaft": "9991000002131"
-                  },
-                  {
                     "produktCode": "9991000002082",
-                    "wertedetails": "11XEONBAYERN---I"
-                  },
-                  {
-                    "produktCode": "9991000002008",
-                    "codeProdukteigenschaft": "9991000002115"
-                  },
-                  {
-                    "produktCode": "9991000002727",
-                    "codeProdukteigenschaft": "9991000002785"
+                    "wertedetails": "41234567891234567"
                   }
                 ],
                 "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR"
