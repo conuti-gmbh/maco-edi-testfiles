@@ -67,21 +67,38 @@
                 "herausgeber": "NB"
               }
             ],
-            "bilanzkreis": "11Y0-0000-0076-N",
+            "jahresverbrauchsprognose": {
+              "wert": 2000,
+              "einheit": "KWH"
+            },
             "aggregationsverantwortung": "UENB",
             "zeitreihentyp": "SES",
-            "prognosegrundlage": "WERTE",
+            "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
               "SLP_SEP"
             ]
           }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "bilanzkreis": "11Y0-0000-0076-N"
+          }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M35DQT4Q",
+        "datenaustauschreferenz": "M36W3GAB",
         "sparte": "STROM",
         "transaktionsgrund": "ZX2",
-        "transaktionsgrundergaenzung": "ZW3",
+        "transaktionsgrundergaenzung": "ZW5",
         "vorgangsnummer": "123456",
         "pruefidentifikator": "55672",
         "absender": {
