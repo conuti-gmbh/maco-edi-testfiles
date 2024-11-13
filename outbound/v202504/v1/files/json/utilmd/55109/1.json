@@ -1,0 +1,212 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "KEINE_DATEN",
+            "verwendungAb": "2025-02-28T23:00:00Z",
+            "verwendungBis": "2025-03-31T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-03-31T22:00:00Z",
+            "verwendungBis": "2025-04-02T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 3,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-04-02T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-03-31T22:00:00Z",
+              "enddatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-03-31T22:00:00Z",
+              "enddatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-03-31T22:00:00Z",
+              "enddatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "KEINE_ANGABE"
+              }
+            ]
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 3,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Musterfrau",
+                "name2": "Erika",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Musterfrau",
+              "name2": "Erika",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Str",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "KEINE_ANGABE"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZIXYEHW",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55109",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM04B35EH",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZRFH02E"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
