@@ -52,49 +52,42 @@
             "datenqualitaet": "ERWARTETE_DATEN",
             "lastprofile": [
               {
-                "bezeichnung": "E0",
-                "verfahren": "SYNTHETISCH",
-                "einspeisung": true,
-                "profilart": "ART_STANDARDLASTPROFIL",
-                "herausgeber": "NB"
-              },
-              {
-                "profilschar": "ABC",
-                "verfahren": "SYNTHETISCH",
-                "einspeisung": true,
-                "tagesparameter": {
-                  "temperaturmessstelle": "1234",
-                  "dienstanbieter": "DWD",
-                  "herausgeber": "BDEW"
-                },
-                "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
-                "herausgeber": "NB"
+                "referenzprofilbezeichnung": "ABC",
+                "einspeisung": true
               }
             ],
-            "bilanzkreis": "11Y0-0000-0076-N",
-            "jahresverbrauchsprognose": {
-              "wert": 5000,
-              "einheit": "KWH"
-            },
             "temperaturarbeit": {
               "wert": 5,
-              "einheit": "KWHK"
+              "einheit": "KW"
             },
             "aggregationsverantwortung": "UENB",
             "zeitreihentyp": "SES",
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
-              "SLP_SEP",
-              "TLP_TEP"
+              "TEP"
             ]
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "bilanzkreis": "11Y0-0000-0076-N"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M2YK1CNP",
+        "datenaustauschreferenz": "M31X0UDC",
         "sparte": "STROM",
         "transaktionsgrund": "ZX2",
-        "transaktionsgrundergaenzung": "ZW3",
+        "transaktionsgrundergaenzung": "ZW5",
         "vorgangsnummer": "123456",
         "pruefidentifikator": "55673",
         "absender": {
