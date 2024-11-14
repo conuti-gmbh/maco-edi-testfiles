@@ -6,23 +6,9 @@
     "version": 1,
     "edifactVersion": 202504,
     "data": {
-      "stammdaten": {
-        "ENERGIELIEFERVERTRAG": [
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "ENERGIELIEFERVERTRAG",
-            "sparte": "STROM",
-            "vertragskonditionen": {
-              "kuendigungsfrist": {
-                "zeitraumText": "03MQ"
-              }
-            }
-          }
-        ]
-      },
+      "stammdaten": {},
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAFCWAEUJDPLAJ",
+        "datenaustauschreferenz": "DACFTBUOIJCYES",
         "sparte": "STROM",
         "transaktionsgrund": "E03",
         "vorgangsnummer": "24062416225400000000000102159662022",
@@ -52,15 +38,16 @@
           "rollencodenummer": "9977842000004",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA342411041308449903323000007541014",
+        "dokumentennummer": "DA972411041315259903323000007638027",
         "kategorie": "E35",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAKLKYLSHQPTDN",
+        "nachrichtenreferenznummer": "DAPGMXWELAKHYH",
         "anfragereferenznummer": "KDG123456",
-        "gueltigAb": "2025-09-30T22:00:00Z",
-        "antwortstatus": "A14",
+        "antwortstatus": "A16",
         "antwortstatusCodeliste": "E_0614",
-        "datumKuendigungLf": "2025-10-31T23:00:00Z"
+        "freitext": {
+          "freitext1": " Vollmacht ungültig"
+        }
       },
       "zusatzdaten": {}
     }

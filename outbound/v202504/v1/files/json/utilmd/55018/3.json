@@ -15,14 +15,15 @@
             "sparte": "STROM",
             "vertragskonditionen": {
               "kuendigungsfrist": {
-                "zeitraumText": "03MQ"
-              }
+                "zeitraumText": "03MT"
+              },
+              "kuendigungstermin": "2025-09-24T22:00:00Z"
             }
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAFCWAEUJDPLAJ",
+        "datenaustauschreferenz": "DAHICILEIEFJYC",
         "sparte": "STROM",
         "transaktionsgrund": "E03",
         "vorgangsnummer": "24062416225400000000000102159662022",
@@ -52,12 +53,12 @@
           "rollencodenummer": "9977842000004",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA342411041308449903323000007541014",
+        "gueltigAb": "2025-09-30T22:00:00Z",
+        "dokumentennummer": "DA692411041312249903323000007159083",
         "kategorie": "E35",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAKLKYLSHQPTDN",
+        "nachrichtenreferenznummer": "DANPRAGNTOBCJO",
         "anfragereferenznummer": "KDG123456",
-        "gueltigAb": "2025-09-30T22:00:00Z",
         "antwortstatus": "A14",
         "antwortstatusCodeliste": "E_0614",
         "datumKuendigungLf": "2025-10-31T23:00:00Z"
