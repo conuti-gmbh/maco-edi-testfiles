@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "STATUSBERICHT": [
+          {
+            "boTyp": "STATUSBERICHT",
+            "versionStruktur": "1",
+            "status": "ERFOLGREICH",
+            "pruefgegenstand": "ABC123456",
+            "absenderreferenz": "123456",
+            "transaktionsReferenznummer": "555555",
+            "datumPruefung": "2025-04-04T09:55:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M44TP5K5",
+        "sparte": "STROM",
+        "pruefidentifikator": "99999",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M3UP1YK8",
+        "kategorie": "312",
+        "nachrichtendatum": "2025-04-05T09:45:00Z",
+        "nachrichtenreferenznummer": "M3RT34TN"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
