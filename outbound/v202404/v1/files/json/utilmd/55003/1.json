@@ -49,7 +49,7 @@
         "antwortstatus": "A50",
         "antwortstatusCodeliste": "E_0404",
         "antwortstatusdritter": "A35",
-        "antwortstatusCodelistedritter": "E_0403"
+        "antwortstatusdritterCodeliste": "E_0403"
       }
     }
   }

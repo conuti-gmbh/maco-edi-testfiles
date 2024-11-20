@@ -34,7 +34,7 @@
         "antwortstatus": "A50",
         "antwortstatusCodeliste": "E_0623",
         "antwortstatusdritter": "A35",
-        "antwortstatusCodelistedritter": "E_0624",
+        "antwortstatusdritterCodeliste": "E_0624",
         "beteiligterMarktpartner": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
