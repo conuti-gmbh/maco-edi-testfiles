@@ -21,16 +21,16 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsende": "2025-11-01T23:00:00Z",
+            "vertragsbeginn": "2025-11-01T23:00:00Z",
             "lokationsId": "20072281644",
             "lokationsTyp": "MALO"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DATYCLYDZAQBYT",
+        "datenaustauschreferenz": "DAUDPMSIEQMYQT",
         "sparte": "STROM",
-        "transaktionsgrund": "E01",
+        "transaktionsgrund": "ZG9",
         "transaktionsgrundergaenzung": "ZW4",
         "vorgangsnummer": "24062416225400000000000102159662022",
         "pruefidentifikator": "55004",
@@ -59,11 +59,11 @@
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA092410151056309903323000007016724",
+        "dokumentennummer": "DA262410151057389903323000007047406",
         "kategorie": "E02",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAANCKWKHCRUIC",
-        "vertragsende": "2025-11-01T23:00:00Z"
+        "nachrichtenreferenznummer": "DADPIGRBJVLQQN",
+        "vertragsbeginn": "2025-11-01T23:00:00Z"
       },
       "zusatzdaten": {}
     }

@@ -7,31 +7,29 @@
     "edifactVersion": 202504,
     "data": {
       "stammdaten": {
-        "MARKTLOKATION": [
-          {
-            "boTyp": "MARKTLOKATION",
-            "versionStruktur": "1",
-            "marktlokationsId": "20072281644",
-            "sparte": "STROM"
-          }
-        ],
         "NETZNUTZUNGSVERTRAG": [
           {
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsende": "2025-11-01T23:00:00Z",
-            "lokationsId": "20072281644",
-            "lokationsTyp": "MALO"
+            "vertragsende": "2025-11-01T23:00:00Z"
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "20072281644",
+            "sparte": "STROM"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DATYCLYDZAQBYT",
+        "datenaustauschreferenz": "DAJTBUXCPDHARU",
         "sparte": "STROM",
         "transaktionsgrund": "E01",
-        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzung": "ZW5",
         "vorgangsnummer": "24062416225400000000000102159662022",
         "pruefidentifikator": "55004",
         "absender": {
@@ -59,10 +57,10 @@
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA092410151056309903323000007016724",
+        "dokumentennummer": "DA412410151057249903323000007950211",
         "kategorie": "E02",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAANCKWKHCRUIC",
+        "nachrichtenreferenznummer": "DAOOUXHEPDQVDZ",
         "vertragsende": "2025-11-01T23:00:00Z"
       },
       "zusatzdaten": {}
