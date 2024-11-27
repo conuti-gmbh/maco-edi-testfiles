@@ -8,7 +8,7 @@
     "data": {
       "stammdaten": {},
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M2UMD16C",
+        "datenaustauschreferenz": "M2VVPKKM",
         "sparte": "STROM",
         "transaktionsgrund": "E01",
         "transaktionsgrundergaenzung": "ZW4",
@@ -33,9 +33,16 @@
         "nachrichtendatum": "2024-10-21T09:45:00Z",
         "nachrichtenreferenznummer": "UNHM3FFAZNS",
         "anfragereferenznummer": "NNV1230",
-        "antwortstatus": "A06",
-        "antwortstatusCodeliste": "E_0622",
-        "lieferbeginndatuminbearbeitung": "2025-04-02T22:00:00Z"
+        "antwortstatus": "A50",
+        "antwortstatusCodeliste": "E_0623",
+        "antwortstatusdritter": "A43",
+        "antwortstatusdritterCodeliste": "E_0624",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        }
       },
       "zusatzdaten": {}
     }
