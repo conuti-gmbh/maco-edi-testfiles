@@ -1,7 +1,7 @@
 [
   {
     "businessKey": "<businessKey>",
-    "processDate": "<prozessDatum>",
+    "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
     "edifactVersion": 202504,
@@ -11,35 +11,63 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "datenqualitaet": "INFORMATIVE_DATEN",
-            "marktlokationsId": "50074561188",
-            "sparte": "STROM",
-            "marktrollen": [
-              {
-                "boTyp": "MARKTTEILNEHMER",
-                "versionStruktur": "1",
-                "marktrolle": "MSB",
-                "rollencodenummer": "9904446000007",
-                "weiterverpflichtet": false,
-                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
-              }
-            ]
+            "marktlokationsId": "50363198100",
+            "sparte": "STROM"
+          }
+        ],
+        "RUHENDE_MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198102",
+            "sparte": "STROM"
           }
         ],
         "NETZLOKATION": [
           {
             "boTyp": "NETZLOKATION",
             "versionStruktur": "1",
-            "datenqualitaet": "INFORMATIVE_DATEN",
             "netzlokationsId": "E1688117482",
             "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
                 "marktrolle": "MSB",
-                "rollencodenummer": "9904446000007",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9980000000024",
+                "rollencodetyp": "BDEW",
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001234",
+            "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9980000000027",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9980000000023",
+                "rollencodetyp": "BDEW"
               }
             ]
           }
@@ -52,27 +80,22 @@
             "sparte": "STROM"
           }
         ],
-        "MESSLOKATION": [
+        "STEUERBARE_RESSOURCE": [
           {
-            "boTyp": "MESSLOKATION",
+            "boTyp": "STEUERBARE_RESSOURCE",
             "versionStruktur": "1",
-            "datenqualitaet": "INFORMATIVE_DATEN",
-            "messlokationsId": "DE0032106765712000000000000000037",
+            "ressourcenId": "C81641SBT77",
             "sparte": "STROM",
+            "datenqualitaet": "INFORMATIVE_DATEN",
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
                 "marktrolle": "MSB",
-                "rollencodenummer": "9904446000007",
-                "weiterverpflichtet": false,
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9980000000026",
+                "rollencodetyp": "BDEW",
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
-              },
-              {
-                "boTyp": "MARKTTEILNEHMER",
-                "versionStruktur": "1",
-                "marktrolle": "GMSB",
-                "rollencodenummer": "9904446000007"
               }
             ]
           }
@@ -82,50 +105,46 @@
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
-            "vertragsbeginn": "2025-06-30T22:00:00Z",
-            "vertragsende": "2025-07-31T22:00:00Z",
             "sparte": "STROM",
-            "lokationsId": "50074561188",
-            "lokationsTyp": "MALO"
+            "vertragsbeginn": "2024-12-01T23:00:00Z",
+            "vertragsende": "2024-12-02T23:00:00Z"
           }
         ]
       },
       "transaktionsdaten": {
-        "nachrichtendatum": "2025-04-01T22:01:00Z",
-        "vorgangsnummer": "1610071045",
-        "nachrichtenreferenznummer": "268219",
+        "datenaustauschreferenz": "M38VVWXF",
         "sparte": "STROM",
-        "dokumentennummer": "268219BGM",
-        "kategorie": "E01",
-        "empfaenger": {
-          "rollencodenummer": "9903790000002",
-          "rollencodetyp": "BDEW",
-          "marktrolle": "LF",
-          "boTyp": "MARKTTEILNEHMER",
-          "versionStruktur": "1",
-          "gewerbekennzeichnung": true
-        },
         "transaktionsgrund": "E01",
-        "transaktionsgrundergaenzung": "ZW7",
-        "transaktionsgrundergaenzungBefristeteAnmeldung": "E03",
-        "datenaustauschreferenz": "150621",
+        "transaktionsgrundergaenzung": "ZAP",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55002",
         "absender": {
-          "rollencodenummer": "9900321000005",
-          "rollencodetyp": "BDEW",
-          "marktrolle": "NB",
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "gewerbekennzeichnung": true
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000001",
+          "rollencodetyp": "BDEW"
         },
-        "pruefidentifikator": "55002",
-        "vertragsbeginn": "2025-06-30T22:00:00Z",
-        "vertragsende": "2025-07-31T22:00:00Z",
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2XZHIOV",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-10-15T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2SC7URW",
+        "anfragereferenznummer": "NNV1230",
         "antwortstatus": "A51",
         "antwortstatusCodeliste": "E_0623",
-        "anfragereferenznummer": "12345678910",
-        "geplantesProduktpaket": 1
+        "geplantesProduktpaket": 1,
+        "vertragsbeginn": "2024-12-01T23:00:00Z",
+        "vertragsende": "2024-12-02T23:00:00Z"
       },
-      "zusatzdaten": []
+      "zusatzdaten": {}
     }
   }
 ]
