@@ -7,7 +7,7 @@
     "edifactVersion": 202504,
     "data": {
       "stammdaten": {
-        "MARKTLOKATION": [
+        "RUHENDE_MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
@@ -21,9 +21,7 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsende": "2025-11-01T23:00:00Z",
-            "lokationsId": "20072281644",
-            "lokationsTyp": "MALO"
+            "vertragsende": "2025-11-01T23:00:00Z"
           }
         ]
       },
@@ -31,7 +29,7 @@
         "datenaustauschreferenz": "DAPWKZKRSXTKMH",
         "sparte": "STROM",
         "transaktionsgrund": "Z33",
-        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzung": "ZAP",
         "vorgangsnummer": "24062416225400000000000102159662022",
         "pruefidentifikator": "55007",
         "absender": {
