@@ -11,25 +11,28 @@
           {
             "boTyp": "VERWENDUNGSZEITRAUM",
             "versionStruktur": "1",
-            "verwendungAb": "2025-04-02T22:00:00Z",
             "zeitraumId": 1,
-            "datenqualitaet": "GUELTIGE_DATEN"
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-04-02T22:00:00Z"
           }
         ],
         "STEUERBARE_RESSOURCE": [
           {
             "boTyp": "STEUERBARE_RESSOURCE",
             "versionStruktur": "1",
+            "ressourcenId": "C816417ST77",
+            "sparte": "STROM",
             "gueltigkeitszeitraum": {
-              "zeitraumId": 1
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
             },
             "datenqualitaet": "GUELTIGE_DATEN",
-            "sparte": "STROM",
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
                 "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
                 "rollencodenummer": "9904446000007",
                 "rollencodetyp": "BDEW",
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
@@ -39,7 +42,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M043Q935",
+        "datenaustauschreferenz": "M3GOTBOH",
         "sparte": "STROM",
         "transaktionsgrund": "ZX9",
         "vorgangsnummer": "123456",
@@ -58,11 +61,10 @@
           "rollencodenummer": "9904446000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMM0FZZ6KL",
+        "dokumentennummer": "BGMM34IXSLF",
         "kategorie": "E03",
         "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHM0SY14NL",
-        "verwendungAb": "2025-04-02T22:00:00Z"
+        "nachrichtenreferenznummer": "UNHM38Q4R9X"
       },
       "zusatzdaten": {}
     }
