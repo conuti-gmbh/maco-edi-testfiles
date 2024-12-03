@@ -39,11 +39,12 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
+              "abgabe": 100,
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
-            "art": "STROMVERBRAUCH"
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
+            "art": "SPEICHER"
           },
           {
             "boTyp": "TECHNISCHE_RESSOURCE",
@@ -58,11 +59,12 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
+              "abgabe": 100,
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
-            "art": "STROMVERBRAUCH"
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
+            "art": "SPEICHER"
           }
         ],
         "STEUERBARE_RESSOURCE": [
@@ -75,7 +77,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAAZPSHRYDEGQZ",
+        "datenaustauschreferenz": "DAOHLJRJDBVPON",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -105,10 +107,10 @@
           "rollencodenummer": "9910812000000",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA142411081003059903323000007901049",
+        "dokumentennummer": "DA972411081015249903323000007896320",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAWTXTAVQRCZDO"
+        "nachrichtenreferenznummer": "DAQKCDFHXBZNGC"
       },
       "zusatzdaten": {}
     }

@@ -41,8 +41,8 @@
             "nennleistung": {
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "verbrauchsart": "EMOB",
+            "artEMobilitaet": "LS",
             "art": "STROMVERBRAUCH"
           },
           {
@@ -60,8 +60,8 @@
             "nennleistung": {
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "verbrauchsart": "EMOB",
+            "artEMobilitaet": "LS",
             "art": "STROMVERBRAUCH"
           }
         ],
@@ -75,7 +75,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAAZPSHRYDEGQZ",
+        "datenaustauschreferenz": "DAKGWCRNHQDZCL",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -105,10 +105,10 @@
           "rollencodenummer": "9910812000000",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA142411081003059903323000007901049",
+        "dokumentennummer": "DA032411081001279903323000007756470",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAWTXTAVQRCZDO"
+        "nachrichtenreferenznummer": "DAPTCWIDYJQBPF"
       },
       "zusatzdaten": {}
     }
