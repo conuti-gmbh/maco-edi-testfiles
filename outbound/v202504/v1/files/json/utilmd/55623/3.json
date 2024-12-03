@@ -41,8 +41,8 @@
             "nennleistung": {
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "verbrauchsart": "EMOB",
+            "artEMobilitaet": "LS",
             "enwg": true,
             "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
             "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
@@ -64,8 +64,8 @@
             "nennleistung": {
               "aufnahme": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "verbrauchsart": "EMOB",
+            "artEMobilitaet": "LS",
             "enwg": true,
             "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
             "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
@@ -83,7 +83,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAKCLQBFSBSJIP",
+        "datenaustauschreferenz": "DADXWTWIXOZLUK",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -113,10 +113,10 @@
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA702411120821109903323000007673578",
+        "dokumentennummer": "DA772411120822489903323000007450202",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DADNFOGQPTEBRW",
+        "nachrichtenreferenznummer": "DAVAXCKCMWEMTM",
         "anfragereferenznummer": "TR1234",
         "antwortStatusZeitraum": [
           {

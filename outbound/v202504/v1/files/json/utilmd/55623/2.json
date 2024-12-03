@@ -39,15 +39,13 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "abgabe": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
             "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
-            "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
             "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "art": "SPEICHER"
           },
           {
             "boTyp": "TECHNISCHE_RESSOURCE",
@@ -62,15 +60,13 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "abgabe": 100
             },
-            "verbrauchsart": "WK",
-            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
             "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUN_VOR_2024",
-            "einordnung": "WECHSEL_WURDE_DURCHGEFUEHRT",
             "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "art": "SPEICHER"
           }
         ],
         "STEUERBARE_RESSOURCE": [
@@ -83,7 +79,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAKCLQBFSBSJIP",
+        "datenaustauschreferenz": "DAPICHXGTOSYAJ",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -113,10 +109,10 @@
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA702411120821109903323000007673578",
+        "dokumentennummer": "DA732411120825299903323000007662024",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DADNFOGQPTEBRW",
+        "nachrichtenreferenznummer": "DATCBYUYNRIHPR",
         "anfragereferenznummer": "TR1234",
         "antwortStatusZeitraum": [
           {
