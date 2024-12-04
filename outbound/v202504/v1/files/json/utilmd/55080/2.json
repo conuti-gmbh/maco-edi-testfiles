@@ -6,34 +6,9 @@
     "version": 1,
     "edifactVersion": 202504,
     "data": {
-      "stammdaten": {
-        "MARKTLOKATION": [
-          {
-            "boTyp": "MARKTLOKATION",
-            "versionStruktur": "1",
-            "marktlokationsId": "20072281644",
-            "sparte": "STROM",
-            "beteiligterMarktpartner": {
-              "boTyp": "MARKTTEILNEHMER",
-              "versionStruktur": "1",
-              "rollencodenummer": "9977842000004",
-              "rollencodetyp": "BDEW"
-            }
-          }
-        ],
-        "NETZNUTZUNGSVERTRAG": [
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "NETZNUTZUNGSVERTRAG",
-            "sparte": "STROM",
-            "lokationsId": "20072281644",
-            "lokationsTyp": "MALO"
-          }
-        ]
-      },
+      "stammdaten": {},
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAWAGCZDOWMGAU",
+        "datenaustauschreferenz": "DARGYPSDPSILFV",
         "sparte": "STROM",
         "transaktionsgrund": "E03",
         "transaktionsgrundergaenzung": "ZW3",
@@ -64,17 +39,15 @@
           "rollencodenummer": "9903729000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA382410161537339903323000007610102",
+        "dokumentennummer": "DA412410161526289903323000007232653",
         "kategorie": "E01",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAMDDBRNVTSFAR",
+        "nachrichtenreferenznummer": "DADZDZRBQPEPBU",
         "anfragereferenznummer": "NNV1234",
-        "antwortstatus": "A57",
-        "antwortstatusCodeliste": "E_0623",
-        "antwortstatusdritter": "A30",
-        "antwortstatusdritterCodeliste": "E_0624",
-        "antwortstatusdritterBetroffeneLokation": "ZW3",
-        "antwortstatusdritterReferenz": "20072281644"
+        "antwortstatus": "A45",
+        "antwortstatusCodeliste": "E_0622",
+        "naechsteBearbeitung": "2012-07-02T22:00:00Z",
+        "lieferbeginndatuminbearbeitung": "2012-07-01T22:00:00Z"
       },
       "zusatzdaten": {}
     }
