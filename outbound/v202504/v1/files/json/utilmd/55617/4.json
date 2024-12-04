@@ -39,15 +39,10 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "abgabe": 100
             },
-            "verbrauchsart": "EMOB",
-            "artEMobilitaet": "LS",
-            "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
-            "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "erzeugungsart": "SOLAR",
+            "art": "STROMERZEUGUNG"
           },
           {
             "boTyp": "TECHNISCHE_RESSOURCE",
@@ -62,15 +57,10 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "abgabe": 100
             },
-            "verbrauchsart": "EMOB",
-            "artEMobilitaet": "LS",
-            "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
-            "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "erzeugungsart": "SOLAR",
+            "art": "STROMERZEUGUNG"
           }
         ],
         "STEUERBARE_RESSOURCE": [
@@ -83,7 +73,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAHPBWPVZUOKEO",
+        "datenaustauschreferenz": "DARJHUFRPVVDMM",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -113,10 +103,10 @@
           "rollencodenummer": "9903729000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA962411120814039903323000007251425",
+        "dokumentennummer": "DA542411080929419903323000007156920",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DARIGWXBQGLBCD"
+        "nachrichtenreferenznummer": "DAGMFJRWNDCGFI"
       },
       "zusatzdaten": {}
     }

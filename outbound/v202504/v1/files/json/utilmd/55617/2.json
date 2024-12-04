@@ -39,15 +39,14 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "aufnahme": 100,
+              "abgabe": 100
             },
-            "verbrauchsart": "EMOB",
-            "artEMobilitaet": "LS",
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
             "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
             "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "art": "SPEICHER"
           },
           {
             "boTyp": "TECHNISCHE_RESSOURCE",
@@ -62,15 +61,14 @@
             "referenzNetzlokation": "E1688117482",
             "referenzSteuerbareRessource": "C816417ST77",
             "nennleistung": {
-              "aufnahme": 100
+              "aufnahme": 100,
+              "abgabe": 100
             },
-            "verbrauchsart": "EMOB",
-            "artEMobilitaet": "LS",
+            "speicherkapazitaet": 100,
+            "speicherart": "WASSERSTOFFSPEICHER",
             "enwg": true,
-            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_NACH_2023",
-            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
             "weitereEinrichtung": false,
-            "art": "STROMVERBRAUCH"
+            "art": "SPEICHER"
           }
         ],
         "STEUERBARE_RESSOURCE": [
@@ -83,7 +81,7 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAHPBWPVZUOKEO",
+        "datenaustauschreferenz": "DAWWJGXYUOSBPW",
         "sparte": "STROM",
         "transaktionsgrund": "ZY0",
         "vorgangsnummer": "24062416225400000000000102159662011",
@@ -113,10 +111,10 @@
           "rollencodenummer": "9903729000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA962411120814039903323000007251425",
+        "dokumentennummer": "DA642411080926419903323000007659689",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DARIGWXBQGLBCD"
+        "nachrichtenreferenznummer": "DAECLZSJHKLPPB"
       },
       "zusatzdaten": {}
     }
