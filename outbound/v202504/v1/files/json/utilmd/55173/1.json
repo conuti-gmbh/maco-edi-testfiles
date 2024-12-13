@@ -13,45 +13,92 @@
             "versionStruktur": "1",
             "zeitraumId": 1,
             "datenqualitaet": "GUELTIGE_DATEN",
-            "verwendungAb": "2025-04-02T22:00:00Z"
+            "verwendungAb": "2024-10-20T22:00:00Z",
+            "verwendungBis": "2024-12-24T23:00:00Z"
           }
         ],
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
-            "sparte": "STROM",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            }
+            "marktlokationsId": "50363198116",
+            "sparte": "STROM"
+          }
+        ],
+        "RUHENDE_MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198122",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688110018",
+            "sparte": "STROM"
           }
         ],
         "MESSLOKATION": [
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
-            "messlokationsId": "DE0032106765712000000000000000037",
-            "sparte": "STROM",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            }
+            "messlokationsId": "DE0032106765712000000000000001217",
+            "sparte": "STROM"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8120",
+            "sparte": "STROM"
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST19",
+            "sparte": "STROM"
           }
         ],
         "LOKATIONSBUENDEL": [
           {
             "boTyp": "LOKATIONSBUENDEL",
             "versionStruktur": "1",
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            },
             "lokationsbuendelstrukturId": "9992000000026",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z",
+              "enddatum": "2024-12-24T23:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
             "standardisierteLokationsbuendelstruktur": true,
             "zuordnungObjectcode": [
               {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE0032106765712000000000000001217",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032"
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "TECHNISCHE_RESSOURCE",
+                "referenzLokationsId": "D417MLM8120",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001024"
+                  }
+                ]
+              },
+              {
                 "referenzLokationsTyp": "MALO",
-                "referenzLokationsId": "50074561188",
+                "referenzLokationsId": "50363198122",
                 "objectcode": [
                   {
                     "objectcode": "9992000001016"
@@ -59,11 +106,11 @@
                 ]
               },
               {
-                "referenzLokationsTyp": "MELO",
-                "referenzLokationsId": "DE0032106765712000000000000000037",
+                "referenzLokationsTyp": "NELO",
+                "referenzLokationsId": "E1688110018",
                 "objectcode": [
                   {
-                    "objectcode": "9992000001032"
+                    "objectcode": "9992000001256"
                   }
                 ]
               }
@@ -76,43 +123,35 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "lokationsId": "50074561188",
+            "lokationsId": "50363198122",
             "lokationsTyp": "MALO"
-          }
-        ],
-        "BILANZIERUNG": [
-          {
-            "boTyp": "BILANZIERUNG",
-            "versionStruktur": "1",
-            "marktlokationsId": "50074561188"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M08MX5OA",
+        "datenaustauschreferenz": "M3UMGXPN",
         "sparte": "STROM",
         "transaktionsgrund": "ZY2",
-        "vorgangsnummer": "123456",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
         "pruefidentifikator": "55173",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9900321000005",
+          "rollencodenummer": "9900496000001",
           "rollencodetyp": "BDEW"
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9904446000007",
+          "rollencodenummer": "9900496000002",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMLZQ3GAJ0",
+        "dokumentennummer": "BGMM3FTBBT4",
         "kategorie": "E03",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHM0B4HXTF",
-        "verwendungAb": "2025-04-02T22:00:00Z"
+        "nachrichtendatum": "2024-10-16T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2W52SAM"
       },
       "zusatzdaten": {}
     }
