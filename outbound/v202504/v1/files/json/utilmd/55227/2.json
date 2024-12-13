@@ -28,12 +28,13 @@
               "startdatum": "2024-10-20T22:00:00Z",
               "enddatum": "2024-12-24T23:00:00Z"
             },
-            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "datenqualitaet": "ERWARTETE_DATEN",
             "abrechnungsdaten": [
               {
                 "artikelId": "1-02-0-001",
                 "artikelIdTyp": "ARTIKELID",
-                "abrechnungBlindarbeit": false
+                "abrechnungBlindarbeit": true,
+                "zahlerBlindarbeit": "NICHT_FESTGELEGT"
               }
             ]
           }
@@ -60,9 +61,17 @@
           "rollencodetyp": "BDEW"
         },
         "dokumentennummer": "BGMM38HSNL4",
-        "kategorie": "Z88",
+        "kategorie": "E03",
         "nachrichtendatum": "2024-10-16T09:45:00Z",
-        "nachrichtenreferenznummer": "UNHM3KE115J"
+        "nachrichtenreferenznummer": "UNHM3KE115J",
+        "anfragereferenznummer": "NNV1230",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A02",
+            "liste": "E_0408",
+            "zeitraumId": 1
+          }
+        ]
       },
       "zusatzdaten": {}
     }
