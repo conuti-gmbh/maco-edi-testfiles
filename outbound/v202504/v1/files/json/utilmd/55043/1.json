@@ -1,7 +1,7 @@
 [
   {
     "businessKey": "<businessKey>",
-    "processDate": "<prozessDatum>",
+    "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
     "edifactVersion": 202504,
@@ -11,24 +11,27 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "marktlokationsId": "50363191616",
             "sparte": "STROM",
-            "datenqualitaet": "GUELTIGE_DATEN",
             "energierichtung": "AUSSP",
-            "netzebene": "NSP",
+            "netzebene": "HSP",
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
-                "rollencodenummer": "4045399000077",
-                "marktrolle": "UENB"
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496003333",
+                "rollencodetyp": "BDEW"
               },
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
-                "rollencodenummer": "9904446000007",
                 "marktrolle": "MSB",
-                "weiterverpflichtet": true,
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000002",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
               }
             ],
@@ -37,77 +40,72 @@
                 "verwendungszwecke": [
                   {
                     "marktrolle": "NB",
-                    "zweck": []
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
                   },
                   {
                     "marktrolle": "LF",
                     "zweck": [
-                      "ENDKUNDENABRECHNUNG"
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
                     ]
                   }
                 ],
-                "zaehlzeiten": {
-                  "zaehlzeitDefinition": null
-                },
-                "messprodukt": "9991000000044"
+                "messprodukt": "9991000000078"
               }
             ],
-            "messtechnischeEinordnung": "KME_MME",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            }
+            "messtechnischeEinordnung": "IMS"
           }
         ],
         "MESSLOKATION": [
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
-            "messlokationsId": "DE0032106765712000000000000000037",
+            "messlokationsId": "DE0032106765712000000000000001717",
             "sparte": "STROM",
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "netzebenemessung": "NSP",
+            "netzebenemessung": "HSS",
             "messadresse": {
-              "postleitzahl": "12345",
-              "ort": "Ort",
-              "strasse": "Strasse",
-              "hausnummer": "3",
+              "postleitzahl": "99423",
+              "ort": "Weimar",
+              "strasse": "Erfurter str.",
+              "hausnummer": "46",
               "landescode": "DE",
               "zusatzInformation": {
-                "zusatz1": "Mustermann",
-                "zusatz2": "Hans",
-                "zusatz3": "von",
-                "zusatz4": "zu",
-                "zusatz5": "Dr"
+                "zusatz1": "Hinter",
+                "zusatz2": "Hof"
               }
             },
             "zaehlwerke": [
               {
-                "messprodukt": "9991000000151",
-                "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
-                "werteuebermittlungVerwendungszweck": "NICHT_VORHANDEN",
                 "zaehlzeiten": {
-                  "zaehlzeitDefinition": null
-                }
+                  "zaehlzeitDefinition": "ABC"
+                },
+                "messprodukt": "9991000000218",
+                "notwendigkeitZweiteMessung": "VORHANDEN",
+                "werteuebermittlungVerwendungszweck": "VORHANDEN"
               }
             ],
-            "betriebszustand": "REGELBETRIEB",
+            "betriebszustand": "GESPERRT_NICHT_ENTSPERREN",
             "ablesekartenempfaenger": {
               "boTyp": "GESCHAEFTSPARTNER",
               "versionStruktur": "1",
-              "anrede": "Dr",
-              "name1": "Mustermann",
-              "name2": "Hans",
-              "name3": "von",
-              "name4": "zu",
+              "name1": "Max",
+              "name2": "Mustermann",
               "gewerbekennzeichnung": false,
               "geschaeftspartnerrolle": [
                 "ABLESEKARTENEMPFAENGER"
               ],
               "partneradresse": {
-                "postleitzahl": "12345",
-                "ort": "Ort",
-                "strasse": "Strasse",
-                "hausnummer": "3",
+                "postleitzahl": "99423",
+                "ort": "Weimar",
+                "strasse": "Erfurter str.",
+                "hausnummer": "46",
                 "landescode": "DE"
               }
             },
@@ -115,19 +113,23 @@
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
-                "rollencodenummer": "9904446000007",
                 "marktrolle": "MSB",
-                "weiterverpflichtet": true,
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000002",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
                 "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
               },
               {
                 "boTyp": "MARKTTEILNEHMER",
                 "versionStruktur": "1",
-                "rollencodenummer": "9904446000007",
-                "marktrolle": "GMSB"
+                "marktrolle": "GMSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000022",
+                "rollencodetyp": "BDEW"
               }
             ],
-            "referenzMarktlokationsId": "50074561188",
+            "referenzMarktlokationsId": "50363191616",
             "verwendungsumfang": "MESSLOKATION_PROZESSUAL_BEHANDELT"
           }
         ],
@@ -135,27 +137,30 @@
           {
             "boTyp": "LOKATIONSBUENDEL",
             "versionStruktur": "1",
-            "datenqualitaet": "GUELTIGE_DATEN",
             "lokationsbuendelstrukturId": "9992000000026",
             "standardisierteLokationsbuendelstruktur": true,
             "zuordnungObjectcode": [
               {
                 "referenzLokationsTyp": "MALO",
-                "referenzLokationsId": "50074561188",
+                "referenzLokationsId": "50363191616",
                 "objectcode": [
                   {
                     "objectcode": "9992000001016"
                   }
-                ]
+                ],
+                "vorgelagerteLokationTyp": "MELO",
+                "vorgelagerteLokationId": "DE0032106765712000000000000001717"
               },
               {
                 "referenzLokationsTyp": "MELO",
-                "referenzLokationsId": "DE0032106765712000000000000000037",
+                "referenzLokationsId": "DE0032106765712000000000000001717",
                 "objectcode": [
                   {
                     "objectcode": "9992000001032"
                   }
-                ]
+                ],
+                "vorgelagerteLokationTyp": "MELO",
+                "vorgelagerteLokationId": "DE0032106765712000000000000001717"
               }
             ]
           }
@@ -166,7 +171,7 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "lokationsId": "50074561188",
+            "lokationsId": "50363191616",
             "lokationsTyp": "MALO"
           }
         ],
@@ -180,11 +185,8 @@
               {
                 "boTyp": "GESCHAEFTSPARTNER",
                 "versionStruktur": "1",
-                "anrede": "Dr",
-                "name1": "Mustermann",
-                "name2": "Hans",
-                "name3": "von",
-                "name4": "zu",
+                "name1": "Hans",
+                "name2": "Muller",
                 "gewerbekennzeichnung": false,
                 "geschaeftspartnerrolle": [
                   "KUNDE"
@@ -194,92 +196,76 @@
             "korrespondenzpartner": {
               "boTyp": "GESCHAEFTSPARTNER",
               "versionStruktur": "1",
-              "anrede": "Dr",
-              "name1": "Mustermann",
-              "name2": "Hans",
-              "name3": "von",
-              "name4": "zu",
+              "name1": "Jan",
+              "name2": "Schoeler",
               "gewerbekennzeichnung": false,
               "partneradresse": {
-                "postleitzahl": "12345",
-                "ort": "Ort",
-                "strasse": "Strasse",
-                "hausnummer": "3",
+                "postleitzahl": "10435",
+                "ort": "Berlin",
+                "strasse": "Schönhauser Allee",
+                "hausnummer": "36",
                 "landescode": "DE"
               }
             },
-            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsId": "DE0032106765712000000000000001717",
             "lokationsTyp": "MELO"
-          },
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
-            "sparte": "STROM",
-            "vertragskonditionen": {
-              "geplanteTurnusablesung": {
-                "ableseZeitraum": "0101"
-              }
-            },
-            "lokationsId": "50074561188",
-            "lokationsTyp": "MALO"
           }
         ],
         "BILANZIERUNG": [
           {
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
-            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktlokationsId": "50363191616",
+            "aggregationsverantwortung": "VNB",
+            "prognosegrundlage": "WERTE",
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
             "lastprofile": [
               {
                 "bezeichnung": "H0",
-                "verfahren": "SYNTHETISCH",
+                "verfahren": "ANALYTISCH",
                 "einspeisung": false,
                 "profilart": "ART_STANDARDLASTPROFIL",
-                "herausgeber": "NB"
+                "herausgeber": "NB",
+                "tagesparameter": {
+                  "temperaturmessstelle": "1234",
+                  "dienstanbieter": "DWD",
+                  "herausgeber": "BDEW"
+                }
               }
-            ],
-            "jahresverbrauchsprognose": {
-              "wert": 2000,
-              "einheit": "KWH"
-            },
-            "aggregationsverantwortung": "VNB",
-            "prognosegrundlage": "PROFILE",
-            "detailsPrognosegrundlage": [
-              "SLP_SEP"
-            ],
-            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+            ]
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "LZXD30E4",
+        "datenaustauschreferenz": "M3CJAXK5",
         "sparte": "STROM",
         "transaktionsgrund": "E02",
-        "vorgangsnummer": "1383433802",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
         "pruefidentifikator": "55043",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9900321000005",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
           "rollencodetyp": "BDEW"
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9904446000007",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMLZRLLJRX",
+        "dokumentennummer": "BGMM2F84HWH",
         "kategorie": "E01",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHLZM5BBVN",
-        "anfragereferenznummer": "REF12345678910",
+        "nachrichtendatum": "2024-10-16T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM33TKB5W",
+        "anfragereferenznummer": "NV12372",
         "antwortstatus": "E15",
         "antwortstatusCodeliste": "S_0055",
-        "datumleistungsbeginn": "2025-06-30T22:00:00Z"
-      }
+        "datumleistungsbeginn": "2024-12-05T23:00:00Z"
+      },
+      "zusatzdaten": {}
     }
   }
 ]
