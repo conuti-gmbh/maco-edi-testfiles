@@ -1,7 +1,7 @@
 [
   {
     "businessKey": "<businessKey>",
-    "processDate": "<prozessDatum>",
+    "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
     "edifactVersion": 202504,
@@ -11,36 +11,15 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "marktlokationsId": "20072281644",
             "sparte": "STROM",
-            "datenqualitaet": "GUELTIGE_DATEN",
             "erforderlichesProduktpaket": [
               {
                 "produktpaketId": 1,
                 "produkt": [
                   {
-                    "produktCode": "9991000002008",
-                    "codeProdukteigenschaft": "9991000002115"
-                  },
-                  {
-                    "produktCode": "9991000002032",
-                    "codeProdukteigenschaft": "9991000002959"
-                  },
-                  {
-                    "produktCode": "9991000002040",
-                    "codeProdukteigenschaft": "9991000002230"
-                  },
-                  {
-                    "produktCode": "9991000002058",
-                    "codeProdukteigenschaft": "9991000002256"
-                  },
-                  {
-                    "produktCode": "9991000002074",
-                    "codeProdukteigenschaft": "9991000002280"
-                  },
-                  {
                     "produktCode": "9991000002082",
-                    "wertedetails": "11Y0-0000-0076-N"
+                    "wertedetails": "11XBKA---------I"
                   }
                 ],
                 "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
@@ -50,34 +29,54 @@
                 "produktpaketId": 2,
                 "produkt": [
                   {
-                    "produktCode": "9991000002008",
-                    "codeProdukteigenschaft": "9991000002115"
-                  },
-                  {
-                    "produktCode": "9991000002032",
-                    "codeProdukteigenschaft": "9991000002959"
-                  },
-                  {
-                    "produktCode": "9991000002040",
-                    "codeProdukteigenschaft": "9991000002230"
-                  },
-                  {
-                    "produktCode": "9991000002058",
-                    "codeProdukteigenschaft": "9991000002256"
-                  },
-                  {
-                    "produktCode": "9991000002074",
-                    "codeProdukteigenschaft": "9991000002280"
-                  },
-                  {
                     "produktCode": "9991000002082",
-                    "wertedetails": "11Y0-0000-0076-N"
+                    "wertedetails": "22XBKA---------I"
                   }
                 ],
-                "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
                 "priorisierung": "PRIORITAET2"
               }
-            ]
+            ],
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00713739359S0000000000001222221",
+            "sparte": "STROM"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM"
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST77",
+            "sparte": "STROM"
           }
         ],
         "NETZNUTZUNGSVERTRAG": [
@@ -86,7 +85,8 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsbeginn": "2025-06-30T22:00:00Z",
+            "vertragsbeginn": "2025-11-01T23:00:00Z",
+            "vertragsende": "2025-12-01T23:00:00Z",
             "vertragskonditionen": {
               "haushaltskunde": true
             }
@@ -98,17 +98,13 @@
             "versionStruktur": "1",
             "vertragsart": "ENERGIELIEFERVERTRAG",
             "sparte": "STROM",
-            "datenqualitaet": "GUELTIGE_DATEN",
             "vertragspartner2": [
               {
                 "boTyp": "GESCHAEFTSPARTNER",
                 "versionStruktur": "1",
-                "anrede": "Dr.",
-                "name1": "Mustermann",
-                "name2": "Max",
-                "name3": "von",
-                "name4": "zu",
-                "gewerbekennzeichnung": false,
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
                 "geschaeftspartnerrolle": [
                   "KUNDE"
                 ]
@@ -117,55 +113,73 @@
             "korrespondenzpartner": {
               "boTyp": "GESCHAEFTSPARTNER",
               "versionStruktur": "1",
-              "anrede": "Dr.",
-              "name1": "Mustermann",
-              "name2": "Max",
-              "name3": "von",
-              "name4": "zu",
+              "name1": "Fank Müller",
               "gewerbekennzeichnung": false,
               "partneradresse": {
-                "postleitzahl": "12345",
-                "ort": "Stadt",
-                "strasse": "Str.",
-                "hausnummer": "1",
-                "landescode": "DE"
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
               }
             }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "12345667890",
+            "sparte": "STROM",
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "LZO0Y56I",
+        "datenaustauschreferenz": "DAGQKITMEGKDRX",
         "sparte": "STROM",
         "transaktionsgrund": "E02",
         "transaktionsgrundergaenzung": "ZW4",
-        "vorgangsnummer": "123456",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "vorgangsnummer": "24062416225400000000000102159662022",
         "pruefidentifikator": "55600",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9903790000002",
-          "rollencodetyp": "BDEW"
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9900321000005",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMLZYU0DXB",
+        "dokumentennummer": "DA582410161540539903323000007307618",
         "kategorie": "E01",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHLZNLZLN5",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAPTYGIPXPUJXS",
         "freitext": {
-          "freitext1": "Bla1",
-          "freitext2": "Bla2",
-          "freitext3": "Bla3",
-          "freitext4": "Bla4",
-          "freitext5": "Bla5"
+          "freitext1": "Bitte"
         },
-        "vertragsbeginn": "2025-06-30T22:00:00Z"
-      }
+        "vertragsbeginn": "2025-11-01T23:00:00Z",
+        "vertragsende": "2025-12-01T23:00:00Z"
+      },
+      "zusatzdaten": {}
     }
   }
 ]
