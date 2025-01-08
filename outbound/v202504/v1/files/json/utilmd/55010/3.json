@@ -7,11 +7,20 @@
     "edifactVersion": 202504,
     "data": {
       "stammdaten": {
-        "MARKTLOKATION": [
+        "NETZNUTZUNGSVERTRAG": [
           {
-            "boTyp": "MARKTLOKATION",
+            "boTyp": "VERTRAG",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsende": "2025-06-30T22:00:00Z"
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
             "sparte": "STROM",
             "beteiligterMarktpartner": {
               "boTyp": "MARKTTEILNEHMER",
@@ -20,47 +29,13 @@
               "rollencodetyp": "BDEW"
             }
           }
-        ],
-        "NETZNUTZUNGSVERTRAG": [
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "NETZNUTZUNGSVERTRAG",
-            "sparte": "STROM",
-            "vertragsende": "2025-06-30T22:00:00Z",
-            "lokationsId": "50074561188",
-            "lokationsTyp": "MALO"
-          }
-        ],
-        "ENERGIELIEFERVERTRAG": [
-          {
-            "boTyp": "VERTRAG",
-            "versionStruktur": "1",
-            "vertragsart": "ENERGIELIEFERVERTRAG",
-            "sparte": "STROM",
-            "vertragspartner2": [
-              {
-                "boTyp": "GESCHAEFTSPARTNER",
-                "versionStruktur": "1",
-                "anrede": "Dr.",
-                "name1": "Mustermann",
-                "name2": "Max",
-                "name3": "von",
-                "name4": "zu",
-                "gewerbekennzeichnung": false,
-                "geschaeftspartnerrolle": [
-                  "KUNDE"
-                ]
-              }
-            ]
-          }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M3LY4HGT",
+        "datenaustauschreferenz": "M33MDTU4",
         "sparte": "STROM",
         "transaktionsgrund": "E01",
-        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzung": "ZW5",
         "vorgangsnummer": "123456",
         "pruefidentifikator": "55010",
         "absender": {
