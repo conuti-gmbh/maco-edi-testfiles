@@ -16,6 +16,14 @@
             "verwendungAb": "2024-11-22T23:00:00Z"
           }
         ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688110000",
+            "sparte": "STROM"
+          }
+        ],
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
@@ -24,19 +32,19 @@
             "sparte": "STROM"
           }
         ],
-        "RUHENDE_MARKTLOKATION": [
-          {
-            "boTyp": "MARKTLOKATION",
-            "versionStruktur": "1",
-            "marktlokationsId": "50363198102",
-            "sparte": "STROM"
-          }
-        ],
         "MESSLOKATION": [
           {
             "boTyp": "MESSLOKATION",
             "versionStruktur": "1",
             "messlokationsId": "DE0032106765712000000000000001234",
+            "sparte": "STROM"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
             "sparte": "STROM"
           }
         ],
@@ -53,8 +61,17 @@
             "standardisierteLokationsbuendelstruktur": true,
             "zuordnungObjectcode": [
               {
+                "referenzLokationsTyp": "NELO",
+                "referenzLokationsId": "E1688110000",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001256"
+                  }
+                ]
+              },
+              {
                 "referenzLokationsTyp": "MALO",
-                "referenzLokationsId": "50363198102",
+                "referenzLokationsId": "50361128000",
                 "objectcode": [
                   {
                     "objectcode": "9992000001016"
@@ -69,13 +86,32 @@
                     "objectcode": "9992000001032"
                   }
                 ]
+              },
+              {
+                "referenzLokationsTyp": "TECHNISCHE_RESSOURCE",
+                "referenzLokationsId": "D417MLM8164",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001024"
+                  }
+                ]
               }
             ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "lokationsId": "50361128000",
+            "lokationsTyp": "MALO"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M3ET7USZ",
+        "datenaustauschreferenz": "M33A7PQA",
         "sparte": "STROM",
         "transaktionsgrund": "ZY2",
         "vorgangsnummer": "KBG27094210000000000929931413171000",
