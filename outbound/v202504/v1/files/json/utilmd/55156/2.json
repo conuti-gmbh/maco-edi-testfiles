@@ -11,21 +11,66 @@
           {
             "boTyp": "VERWENDUNGSZEITRAUM",
             "versionStruktur": "1",
-            "verwendungAb": "2025-04-02T22:00:00Z",
             "zeitraumId": 1,
-            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN"
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
           }
         ],
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
             "gueltigkeitszeitraum": {
-              "zeitraumId": 1
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
             },
-            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
-            "sparte": "STROM"
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "bilanzierungsgebiet": "11YDE-DSONET---I",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9911835000001",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "regelzone": "10YDE-TSONET---I"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "bilanzierungsgebiet": "11YDE-DSONET---I",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9911835000001",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "regelzone": "10YDE-TSONET---I"
           }
         ],
         "BILANZIERUNG": [
@@ -33,13 +78,55 @@
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
             "gueltigkeitszeitraum": {
-              "zeitraumId": 1
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
             },
-            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzkreis": "11XBKA---------I",
             "jahresverbrauchsprognose": {
-              "wert": 2000,
+              "wert": 4000,
               "einheit": "KWH"
             },
+            "aggregationsverantwortung": "VNB",
+            "zeitreihentyp": "SLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "SLP_SEP"
+            ]
+          },
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "lastprofile": [
+              {
+                "bezeichnung": "H0",
+                "verfahren": "SYNTHETISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzkreis": "11XBKA---------I",
+            "jahresverbrauchsprognose": {
+              "wert": 4000,
+              "einheit": "KWH"
+            },
+            "aggregationsverantwortung": "VNB",
             "zeitreihentyp": "SLS",
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
@@ -49,35 +136,51 @@
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "LZZXUI99",
+        "datenaustauschreferenz": "DAEHJZQIEWJPEG",
         "sparte": "STROM",
         "transaktionsgrund": "ZX3",
-        "vorgangsnummer": "123456",
+        "vorgangsnummer": "24062416225400000000000102159662011",
         "pruefidentifikator": "55156",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9903790000002",
-          "rollencodetyp": "BDEW"
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9900321000005",
+          "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMM0R4FCWM",
-        "kategorie": "Z88",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHM0O4EL68",
-        "anfragereferenznummer": "ABC123456",
+        "dokumentennummer": "DA672411070834269903323000007693203",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAISPWYKQINSZX",
+        "anfragereferenznummer": "NNV1234",
         "antwortStatusZeitraum": [
           {
             "code": "A02",
             "liste": "E_0611",
             "zeitraumId": 1
+          },
+          {
+            "code": "A02",
+            "liste": "E_0611",
+            "zeitraumId": 2
           }
         ]
       },
