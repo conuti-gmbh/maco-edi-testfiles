@@ -1,0 +1,213 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202504,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "netzebene": "NSP",
+            "umspannung": "MSP_NSP_UMSP",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9911835000001",
+                "rollencodetyp": "BDEW"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9910812000000",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "messtechnischeEinordnung": "IMS",
+            "energieherkunft": [
+              {
+                "erzeugungsart": "EEG"
+              }
+            ]
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "netzebene": "NSP",
+            "umspannung": "MSP_NSP_UMSP",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9911835000001",
+                "rollencodetyp": "BDEW"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9910812000000",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "messtechnischeEinordnung": "IMS",
+            "energieherkunft": [
+              {
+                "erzeugungsart": "EEG"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "lastprofile": [
+              {
+                "profilschar": "XYZ",
+                "einspeisung": true
+              }
+            ],
+            "temperaturarbeit": {
+              "wert": 3,
+              "einheit": "KW"
+            },
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "TEP"
+            ],
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+          },
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "lastprofile": [
+              {
+                "profilschar": "XYZ",
+                "einspeisung": true
+              }
+            ],
+            "temperaturarbeit": {
+              "wert": 3,
+              "einheit": "KW"
+            },
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "TEP"
+            ],
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAYKDYVSLAJQWH",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "transaktionsgrundergaenzung": "ZW3",
+        "vorgangsnummer": "24062416225400000000000102159662011",
+        "pruefidentifikator": "55634",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9910812000000",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA172410220759199903323000007215798",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAAFSOQVKKNGXK",
+        "anfragereferenznummer": "NNV1234",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A02",
+            "liste": "E_0409",
+            "zeitraumId": 1
+          },
+          {
+            "code": "A02",
+            "liste": "E_0409",
+            "zeitraumId": 2
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

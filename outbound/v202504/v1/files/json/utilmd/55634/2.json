@@ -267,17 +267,17 @@
                 "bezeichnung": "XYZ",
                 "verfahren": "SYNTHETISCH",
                 "einspeisung": false,
-                "profilart": "ART_STANDARDLASTPROFIL",
+                "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
                 "herausgeber": "NB"
               }
             ],
-            "jahresverbrauchsprognose": {
-              "wert": 4000,
-              "einheit": "KWH"
+            "temperaturarbeit": {
+              "wert": 3,
+              "einheit": "KWHK"
             },
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
-              "SLP_SEP"
+              "TLP_TEP"
             ],
             "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
           },
@@ -294,24 +294,24 @@
                 "bezeichnung": "XYZ",
                 "verfahren": "SYNTHETISCH",
                 "einspeisung": false,
-                "profilart": "ART_STANDARDLASTPROFIL",
+                "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
                 "herausgeber": "NB"
               }
             ],
-            "jahresverbrauchsprognose": {
-              "wert": 4100,
-              "einheit": "KWH"
+            "temperaturarbeit": {
+              "wert": 3,
+              "einheit": "KWHK"
             },
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
-              "SLP_SEP"
+              "TLP_TEP"
             ],
             "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DARBBWTPSBVNKX",
+        "datenaustauschreferenz": "DAIUIHDBGNDQCV",
         "sparte": "STROM",
         "transaktionsgrund": "ZX6",
         "transaktionsgrundergaenzung": "ZW4",
@@ -342,10 +342,10 @@
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA262410220812389903323000007090610",
+        "dokumentennummer": "DA102410220806209903323000007895460",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DAWBDMIKKERHKR",
+        "nachrichtenreferenznummer": "DAWHPFFDUZEGZP",
         "anfragereferenznummer": "NNV1234",
         "antwortStatusZeitraum": [
           {
