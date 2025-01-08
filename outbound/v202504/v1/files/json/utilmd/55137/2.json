@@ -35,8 +35,7 @@
               "startdatum": "2025-06-23T22:00:00Z",
               "enddatum": "2025-07-23T22:00:00Z"
             },
-            "datenqualitaet": "ERWARTETE_DATEN",
-            "foerderungsLand": "DE"
+            "datenqualitaet": "ERWARTETE_DATEN"
           },
           {
             "boTyp": "MARKTLOKATION",
@@ -47,8 +46,7 @@
               "zeitraumId": 2,
               "startdatum": "2025-07-23T22:00:00Z"
             },
-            "datenqualitaet": "ERWARTETE_DATEN",
-            "foerderungsLand": "DE"
+            "datenqualitaet": "ERWARTETE_DATEN"
           }
         ],
         "NETZNUTZUNGSVERTRAG": [
@@ -85,13 +83,112 @@
             "lokationsId": "20072281644",
             "lokationsTyp": "MALO"
           }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
+                "grund": [
+                  "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN"
+                ]
+              }
+            ]
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ],
+                "externeReferenzen": [
+                  {
+                    "exRefName": "Kundennummer beim Lieferanten",
+                    "exRefWert": "KD_NB_09881"
+                  }
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
+                "grund": [
+                  "ENFG_ELEKTRISCH_ANGETRIEBENE_WAERMEPUMPEN"
+                ]
+              }
+            ]
+          }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "DAYAMCYNXSNDYL",
+        "datenaustauschreferenz": "DAFNGBYOWMAHHK",
         "sparte": "STROM",
         "transaktionsgrund": "ZX6",
-        "transaktionsgrundergaenzung": "ZW3",
+        "transaktionsgrundergaenzung": "ZW4",
         "vorgangsnummer": "24062416225400000000000102159662011",
         "pruefidentifikator": "55137",
         "absender": {
@@ -119,10 +216,10 @@
           "rollencodenummer": "9903729000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "DA582411051024219903323000007719162",
+        "dokumentennummer": "DA562411051029459903323000007131355",
         "kategorie": "E03",
         "nachrichtendatum": "2025-06-24T12:31:00Z",
-        "nachrichtenreferenznummer": "DARZGWLDNMUTIT",
+        "nachrichtenreferenznummer": "DAMTEJVKUBPRZQ",
         "anfragereferenznummer": "ANFRAGE1234",
         "antwortStatusZeitraum": [
           {
