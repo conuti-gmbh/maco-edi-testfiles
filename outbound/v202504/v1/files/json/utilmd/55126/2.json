@@ -55,29 +55,35 @@
             "datenqualitaet": "GUELTIGE_DATEN",
             "lastprofile": [
               {
-                "bezeichnung": "XYA",
+                "bezeichnung": "ABC",
+                "profilschar": "XYB",
                 "verfahren": "ANALYTISCH",
                 "einspeisung": false,
-                "profilart": "ART_STANDARDLASTPROFIL",
+                "tagesparameter": {
+                  "temperaturmessstelle": "1234",
+                  "dienstanbieter": "DWD",
+                  "herausgeber": "BDEW"
+                },
+                "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
                 "herausgeber": "NB"
               }
             ],
             "bilanzkreis": "NCHB999123220000",
-            "jahresverbrauchsprognose": {
-              "wert": 10000,
-              "einheit": "KWH"
+            "temperaturarbeit": {
+              "wert": 5,
+              "einheit": "KWHK"
             },
             "aggregationsverantwortung": "VNB",
             "zeitreihentyp": "SLS",
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [
-              "SLP_SEP"
+              "TLP_TEP"
             ]
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M3LYMHT8",
+        "datenaustauschreferenz": "M37BUSBN",
         "sparte": "STROM",
         "transaktionsgrund": "ZX3",
         "vorgangsnummer": "KBG27094210000000000929931413171000",
