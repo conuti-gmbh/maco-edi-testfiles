@@ -7,43 +7,170 @@
     "edifactVersion": 202504,
     "data": {
       "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50754153861",
-            "sparte": "STROM"
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            }
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            }
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            }
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            }
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "M0CFQUZD",
+        "datenaustauschreferenz": "DAEPJOOFDZHKCW",
         "sparte": "STROM",
         "transaktionsgrund": "ZX6",
-        "vorgangsnummer": "123456",
+        "vorgangsnummer": "24062416225400000000000102159662011",
         "pruefidentifikator": "55136",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9904446000007",
-          "rollencodetyp": "BDEW"
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "rollencodenummer": "9903790000002",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMM01SV5LK",
+        "dokumentennummer": "DA912411051009499903323000007124387",
         "kategorie": "E03",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHLZQVUMS2",
-        "anfragereferenznummer": "ABC123456",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAQXHBCTNCYPVJ",
+        "anfragereferenznummer": "ANFRAGE1234",
         "antwortStatusZeitraum": [
           {
-            "code": "A01",
+            "code": "A02",
             "liste": "E_0578",
             "zeitraumId": 1
+          },
+          {
+            "code": "A02",
+            "liste": "E_0578",
+            "zeitraumId": 2
           }
         ]
       },
