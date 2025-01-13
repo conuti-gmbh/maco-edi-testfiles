@@ -18,11 +18,22 @@
                 "produkt": [
                   {
                     "produktCode": "9991000002082",
-                    "wertedetails": "11Y0-0000-0076-N"
+                    "wertedetails": "11XBKA---------I"
                   }
                 ],
-                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
                 "priorisierung": "PRIORITAET1"
+              },
+              {
+                "produktpaketId": 2,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11XBKA--------II"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+                "priorisierung": "PRIORITAET2"
               }
             ]
           }
@@ -34,45 +45,60 @@
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
             "vertragsbeginn": "2025-06-30T22:00:00Z",
-            "vertragsende": "2025-07-31T22:00:00Z"
+            "vertragsende": "2025-08-31T22:00:00Z"
           }
         ]
       },
       "transaktionsdaten": {
-        "datenaustauschreferenz": "LZPDTRGJ",
+        "datenaustauschreferenz": "DATVPDPWLQIOEX",
         "sparte": "STROM",
         "transaktionsgrund": "E03",
         "transaktionsgrundergaenzung": "ZW8",
         "transaktionsgrundergaenzungBefristeteAnmeldung": "E03",
-        "vorgangsnummer": "123456",
+        "vorgangsnummer": "24062416225400000000000102159662011",
         "pruefidentifikator": "55608",
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9903790000002",
-          "rollencodetyp": "BDEW"
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
           "gewerbekennzeichnung": true,
-          "rollencodenummer": "9900321000005",
+          "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW"
         },
-        "dokumentennummer": "BGMLZHKW289",
+        "dokumentennummer": "DA602410171124559903323000007476821",
         "kategorie": "E01",
-        "nachrichtendatum": "2025-04-04T12:00:00Z",
-        "nachrichtenreferenznummer": "UNHLZFYNGI4",
-        "anfragereferenznummer": "ABC123456",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DARHJQXMUFOZIJ",
+        "anfragereferenznummer": "ANMPI55607",
         "antwortstatus": "A01",
         "antwortstatusCodeliste": "E_0603",
-        "vertragsbeginn": "2025-06-30T22:00:00Z",
-        "vertragsende": "2025-07-31T22:00:00Z",
         "abtretungserklaerung": {
-          "passwort": "asdf1234",
-          "link1": "http:\\www.link.de/abtretungserklärung"
-        }
+          "passwort": "KNSG5674?\"§",
+          "link1": "https://www.Stadtwerk_xy.de/...",
+          "link2": "X",
+          "link3": "X",
+          "link4": "X",
+          "link5": "X"
+        },
+        "vertragsbeginn": "2025-06-30T22:00:00Z",
+        "vertragsende": "2025-08-31T22:00:00Z"
       },
       "zusatzdaten": {}
     }
