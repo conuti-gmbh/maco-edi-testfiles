@@ -7,12 +7,17 @@
     "edifactVersion": 202504,
     "data": {
       "stammdaten": {
-        "RUHENDE_MARKTLOKATION": [
+        "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "20072281644",
-            "sparte": "STROM"
+            "sparte": "STROM",
+            "marktlokationsTyp": [
+              {
+                "typ": "RUHENDE_MARKTLOKATION"
+              }
+            ]
           }
         ],
         "NETZNUTZUNGSVERTRAG": [

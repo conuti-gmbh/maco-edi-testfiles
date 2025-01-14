@@ -30,7 +30,12 @@
             ]
           }
         ],
-        "MARKTLOKATION_KUNDENANLAGE": [
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "44153874533"
+          },
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
@@ -43,14 +48,12 @@
                 "rollencodenummer": "9903111000003",
                 "rollencodetyp": "BDEW"
               }
+            ],
+            "marktlokationsTyp": [
+              {
+                "typ": "KUNDENANLAGE"
+              }
             ]
-          }
-        ],
-        "MARKTLOKATION": [
-          {
-            "boTyp": "MARKTLOKATION",
-            "versionStruktur": "1",
-            "marktlokationsId": "44153874533"
           }
         ],
         "MESSLOKATION": [

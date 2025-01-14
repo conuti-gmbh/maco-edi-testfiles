@@ -13,14 +13,17 @@
             "versionStruktur": "1",
             "marktlokationsId": "50074561188",
             "sparte": "STROM"
-          }
-        ],
-        "RUHENDE_MARKTLOKATION": [
+          },
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50074561199",
-            "sparte": "STROM"
+            "sparte": "STROM",
+            "marktlokationsTyp": [
+              {
+                "typ": "RUHENDE_MARKTLOKATION"
+              }
+            ]
           }
         ],
         "NETZLOKATION": [

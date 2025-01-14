@@ -37,14 +37,17 @@
                 "priorisierung": "PRIORITAET1"
               }
             ]
-          }
-        ],
-        "RUHENDE_MARKTLOKATION": [
+          },
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50363198102",
-            "sparte": "STROM"
+            "sparte": "STROM",
+            "marktlokationsTyp": [
+              {
+                "typ": "RUHENDE_MARKTLOKATION"
+              }
+            ]
           }
         ],
         "NETZNUTZUNGSVERTRAG": [

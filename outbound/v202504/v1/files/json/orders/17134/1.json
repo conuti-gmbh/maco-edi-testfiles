@@ -34,22 +34,6 @@
             ]
           }
         ],
-        "MARKTLOKATION_KUNDENANLAGE": [
-          {
-            "boTyp": "MARKTLOKATION",
-            "versionStruktur": "1",
-            "marktlokationsId": "44153874533",
-            "marktrollen": [
-              {
-                "boTyp": "MARKTTEILNEHMER",
-                "versionStruktur": "1",
-                "marktrolle": "LF",
-                "rollencodenummer": "9903111000003",
-                "rollencodetyp": "BDEW"
-              }
-            ]
-          }
-        ],
         "MARKTLOKATION": [
           {
             "boTyp": "MARKTLOKATION",
@@ -72,6 +56,25 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "44153874533",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "LF",
+                "rollencodenummer": "9903111000003",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "marktlokationsTyp": [
+              {
+                "typ": "KUNDENANLAGE"
               }
             ]
           }
