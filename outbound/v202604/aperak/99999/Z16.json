@@ -1,0 +1,82 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "STATUSBERICHT": [
+          {
+            "boTyp": "STATUSBERICHT",
+            "versionStruktur": "1",
+            "status": "FEHLER",
+            "pruefgegenstand": "123456789",
+            "datumPruefung": "2023-08-07T10:00:00Z",
+            "fehler": {
+              "typ": "VERARBEITUNG",
+              "fehlerDetails": [
+                {
+                  "ursache": {
+                    "dokument": "987654321",
+                    "nachricht": "123456789",
+                    "transaktion": "5555555555"
+                  },
+                  "code": "MELDEPUNKT_NICHT_MEHR_IM_NETZ",
+                  "beschreibung": {
+                    "beschreibung1": "50074561188",
+                    "beschreibung2": "202307312200+00"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "134168",
+        "sparte": "STROM",
+        "pruefidentifikator": "99999",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "897557BGM",
+        "kategorie": "313",
+        "nachrichtendatum": "2023-08-07T07:59:00Z",
+        "nachrichtenreferenznummer": "897557",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

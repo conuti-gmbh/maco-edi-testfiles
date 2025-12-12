@@ -1,0 +1,189 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2024-10-20T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198122",
+            "marktlokationsTyp": [
+              {
+                "typ": "RUHENDE_MARKTLOKATION"
+              }
+            ],
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198116",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688110018",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001217",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8120",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST19",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "sparte": "STROM"
+          }
+        ],
+        "LOKATIONSBUENDEL": [
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE0032106765712000000000000001217",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032"
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "TECHNISCHE_RESSOURCE",
+                "referenzLokationsId": "D417MLM8120",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001024"
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50363198122",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016"
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "NELO",
+                "referenzLokationsId": "E1688110018",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001256"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "lokationsId": "50363198122",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3UMGXPN",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY2",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55173",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3FTBBT4",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-05T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2W52SAM"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

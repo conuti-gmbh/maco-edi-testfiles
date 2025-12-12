@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-08-29T22:00:00Z"
+          }
+        ],
+        "SPERRAUFTRAG": [
+          {
+            "boTyp": "SPERRAUFTRAG",
+            "versionStruktur": "1",
+            "treffpunkt": {
+              "postleitzahl": "42553",
+              "ort": "Velbert",
+              "strasse": "Lohbacherstraße 30",
+              "landescode": "DE"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0UDSQM1",
+        "sparte": "STROM",
+        "pruefidentifikator": "17116",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Hans Dampf ",
+            "eMailAdresse": "h.d@duuu.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M103Z1N7",
+        "nachrichtendatum": "2024-08-19T06:56:00Z",
+        "nachrichtenreferenznummer": "M0A11VGL"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

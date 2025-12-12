@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragskonditionen": {
+              "kuendigungsfrist": {
+                "zeitraumText": "03MQ"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAFCWAEUJDPLAJ",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55018",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9977842000004",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA342411041308449903323000007541014",
+        "kategorie": "E35",
+        "nachrichtendatum": "2025-06-05T12:31:00Z",
+        "nachrichtenreferenznummer": "DAKLKYLSHQPTDN",
+        "anfragereferenznummer": "KDG123456",
+        "gueltigAb": "2025-09-30T22:00:00Z",
+        "antwortstatus": "A14",
+        "antwortstatusCodeliste": "E_0614",
+        "datumKuendigungLf": "2025-10-31T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

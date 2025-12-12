@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "ERSTEINBAUIMS",
+            "auftragsstatus": "WIDERSPROCHEN",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0Y6TPIU",
+        "sparte": "STROM",
+        "pruefidentifikator": "21031",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "4045399000053",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "lau",
+            "eMailAdresse": "alaue@eon.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9978414000000",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0M2D1WI",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2025-06-05T06:25:00Z",
+        "nachrichtenreferenznummer": "M0GM3U32",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0233",
+        "vorgangsreferenznummer": "8904578942",
+        "mitteilungsnummer": "15"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

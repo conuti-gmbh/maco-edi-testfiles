@@ -1,0 +1,50 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "BESTELLUNG_ANGEBOT_AENDERUNG_TECHNIK_LOKATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3DJKPZD",
+        "sparte": "STROM",
+        "pruefidentifikator": "19005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de:EM"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3NN2YJA",
+        "nachrichtendatum": "2025-10-05T06:09:00Z",
+        "nachrichtenreferenznummer": "UNHM41Z7ETO",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "A06",
+        "antwortstatusCodeliste": "E_0283"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11XBKA---------I"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
+              },
+              {
+                "produktpaketId": 2,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "22XBKA---------I"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET2"
+              }
+            ],
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00713739359S0000000000001222221",
+            "sparte": "STROM"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM"
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST77",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2025-11-01T23:00:00Z",
+            "vertragsende": "2025-12-01T23:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            }
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "12345667890",
+            "sparte": "STROM",
+            "datenqualitaet": "IM_SYSTEM_VORHANDENE_DATEN"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAGQKITMEGKDRX",
+        "sparte": "STROM",
+        "transaktionsgrund": "E02",
+        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55600",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA582410161540539903323000007307618",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAPTYGIPXPUJXS",
+        "freitext": "Bitte",
+        "vertragsbeginn": "2025-11-01T23:00:00Z",
+        "vertragsende": "2025-12-01T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

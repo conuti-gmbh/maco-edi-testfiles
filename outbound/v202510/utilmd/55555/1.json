@@ -1,0 +1,231 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "AD_HOC_STEUERKANAL": [
+          {
+            "boTyp": "AD_HOC_STEUERKANAL",
+            "versionStruktur": "1",
+            "zieladresse": {
+              "zieladresse1": "X"
+            },
+            "aussteller": {
+              "aussteller1": "SERIALNUMBER = 3, C = DE, O = SM-PKI-DE, CN = T-Systems-EnergyCA.CA",
+              "aussteller2": "X",
+              "aussteller3": "X",
+              "aussteller4": "X",
+              "aussteller5": "X"
+            },
+            "zertifikatsNutzer": {
+              "zertifikatsNutzer1": "X",
+              "zertifikatsNutzer2": "X",
+              "zertifikatsNutzer3": "X",
+              "zertifikatsNutzer4": "X",
+              "zertifikatsNutzer5": "X"
+            },
+            "IPAdresseCLSDevice": {
+              "IPAdresseCLSDevice1": "123.222.345.876",
+              "IPAdresseCLSDevice2": "X",
+              "IPAdresseCLSDevice3": "X",
+              "IPAdresseCLSDevice4": "X",
+              "IPAdresseCLSDevice5": "X"
+            }
+          }
+        ],
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.1",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.1",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "12345667891",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "zaehlwerke": [
+              {
+                "bezeichnung": "HT",
+                "obisKennzahl": "1-1:1.8.1",
+                "vorkommastelle": 8,
+                "nachkommastelle": 3,
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "konfiguration": "34590456ujdfsdghdlktztwqq-053trg",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "gateway": "1234567890",
+            "geraete": [
+              {
+                "geraetenummer": "1234567890",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY"
+                }
+              }
+            ]
+          },
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "12345667891",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "zaehlwerke": [
+              {
+                "bezeichnung": "HT",
+                "obisKennzahl": "1-1:1.8.1",
+                "vorkommastelle": 8,
+                "nachkommastelle": 3,
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC",
+                  "register": "XYZ"
+                },
+                "konfiguration": "34590456ujdfsdghdlktztwqq-053trg",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "gateway": "1234567890",
+            "geraete": [
+              {
+                "geraetenummer": "1234567890",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAXOXILSWLJTQB",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY9",
+        "anfragereferenznummer": "64739202",
+        "vorgangsnummer": "24062416225400000000000102159662011",
+        "pruefidentifikator": "55555",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ipAdresse": "X",
+          "ipRange": {
+            "untereGrenze": "X",
+            "obereGrenze": "X"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA882411080716289903323000007541914",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAESNJTWNDGGFS",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A02",
+            "liste": "E_0412",
+            "zeitraumId": 1
+          },
+          {
+            "code": "A02",
+            "liste": "E_0412",
+            "zeitraumId": 2
+          }
+        ],
+        "nachrichtenReferenzBestellbestaetigung": "98786423423435",
+        "vorgangsReferenzBestellbestaetigung": "12"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_INDIVIDUELLER_KONFIGURATION",
+            "anfragetyp": "AENDERUNG_KONFIGURATION",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-08-22T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000052",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "AAL"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0E47OMP",
+        "sparte": "STROM",
+        "pruefidentifikator": "17123",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0RAU7GV",
+        "nachrichtendatum": "2024-08-19T07:34:00Z",
+        "nachrichtenreferenznummer": "M0CYKMGN"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

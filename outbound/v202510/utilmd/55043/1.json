@@ -1,0 +1,258 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363191616",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "energierichtung": "AUSSP",
+            "netzebene": "HSP",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496003333",
+                "rollencodetyp": "BDEW"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000002",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "BILANZKREISABRECHNUNG"
+                    ]
+                  }
+                ],
+                "messprodukt": "9991000000078"
+              }
+            ],
+            "messtechnischeEinordnung": "IMS"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001717",
+            "sparte": "STROM",
+            "netzebenemessung": "HSS",
+            "messadresse": {
+              "postleitzahl": "99423",
+              "ort": "Weimar",
+              "strasse": "Erfurter str.",
+              "hausnummer": "46",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Hinter",
+                "zusatz2": "Hof"
+              }
+            },
+            "zaehlwerke": [
+              {
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABC"
+                },
+                "messprodukt": "9991000000218",
+                "notwendigkeitZweiteMessung": "VORHANDEN",
+                "werteuebermittlungVerwendungszweck": "VORHANDEN"
+              }
+            ],
+            "betriebszustand": "GESPERRT_NICHT_ENTSPERREN",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Max",
+              "name2": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "99423",
+                "ort": "Weimar",
+                "strasse": "Erfurter str.",
+                "hausnummer": "46",
+                "landescode": "DE"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000002",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000022",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "referenzMarktlokationsId": "50363191616",
+            "verwendungsumfang": "MESSLOKATION_PROZESSUAL_BEHANDELT"
+          }
+        ],
+        "LOKATIONSBUENDEL": [
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50363191616",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016"
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE0032106765712000000000000001717",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "lokationsId": "50363191616",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Hans",
+                "name2": "Muller",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Jan",
+              "name2": "Schoeler",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "10435",
+                "ort": "Berlin",
+                "strasse": "Schönhauser Allee",
+                "hausnummer": "36",
+                "landescode": "DE"
+              }
+            },
+            "lokationsId": "DE0032106765712000000000000001717",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363191616",
+            "aggregationsverantwortung": "VNB",
+            "prognosegrundlage": "WERTE",
+            "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3CJAXK5",
+        "sparte": "STROM",
+        "transaktionsgrund": "E02",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55043",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2F84HWH",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-06-05T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM33TKB5W",
+        "anfragereferenznummer": "NV12372",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "S_0055",
+        "datumleistungsbeginn": "2024-12-05T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

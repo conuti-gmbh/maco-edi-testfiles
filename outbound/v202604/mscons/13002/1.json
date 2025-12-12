@@ -1,0 +1,78 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "1234567",
+            "sparte": "GAS"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000041",
+            "lokationsTyp": "MELO",
+            "referenzStammdatenmeldungMsb": "UTILMDXYZ_1235",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "7-0:3.0.0",
+                "wert": 1234.123,
+                "nutzungszeitpunkt": "2023-07-31T04:00:00Z",
+                "position": 1,
+                "ablesedatum": "2023-07-31T04:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "143823",
+        "sparte": "GAS",
+        "pruefidentifikator": "13002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "343364BGM",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2023-07-31T09:22:00Z",
+        "nachrichtenreferenznummer": "343364",
+        "typ": "VL",
+        "anfrageReferenz": "12345678910"
+      },
+      "zusatzdaten": []
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "verwendungBis": "2023-04-12T12:00:00Z",
+                "auftragsstatus": "STOERUNGSFREI",
+                "statusanlass": "KEINE_STOERUNG_FESTSTELLBAR",
+                "lokationsId": "DE0032106765712000000000000000037"
+              },
+              {
+                "positionsnummer": 2,
+                "bearbeitungsdatum": "2023-04-11T12:00:00Z",
+                "verwendungAb": "2023-04-11T12:00:00Z",
+                "verwendungBis": "2023-04-12T12:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "statusanlass": "STOERUNGSBEHEBUNG_NICHT_MOEGLICH",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Beschreibung"
+                },
+                "lokationsId": "DE0032106765712000000000000000038"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "101538",
+        "sparte": "STROM",
+        "vorgangsnummer": "123",
+        "pruefidentifikator": "23009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "NIK KIRS526951BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-04-17T11:26:00Z",
+        "nachrichtenreferenznummer": "526951",
+        "anfragereferenznummer": "REF12345678910"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "50375312838",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2024-09-29T04:00:00Z",
+                "enddatum": "2024-09-29T05:00:00Z",
+                "messwertstatus": "ERSATZWERT",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "INTERPOLATION"
+                  },
+                  {
+                    "art": "GASQUALITAET",
+                    "status": "UMSTELLUNG_GASQUALITAET"
+                  },
+                  {
+                    "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "KEIN_ZUGANG"
+                  }
+                ],
+                "obiskennzahl": "7-0:54.0.16",
+                "wert": 70.563,
+                "position": 1
+              },
+              {
+                "startdatum": "2024-09-29T05:00:00Z",
+                "enddatum": "2024-09-29T06:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "KEIN_ZUGANG"
+                  }
+                ],
+                "obiskennzahl": "7-0:54.0.16",
+                "wert": 90,
+                "position": 1
+              }
+            ],
+            "fertigstellungsdatum": "2024-09-01T08:53:30Z",
+            "startdatum": "2024-09-29T04:00:00Z",
+            "enddatum": "2024-09-30T04:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001087169647",
+        "sparte": "GAS",
+        "pruefidentifikator": "13007",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800000000001",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870000000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "P1001087165887",
+        "kategorie": "Z21",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2024-09-30T08:53:00Z",
+        "nachrichtenreferenznummer": "UNHM2L0B3O9",
+        "typ": "TL"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

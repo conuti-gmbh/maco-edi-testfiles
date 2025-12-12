@@ -1,0 +1,61 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "sparte": "GAS"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "bilanzkreise": [
+              {
+                "bezeichnung": "11Y0-0000-0076-N"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "184438",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF6",
+        "vorgangsnummer": "381983209",
+        "pruefidentifikator": "44151",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "861291BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "861291",
+        "anfragereferenznummer": "ABC123456",
+        "gueltigAb": "2024-07-01T04:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "G_0038",
+        "vertragsbeginn": "2024-07-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

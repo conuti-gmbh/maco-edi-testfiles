@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "GAS"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "172843",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZG7",
+        "vorgangsnummer": "2029490478",
+        "pruefidentifikator": "44161",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "207713BGM",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "512119",
+        "anfragereferenznummer": "ABC123456",
+        "antwortstatus": "E15",
+        "antwortstatusCodeliste": "G_0030"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

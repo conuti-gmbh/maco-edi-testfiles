@@ -1,0 +1,77 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "55123678945",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "WEITERVERPFLICHTUNG_BETRIEB_MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "verschobenerAbmeldetermin": "2025-11-05T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZZY4HOB",
+        "sparte": "STROM",
+        "pruefidentifikator": "17002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Laue",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0MGNHP2",
+        "nachrichtendatum": "2025-10-19T05:13:00Z",
+        "nachrichtenreferenznummer": "M01RZWDE"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

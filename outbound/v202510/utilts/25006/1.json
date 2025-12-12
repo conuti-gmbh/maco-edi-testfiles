@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "SCHALTZEITDEFINITION": [
+          {
+            "boTyp": "SCHALTZEITDEFINITION",
+            "versionStruktur": "1",
+            "beginndatum": "2024-07-31T22:00:00Z",
+            "version": "2024-08-13T13:52:04Z",
+            "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+            "schaltzeiten": [
+              {
+                "code": "ALL",
+                "haeufigkeit": "EINMALIG",
+                "uebermittelbarkeit": "ELEKTRONISCH"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0QNMPZJ",
+        "sparte": "STROM",
+        "vorgangsnummer": "Vorgang4",
+        "pruefidentifikator": "25006",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Laue",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0M3IIPU",
+        "kategorie": "Z78",
+        "nachrichtendatum": "2024-08-13T13:50:00Z",
+        "nachrichtenreferenznummer": "M0L512HS"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

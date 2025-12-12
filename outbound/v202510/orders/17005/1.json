@@ -1,0 +1,52 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "52345678901",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+            "abonnement": "START_ABO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-10-15T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M27ZKAJL",
+        "sparte": "STROM",
+        "pruefidentifikator": "17005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM32GNEP9",
+        "nachrichtendatum": "2025-10-05T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2LDYGU8",
+        "angebotsnummer": "UNHM2LD5555"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

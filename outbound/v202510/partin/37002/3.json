@@ -1,0 +1,269 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "KOMMUNIKATIONSDATEN": [
+          {
+            "boTyp": "KOMMUNIKATIONSDATEN",
+            "versionStruktur": "1",
+            "gueltigkeit": "2025-06-30T22:00:00Z",
+            "marktteilnehmer": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "MSB",
+              "bankverbindung": [
+                {
+                  "iban": "DE00000000000000000000",
+                  "kontoinhaber": "Unternehmens GmbH",
+                  "bic": "BICXXXXXXXX",
+                  "kreditinstitut": "Bankname"
+                }
+              ],
+              "erreichbarkeit": [
+                {
+                  "verfuegbarkeit": "MONTAG",
+                  "zeit": "08:00-17:00"
+                },
+                {
+                  "verfuegbarkeit": "DIENSTAG",
+                  "zeit": "08:00-17:00"
+                },
+                {
+                  "verfuegbarkeit": "MITTWOCH",
+                  "zeit": "08:00-17:00"
+                },
+                {
+                  "verfuegbarkeit": "DONNERSTAG",
+                  "zeit": "08:00-17:00"
+                },
+                {
+                  "verfuegbarkeit": "FREITAG",
+                  "zeit": "08:00-17:00"
+                },
+                {
+                  "verfuegbarkeit": "PAUSE",
+                  "zeit": "12:00-13:00"
+                }
+              ],
+              "name1": "Messstellenbetreiber",
+              "gewerbekennzeichnung": true,
+              "hrnummer": "331079",
+              "amtsgericht": "Amtsgericht Mannheim:",
+              "umsatzsteuerId": "DE814905955",
+              "steuernummer": "11999999999",
+              "website": "www.lieferant.de",
+              "faxnummer": "+012345678910",
+              "partneradresse": {
+                "postleitzahl": "56789",
+                "ort": "Lieferantenort",
+                "strasse": "Lieferantenstr",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            },
+            "kommunikationsangaben": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "56789",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "hausnummer": "1",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "DATENAUSTAUSCH",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+01234567890"
+                    }
+                  ]
+                }
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "KUENDIGUNGSPROZESSE",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+012345678910"
+                    }
+                  ]
+                }
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "hausnummer": "1",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "WECHSELPROZESSE",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+012345678910"
+                    }
+                  ]
+                }
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "hausnummer": "1",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "STAMMDATENPROZESSE",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+012345678910"
+                    }
+                  ]
+                }
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "hausnummer": "1",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "ABRECHNUNGSPROZESSE",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+012345678910"
+                    }
+                  ]
+                }
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "name1": "Messstellenbetreiber",
+                "gewerbekennzeichnung": true,
+                "partneradresse": {
+                  "postleitzahl": "12345",
+                  "ort": "Lieferantenort",
+                  "strasse": "Lieferantenstr",
+                  "hausnummer": "1",
+                  "landescode": "DE"
+                },
+                "kommunikationsrolle": "BEWEGUNGSDATEN",
+                "ansprechpartner": {
+                  "boTyp": "ANSPRECHPARTNER",
+                  "versionStruktur": "1",
+                  "nachname": "Mustermann",
+                  "eMailAdresse": "mustermann@max.de",
+                  "rufnummern": [
+                    {
+                      "nummerntyp": "RUF_DURCHWAHL",
+                      "rufnummer": "+012345678910"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "113601",
+        "sparte": "STROM",
+        "pruefidentifikator": "37002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+49322227120"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "4400321000005",
+          "rollencodetyp": "GLN",
+          "marktrolle": "MSB"
+        },
+        "dokumentennummer": "298012BGM",
+        "kategorie": "10",
+        "nachrichtendatum": "2025-06-06T10:10:00Z",
+        "nachrichtenreferenznummer": "298012",
+        "vorgangsreferenznummer": "1",
+        "anwendungsreferenznummer": "2"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

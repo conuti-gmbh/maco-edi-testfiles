@@ -1,0 +1,61 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEUEBERNAHME"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-10-27T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "positionsnummerAngebot": "12"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZXUG7BT",
+        "sparte": "STROM",
+        "pruefidentifikator": "17001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Laue",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9905257000004",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "LZXZ14PB",
+        "nachrichtendatum": "2025-10-05T05:08:00Z",
+        "nachrichtenreferenznummer": "LZY3DA6G",
+        "angebotsnummer": "1234567890"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

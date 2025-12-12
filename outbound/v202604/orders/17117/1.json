@@ -1,0 +1,62 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "ENTSPERRUNG",
+            "anfragetyp": "AUCH_AUSSERHALB_DER_ARBEITSZEIT",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "SPERRAUFTRAG": [
+          {
+            "boTyp": "SPERRAUFTRAG",
+            "versionStruktur": "1",
+            "treffpunkt": {
+              "postleitzahl": "42553",
+              "ort": "Velbert",
+              "strasse": "Lohbacherstraße 30",
+              "landescode": "DE"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M06ORI2R",
+        "sparte": "STROM",
+        "pruefidentifikator": "17117",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M012WJWI",
+        "nachrichtendatum": "2024-08-19T06:59:00Z",
+        "nachrichtenreferenznummer": "M0WCBIHV"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

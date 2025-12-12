@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50226146170",
+            "sparte": "STROM",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "4041409000006",
+              "rollencodetyp": "BDEW"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "041391878572",
+        "sparte": "STROM",
+        "transaktionsgrund": "Z26",
+        "vorgangsnummer": "XX5056854C0F1EDE98A6A597473530A3",
+        "pruefidentifikator": "55036",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "041391878573",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-04-01T15:35:00Z",
+        "nachrichtenreferenznummer": "041391878573",
+        "anfragereferenznummer": "PCL53523092914504899116940000022575",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4041409000006",
+          "rollencodetyp": "BDEW"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

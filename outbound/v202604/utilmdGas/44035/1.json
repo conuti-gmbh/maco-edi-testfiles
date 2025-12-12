@@ -1,0 +1,193 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50605869880",
+            "sparte": "GAS",
+            "netzebene": "ND",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann"
+              }
+            },
+            "marktgebiet": "THE0BFH007200001",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-0:33.86.0",
+                "konzessionsabgabe": {
+                  "satz": "SA"
+                },
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "gasqualitaet": "H_GAS",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800172600006",
+                "marktrolle": "MSB",
+                "weiterverpflichtet": false
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9800172600006",
+                "marktrolle": "GMSB"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragskonditionen": {
+              "netznutzungsabrechnung": {
+                "abrechnungsZeitraum": "0101"
+              },
+              "netznutzungsabrechnungIntervall": 12,
+              "haushaltskunde": true,
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT",
+              "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS"
+            },
+            "gemeinderabatt": 0,
+            "lokationsId": "50605869880",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "GAS",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "lokationsId": "50605869880",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "7AMX2002565930",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-20:3.0.0",
+                "vorkommastelle": 5,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlergroesse": "GAS_G4",
+            "geraete": [
+              {
+                "geraetenummer": "ABC123456",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MENGENUMWERTER",
+                  "geraetemerkmal": "DICHTEMENGENUMWERTER"
+                }
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "marktlokationsId": "50605869880",
+            "lastprofile": [
+              {
+                "bezeichnung": "N14",
+                "verfahren": "SYNTHETISCH",
+                "profilart": "ART_LASTPROFIL",
+                "einspeisung": false,
+                "herausgeber": "TUM",
+                "tagesparameter": {
+                  "klimazone": "Werl",
+                  "herausgeber": "NB"
+                }
+              }
+            ],
+            "jahresverbrauchsprognose": {
+              "wert": 50000,
+              "einheit": "KWH"
+            },
+            "kundenwert": {
+              "wert": 158.8448
+            },
+            "prognosegrundlage": "PROFILE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "481335",
+        "sparte": "GAS",
+        "transaktionsgrund": "Z40",
+        "vorgangsnummer": "1985472326",
+        "pruefidentifikator": "44035",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "834125BGM",
+        "kategorie": "Z14",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "834125",
+        "anfragereferenznummer": "ABC12345678910",
+        "freitext": "ABC"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

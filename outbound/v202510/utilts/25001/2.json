@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-02-28T23:00:00Z"
+          }
+        ],
+        "BERECHNUNGSFORMEL": [
+          {
+            "boTyp": "BERECHNUNGSFORMEL",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-02-28T23:00:00Z"
+            },
+            "notwendigkeit": "BERECHNUNGSFORMEL_NICHT_NOTWENDIG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M75AY4RC",
+        "sparte": "STROM",
+        "vorgangsnummer": "123456778",
+        "pruefidentifikator": "25001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM6CSTIGY",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM6L23KUM",
+        "lokationsId": "10017211334",
+        "lokationsTyp": "MALO"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

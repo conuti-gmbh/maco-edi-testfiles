@@ -1,0 +1,163 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzebenemessung": "NSP",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "messadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Straße",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "versionStruktur": "1",
+              "gewerbekennzeichnung": false,
+              "name1": "Mustermann",
+              "name2": "Max",
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Straße",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzebenemessung": "NSP",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Mustermann",
+                "name2": "Max",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Mustermann",
+              "name2": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "12345",
+                "ort": "Ort",
+                "strasse": "Straße",
+                "hausnummer": "1",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "DREHSTROMZAEHLER",
+            "tarifart": "EINTARIF",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.8.0",
+                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "zaehlernummer": "ABC123456",
+            "sparte": "STROM",
+            "fernschaltung": "NICHT_VORHANDEN",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "befestigungsart": "STECKTECHNIK",
+            "geraete": [
+              {
+                "geraetenummer": "ABC123456"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0BGVSSM",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX7",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55643",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0G8GT0G",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZRA72YM"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

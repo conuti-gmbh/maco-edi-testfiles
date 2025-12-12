@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "BESTELLUNG_EINER_KONFIGURATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3B4ZMBE",
+        "sparte": "STROM",
+        "pruefidentifikator": "19132",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM39AP72V",
+        "kategorie": "Z73",
+        "nachrichtendatum": "2025-10-01T03:45:00Z",
+        "nachrichtenreferenznummer": "UNHM39PGNY0",
+        "auftragsReferenz": "BGMM2T7DSBY",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0533",
+        "freitext": "Allgemeine Information text bla"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

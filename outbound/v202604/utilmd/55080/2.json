@@ -1,0 +1,55 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DARGYPSDPSILFV",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW3",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55080",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA412410161526289903323000007232653",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DADZDZRBQPEPBU",
+        "anfragereferenznummer": "NNV1234",
+        "antwortstatus": "A45",
+        "antwortstatusCodeliste": "E_0622",
+        "naechsteBearbeitung": "2012-07-02T22:00:00Z",
+        "lieferbeginndatuminbearbeitung": "2012-07-01T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

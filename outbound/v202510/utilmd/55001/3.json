@@ -1,0 +1,129 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198102",
+            "marktlokationsTyp": [
+              {
+                "typ": "RUHENDE_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11XEONBAYERN---I"
+                  },
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002727",
+                    "codeProdukteigenschaft": "9991000002785"
+                  },
+                  {
+                    "produktCode": "9991000002769",
+                    "codeProdukteigenschaft": "9991000002933"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-12-01T23:00:00Z",
+            "vertragsende": "2024-12-02T23:00:00Z"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Max",
+                "name2": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Max",
+              "name2": "Mustermann",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "Weimar",
+                "ort": "99423",
+                "strasse": "Erfurter",
+                "postfach": "46",
+                "landescode": "DE"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "KEINE_ANGABE"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M2U7UFHY",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "transaktionsgrundergaenzung": "ZAP",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3CRJ7EH",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-10-14T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2QRCG4G",
+        "vertragsbeginn": "2024-12-01T23:00:00Z",
+        "vertragsende": "2024-12-02T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

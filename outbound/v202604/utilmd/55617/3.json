@@ -1,0 +1,128 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "referenzNetzlokation": "E1688117482",
+            "referenzSteuerbareRessource": "C816417ST77",
+            "nennleistung": {
+              "aufnahme": 100
+            },
+            "verbrauchsart": [
+              "WK"
+            ],
+            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "enwg": true,
+            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
+            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+            "weitereEinrichtung": false,
+            "art": "STROMVERBRAUCH"
+          },
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "referenzNetzlokation": "E1688117482",
+            "referenzSteuerbareRessource": "C816417ST77",
+            "nennleistung": {
+              "aufnahme": 100
+            },
+            "verbrauchsart": [
+              "WK"
+            ],
+            "waermenutzung": "WAERMEPUMPE_WAERME_KAELTE",
+            "enwg": true,
+            "inbetriebsetzungsdatum": "INBETRIEBSETZUNG_VOR_2024",
+            "einordnung": "WECHSELMOEGLICHKEIT_EINMALIG_NOCH_MOEGLICH",
+            "weitereEinrichtung": false,
+            "art": "STROMVERBRAUCH"
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST77",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DARXUCRKZRIAOW",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY0",
+        "vorgangsnummer": "24062416225400000000000102159662011",
+        "pruefidentifikator": "55617",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA752411080923029903323000007604191",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAQYYPAOIWQREH"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

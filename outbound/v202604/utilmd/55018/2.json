@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DACFTBUOIJCYES",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55018",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9977842000004",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA972411041315259903323000007638027",
+        "kategorie": "E35",
+        "nachrichtendatum": "2025-06-05T12:31:00Z",
+        "nachrichtenreferenznummer": "DAPGMXWELAKHYH",
+        "anfragereferenznummer": "KDG123456",
+        "antwortstatus": "A16",
+        "antwortstatusCodeliste": "E_0614",
+        "freitext": "Vollmacht ungültig"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

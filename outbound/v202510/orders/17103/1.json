@@ -1,0 +1,63 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "startdatum": "2024-01-01T05:00:00Z",
+                "enddatum": "2024-08-14T04:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0JVWMBS",
+        "sparte": "STROM",
+        "pruefidentifikator": "17103",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "44234565499",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "andre.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "44442345654",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "M0L63Y9O",
+        "nachrichtendatum": "2024-08-15T06:19:00Z",
+        "nachrichtenreferenznummer": "M001SUFN"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

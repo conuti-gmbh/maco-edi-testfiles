@@ -1,0 +1,254 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-07-31T22:00:00Z",
+            "verwendungBis": "2025-08-31T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-08-31T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50928404199",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-07-31T22:00:00Z",
+              "enddatum": "2025-08-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50928404199",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-08-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00068365187STROM000008000030500",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-07-31T22:00:00Z",
+              "enddatum": "2025-08-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          },
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00068365187STROM000008000030500",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-08-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "LOKATIONSBUENDEL": [
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "lokationsbuendelNummer": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-07-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE00068365187STROM000008000030500",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032",
+                    "lokationsbuendelNummer": 1
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50928404199",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016",
+                    "lokationsbuendelNummer": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "lokationsbuendelNummer": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-07-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE00068365187STROM000008000030500",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032",
+                    "lokationsbuendelNummer": 2
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50928404199",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016",
+                    "lokationsbuendelNummer": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "lokationsbuendelNummer": 1,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE00068365187STROM000008000030500",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032",
+                    "lokationsbuendelNummer": 1
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50928404199",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016",
+                    "lokationsbuendelNummer": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "boTyp": "LOKATIONSBUENDEL",
+            "versionStruktur": "1",
+            "lokationsbuendelstrukturId": "9992000000026",
+            "lokationsbuendelNummer": 2,
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-31T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "standardisierteLokationsbuendelstruktur": true,
+            "zuordnungObjectcode": [
+              {
+                "referenzLokationsTyp": "MELO",
+                "referenzLokationsId": "DE00068365187STROM000008000030500",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001032",
+                    "lokationsbuendelNummer": 2
+                  }
+                ]
+              },
+              {
+                "referenzLokationsTyp": "MALO",
+                "referenzLokationsId": "50928404199",
+                "objectcode": [
+                  {
+                    "objectcode": "9992000001016",
+                    "lokationsbuendelNummer": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "A3815E3F4E5600",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY2",
+        "vorgangsnummer": "3748005EEE00C83E1ABEA3815E3F4E5600",
+        "pruefidentifikator": "55175",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900683000008",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903632000003",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "E1ABEA3815E3F4E5600",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-10-31T15:09:00Z",
+        "nachrichtenreferenznummer": "A3815E3F4E5601"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

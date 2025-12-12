@@ -1,0 +1,111 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000002305"
+              }
+            ]
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "AENDERUNG_DER_TECHNIK_DER_LOKATION"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-06-30T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M5HNLNGQ",
+        "sparte": "STROM",
+        "pruefidentifikator": "17003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800009600004",
+          "rollencodetyp": "DVGW",
+          "marktrolle": "LF",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800191400007",
+          "rollencodetyp": "DVGW"
+        },
+        "ansprechpartnerKunde": {
+          "boTyp": "ANSPRECHPARTNER",
+          "versionStruktur": "1",
+          "nachname": "Mustermann",
+          "rufnummern": [
+            {
+              "nummerntyp": "RUF_DURCHWAHL",
+              "rufnummer": "+012345678910"
+            }
+          ]
+        },
+        "dokumentennummer": "BGMM5CGENN0",
+        "kategorie": "Z12",
+        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM5GVHK54"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_PROGNOSEGRUNDLAGE_GERAETEKONFIGURATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAQRPLETMTPRWU",
+        "sparte": "STROM",
+        "pruefidentifikator": "19121",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA012411191116599903323000007252883",
+        "nachrichtendatum": "2025-10-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DASYTDSJACCSVU",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0523",
+        "freitext": "Ist so Olli"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

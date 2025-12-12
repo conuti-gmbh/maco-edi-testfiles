@@ -1,0 +1,90 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "EL001IK01013852469",
+            "sparte": "STROM"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000000037",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ERSATZWERT",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "INTERPOLATION"
+                  },
+                  {
+                    "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "KEIN_ZUGANG"
+                  }
+                ],
+                "obiskennzahl": "1-0:1.8.1",
+                "wert": 1000.000,
+                "nutzungszeitpunkt": "2023-03-25T23:00:00Z",
+                "position": 1
+              },
+              {
+                "messwertstatus": "ERSATZWERT",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "INTERPOLATION"
+                  },
+                  {
+                    "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "KEIN_ZUGANG"
+                  }
+                ],
+                "obiskennzahl": "1-0:1.8.2",
+                "wert": 11000.000,
+                "nutzungszeitpunkt": "2023-03-25T23:00:00Z",
+                "position": 2
+              }
+            ],
+            "referenzStammdatenmeldungMsb": "REF12345678"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "121561",
+        "sparte": "STROM",
+        "pruefidentifikator": "13017",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "744163BGM",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2023-03-29T12:46:00Z",
+        "nachrichtenreferenznummer": "744163",
+        "typ": "VL"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

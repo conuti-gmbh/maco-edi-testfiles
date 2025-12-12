@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "ABRECHNUNGSBRENNWERT_UND_ZUSTANDSZAHL"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DALLYJPFLPHOUK",
+        "sparte": "GAS",
+        "pruefidentifikator": "19103",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870043100005",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800059200002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "DA762411190901519903323000007223493",
+        "kategorie": "7",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DABMTDRTBUKZEE",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "Z15",
+        "antwortstatusCodeliste": "G_0015"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

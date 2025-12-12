@@ -1,0 +1,70 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ZAEHLZEITDEFINITION": [
+          {
+            "boTyp": "ZAEHLZEITDEFINITION",
+            "versionStruktur": "1",
+            "beginndatum": "2024-09-27T22:00:00Z",
+            "version": "2024-09-28T13:30:15Z",
+            "notwendigkeit": "DEFINITIONEN_WERDEN_VERWENDET",
+            "zaehlzeiten": [
+              {
+                "code": "AL",
+                "haeufigkeit": "EINMALIG",
+                "uebermittelbarkeit": "ELEKTRONISCH",
+                "ermittlungLeistungsmaximum": "KEINE_VERWENDUNG_HOCHLASTFENSTER",
+                "istBestellbar": true,
+                "typ": "WAERMEPUMPE"
+              }
+            ],
+            "zaehlzeitregister": [
+              {
+                "zaehlzeitDefinition": "AL",
+                "register": "AL",
+                "schwachlastfaehig": "SCHWACHLASTFAEHIG"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZWDBZDB",
+        "sparte": "STROM",
+        "vorgangsnummer": "Vorgang3",
+        "pruefidentifikator": "25004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "NB",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Laue",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF"
+        },
+        "dokumentennummer": "M0FLEUCL",
+        "kategorie": "Z60",
+        "nachrichtendatum": "2024-08-13T13:38:00Z",
+        "nachrichtenreferenznummer": "LZYNBYE1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

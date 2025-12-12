@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "STATUSBERICHT": [
+          {
+            "boTyp": "STATUSBERICHT",
+            "versionStruktur": "1",
+            "status": "FEHLER",
+            "pruefgegenstand": "DDBCCJBKFHEHBH",
+            "datumPruefung": "2023-08-07T10:00:00Z",
+            "fehler": {
+              "typ": "VERARBEITUNG",
+              "fehlerDetails": [
+                {
+                  "ursache": {
+                    "dokument": "DDBCCJBKFHEHKD",
+                    "nachricht": "92112201180946369903913000003617958",
+                    "transaktion": "Zaehlerwechsel7101271"
+                  },
+                  "code": "EMPFAENGER_NICHT_ZUGEORDNET"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DDBCCJDCGBCDKI",
+        "sparte": "STROM",
+        "pruefidentifikator": "99999",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "98052201182150129903913000003144788",
+        "kategorie": "313",
+        "nachrichtendatum": "2023-08-07T07:59:00Z",
+        "nachrichtenreferenznummer": "DDBCCJDCGBCDKI"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

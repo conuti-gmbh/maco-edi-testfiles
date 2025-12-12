@@ -1,0 +1,129 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "sparte": "STROM",
+            "foerderungsLand": "DE",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11XBKA---------I"
+                  },
+                  {
+                    "produktCode": "9991000002090",
+                    "codeProdukteigenschaft": "9991000003014",
+                    "wertedetails": "50"
+                  },
+                  {
+                    "produktCode": "9991000002066",
+                    "codeProdukteigenschaft": "9991000002272"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET1"
+              },
+              {
+                "produktpaketId": 2,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002404",
+                    "codeProdukteigenschaft": "9991000002420"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "22XBKA---------I"
+                  },
+                  {
+                    "produktCode": "9991000002090",
+                    "codeProdukteigenschaft": "9991000003014",
+                    "wertedetails": "50"
+                  },
+                  {
+                    "produktCode": "9991000002066",
+                    "codeProdukteigenschaft": "9991000002272"
+                  },
+                  {
+                    "produktCode": "9991000002404",
+                    "codeProdukteigenschaft": "9991000002420"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR",
+                "priorisierung": "PRIORITAET2"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2025-11-01T23:00:00Z",
+            "lokationsId": "20072281644",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAZBHQXEUJALSE",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW2",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55077",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA672410170839449903323000007966941",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAOHDSWRBRFDIO",
+        "abtretungserklaerung": {
+          "passwort": "KNSG5674?\"§",
+          "link1": "https://www.Stadtwerk_xy.de/...",
+          "link2": "X",
+          "link3": "X",
+          "link4": "X",
+          "link5": "X"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

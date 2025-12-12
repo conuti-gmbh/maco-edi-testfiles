@@ -1,0 +1,92 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG",
+            "energierichtung": "AUSSP",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-09-29T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "lokationsId": "44153874533"
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "marktlokationsId": "44153874533",
+            "versionStruktur": "1",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000044",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "NETZNUTZUNGSABRECHNUNG"
+                    ]
+                  }
+                ],
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "Aal"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0LI678W",
+        "sparte": "STROM",
+        "pruefidentifikator": "17121",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M05AQP3S",
+        "nachrichtendatum": "2024-08-19T07:10:00Z",
+        "nachrichtenreferenznummer": "M0V0OCVO"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragetyp": "AENDERUNG_KONFIGURATION"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50444001616",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ],
+        "LEISTUNGSKURVENDEFINITION": [
+          {
+            "boTyp": "LEISTUNGSKURVENDEFINITION",
+            "versionStruktur": "1",
+            "leistungskurven": [
+              {
+                "code": "MMA",
+                "konfigurationsprodukt": "9991000000721"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3VQCXCY",
+        "sparte": "STROM",
+        "pruefidentifikator": "35004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3TJAKY3",
+        "kategorie": "Z82",
+        "nachrichtendatum": "2024-10-16T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM3Q4M8YM",
+        "positionsnummer": 1,
+        "lieferdatum": "2025-01-05T23:00:00Z",
+        "nachrichtenReferenzBestellbestaetigung": "BGMM44X6WGM",
+        "vorgangsReferenzBestellbestaetigung": "45261"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

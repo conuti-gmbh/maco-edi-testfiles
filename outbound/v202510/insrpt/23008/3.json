@@ -1,0 +1,59 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "bearbeitungsdatum": "2023-04-11T12:00:00Z",
+                "verwendungAb": "2023-04-11T12:00:00Z",
+                "verwendungBis": "2023-04-11T14:00:00Z",
+                "auftragsstatus": "GESTOERT",
+                "statusanlass": "STOERUNGSBEHEBUNG_NICHT_MOEGLICH",
+                "fehlerbeschreibung": {
+                  "beschreibung1": "Freier Text"
+                },
+                "lokationsId": "DE0032106765712000000000000000037"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "140607",
+        "sparte": "STROM",
+        "vorgangsnummer": "1",
+        "pruefidentifikator": "23008",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "NIK KIRS848908BGM",
+        "kategorie": "4",
+        "nachrichtendatum": "2023-04-17T06:30:00Z",
+        "nachrichtenreferenznummer": "848908",
+        "anfragereferenznummer": "REF12345678910"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

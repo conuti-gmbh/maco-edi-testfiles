@@ -1,0 +1,50 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0QRNROB",
+        "sparte": "STROM",
+        "anfragereferenznummer": "Vorgang1",
+        "vorgangsnummer": "Vorgang2",
+        "pruefidentifikator": "25010",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Andre Bauer",
+            "eMailAdresse": "marktpartner@stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "LZSWGK5F",
+        "kategorie": "Z36",
+        "nachrichtendatum": "2024-08-13T13:15:00Z",
+        "nachrichtenreferenznummer": "M01SS2JI",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A99",
+            "liste": "E_0218",
+            "zeitraumId": 1,
+            "freitext": "wird gerade überarbeitet"
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

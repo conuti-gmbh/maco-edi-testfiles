@@ -1,0 +1,137 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198100",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "erforderlichesProduktpaket": [
+              {
+                "produktpaketId": 1,
+                "produkt": [
+                  {
+                    "produktCode": "9991000002016",
+                    "codeProdukteigenschaft": "9991000002131"
+                  },
+                  {
+                    "produktCode": "9991000002082",
+                    "wertedetails": "11XEONBAYERN---I"
+                  },
+                  {
+                    "produktCode": "9991000002008",
+                    "codeProdukteigenschaft": "9991000002115"
+                  },
+                  {
+                    "produktCode": "9991000002727",
+                    "codeProdukteigenschaft": "9991000002785"
+                  }
+                ],
+                "umsetzungsgradvorgabe": "ZUORDNUNG_NUR_WENN_PRODUKTPAKET_UMSETZBAR"
+              }
+            ]
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "vertragsbeginn": "2024-12-01T23:00:00Z",
+            "vertragsende": "2024-12-02T23:00:00Z",
+            "vertragskonditionen": {
+              "haushaltskunde": true
+            },
+            "lokationsId": "50363198100",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "sparte": "STROM",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Max",
+                "name2": "Mustermann",
+                "gewerbekennzeichnung": false,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Max",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "99423",
+                "ort": "Weimar",
+                "strasse": "Erfurter",
+                "hausnummer": "46",
+                "postfach": "Str",
+                "landescode": "DE"
+              }
+            },
+            "enFG": [
+              {
+                "grundlageVerringerungUmlagen": "ERFUELLT_VORAUSSETZUNG_NACH_ENFG",
+                "grund": [
+                  "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M2N2K9NH",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "transaktionsgrundergaenzung": "ZW4",
+        "transaktionsgrundergaenzungBefristeteAnmeldung": "E01",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2RS5P0Q",
+        "kategorie": "E01",
+        "nachrichtendatum": "2024-10-14T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM2M4CSVV",
+        "vertragsbeginn": "2024-12-01T23:00:00Z",
+        "vertragsende": "2024-12-02T23:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

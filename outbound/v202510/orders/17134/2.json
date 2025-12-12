@@ -1,0 +1,218 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "EINRICHTUNG_KONFIGURATION_AUFGRUND_ZUORDNUNG_LF",
+            "anfragetyp": "AKTIVIERUNG_KONFIGURATION",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "energierichtung": "AUSSP"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-04-30T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "anfragegrund": "NEUKONFIGURATION",
+                "lokationsId": "50074561189"
+              },
+              {
+                "positionsnummer": 2,
+                "anfragegrund": "NEUKONFIGURATION",
+                "lokationsId": "50074561190"
+              },
+              {
+                "positionsnummer": 3,
+                "lokationsId": "DE0032106765712000000000000000037"
+              },
+              {
+                "positionsnummer": 4,
+                "lokationsId": "DE0032106765712000000000000000038"
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000226"
+              }
+            ]
+          },
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000038",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000226"
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "marktlokationsTyp": [
+              {
+                "typ": "KUNDENANLAGE"
+              }
+            ],
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "LF",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9903790000002",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "4045399000077",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000648",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "UEBERMITTLUNG_AN_DAS_HKNR"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "ENDKUNDENABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "aufteilungsmenge": {
+              "wert": 50,
+              "einheit": "PROZENT"
+            },
+            "bildungTranchengroesse": "PROZENTUAL"
+          },
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561190",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "LF",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9903790000002",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000648",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "UEBERMITTLUNG_AN_DAS_HKNR"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "ENDKUNDENABRECHNUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "UENB",
+                    "zweck": [
+                      "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "aufteilungsmenge": {
+              "wert": 50,
+              "einheit": "PROZENT"
+            },
+            "bildungTranchengroesse": "PROZENTUAL"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M13FTAPZ",
+        "sparte": "STROM",
+        "pruefidentifikator": "17134",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM0SOWYCW",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM15KTE0Q"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

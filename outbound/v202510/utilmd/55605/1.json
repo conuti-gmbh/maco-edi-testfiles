@@ -1,0 +1,39 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZIFBZAO",
+        "sparte": "STROM",
+        "transaktionsgrund": "E02",
+        "transaktionsgrundergaenzung": "ZW3",
+        "vorgangsnummer": "12345",
+        "pruefidentifikator": "55605",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZU6DM9A",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZKUIZUY",
+        "anfragereferenznummer": "ABC12345",
+        "antwortstatus": "A03",
+        "antwortstatusCodeliste": "E_0608"
+      }
+    }
+  }
+]

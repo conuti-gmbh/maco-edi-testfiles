@@ -1,0 +1,340 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzebene": "NSP",
+            "umspannung": "MSP_NSP_UMSP",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9910812000000",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verbrauchsart": [
+                  "EMOB"
+                ],
+                "unterbrechbarkeit": "NUV",
+                "artEMobilitaet": "WB"
+              }
+            ],
+            "messtechnischeEinordnung": "IMS",
+            "eigentuemer": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Huber",
+              "name2": "Karlheinz",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "EIGENTUEMER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "10010",
+                "ort": "Entenhausen",
+                "strasse": "Teststraße",
+                "hausnummer": "815b",
+                "landescode": "DE",
+                "ortsteil": "X"
+              }
+            },
+            "hausverwalter": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Huber",
+              "name2": "Karlheinz",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "HAUSVERWALTER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "10010",
+                "ort": "Entenhausen",
+                "strasse": "Teststraße",
+                "hausnummer": "815b",
+                "landescode": "DE",
+                "ortsteil": "X"
+              }
+            }
+          },
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "20072281644",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzebene": "NSP",
+            "umspannung": "MSP_NSP_UMSP",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9910812000000",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.9.0",
+                "verbrauchsart": [
+                  "EMOB"
+                ],
+                "unterbrechbarkeit": "NUV",
+                "artEMobilitaet": "WB"
+              }
+            ],
+            "messtechnischeEinordnung": "IMS",
+            "eigentuemer": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Huber",
+              "name2": "Karlheinz",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "EIGENTUEMER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "10010",
+                "ort": "Entenhausen",
+                "strasse": "Teststraße",
+                "hausnummer": "815b",
+                "landescode": "DE",
+                "ortsteil": "X"
+              }
+            },
+            "hausverwalter": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "anrede": "Dr.",
+              "name1": "Huber",
+              "name2": "Karlheinz",
+              "gewerbekennzeichnung": false,
+              "geschaeftspartnerrolle": [
+                "HAUSVERWALTER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "10010",
+                "ort": "Entenhausen",
+                "strasse": "Teststraße",
+                "hausnummer": "815b",
+                "landescode": "DE",
+                "ortsteil": "X"
+              }
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            },
+            "lokationsId": "20072281644",
+            "lokationsTyp": "MALO"
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ],
+            "korrespondenzpartner": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Fank Müller",
+              "gewerbekennzeichnung": false,
+              "partneradresse": {
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            },
+            "lokationsId": "20072281644",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAQQQQGTAHQNPM",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX6",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "24062416225400000000000102159662011",
+        "pruefidentifikator": "55616",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9911835000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA562410171227379903323000007071750",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAXOYQPBUXJYJX"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

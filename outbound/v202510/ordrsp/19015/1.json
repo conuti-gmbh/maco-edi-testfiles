@@ -1,0 +1,78 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEWECHSELABSICHT"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "lieferadresseAltgeraete": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Unternehmensname",
+              "gewerbekennzeichnung": true,
+              "partneradresse": {
+                "postleitzahl": "10010",
+                "ort": "Berlin",
+                "strasse": "Reinhardtstr.",
+                "hausnummer": "815b",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAPQSCZOQZCMIP",
+        "sparte": "STROM",
+        "pruefidentifikator": "19015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9910812000000",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA652411190845249903323000007931443",
+        "kategorie": "Z13",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAUCJJZJCTCMMU",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "ZB5",
+        "antwortstatusCodeliste": "S_0066"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

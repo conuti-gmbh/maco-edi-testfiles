@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50607680250",
+            "sparte": "GAS",
+            "lokationsadresse": {
+              "postleitzahl": "59755",
+              "ort": "Arnsberg",
+              "strasse": "Hauptstr.",
+              "hausnummer": "30 A",
+              "landescode": "DE",
+              "ortsteil": "Neheim-Hüsten"
+            }
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2023-11-30T05:00:00Z",
+            "lokationsId": "50607680250",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "BC93423413A",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF4",
+        "vorgangsnummer": "ECOUNT_WN_2266109432",
+        "pruefidentifikator": "44142",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870016000000",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800080300003",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BC93423413A-1",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "1",
+        "anfragereferenznummer": "DA395523113007591798000803000033580",
+        "gueltigAb": "2023-11-30T05:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "G_0031"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

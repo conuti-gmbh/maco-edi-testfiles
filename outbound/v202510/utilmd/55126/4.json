@@ -1,0 +1,122 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2024-12-31T23:00:00Z"
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50363198116",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-12-31T23:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "bilanzierungsgebiet": "10YDE-VNBNET---I",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "UENB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9900496000003",
+                "rollencodetyp": "BDEW"
+              }
+            ],
+            "regelzone": "10YDE-VNBNET---I"
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-12-31T23:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "lastprofile": [
+              {
+                "bezeichnung": "ABC",
+                "profilschar": "XYB",
+                "verfahren": "ANALYTISCH",
+                "einspeisung": false,
+                "tagesparameter": {
+                  "temperaturmessstelle": "1234",
+                  "dienstanbieter": "DWD",
+                  "herausgeber": "BDEW"
+                },
+                "profilart": "ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL",
+                "herausgeber": "NB"
+              },
+              {
+                "bezeichnung": "ABC",
+                "verfahren": "ANALYTISCH",
+                "einspeisung": false,
+                "profilart": "ART_STANDARDLASTPROFIL",
+                "herausgeber": "NB"
+              }
+            ],
+            "bilanzkreis": "NCHB999123220000",
+            "temperaturarbeit": {
+              "wert": 5,
+              "einheit": "KWHK"
+            },
+            "jahresverbrauchsprognose": {
+              "wert": 458,
+              "einheit": "KWH"
+            },
+            "aggregationsverantwortung": "VNB",
+            "zeitreihentyp": "SLS_TLS",
+            "prognosegrundlage": "PROFILE",
+            "detailsPrognosegrundlage": [
+              "TLP_TEP",
+              "SLP_SEP"
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M37BUSBN",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX3",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55126",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM30ZB57S",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-10-29T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM375KFCF"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

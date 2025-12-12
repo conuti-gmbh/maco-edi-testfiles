@@ -1,0 +1,51 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "vorjahresverbrauch": {
+              "wert": 6460,
+              "einheit": "KWH"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P102845739A",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "ECOUNT_207917572",
+        "pruefidentifikator": "55017",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903448000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9911694000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "P102845739A-1",
+        "kategorie": "E35",
+        "nachrichtendatum": "2024-04-01T15:47:00Z",
+        "nachrichtenreferenznummer": "1",
+        "anfragereferenznummer": "PCL09023100613515599116940000022246",
+        "antwortstatus": "A09",
+        "antwortstatusCodeliste": "E_0614",
+        "endezumtermin": "2025-11-30T23:00:00Z"
+      }
+    }
+  }
+]

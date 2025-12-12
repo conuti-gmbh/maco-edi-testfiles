@@ -1,0 +1,77 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2024-09-30T22:00:00Z"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D1403769641",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-09-30T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "nennleistung": {
+              "aufnahme": 11
+            },
+            "verbrauchsart": [
+              "KL",
+              "WK"
+            ],
+            "waermenutzung": "WAERMEPUMPE",
+            "enwg": false,
+            "art": "STROMVERBRAUCH"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "C3AAAAAAAGWOLX",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY0",
+        "vorgangsnummer": "f3ad32f9b9634530b53c8c7260e3a066",
+        "pruefidentifikator": "55617",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900469000008",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Stadtwerke Neuwied GmbH Strom",
+            "eMailAdresse": "Bitte entnehmen Sie die aktuellen Kontaktdaten unserer @nlinepräsenz."
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903854000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "46a6430ca9d54a3fb18c64da1aad62a8",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-25T16:00:00Z",
+        "nachrichtenreferenznummer": "1"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

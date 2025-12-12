@@ -1,0 +1,140 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktlokationsId": "50074561188",
+            "sparte": "STROM",
+            "lokationsadresse": {
+              "postleitzahl": "12345",
+              "ort": "Ort",
+              "strasse": "Str",
+              "hausnummer": "1",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Mustermann",
+                "zusatz2": "Max"
+              }
+            },
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "rollencodenummer": "9903790000002",
+                "marktrolle": "LF"
+              }
+            ],
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.29.0"
+              }
+            ],
+            "energieherkunft": [
+              {
+                "erzeugungsart": "EEG_DV"
+              }
+            ],
+            "statusErzeugendeMalo": "GEFOERDERTE_DIREKTVERMARKTUNG",
+            "foerderungsLand": "DE",
+            "beteiligterMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "rollencodenummer": "9900321000005",
+              "rollencodetyp": "BDEW"
+            }
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "STROM",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "zaehlernummer": "ABC123456",
+            "messlokationsId": "DE0032106765712000000000000000037",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "LEISTUNGSZAEHLER",
+            "tarifart": "EINTARIF",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:1.29.0"
+              }
+            ],
+            "geraete": [
+              {
+                "geraetenummer": "ABC123456"
+              }
+            ]
+          }
+        ],
+        "BILANZIERUNG": [
+          {
+            "boTyp": "BILANZIERUNG",
+            "versionStruktur": "1",
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktlokationsId": "50074561188",
+            "bilanzkreis": "11Y0-0000-0076-N",
+            "zeitreihentyp": "EGS"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZTDHH79",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55075",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "4399902157025",
+          "rollencodetyp": "GLN"
+        },
+        "dokumentennummer": "BGMLZW4FKPU",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZGX1VS4",
+        "gueltigAb": "2025-06-30T22:00:00Z",
+        "bilanzkreis": [
+          {
+            "bezeichnung": "11Y0-0000-0076-N"
+          }
+        ]
+      },
+      "zusatzdaten": []
+    }
+  }
+]

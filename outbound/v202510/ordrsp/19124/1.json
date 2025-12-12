@@ -1,0 +1,56 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_INDIVIDUELLER_KONFIGURATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DASFTZWAIAUQDZ",
+        "sparte": "STROM",
+        "pruefidentifikator": "19124",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA862411200724399903323000007189649",
+        "nachrichtendatum": "2025-10-30T12:31:00Z",
+        "nachrichtenreferenznummer": "DALRTRVYCPSLBA",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0523",
+        "freitext": "Stell keine Fragen"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

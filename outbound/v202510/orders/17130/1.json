@@ -1,0 +1,86 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "BESTELLUNG_EINER_KONFIGURATION",
+            "lokationsId": "C4897654121",
+            "lokationsTyp": "STEUERBARE_RESSOURCE"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C4897654121"
+          }
+        ],
+        "SCHALTZEITDEFINITION": [
+          {
+            "boTyp": "SCHALTZEITDEFINITION",
+            "versionStruktur": "1",
+            "schaltzeiten": [
+              {
+                "code": "AAL",
+                "konfigurationsprodukt": "9991000000713"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0OU3NLP",
+        "sparte": "STROM",
+        "pruefidentifikator": "17130",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "A",
+            "eMailAdresse": "a.l@cinuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0O1YVAK",
+        "nachrichtendatum": "2024-08-19T08:03:00Z",
+        "nachrichtenreferenznummer": "M08MHOSC",
+        "vorgangsreferenznummer": "AS1234",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903111000003",
+          "rollencodetyp": "BDEW"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

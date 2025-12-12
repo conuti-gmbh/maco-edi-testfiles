@@ -1,0 +1,78 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50645227345",
+            "sparte": "GAS",
+            "marktgebiet": "37Y005053MH0000R",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-0:33.86.0",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE7001603235100000000000000032699",
+            "sparte": "GAS",
+            "gasqualitaet": "H_GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2025-08-12T04:00:00Z",
+            "vertragskonditionen": {
+              "netznutzungsvertrag": "LIEFERANTEN_NB",
+              "netznutzungszahler": "LIEFERANT",
+              "netznutzungsabrechnungsvariante": "ARBEITSPREIS_GRUNDPREIS"
+            },
+            "lokationsId": "50645227345",
+            "lokationsTyp": "MALO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "BC93406936A",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZE7",
+        "vorgangsnummer": "ECOUNT_WN_2266091231",
+        "pruefidentifikator": "44112",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870016000000",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800080300003",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BC93406936A-1",
+        "kategorie": "Z26",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "1",
+        "gueltigAb": "2025-08-12T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

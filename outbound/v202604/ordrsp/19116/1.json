@@ -1,0 +1,80 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "mindestpreis": {
+              "wert": 9,
+              "einheit": "EUR"
+            },
+            "hoechstpreis": {
+              "wert": 18,
+              "einheit": "EUR"
+            },
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "infoAbweichung": {
+                  "abweichung1": "Preis"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAJLGMRRUSHBKA",
+        "sparte": "STROM",
+        "pruefidentifikator": "19116",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9979015000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA142411191108469903323000007829013",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAWHJNMDGLFPCE",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A09",
+        "antwortstatusCodeliste": "E_0470"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

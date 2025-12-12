@@ -1,0 +1,115 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS"
+          }
+        ],
+        "NETZNUTZUNGSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "NETZNUTZUNGSVERTRAG",
+            "sparte": "GAS",
+            "vertragsbeginn": "2026-05-01T04:00:00Z",
+            "lokationsId": "DE70016045739G0000000000000042897",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "GAS123456",
+            "messlokationsId": "DE70016045739G0000000000000042897",
+            "sparte": "GAS",
+            "zaehlertyp": "BALGENGASZAEHLER",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "7-0:3.0.0",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "befestigungsart": "EINSTUTZEN",
+            "zaehlergroesse": "GAS_G10",
+            "geraete": [
+              {
+                "geraetenummer": "MDRG12345",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MESSDATENREGISTRIERGERAET",
+                  "volumenerfassung": "HOCHFREQUENZSONDE"
+                }
+              },
+              {
+                "geraetenummer": "MENGENUMWERTER123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "MENGENUMWERTER",
+                  "geraetemerkmal": "DICHTEMENGENUMWERTER",
+                  "volumenerfassung": "KENNLINIENKORREKTUR"
+                }
+              },
+              {
+                "geraetenummer": "KOMM1234",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                  "geraetemerkmal": "MODEM_GSM"
+                }
+              },
+              {
+                "geraetenummer": "7ELS9636042229",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY"
+                }
+              }
+            ],
+            "volumenerfassung": "HOCHFREQUENZSONDE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MGS194EC",
+        "sparte": "GAS",
+        "transaktionsgrund": "ZF5",
+        "vorgangsnummer": "99009520000021107201601761437046202",
+        "pruefidentifikator": "44149",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800191400007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870006600000",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMMGN5HEQQ",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-04-01T06:24:00Z",
+        "nachrichtenreferenznummer": "UNHMHIBSK0L",
+        "anfragereferenznummer": "ABC123456",
+        "gueltigAb": "2026-05-01T04:00:00Z",
+        "antwortstatus": "ZG2",
+        "antwortstatusCodeliste": "G_0044",
+        "vertragsbeginn": "2026-05-01T04:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

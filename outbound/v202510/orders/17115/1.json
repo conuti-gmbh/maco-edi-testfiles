@@ -1,0 +1,79 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-08-29T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "allgemeineInformationen": {
+                  "info1": "Nachricht für Olli"
+                }
+              }
+            ]
+          }
+        ],
+        "SPERRAUFTRAG": [
+          {
+            "boTyp": "SPERRAUFTRAG",
+            "versionStruktur": "1",
+            "treffpunkt": {
+              "postleitzahl": "42553",
+              "ort": "Velbert",
+              "strasse": "Lohbachstraße 30",
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Conuti GmbH"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0SOCYHN",
+        "sparte": "STROM",
+        "pruefidentifikator": "17115",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "a.l@ronny.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0GQWJ3W",
+        "nachrichtendatum": "2025-10-27T06:51:00Z",
+        "nachrichtenreferenznummer": "M0WI6D92"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

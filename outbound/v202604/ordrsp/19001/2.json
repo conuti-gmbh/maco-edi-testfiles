@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEUEBERNAHME"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-11-05T05:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3C60503",
+        "sparte": "GAS",
+        "pruefidentifikator": "19001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9880000000001",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9880000000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM3T832DK",
+        "kategorie": "Z10",
+        "nachrichtendatum": "2024-11-06T06:09:00Z",
+        "nachrichtenreferenznummer": "UNHM3RAA3PN",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "G_0061"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

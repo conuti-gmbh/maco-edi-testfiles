@@ -1,0 +1,155 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2024-12-31T23:00:00Z"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001217",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-12-31T23:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzebenemessung": "NSP",
+            "ablesekartenempfaenger": {
+              "boTyp": "GESCHAEFTSPARTNER",
+              "versionStruktur": "1",
+              "name1": "Max",
+              "name2": "Mustermann",
+              "gewerbekennzeichnung": true,
+              "geschaeftspartnerrolle": [
+                "ABLESEKARTENEMPFAENGER"
+              ],
+              "partneradresse": {
+                "postleitzahl": "99423",
+                "ort": "Weimar",
+                "strasse": "Erfurter Str.",
+                "postfach": "46",
+                "landescode": "DE"
+              }
+            }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "1LGZ0061578888",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-12-31T23:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+            "tarifart": "ZWEITARIF",
+            "zaehlwerke": [
+              {
+                "bezeichnung": "1",
+                "obisKennzahl": "1-0:1.8.1",
+                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABV",
+                  "register": "ABD"
+                },
+                "konfiguration": "34590456ujdfsdghdlktztwqq-053brt",
+                "wertegranularitaet": "JAEHRLICH"
+              },
+              {
+                "bezeichnung": "2",
+                "obisKennzahl": "1-0:1.8.2",
+                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+                "vorkommastelle": 7,
+                "nachkommastelle": 3,
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "ABV",
+                  "register": "ABD"
+                },
+                "konfiguration": "34590456ujdfsdghdlktztwqq-053art",
+                "wertegranularitaet": "JAEHRLICH"
+              }
+            ],
+            "gateway": "1LGZ0061572222",
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "geraete": [
+              {
+                "geraetenummer": "1LGZ0061578000",
+                "weitereGeraetenummern": [
+                  "1LGZ0061579000"
+                ],
+                "geraeteeigenschaften": {
+                  "geraetetyp": "WANDLER",
+                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
+                  "faktor": 1
+                }
+              },
+              {
+                "geraetenummer": "1LGZ0061578001",
+                "weitereGeraetenummern": [
+                  "1LGZ0061579001"
+                ],
+                "geraeteeigenschaften": {
+                  "geraetetyp": "WANDLER",
+                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
+                  "faktor": 1
+                }
+              },
+              {
+                "geraetenummer": "1LGZ0061572222",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3KZJRZH",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX7",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55653",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3O37Z21",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-06-05T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM35S7BK0"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

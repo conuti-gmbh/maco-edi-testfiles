@@ -1,0 +1,60 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "abonnement": "ENDE_ABO",
+            "anfragetyp": "ZAEHLERSTAENDE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAAIKRFDANDERP",
+        "sparte": "STROM",
+        "pruefidentifikator": "19302",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "4399902157025",
+          "rollencodetyp": "GLN"
+        },
+        "dokumentennummer": "DA802411200742079903323000007758694",
+        "kategorie": "7",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAGAHTYPLNKBMM",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "S_0093"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

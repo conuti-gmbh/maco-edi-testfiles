@@ -1,0 +1,66 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "STEUERBARE_RESSOURCE": [
+          {
+            "boTyp": "STEUERBARE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "C816417ST77",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "UMBAUMELO",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+              {
+                  "positionsnummer": 1,
+                  "allgemeineInformationen": {
+                    "info1": "Hier steht der Text, der erklärt,",
+                    "info2": "warum abgelehnt wurde.",
+                    "info3": "Und hier der weitere Text.",
+                    "info4": "Und hier der weitere Text.",
+                    "info5": "Und hier der weitere Text."
+                  }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M2PHD2DV",
+        "sparte": "STROM",
+        "pruefidentifikator": "21025",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2XCRGA7",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2025-10-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2J7WJW9",
+        "sendungsposition": "1",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0286"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

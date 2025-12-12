@@ -1,0 +1,79 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "verwendungAb": "2024-10-20T22:00:00Z",
+            "verwendungBis": "2024-12-24T23:00:00Z"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688110018",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2024-10-20T22:00:00Z",
+              "enddatum": "2024-12-24T23:00:00Z"
+            },
+            "datenqualitaet": "ERWARTETE_DATEN",
+            "abrechnungsdaten": [
+              {
+                "artikelId": "1-02-0-001",
+                "artikelIdTyp": "ARTIKELID",
+                "abrechnungBlindarbeit": true,
+                "zahlerBlindarbeit": "NICHT_FESTGELEGT"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M35B8XBK",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX5",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55227",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM38HSNL4",
+        "kategorie": "E03",
+        "nachrichtendatum": "2024-10-16T09:45:00Z",
+        "nachrichtenreferenznummer": "UNHM3KE115J",
+        "anfragereferenznummer": "NNV1230",
+        "antwortStatusZeitraum": [
+          {
+            "code": "A02",
+            "liste": "E_0408",
+            "zeitraumId": 1
+          }
+        ]
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

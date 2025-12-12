@@ -1,0 +1,84 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM",
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "steuerkanal": true,
+            "produktdatenRelevanteRolle": "NB",
+            "keinKonfigurationsprodukt": true,
+            "auftraggebenderMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "NB",
+              "rollencodenummer": "9900321000005"
+            },
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:5.29.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZQZZMUB",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX8",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55639",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM04N7618",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZOTCRQR",
+        "verwendungAb": "2025-04-02T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

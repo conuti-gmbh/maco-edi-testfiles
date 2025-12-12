@@ -1,0 +1,1587 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "51580175011",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2023-10-05T22:00:00Z",
+                "enddatum": "2023-10-05T22:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T22:15:00Z",
+                "enddatum": "2023-10-05T22:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T22:30:00Z",
+                "enddatum": "2023-10-05T22:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T22:45:00Z",
+                "enddatum": "2023-10-05T23:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T23:00:00Z",
+                "enddatum": "2023-10-05T23:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T23:15:00Z",
+                "enddatum": "2023-10-05T23:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T23:30:00Z",
+                "enddatum": "2023-10-05T23:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T23:45:00Z",
+                "enddatum": "2023-10-06T00:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T00:00:00Z",
+                "enddatum": "2023-10-06T00:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T00:15:00Z",
+                "enddatum": "2023-10-06T00:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T00:30:00Z",
+                "enddatum": "2023-10-06T00:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T00:45:00Z",
+                "enddatum": "2023-10-06T01:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T01:00:00Z",
+                "enddatum": "2023-10-06T01:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T01:15:00Z",
+                "enddatum": "2023-10-06T01:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T01:30:00Z",
+                "enddatum": "2023-10-06T01:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T01:45:00Z",
+                "enddatum": "2023-10-06T02:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T02:00:00Z",
+                "enddatum": "2023-10-06T02:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T02:15:00Z",
+                "enddatum": "2023-10-06T02:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T02:30:00Z",
+                "enddatum": "2023-10-06T02:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T02:45:00Z",
+                "enddatum": "2023-10-06T03:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T03:00:00Z",
+                "enddatum": "2023-10-06T03:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T03:15:00Z",
+                "enddatum": "2023-10-06T03:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T03:30:00Z",
+                "enddatum": "2023-10-06T03:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T03:45:00Z",
+                "enddatum": "2023-10-06T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T04:00:00Z",
+                "enddatum": "2023-10-06T04:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T04:15:00Z",
+                "enddatum": "2023-10-06T04:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T04:30:00Z",
+                "enddatum": "2023-10-06T04:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.012,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T04:45:00Z",
+                "enddatum": "2023-10-06T05:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T05:00:00Z",
+                "enddatum": "2023-10-06T05:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.188,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T05:15:00Z",
+                "enddatum": "2023-10-06T05:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.388,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T05:30:00Z",
+                "enddatum": "2023-10-06T05:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T05:45:00Z",
+                "enddatum": "2023-10-06T06:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.075,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T06:00:00Z",
+                "enddatum": "2023-10-06T06:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.012,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T06:15:00Z",
+                "enddatum": "2023-10-06T06:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T06:30:00Z",
+                "enddatum": "2023-10-06T06:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T06:45:00Z",
+                "enddatum": "2023-10-06T07:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T07:00:00Z",
+                "enddatum": "2023-10-06T07:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T07:15:00Z",
+                "enddatum": "2023-10-06T07:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.088,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T07:30:00Z",
+                "enddatum": "2023-10-06T07:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.975,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T07:45:00Z",
+                "enddatum": "2023-10-06T08:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.175,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T08:00:00Z",
+                "enddatum": "2023-10-06T08:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.162,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T08:15:00Z",
+                "enddatum": "2023-10-06T08:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T08:30:00Z",
+                "enddatum": "2023-10-06T08:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T08:45:00Z",
+                "enddatum": "2023-10-06T09:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.088,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T09:00:00Z",
+                "enddatum": "2023-10-06T09:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.175,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T09:15:00Z",
+                "enddatum": "2023-10-06T09:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.3,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T09:30:00Z",
+                "enddatum": "2023-10-06T09:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.225,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T09:45:00Z",
+                "enddatum": "2023-10-06T10:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.375,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T10:00:00Z",
+                "enddatum": "2023-10-06T10:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T10:15:00Z",
+                "enddatum": "2023-10-06T10:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T10:30:00Z",
+                "enddatum": "2023-10-06T10:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T10:45:00Z",
+                "enddatum": "2023-10-06T11:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.012,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T11:00:00Z",
+                "enddatum": "2023-10-06T11:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T11:15:00Z",
+                "enddatum": "2023-10-06T11:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T11:30:00Z",
+                "enddatum": "2023-10-06T11:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T11:45:00Z",
+                "enddatum": "2023-10-06T12:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.125,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T12:00:00Z",
+                "enddatum": "2023-10-06T12:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0.138,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T12:15:00Z",
+                "enddatum": "2023-10-06T12:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T12:30:00Z",
+                "enddatum": "2023-10-06T12:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T12:45:00Z",
+                "enddatum": "2023-10-06T13:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T13:00:00Z",
+                "enddatum": "2023-10-06T13:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T13:15:00Z",
+                "enddatum": "2023-10-06T13:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T13:30:00Z",
+                "enddatum": "2023-10-06T13:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T13:45:00Z",
+                "enddatum": "2023-10-06T14:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T14:00:00Z",
+                "enddatum": "2023-10-06T14:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T14:15:00Z",
+                "enddatum": "2023-10-06T14:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T14:30:00Z",
+                "enddatum": "2023-10-06T14:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T14:45:00Z",
+                "enddatum": "2023-10-06T15:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T15:00:00Z",
+                "enddatum": "2023-10-06T15:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T15:15:00Z",
+                "enddatum": "2023-10-06T15:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T15:30:00Z",
+                "enddatum": "2023-10-06T15:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T15:45:00Z",
+                "enddatum": "2023-10-06T16:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T16:00:00Z",
+                "enddatum": "2023-10-06T16:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T16:15:00Z",
+                "enddatum": "2023-10-06T16:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T16:30:00Z",
+                "enddatum": "2023-10-06T16:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T16:45:00Z",
+                "enddatum": "2023-10-06T17:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T17:00:00Z",
+                "enddatum": "2023-10-06T17:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T17:15:00Z",
+                "enddatum": "2023-10-06T17:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T17:30:00Z",
+                "enddatum": "2023-10-06T17:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T17:45:00Z",
+                "enddatum": "2023-10-06T18:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T18:00:00Z",
+                "enddatum": "2023-10-06T18:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T18:15:00Z",
+                "enddatum": "2023-10-06T18:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T18:30:00Z",
+                "enddatum": "2023-10-06T18:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T18:45:00Z",
+                "enddatum": "2023-10-06T19:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T19:00:00Z",
+                "enddatum": "2023-10-06T19:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T19:15:00Z",
+                "enddatum": "2023-10-06T19:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T19:30:00Z",
+                "enddatum": "2023-10-06T19:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T19:45:00Z",
+                "enddatum": "2023-10-06T20:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T20:00:00Z",
+                "enddatum": "2023-10-06T20:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T20:15:00Z",
+                "enddatum": "2023-10-06T20:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T20:30:00Z",
+                "enddatum": "2023-10-06T20:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T20:45:00Z",
+                "enddatum": "2023-10-06T21:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T21:00:00Z",
+                "enddatum": "2023-10-06T21:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T21:15:00Z",
+                "enddatum": "2023-10-06T21:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T21:30:00Z",
+                "enddatum": "2023-10-06T21:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-06T21:45:00Z",
+                "enddatum": "2023-10-06T22:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:3.29.0",
+                "wert": 0,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-10-05T22:00:00Z",
+                "enddatum": "2023-10-05T22:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.725,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T22:15:00Z",
+                "enddatum": "2023-10-05T22:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.75,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T22:30:00Z",
+                "enddatum": "2023-10-05T22:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.738,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T22:45:00Z",
+                "enddatum": "2023-10-05T23:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.388,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T23:00:00Z",
+                "enddatum": "2023-10-05T23:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.175,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T23:15:00Z",
+                "enddatum": "2023-10-05T23:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.762,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T23:30:00Z",
+                "enddatum": "2023-10-05T23:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.75,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-05T23:45:00Z",
+                "enddatum": "2023-10-06T00:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.725,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T00:00:00Z",
+                "enddatum": "2023-10-06T00:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.738,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T00:15:00Z",
+                "enddatum": "2023-10-06T00:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.762,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T00:30:00Z",
+                "enddatum": "2023-10-06T00:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.762,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T00:45:00Z",
+                "enddatum": "2023-10-06T01:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.8,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T01:00:00Z",
+                "enddatum": "2023-10-06T01:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.75,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T01:15:00Z",
+                "enddatum": "2023-10-06T01:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.738,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T01:30:00Z",
+                "enddatum": "2023-10-06T01:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.788,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T01:45:00Z",
+                "enddatum": "2023-10-06T02:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.738,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T02:00:00Z",
+                "enddatum": "2023-10-06T02:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.712,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T02:15:00Z",
+                "enddatum": "2023-10-06T02:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.825,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T02:30:00Z",
+                "enddatum": "2023-10-06T02:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.838,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T02:45:00Z",
+                "enddatum": "2023-10-06T03:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.112,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T03:00:00Z",
+                "enddatum": "2023-10-06T03:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 5.038,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T03:15:00Z",
+                "enddatum": "2023-10-06T03:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.5,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T03:30:00Z",
+                "enddatum": "2023-10-06T03:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 4.2,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T03:45:00Z",
+                "enddatum": "2023-10-06T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.388,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T04:00:00Z",
+                "enddatum": "2023-10-06T04:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.575,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T04:15:00Z",
+                "enddatum": "2023-10-06T04:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.475,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T04:30:00Z",
+                "enddatum": "2023-10-06T04:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.638,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T04:45:00Z",
+                "enddatum": "2023-10-06T05:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.712,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T05:00:00Z",
+                "enddatum": "2023-10-06T05:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.538,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T05:15:00Z",
+                "enddatum": "2023-10-06T05:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.5,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T05:30:00Z",
+                "enddatum": "2023-10-06T05:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.888,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T05:45:00Z",
+                "enddatum": "2023-10-06T06:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.062,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T06:00:00Z",
+                "enddatum": "2023-10-06T06:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.9,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T06:15:00Z",
+                "enddatum": "2023-10-06T06:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.912,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T06:30:00Z",
+                "enddatum": "2023-10-06T06:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.65,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T06:45:00Z",
+                "enddatum": "2023-10-06T07:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.788,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T07:00:00Z",
+                "enddatum": "2023-10-06T07:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.325,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T07:15:00Z",
+                "enddatum": "2023-10-06T07:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.262,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T07:30:00Z",
+                "enddatum": "2023-10-06T07:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 5.375,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T07:45:00Z",
+                "enddatum": "2023-10-06T08:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.962,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T08:00:00Z",
+                "enddatum": "2023-10-06T08:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 4.338,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T08:15:00Z",
+                "enddatum": "2023-10-06T08:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.388,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T08:30:00Z",
+                "enddatum": "2023-10-06T08:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.962,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T08:45:00Z",
+                "enddatum": "2023-10-06T09:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.6,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T09:00:00Z",
+                "enddatum": "2023-10-06T09:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 6.162,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T09:15:00Z",
+                "enddatum": "2023-10-06T09:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 7.05,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T09:30:00Z",
+                "enddatum": "2023-10-06T09:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 5.062,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T09:45:00Z",
+                "enddatum": "2023-10-06T10:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 6.262,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T10:00:00Z",
+                "enddatum": "2023-10-06T10:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.275,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T10:15:00Z",
+                "enddatum": "2023-10-06T10:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.912,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T10:30:00Z",
+                "enddatum": "2023-10-06T10:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.525,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T10:45:00Z",
+                "enddatum": "2023-10-06T11:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 4.262,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T11:00:00Z",
+                "enddatum": "2023-10-06T11:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.712,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T11:15:00Z",
+                "enddatum": "2023-10-06T11:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.962,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T11:30:00Z",
+                "enddatum": "2023-10-06T11:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 2.438,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T11:45:00Z",
+                "enddatum": "2023-10-06T12:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.338,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T12:00:00Z",
+                "enddatum": "2023-10-06T12:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.938,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T12:15:00Z",
+                "enddatum": "2023-10-06T12:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.125,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T12:30:00Z",
+                "enddatum": "2023-10-06T12:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.1,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T12:45:00Z",
+                "enddatum": "2023-10-06T13:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.038,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T13:00:00Z",
+                "enddatum": "2023-10-06T13:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.062,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T13:15:00Z",
+                "enddatum": "2023-10-06T13:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.262,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T13:30:00Z",
+                "enddatum": "2023-10-06T13:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.1,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T13:45:00Z",
+                "enddatum": "2023-10-06T14:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.25,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T14:00:00Z",
+                "enddatum": "2023-10-06T14:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 3.038,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T14:15:00Z",
+                "enddatum": "2023-10-06T14:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 1.062,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T14:30:00Z",
+                "enddatum": "2023-10-06T14:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.675,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T14:45:00Z",
+                "enddatum": "2023-10-06T15:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.562,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T15:00:00Z",
+                "enddatum": "2023-10-06T15:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.575,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T15:15:00Z",
+                "enddatum": "2023-10-06T15:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.525,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T15:30:00Z",
+                "enddatum": "2023-10-06T15:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.588,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T15:45:00Z",
+                "enddatum": "2023-10-06T16:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.562,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T16:00:00Z",
+                "enddatum": "2023-10-06T16:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.575,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T16:15:00Z",
+                "enddatum": "2023-10-06T16:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.55,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T16:30:00Z",
+                "enddatum": "2023-10-06T16:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.562,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T16:45:00Z",
+                "enddatum": "2023-10-06T17:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T17:00:00Z",
+                "enddatum": "2023-10-06T17:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T17:15:00Z",
+                "enddatum": "2023-10-06T17:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T17:30:00Z",
+                "enddatum": "2023-10-06T17:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T17:45:00Z",
+                "enddatum": "2023-10-06T18:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.712,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T18:00:00Z",
+                "enddatum": "2023-10-06T18:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T18:15:00Z",
+                "enddatum": "2023-10-06T18:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.712,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T18:30:00Z",
+                "enddatum": "2023-10-06T18:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.688,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T18:45:00Z",
+                "enddatum": "2023-10-06T19:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T19:00:00Z",
+                "enddatum": "2023-10-06T19:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T19:15:00Z",
+                "enddatum": "2023-10-06T19:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T19:30:00Z",
+                "enddatum": "2023-10-06T19:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.725,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T19:45:00Z",
+                "enddatum": "2023-10-06T20:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.675,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T20:00:00Z",
+                "enddatum": "2023-10-06T20:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T20:15:00Z",
+                "enddatum": "2023-10-06T20:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.662,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T20:30:00Z",
+                "enddatum": "2023-10-06T20:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T20:45:00Z",
+                "enddatum": "2023-10-06T21:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.688,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T21:00:00Z",
+                "enddatum": "2023-10-06T21:15:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.7,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T21:15:00Z",
+                "enddatum": "2023-10-06T21:30:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.638,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T21:30:00Z",
+                "enddatum": "2023-10-06T21:45:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.788,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-10-06T21:45:00Z",
+                "enddatum": "2023-10-06T22:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.29.0",
+                "wert": 0.638,
+                "position": 2
+              }
+            ],
+            "startdatum": "2023-10-05T22:00:00Z",
+            "enddatum": "2023-10-06T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "K21E0D864ED9",
+        "sparte": "STROM",
+        "pruefidentifikator": "13025",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904545000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9911694000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "K21E0D864ED90",
+        "kategorie": "Z48",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2024-04-03T05:53:00Z",
+        "nachrichtenreferenznummer": "1",
+        "typ": "TL"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

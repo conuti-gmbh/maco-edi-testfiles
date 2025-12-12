@@ -1,0 +1,52 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_GERAETEKONFIGURATION"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M45N9P3J",
+        "sparte": "STROM",
+        "pruefidentifikator": "19127",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904935000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3L0QXAB",
+        "kategorie": "Z31",
+        "nachrichtendatum": "2025-10-01T06:09:00Z",
+        "nachrichtenreferenznummer": "UNHM3CIASZ7",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0527",
+        "freitext": "Text1 Text2"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

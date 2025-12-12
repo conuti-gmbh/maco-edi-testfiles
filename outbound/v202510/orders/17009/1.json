@@ -1,0 +1,76 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "GERAETEWECHSELABSICHT",
+            "anfragetyp": "WECHSEL_SAEMTLICHER_EINRICHTUNGEN",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2024-08-28T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "geraete": [
+              {
+                "geraetenummer": "1234567890",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "TECHNISCHESTEUEREINRICHTUNG"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0MES0T4",
+        "sparte": "STROM",
+        "pruefidentifikator": "17009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "marktpartner @stromnetz-hamburg.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906532000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0H8VSBL",
+        "nachrichtendatum": "2024-08-15T06:05:00Z",
+        "nachrichtenreferenznummer": "M00HVHIN"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

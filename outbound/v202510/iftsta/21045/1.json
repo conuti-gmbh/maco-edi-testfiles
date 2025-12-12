@@ -1,0 +1,115 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "50074561188",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "energieverbrauch": [
+              {
+                "wert": 1000,
+                "einheit": "KWH"
+              }
+            ]
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "versionStruktur": "1",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": true,
+                "name1": "MehrPower GmbH",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "PRIVILEGIERUNG_NACH_ENFG",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "auftragsStatusListe": [
+                  "ENFG_STROMSPEICHER_UND_VERLUSTENERGIE",
+                  "ENFG_STROMKOSTENINTENSIVE_UNTERNEHMEN",
+                  "ENFG_UMLAGEERHEBUNG_BEI_ANLAGEN_ZUR_VERSTROMUNG_VON_KUPPELGASEN"
+                ],
+                "allgemeineInformationen": {
+                  "info1": "Freitext"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MD1TL54I",
+        "sparte": "STROM",
+        "pruefidentifikator": "21045",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903854000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900683000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMMDCWVGGO",
+        "kategorie": "Z86",
+        "nachrichtendatum": "2025-07-07T16:00:00Z",
+        "nachrichtenreferenznummer": "UNHMDNCNK61",
+        "sendungsposition": "1",
+        "verwendungAb": "2025-06-30T22:00:00Z",
+        "verwendungBis": "2026-06-30T22:00:00Z",
+        "gueltigkeitsZeitspanne": "2025"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

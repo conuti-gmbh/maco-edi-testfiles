@@ -1,0 +1,75 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "UEBERMITTLUNG_WERTE_AN_ESA",
+            "abonnement": "START_ABO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAZCCWFCMJGIFF",
+        "sparte": "STROM",
+        "pruefidentifikator": "19011",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW",
+          "ipAdresse": "2001:db8:85a3::8a2e:370:7344",
+          "ipRange": {
+            "untereGrenze": "203.0.113.195",
+            "obereGrenze": "203.0.113.255"
+          },
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9984778000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA632411190833439903323000007216138",
+        "kategorie": "Z57",
+        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtenreferenznummer": "DAIEHVOXSZEDBE",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A11",
+        "antwortstatusCodeliste": "E_0256"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

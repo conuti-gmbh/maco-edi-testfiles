@@ -1,0 +1,46 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": "<prozessDatum>",
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "ENERGIELIEFERVERTRAG",
+            "versionStruktur": "1",
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "132921",
+        "sparte": "STROM",
+        "transaktionsgrund": "E03",
+        "vorgangsnummer": "4444444",
+        "pruefidentifikator": "55041",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906687000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "838326BGM",
+        "kategorie": "E35",
+        "nachrichtendatum": "2025-10-05T10:38:00Z",
+        "nachrichtenreferenznummer": "838326",
+        "anfragereferenznummer": "12345678910",
+        "antwortstatus": "ZC9",
+        "antwortstatusCodeliste": "S_0054"
+      }
+    }
+  }
+]

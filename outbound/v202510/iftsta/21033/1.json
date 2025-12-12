@@ -1,0 +1,72 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "44152365487",
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "ANGEBOTANFRAGE",
+            "auftragsstatus": "ABGELEHNT",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0KXRR1W",
+        "sparte": "STROM",
+        "pruefidentifikator": "21033",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "lieferantenwechsel@eon-energie.com"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0YOR4X5",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2025-10-17T06:36:00Z",
+        "nachrichtenreferenznummer": "M11I1RWQ",
+        "anfragereferenznummer": "7584",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0524"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

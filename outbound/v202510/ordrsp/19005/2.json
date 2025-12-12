@@ -1,0 +1,57 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_DER_TECHNIK_DER_LOKATION"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2025-11-11T05:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3DJKPZD",
+        "sparte": "GAS",
+        "pruefidentifikator": "19005",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9880000000001",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de:EM"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9880000000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM3NN2YJA",
+        "nachrichtendatum": "2025-10-05T06:09:00Z",
+        "nachrichtenreferenznummer": "UNHM41Z7ETO",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "Z13",
+        "antwortstatusCodeliste": "G_0064"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

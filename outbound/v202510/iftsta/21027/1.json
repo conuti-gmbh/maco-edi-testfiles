@@ -1,0 +1,67 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "STATUSMITTEILUNG": [
+          {
+            "boTyp": "STATUSMITTEILUNG",
+            "versionStruktur": "1",
+            "statusObjekt": "UMBAUMELO",
+            "auftragsstatus": "GESCHEITERT",
+            "positionsdaten": [
+                {
+                  "positionsnummer": 1,
+                  "allgemeineInformationen": {
+                    "info1": "Hier steht der Text, der erklärt,",
+                    "info2": "warum abgelehnt wurde.",
+                    "info3": "Und hier der weitere Text.",
+                    "info4": "Und hier der weitere Text",
+                    "info5": "Und hier der weitere Text."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "UNHM2J7WJW9",
+        "sparte": "STROM",
+        "pruefidentifikator": "21027",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9905257000004",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "MSB"
+        },
+        "dokumentennummer": "BGMM2XCRGA7",
+        "kategorie": "Z09",
+        "nachrichtendatum": "2025-10-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2J7WJW9",
+        "sendungsposition": "1",
+        "antwortstatus": "A99",
+        "antwortstatusCodeliste": "E_0286"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "verwendungAb": "2025-04-02T22:00:00Z",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM",
+            "steuerkanal": true,
+            "konfigurationsprodukt": "9991000000721",
+            "leistungskurvendefinition": "ABC",
+            "produktdatenRelevanteRolle": "NB",
+            "auftraggebenderMarktpartner": {
+              "boTyp": "MARKTTEILNEHMER",
+              "versionStruktur": "1",
+              "marktrolle": "NB",
+              "rollencodenummer": "9900321000005"
+            },
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:5.29.0",
+                "verwendungszwecke": [
+                  {
+                    "marktrolle": "NB",
+                    "zweck": [
+                      "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+                    ]
+                  },
+                  {
+                    "marktrolle": "LF",
+                    "zweck": [
+                      "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M081S35Q",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX8",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55659",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMLZYODPH1",
+        "kategorie": "E03",
+        "nachrichtendatum": "2025-04-04T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHLZMUP7ZU",
+        "verwendungAb": "2025-04-02T22:00:00Z"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

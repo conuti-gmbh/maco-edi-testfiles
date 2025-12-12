@@ -1,0 +1,49 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "002351596028",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "vorgangsnummer": "5615461276541761473",
+        "pruefidentifikator": "55044",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900579000005",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "P GETTY",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+3222271020"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906687000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "002351596028",
+        "kategorie": "E01",
+        "nachrichtendatum": "2025-10-01T12:31:00Z",
+        "nachrichtenreferenznummer": "211900",
+        "anfragereferenznummer": "5615461276541761472",
+        "antwortstatus": "ZC9",
+        "antwortstatusCodeliste": "S_0056"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

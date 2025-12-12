@@ -1,0 +1,65 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202510,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "STAMMDATEN_MALO_ODER_MELO",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messadresse": {
+              "postleitzahl": "42553",
+              "ort": "Velbert",
+              "strasse": "Lohbachstraße 30",
+              "gewerbekennzeichnung": true,
+              "landescode": "DE",
+              "zusatzInformation": {
+                "zusatz1": "Laue"
+              }
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0VNLXPZ",
+        "sparte": "STROM",
+        "pruefidentifikator": "17104",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Laue",
+            "eMailAdresse": "andre.laue@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0L63Y9O",
+        "nachrichtendatum": "2024-08-19T06:29:00Z",
+        "nachrichtenreferenznummer": "M0X3SZJJ"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

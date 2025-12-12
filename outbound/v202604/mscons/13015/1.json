@@ -1,0 +1,63 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.6.0",
+                "wert": 5000,
+                "leistungsperiode": "202301",
+                "position": 1
+              },
+              {
+                "messwertstatus": "ABGELESEN",
+                "obiskennzahl": "1-1:1.9.0",
+                "wert": 5000,
+                "startdatum": "2022-12-31T23:00:00Z",
+                "enddatum": "2023-01-31T23:00:00Z",
+                "position": 2
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "209700",
+        "sparte": "STROM",
+        "pruefidentifikator": "13015",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "132971BGM",
+        "kategorie": "Z27",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2023-10-04T07:25:00Z",
+        "nachrichtenreferenznummer": "132971",
+        "typ": "EM",
+        "anfrageReferenz": "12345678910"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
