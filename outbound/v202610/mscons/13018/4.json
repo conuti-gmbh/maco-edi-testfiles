@@ -1,0 +1,66 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0004962684900000000000010571835",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2024-12-22T05:00:00Z",
+                "enddatum": "2025-08-02T04:00:00Z",
+                "messwertstatus": "VOLAEUFIGERWERT",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "STATUS_GERAETEWECHSEL"
+                  }
+                ],
+                "obiskennzahl": "1-0:5.29.0",
+                "wert": 4250.465,
+                "position": 1
+              }
+            ],
+            "startdatum": "2024-12-22T05:00:00Z",
+            "enddatum": "2025-08-02T04:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001099269230",
+        "sparte": "STROM",
+        "pruefidentifikator": "13018",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904813000002",
+          "marktrolle": "MSB",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9907156000002",
+          "marktrolle": "NB",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2OK54U5",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2A21HUI",
+        "typ": "TL",
+        "anfrageReferenz": "AFN9523"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

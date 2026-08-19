@@ -1,0 +1,58 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "50375312838",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2023-12-22T05:00:00Z",
+                "enddatum": "2024-08-02T04:00:00Z",
+                "messwertstatus": "ERSATZWERT",
+                "obiskennzahl": "1-0:1.29.0",
+                "wert": 1223,
+                "position": 1
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001099269230",
+        "sparte": "STROM",
+        "pruefidentifikator": "13027",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9979100000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904400000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2B120EC",
+        "kategorie": "Z83",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2BQ4A83",
+        "typ": "TL",
+        "anfrageReferenz": "PP172409301012154888888888888563413"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

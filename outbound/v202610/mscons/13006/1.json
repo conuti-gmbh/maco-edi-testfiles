@@ -1,0 +1,37 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "978509",
+        "sparte": "STROM",
+        "pruefidentifikator": "13006",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "542637BGM",
+        "kategorie": "7",
+        "nachrichtenfunktion": "1",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "542637",
+        "vorgangsreferenznummer": "REF123456789",
+        "typ": "VL"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

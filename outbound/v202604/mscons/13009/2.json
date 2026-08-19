@@ -1,0 +1,62 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "50074561188",
+            "lokationsTyp": "MALO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "KUNDENSELBSTABLESUNG"
+                  }
+                ],
+                "obiskennzahl": "7-0:33.47.0",
+                "wert": 500,
+                "position": 1,
+                "leistungsperiode": "202603"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MRMAMNBB",
+        "sparte": "GAS",
+        "pruefidentifikator": "13009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870006600000",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800009600004",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "MQWHBJV2",
+        "kategorie": "Z27",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-06-24T09:49:00Z",
+        "nachrichtenreferenznummer": "MR6SSUIG",
+        "typ": "EM"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

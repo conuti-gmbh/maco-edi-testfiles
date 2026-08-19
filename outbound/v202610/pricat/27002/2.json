@@ -1,0 +1,160 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "PREISBLATT": [
+          {
+            "boTyp": "PREISBLATT",
+            "versionStruktur": "1",
+            "gueltigkeit": {
+              "startdatum": "2022-12-31T22:00:00Z"
+            },
+            "preispositionen": [
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 16.81
+                  }
+                ],
+                "positionsnummer": 1,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z25-Z25",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_MME"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 84.03
+                  }
+                ],
+                "positionsnummer": 2,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z20-Z20",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_VERBRAUCH_IMS_6K_BIS_10K"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 109.24
+                  }
+                ],
+                "positionsnummer": 3,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z18-Z18",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_VERBRAUCH_IMS_10K_BIS_20K"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 142.86
+                  }
+                ],
+                "positionsnummer": 4,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z17-Z17",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_VERBRAUCH_IMS_20K_BIS_50K"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 168.07
+                  }
+                ],
+                "positionsnummer": 5,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z16-Z16",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_VERBRAUCH_IMS_50K_BIS_100K"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 84.03
+                  }
+                ],
+                "positionsnummer": 6,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z21-Z21",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_ERZEUGUNG_IMS_7_BIS_15"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 109.24
+                  }
+                ],
+                "positionsnummer": 7,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z22-Z22",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_ERZEUGUNG_IMS_15_BIS_30"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "zeitbasis": "JAHR",
+                    "einheitspreis": 168.07
+                  }
+                ],
+                "positionsnummer": 8,
+                "bdewArtikelnummer": "MSB_INKL_MESSUNG",
+                "preisschluesselstamm": "SN-MME-Z23-Z23",
+                "beschreibungsformat": "CODE",
+                "leistungsbezeichnung": "POG_ERZEUGUNG_IMS_30_BIS_100"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "5576673PF",
+        "sparte": "STROM",
+        "pruefidentifikator": "27002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9905628000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktpartnerrolle": "LF",
+          "rollencodenummer": "9905079000000",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "990562800000505102023000001733337",
+        "kategorie": "Z32",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "5576674PF"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

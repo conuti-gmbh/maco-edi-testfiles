@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "storno": true,
+            "anfragekategorie": "ENTSPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M4115M6T",
+        "sparte": "STROM",
+        "pruefidentifikator": "39001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900496000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM3SNGJRB",
+        "kategorie": "Z52",
+        "nachrichtenfunktion": "1",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM42HAHBJ",
+        "anfragereferenznummer": "51230",
+        "auftragsReferenz": "BGMM2T7DSBY"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

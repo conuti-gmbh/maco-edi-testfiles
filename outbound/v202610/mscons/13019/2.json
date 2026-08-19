@@ -1,0 +1,67 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "energieverbrauch": [
+              {
+                "startdatum": "2025-05-01T22:00:00Z",
+                "enddatum": "2025-06-01T22:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "KUNDENSELBSTABLESUNG"
+                  },
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "STOERUNG_DEFEKT_MESSEINRICHTUNG"
+                  }
+                ],
+                "obiskennzahl": "1-0:5.9.0",
+                "wert": 4250.465,
+                "position": 1
+              }
+            ],
+            "konfiguration": "34590456ujdfsdghdlktztwqq-053trg"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "24100204533914",
+        "sparte": "STROM",
+        "pruefidentifikator": "13019",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM1WGORGW",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM24CGBL4",
+        "typ": "EM",
+        "anfrageReferenz": "PP172409301012154888888888888563413"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

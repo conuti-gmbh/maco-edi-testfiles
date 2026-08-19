@@ -1,0 +1,165 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "sparte": "GAS",
+            "lokationsadresse": {
+              "postleitzahl": "76229",
+              "ort": "Karlsruhe",
+              "strasse": "Greschbachstr.",
+              "hausnummer": "3",
+              "landescode": "DE"
+            }
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "1DUMMY001084",
+            "sparte": "GAS"
+          }
+        ],
+        "ENERGIELIEFERVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "sparte": "GAS",
+            "vertragsart": "ENERGIELIEFERVERTRAG",
+            "vertragspartner2": [
+              {
+                "boTyp": "GESCHAEFTSPARTNER",
+                "versionStruktur": "1",
+                "name1": "CONUTI GmbH",
+                "geschaeftspartnerrolle": [
+                  "KUNDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "sparte": "GAS",
+        "transaktionsgrund": "E03",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9899999000001",
+          "rollencodetyp": "DVGW",
+          "gewerbekennzeichnung": true,
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "eMailAdresse": null,
+            "nachname": null,
+            "versionStruktur": "1"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9899999100001",
+          "rollencodetyp": "DVGW",
+          "gewerbekennzeichnung": true,
+          "marktrolle": null
+        },
+        "kategorie": "E35",
+        "vertragsende": "2026-12-31T23:00:00Z",
+        "identifikationslogik": "Z13",
+        "abonnement": null,
+        "anfrageReferenz": null,
+        "anfragereferenznummer": null,
+        "angebotsart": null,
+        "angebotsnummer": null,
+        "angebotsreferenz": null,
+        "antwortstatus": null,
+        "antwortstatusCodeliste": null,
+        "antwortstatusCodelistedritter": null,
+        "antwortstatusdritter": null,
+        "anwendungsreferenznummer": null,
+        "apiKennung": null,
+        "apiPath": null,
+        "auftragsReferenz": null,
+        "ausfuehrungsdatum": null,
+        "begruendung": null,
+        "bestellungzaehlzeiten": null,
+        "beteiligterMarktpartnerReferenz": null,
+        "beteiligterMarktpartnerReferenzcode": null,
+        "bilanzkreiszuordnung": null,
+        "code": null,
+        "datenaustauschreferenz": "7BFB8CC204B030",
+        "datumKuendigungKd": null,
+        "datumKuendigungLf": null,
+        "datumleistungsbeginn": null,
+        "datumsformat": null,
+        "dokumentenname": null,
+        "dokumentennummer": "F85A87BFB8CC204B030",
+        "enddatum": null,
+        "endezumtermin": null,
+        "fehlerbeschreibung": null,
+        "fertigstellungsdatum": null,
+        "freitext": null,
+        "geraeteausbaudatum": null,
+        "gueltigAb": null,
+        "infoAbweichung": null,
+        "leistungsperiode": null,
+        "lieferbeginndatuminbearbeitung": null,
+        "lieferdatum": null,
+        "lieferrichtung": null,
+        "liste": null,
+        "lokationsId": null,
+        "meldepunkt": null,
+        "mitteilungsnummer": null,
+        "nachrichtendatum": "2026-06-12T09:30:19Z",
+        "nachrichtenfunktion": null,
+        "nachrichtenreferenznummer": "7BFB8CC204B031",
+        "naechsteNetznutzungsabrechnung": null,
+        "naechsteTurnusAblesungGas": null,
+        "naechsteTurnusAblesungStrom": null,
+        "naechstebearbeitung": null,
+        "netznutzungsabrechnungsintervall": null,
+        "positionsnummer": null,
+        "produktbeschreibung": null,
+        "prozessdatum": null,
+        "pruefidentifikator": "44016",
+        "referenzMalo": null,
+        "referenzMelo": null,
+        "referenzPreisschluesselstamm": null,
+        "sendungsposition": null,
+        "startdatum": null,
+        "tarifstufe": null,
+        "transaktionsReferenznummer": null,
+        "transaktionsgrundergaenzung": null,
+        "typ": null,
+        "verarbeitungsReihenfolge": null,
+        "vertragsbeginn": null,
+        "verwendungAb": null,
+        "verwendungBis": null,
+        "vorgangsnummer": "9541FCE92679B29F85A87BFB8CC204B030",
+        "vorgangsreferenznummer": null,
+        "zaehlerstandsinfo": null,
+        "zeitraumId": null,
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "rollencodenummer": null,
+          "rollencodetyp": null,
+          "versionStruktur": "1"
+        },
+        "menge": {
+          "einheit": null,
+          "wert": null
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

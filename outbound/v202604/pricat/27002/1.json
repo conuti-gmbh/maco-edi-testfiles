@@ -1,0 +1,145 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "PREISBLATT": [
+          {
+            "boTyp": "PREISBLATT",
+            "versionStruktur": "1",
+            "gueltigkeit": {
+              "startdatum": "2025-12-31T23:00:00Z"
+            },
+            "preispositionen": [
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0,
+                    "staffelgrenzeVon": 0,
+                    "staffelgrenzeBis": 3,
+                    "einheit": "KWH"
+                  }
+                ],
+                "positionsnummer": 1,
+                "beschreibung": "Kosten für den Einbau eines sehr sehr schweren Zählers",
+                "artikelId": "9991000002305-02"
+              },
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0,
+                    "staffelgrenzeVon": 3,
+                    "staffelgrenzeBis": 4,
+                    "einheit": "KWH"
+                  }
+                ],
+                "positionsnummer": 2,
+                "beschreibung": "Kosten für den Einbau eines noch schwereren Zählers",
+                "artikelId": "9991000002305-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0,
+                    "staffelgrenzeVon": 0,
+                    "staffelgrenzeBis": 3,
+                    "einheit": "KWH"
+                  }
+                ],
+                "positionsnummer": 3,
+                "beschreibung": "Einbau kME / rLM",
+                "artikelId": "9991000002313-02"
+              },
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0,
+                    "staffelgrenzeVon": 3,
+                    "staffelgrenzeBis": 4,
+                    "einheit": "KWH"
+                  }
+                ],
+                "positionsnummer": 4,
+                "beschreibung": "Einbau kME / rLM",
+                "artikelId": "9991000002313-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 1337
+                  }
+                ],
+                "positionsnummer": 5,
+                "artikelId": "9991000002321-01"
+              },
+              {
+                "preiseinheit": "EUR",
+                "beschreibungsformat": "FREIER_TEXT",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 666
+                  }
+                ],
+                "positionsnummer": 6,
+                "artikelId": "9991000003030-01"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "5576673PF",
+        "sparte": "STROM",
+        "pruefidentifikator": "27002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Gross",
+            "eMailAdresse": "m.gross@swe-emmendingen.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+076414689910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+076414689911"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "990562800000505102023000001733337",
+        "kategorie": "Z94",
+        "nachrichtendatum": "2025-10-02T12:21:00Z",
+        "nachrichtenreferenznummer": "5576674PF"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

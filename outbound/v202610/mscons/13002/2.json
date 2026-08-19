@@ -1,0 +1,73 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "7ELS2535000000",
+            "sparte": "GAS"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE7000872667600000001000000000001",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "KUNDENSELBSTABLESUNG"
+                  }
+                ],
+                "obiskennzahl": "7-0:3.0.0",
+                "wert": 3797,
+                "nutzungszeitpunkt": "2025-07-01T04:00:00Z",
+                "position": 1,
+                "ablesedatum": "2025-06-29T22:00:00Z"
+              }
+            ],
+            "referenzStammdatenmeldungMsb": "AFN9523"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "PPPCJOFDQJUETW",
+        "sparte": "GAS",
+        "pruefidentifikator": "13002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "NB",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM24BMWLD",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "PPPCJOFDQJUETW",
+        "typ": "VL",
+        "anfrageReferenz": "AFN9523"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO",
+            "anfragekategorie": "STAMMDATEN_MALO_ODER_MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M03UGIN5",
+        "sparte": "STROM",
+        "pruefidentifikator": "17132",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903692000001",
+          "rollencodetyp": "BDEW",
+          "marktrolle": "LF"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0ACK2J311",
+        "kategorie": "Z14",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "M01KAXGA"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

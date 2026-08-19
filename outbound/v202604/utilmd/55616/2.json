@@ -43,6 +43,21 @@
             "datenqualitaet": "GUELTIGE_DATEN",
             "netzebene": "NSP",
             "umspannung": "MSP_NSP_UMSP",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            },
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",
@@ -83,6 +98,21 @@
             "datenqualitaet": "GUELTIGE_DATEN",
             "netzebene": "NSP",
             "umspannung": "MSP_NSP_UMSP",
+            "lokationsadresse": {
+              "postleitzahl": "55555",
+              "ort": "Musterstadt",
+              "strasse": "Eichelbergstr.",
+              "hausnummer": "36",
+              "landescode": "DE",
+              "ortsteil": "Musterortsteil",
+              "zusatzInformation": {
+                "zusatz1": "Die Marktlokation befindet sich i",
+                "zusatz2": "m Hinterhaus im u",
+                "zusatz3": "nteren K",
+                "zusatz4": "eller recht",
+                "zusatz5": "s"
+              }
+            },
             "marktrollen": [
               {
                 "boTyp": "MARKTTEILNEHMER",

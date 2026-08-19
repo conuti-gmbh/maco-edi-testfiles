@@ -1,0 +1,55 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "ABRECHNUNG_MESSSTELLENBETRIEB_MSB_AN_LF",
+            "abonnement": "ENDE_ABO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2026-04-08T22:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAWICXZSNXVCPQ",
+        "sparte": "STROM",
+        "pruefidentifikator": "19010",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9903729000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA972411190822429903323000007927565",
+        "kategorie": "Z29",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "DAQQJZODEEONNL",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0209"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "businessKey": "<businessKey>",
-    "processDate": "<prozessDatum>",
+    "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
     "edifactVersion": 202604,

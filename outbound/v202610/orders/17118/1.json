@@ -1,0 +1,80 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG_GERAETEKONFIGURATION",
+            "lokationsId": "DE00014545768S0000000000000003054",
+            "lokationsTyp": "MELO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2026-08-29T22:00:00Z",
+            "positionsdaten": [
+              {
+                "lokationsId": "DE00014545768S0000000000000003054",
+                "positionsnummer": 1
+              }
+            ]
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00014545768S0000000000000003054",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000169",
+                "notwendigkeitZweiteMessung": "NICHT_VORHANDEN",
+                "werteuebermittlungVerwendungszweck": "VORHANDEN",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "AAI"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0JPDOTZ",
+        "sparte": "STROM",
+        "pruefidentifikator": "17118",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M0DAA51T",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "M0L4YRVR",
+        "beteiligterMarktpartner": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        }
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

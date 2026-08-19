@@ -1,155 +1,1005 @@
 [
-  {
-    "businessKey": "<businessKey>",
-    "processDate": null,
-    "dataSource": "OUTBOUND",
-    "version": 1,
-    "edifactVersion": 202604,
-    "data": {
-      "stammdaten": {
-        "VERWENDUNGSZEITRAUM": [
-          {
-            "boTyp": "VERWENDUNGSZEITRAUM",
-            "versionStruktur": "1",
-            "zeitraumId": 1,
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "verwendungAb": "2024-12-31T23:00:00Z"
-          }
-        ],
-        "MESSLOKATION": [
-          {
-            "boTyp": "MESSLOKATION",
-            "versionStruktur": "1",
-            "messlokationsId": "DE0032106765712000000000000001217",
-            "sparte": "STROM",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1,
-              "startdatum": "2024-12-31T23:00:00Z"
-            },
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "netzebenemessung": "NSP",
-            "ablesekartenempfaenger": {
-              "boTyp": "GESCHAEFTSPARTNER",
-              "versionStruktur": "1",
-              "name1": "Max",
-              "name2": "Mustermann",
-              "gewerbekennzeichnung": true,
-              "geschaeftspartnerrolle": [
-                "ABLESEKARTENEMPFAENGER"
-              ],
-              "partneradresse": {
-                "postleitzahl": "99423",
-                "ort": "Weimar",
-                "strasse": "Erfurter Str.",
-                "postfach": "46",
-                "landescode": "DE"
-              }
-            }
-          }
-        ],
-        "ZAEHLER": [
-          {
-            "boTyp": "ZAEHLER",
-            "versionStruktur": "1",
-            "zaehlernummer": "1LGZ0061578888",
-            "sparte": "STROM",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1,
-              "startdatum": "2024-12-31T23:00:00Z"
-            },
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
-            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
-            "tarifart": "ZWEITARIF",
-            "zaehlwerke": [
-              {
-                "bezeichnung": "1",
-                "obisKennzahl": "1-0:1.8.1",
-                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-                "vorkommastelle": 7,
-                "nachkommastelle": 3,
-                "zaehlzeiten": {
-                  "zaehlzeitDefinition": "ABV",
-                  "register": "ABD"
-                },
-                "konfiguration": "34590456ujdfsdghdlktztwqq-053brt",
-                "wertegranularitaet": "JAEHRLICH"
-              },
-              {
-                "bezeichnung": "2",
-                "obisKennzahl": "1-0:1.8.2",
-                "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
-                "vorkommastelle": 7,
-                "nachkommastelle": 3,
-                "zaehlzeiten": {
-                  "zaehlzeitDefinition": "ABV",
-                  "register": "ABD"
-                },
-                "konfiguration": "34590456ujdfsdghdlktztwqq-053art",
-                "wertegranularitaet": "JAEHRLICH"
-              }
+    {
+      "businessKey": "<businessKey>",
+      "processDate": null,
+      "dataSource": "OUTBOUND",
+      "version": 1,
+      "edifactVersion": 202604,
+      "data": {
+        "stammdaten": {
+            "BILANZIERUNG": [
+                {
+                    "boTyp": "BILANZIERUNG",
+                    "versionStruktur": "1",
+                    "aggregationsverantwortung": "VNB",
+                    "zeitreihentyp": "SLS",
+                    "prognosegrundlage": "PROFILE",
+                    "bilanzierungsbeginn": "2007-10-31T23:00:00Z",
+                    "bilanzierungsende": "9999-12-31T22:59:59Z",
+                    "bilanzkreis": "11XESWEVERSORWIG",
+                    "temperaturarbeit": {
+                        "einheit": "KWHK"
+                    },
+                    "jahresverbrauchsprognose": {
+                        "wert": 14234,
+                        "einheit": "KWH"
+                    },
+                    "wahlrechtPrognosegrundlage": "DURCH_LF",
+                    "grundWahlrechtPrognosegrundlage": "DURCH_LF",
+                    "abwicklungsmodell": "MODELL_1_BILANZIERUNG_AN_MARKTLOKATION",
+                    "vorjahresverbrauch": {
+                        "wert": 14234,
+                        "einheit": "KWH"
+                    },
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    },
+                    "lastprofile": [
+                        {
+                            "bezeichnung": "H0",
+                            "verfahren": "SYNTHETISCH",
+                            "profilart": "ART_STANDARDLASTPROFIL",
+                            "profilschar": "H0",
+                            "einspeisung": false
+                        }
+                    ],
+                    "detailsPrognosegrundlage": [
+                        "SLP_SEP"
+                    ]
+                }
             ],
-            "gateway": "1LGZ0061572222",
-            "zaehlertypspezifikation": "MME_STANDARD",
-            "geraete": [
-              {
-                "geraetenummer": "1LGZ0061578000",
-                "weitereGeraetenummern": [
-                  "1LGZ0061579000"
-                ],
-                "geraeteeigenschaften": {
-                  "geraetetyp": "WANDLER",
-                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
-                  "faktor": 1
+            "MARKTLOKATION": [
+                {
+                    "boTyp": "MARKTLOKATION",
+                    "versionStruktur": "1",
+                    "marktlokationsId": "50929830210",
+                    "sparte": "STROM",
+                    "energierichtung": "AUSSP",
+                    "bilanzierungsmethode": "SLP",
+                    "verbrauchsart": [
+                        "KL"
+                    ],
+                    "unterbrechbar": false,
+                    "netzebene": "NSP",
+                    "netzbetreiberCodeNr": "9900683000008",
+                    "gebietTyp": "VERTEILNETZ",
+                    "bilanzierungsgebiet": "11YR00000004025V",
+                    "grundversorgerCodeNr": "9903854000005",
+                    "endkunde": {
+                        "boTyp": "GESCHAEFTSPARTNER",
+                        "versionStruktur": "1",
+                        "anrede": "Herr",
+                        "name1": "Dombo",
+                        "name2": "Peter",
+                        "gewerbekennzeichnung": false,
+                        "partneradresse": {
+                            "postleitzahl": "65207",
+                            "ort": "Wiesbaden",
+                            "strasse": "Schnitterweg",
+                            "hausnummer": "14",
+                            "landescode": "DE"
+                        },
+                        "geschaeftspartnerrolle": [
+                            "KUNDE"
+                        ]
+                    },
+                    "lokationsadresse": {
+                        "postleitzahl": "65207",
+                        "ort": "Wiesbaden",
+                        "strasse": "Schnitterweg",
+                        "hausnummer": "14",
+                        "landescode": "DE",
+                        "zusatzInformation": {
+                            "zusatz1": "J36_3301",
+                            "zusatz2": "Allg.Wasser"
+                        }
+                    },
+                    "regelzone": "10YDE-RWENET---I",
+                    "zeitreihentyp": "SLS",
+                    "messtechnischeEinordnung": "KME_MME",
+                    "sperrstatus": "ENTSPERRT",
+                    "versorgungsart": "GRUNDVERSORGUNG",
+                    "redispatch": false,
+                    "zukuenftigerMeldepunkt": false,
+                    "lokationszuordnung": "UNVERAENDERT",
+                    "produktdatenRelevanteRolle": "LF",
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    },
+                    "marktrollen": [
+                        {
+                            "boTyp": "MARKTTEILNEHMER",
+                            "versionStruktur": "1",
+                            "geschaeftspartnerrolle": "MARKTPARTNER",
+                            "anrede": "Firma",
+                            "name1": "RWE Energy AG",
+                            "partneradresse": {
+                                "postleitzahl": "44139",
+                                "ort": "Dortmund",
+                                "strasse": "Rheinlanddamm",
+                                "hausnummer": "24",
+                                "landescode": "DE"
+                            },
+                            "gewerbekennzeichnung": true,
+                            "marktrolle": "UENB",
+                            "rollencodenummer": "4045399000077",
+                            "rollencodetyp": "GLN",
+                            "weiterverpflichtet": false,
+                            "zuordnungVon": "2006-09-22T22:00:00Z",
+                            "zuordnungBis": "9999-12-31T22:59:59Z"
+                        },
+                        {
+                            "boTyp": "MARKTTEILNEHMER",
+                            "versionStruktur": "1",
+                            "geschaeftspartnerrolle": "MARKTPARTNER",
+                            "anrede": "Ohne Anrede",
+                            "name1": "ESWE Versorgungs AG",
+                            "partneradresse": {
+                                "postleitzahl": "65189",
+                                "ort": "Wiesbaden",
+                                "strasse": "Konradinerallee",
+                                "hausnummer": "25",
+                                "landescode": "DE"
+                            },
+                            "gewerbekennzeichnung": true,
+                            "marktrolle": "LF",
+                            "rollencodenummer": "9903854000005",
+                            "rollencodetyp": "BDEW",
+                            "umsatzsteuerId": "DE113822541",
+                            "weiterverpflichtet": false,
+                            "bankverbindung": [
+                                {
+                                    "iban": "DE49510900000030121805",
+                                    "bic": "WIBADE5WXXX",
+                                    "kreditinstitut": "Wiesbadener Volksbank"
+                                },
+                                {
+                                    "iban": "DE34510500150100041189",
+                                    "bic": "NASSDE55XXX",
+                                    "kreditinstitut": "Nassauische Sparkasse"
+                                }
+                            ],
+                            "zuordnungVon": "2006-09-22T22:00:00Z",
+                            "zuordnungBis": "9999-12-31T22:59:59Z"
+                        },
+                        {
+                            "boTyp": "MARKTTEILNEHMER",
+                            "versionStruktur": "1",
+                            "geschaeftspartnerrolle": "MARKTPARTNER",
+                            "anrede": "Ohne Anrede",
+                            "name1": "Stadtwerke Wiesbaden Netz GmbH",
+                            "partneradresse": {
+                                "postleitzahl": "65189",
+                                "ort": "Wiesbaden",
+                                "strasse": "Konradinerallee",
+                                "hausnummer": "25",
+                                "landescode": "DE"
+                            },
+                            "gewerbekennzeichnung": true,
+                            "marktrolle": "MSB",
+                            "rollencodenummer": "9906464000001",
+                            "rollencodetyp": "BDEW",
+                            "weiterverpflichtet": false,
+                            "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+                            "bankverbindung": [
+                                {
+                                    "iban": "DE84510500150103051363",
+                                    "bic": "NASSDE55XXX",
+                                    "kreditinstitut": "Nassauische Sparkasse"
+                                }
+                            ],
+                            "zuordnungVon": "2023-12-31T23:00:00Z",
+                            "zuordnungBis": "9999-12-31T23:59:59Z"
+                        },
+                        {
+                            "boTyp": "MARKTTEILNEHMER",
+                            "versionStruktur": "1",
+                            "geschaeftspartnerrolle": "MARKTPARTNER",
+                            "anrede": "Ohne Anrede",
+                            "name1": "Stadtwerke Wiesbaden Netz GmbH",
+                            "partneradresse": {
+                                "postleitzahl": "65189",
+                                "ort": "Wiesbaden",
+                                "strasse": "Konradinerallee",
+                                "hausnummer": "25",
+                                "landescode": "DE"
+                            },
+                            "gewerbekennzeichnung": true,
+                            "marktrolle": "NB",
+                            "rollencodenummer": "9900683000008",
+                            "rollencodetyp": "BDEW",
+                            "weiterverpflichtet": false,
+                            "bankverbindung": [
+                                {
+                                    "iban": "DE84510500150103051363",
+                                    "bic": "NASSDE55XXX",
+                                    "kreditinstitut": "Nassauische Sparkasse"
+                                }
+                            ],
+                            "zuordnungVon": "2006-09-22T22:00:00Z",
+                            "zuordnungBis": "9999-12-31T22:59:59Z"
+                        }
+                    ],
+                    "zaehlwerke": [
+                        {
+                            "zaehlwerkId": "012",
+                            "bezeichnung": "HT",
+                            "richtung": "AUSSP",
+                            "obisKennzahl": "1-1:1.29.0",
+                            "wandlerfaktor": 1,
+                            "einheit": "KWH",
+                            "verbrauchsart": [
+                                "KL"
+                            ],
+                            "unterbrechbarkeit": "NUV",
+                            "steuerbefreit": false,
+                            "vorkommastelle": 6,
+                            "nachkommastelle": 0,
+                            "abrechnungsrelevant": false,
+                            "messprodukt": "9991000000218",
+                            "wertegranularitaet": "JAEHRLICH",
+                            "keinKonfigurationsprodukt": true,
+                            "verwendungszwecke": [
+                                {
+                                    "marktrolle": "LF",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG",
+                                        "ENDKUNDENABRECHNUNG"
+                                    ]
+                                },
+                                {
+                                    "marktrolle": "NB",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG"
+                                    ]
+                                },
+                                {
+                                    "marktrolle": "UENB",
+                                    "zweck": [
+                                        "BILANZKREISABRECHNUNG",
+                                        "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "verbrauchsmenge": [
+                        {
+                            "startdatum": "2025-07-14T22:00:00Z",
+                            "enddatum": "2026-07-13T22:00:00Z",
+                            "obisKennzahl": "1-0:1.8.0",
+                            "wert": 14234,
+                            "einheit": "KWH",
+                            "nutzungszeitpunkt": "2026-07-13T22:00:00Z",
+                            "ausfuehrungszeitpunkt": "2025-07-17T22:00:00Z",
+                            "position": 2,
+                            "ablesedatum": "2025-07-17T22:00:00Z",
+                            "leistungsperiode": "20250715-20260714"
+                        },
+                        {
+                            "startdatum": "2025-07-14T22:00:00Z",
+                            "enddatum": "2026-07-13T22:00:00Z",
+                            "obisKennzahl": "1-0:2.8.0",
+                            "wert": 14234,
+                            "einheit": "KWH",
+                            "nutzungszeitpunkt": "2026-07-13T22:00:00Z",
+                            "ausfuehrungszeitpunkt": "2025-10-27T23:00:00Z",
+                            "position": 2,
+                            "ablesedatum": "2025-10-27T23:00:00Z",
+                            "leistungsperiode": "20250715-20260714"
+                        }
+                    ],
+                    "zugehoerigemesslokationen": [
+                        {
+                            "messlokationsId": "DE00068365207STROM000008000253284",
+                            "gueltigSeit": "2006-09-22T22:00:00Z",
+                            "gueltigBis": "9999-12-31T22:59:59Z"
+                        }
+                    ],
+                    "netznutzungsabrechnungsdaten": [
+                        {
+                            "artikelId": "1-02-0-001",
+                            "artikelIdTyp": "ARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        },
+                        {
+                            "artikelId": "1-02-0-002",
+                            "artikelIdTyp": "ARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        },
+                        {
+                            "artikelId": "1-08-4-003",
+                            "artikelIdTyp": "ARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        },
+                        {
+                            "artikelId": "1-10-1",
+                            "artikelIdTyp": "GRUPPENARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        },
+                        {
+                            "artikelId": "1-10-2",
+                            "artikelIdTyp": "GRUPPENARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        },
+                        {
+                            "artikelId": "1-10-4",
+                            "artikelIdTyp": "GRUPPENARTIKELID",
+                            "gemeinderabatt": 0,
+                            "abrechnungBlindarbeit": false,
+                            "zahlerBlindarbeitLf": false,
+                            "differenzDaten": false
+                        }
+                    ],
+                    "messstellenbetriebsabrdaten": [
+                        {
+                            "artikelId": "4-02-0-011",
+                            "anzahl": 1
+                        }
+                    ],
+                    "energieherkunft": [
+                        {
+                            "erzeugungsart": "EEG",
+                            "anteilprozent": 100
+                        }
+                    ],
+                    "erforderlichesProduktpaket": [
+                        {
+                            "produktpaketId": 1,
+                            "produkt": [
+                                {
+                                    "produktCode": "9991000002082",
+                                    "wertedetails": "11XESWEVERSORWIG"
+                                }
+                            ],
+                            "umsetzungsgradvorgabe": "ZUORDNUNG_AUCH_WENN_PRODUKTPAKET_NICHT_UMSETZBAR",
+                            "priorisierung": "PRIORITAET1"
+                        }
+                    ],
+                    "marktlokationsTyp": [
+                        {
+                            "typ": "STANDARD_MARKTLOKATION",
+                            "gueltigAb": "2006-09-22T22:00:00Z",
+                            "gueltigBis": "9999-12-31T22:59:59Z"
+                        }
+                    ]
                 }
-              },
-              {
-                "geraetenummer": "1LGZ0061578001",
-                "weitereGeraetenummern": [
-                  "1LGZ0061579001"
-                ],
-                "geraeteeigenschaften": {
-                  "geraetetyp": "WANDLER",
-                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
-                  "faktor": 1
+            ],
+            "MESSLOKATION": [
+                {
+                    "boTyp": "MESSLOKATION",
+                    "versionStruktur": "1",
+                    "messlokationsId": "DE00068365207STROM000008000253284",
+                    "sparte": "STROM",
+                    "energierichtung": "AUSSP",
+                    "netzebenemessung": "NSP",
+                    "grundzustaendigerMSBCodeNr": "SMSB00001",
+                    "messadresse": {
+                        "postleitzahl": "65207",
+                        "ort": "Wiesbaden",
+                        "strasse": "Schnitterweg",
+                        "hausnummer": "14",
+                        "landescode": "DE",
+                        "zusatzInformation": {
+                            "zusatz1": "Allg.Wasser"
+                        }
+                    },
+                    "bilanzierungsmethode": "SLP",
+                    "abrechnungmessstellenbetriebnna": true,
+                    "betriebszustand": "REGELBETRIEB",
+                    "ablesekartenempfaenger": {
+                        "anrede": "Herr",
+                        "name1": "Dombo",
+                        "name2": "Peter",
+                        "gewerbekennzeichnung": false,
+                        "partneradresse": {
+                            "postleitzahl": "65207",
+                            "ort": "Wiesbaden",
+                            "strasse": "Schnitterweg",
+                            "hausnummer": "14",
+                            "landescode": "DE",
+                            "zusatzInformation": {
+                                "zusatz1": "Allg.Wasser"
+                            }
+                        }
+                    },
+                    "referenzMarktlokationsId": "50930240317",
+                    "zukuenftigerMeldepunkt": false,
+                    "lokationszuordnung": "UNVERAENDERT",
+                    "geraete": [
+                        {
+                            "geraetetyp": "MODERNE_MESSEINRICHTUNG",
+                            "bezeichnung": "MME-ET-ZRZ-direkt-MME mit 3-Punktaufhängung",
+                            "geraetenummer": "1DZG0040240416",
+                            "geraeteeigenschaften": {
+                                "geraetemerkmal": "EINTARIF"
+                            }
+                        },
+                        {
+                            "geraetetyp": "MODERNE_MESSEINRICHTUNG",
+                            "bezeichnung": "MME-ET-ZRZ-direkt-MME mit 3-Punktaufhängung",
+                            "geraetenummer": "EPPC0205728526",
+                            "geraeteeigenschaften": {
+                                "geraetemerkmal": "EINTARIF"
+                            }
+                        }
+                    ],
+                    "messlokationszaehler": [
+                        "1DZG0040240416",
+                        "EPPC0205728526"
+                    ],
+                    "zaehlwerke": [
+                        {
+                            "zaehlwerkId": "001",
+                            "bezeichnung": "HT",
+                            "richtung": "AUSSP",
+                            "obisKennzahl": "1-0:1.8.0",
+                            "wandlerfaktor": 1,
+                            "einheit": "KWH",
+                            "steuerbefreit": false,
+                            "vorkommastelle": 6,
+                            "nachkommastelle": 0,
+                            "abrechnungsrelevant": false,
+                            "messprodukt": "9991000000151",
+                            "wertegranularitaet": "JAEHRLICH",
+                            "keinKonfigurationsprodukt": true
+                        },
+                        {
+                            "zaehlwerkId": "002",
+                            "bezeichnung": "HT",
+                            "richtung": "EINSP",
+                            "obisKennzahl": "1-0:2.8.0",
+                            "wandlerfaktor": 1,
+                            "einheit": "KWH",
+                            "steuerbefreit": false,
+                            "vorkommastelle": 6,
+                            "nachkommastelle": 0,
+                            "abrechnungsrelevant": false,
+                            "messprodukt": "9991000000151",
+                            "wertegranularitaet": "JAEHRLICH",
+                            "keinKonfigurationsprodukt": true
+                        }
+                    ],
+                    "marktrollen": [
+                        {
+                            "boTyp": "MARKTTEILNEHMER",
+                            "versionStruktur": "1",
+                            "geschaeftspartnerrolle": "MARKTPARTNER",
+                            "anrede": "Ohne Anrede",
+                            "name1": "Stadtwerke Wiesbaden Netz GmbH",
+                            "partneradresse": {
+                                "postleitzahl": "65189",
+                                "ort": "Wiesbaden",
+                                "strasse": "Konradinerallee",
+                                "hausnummer": "25",
+                                "landescode": "DE"
+                            },
+                            "gewerbekennzeichnung": true,
+                            "marktrolle": "MSB",
+                            "rollencodenummer": "9906464000001",
+                            "rollencodetyp": "BDEW",
+                            "weiterverpflichtet": false,
+                            "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+                            "bankverbindung": [
+                                {
+                                    "iban": "DE84510500150103051363",
+                                    "bic": "NASSDE55XXX",
+                                    "kreditinstitut": "Nassauische Sparkasse"
+                                }
+                            ],
+                            "zuordnungVon": "2023-12-31T23:00:00Z",
+                            "zuordnungBis": "9999-12-31T22:59:59Z"
+                        },
+                        {
+                            "gewerbekennzeichnung": false,
+                            "marktrolle": "GMSB",
+                            "rollencodenummer": "9906464000001",
+                            "rollencodetyp": "BDEW",
+                            "weiterverpflichtet": false,
+                            "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER",
+                            "zuordnungVon": "2023-12-31T23:00:00Z",
+                            "zuordnungBis": "9999-12-30T23:00:00Z"
+                        }
+                    ],
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    }
                 }
-              },
-              {
-                "geraetenummer": "1LGZ0061572222",
-                "geraeteeigenschaften": {
-                  "geraetetyp": "SMARTMETERGATEWAY"
+            ],
+            "NETZNUTZUNGSVERTRAG": [
+                {
+                    "boTyp": "VERTRAG",
+                    "versionStruktur": "1",
+                    "sparte": "STROM",
+                    "vertragsart": "NETZNUTZUNGSVERTRAG",
+                    "gemeinderabatt": 0,
+                    "vertragskonditionen": {
+                        "netznutzungszahler": "LIEFERANT",
+                        "netznutzungsvertrag": "LIEFERANTEN_NB",
+                        "netznutzungsabrechnung": {
+                            "dauer": 365,
+                            "startdatum": "20251007",
+                            "enddatum": "20261007",
+                            "abrechnungsZeitraum": "1007"
+                        },
+                        "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+                        "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+                        "haushaltskunde": true,
+                        "abrechnungUeberNna": true,
+                        "gemeinderabatt": [],
+                        "startAbrechnungsjahr": "20250924",
+                        "naechstenetznutzungsabrechnung": "2026",
+                        "abrechnungsintervall": 12,
+                        "netznutzungsabrechnungIntervall": 12,
+                        "kuendigungsfrist": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "9999-12-31T23:59:59Z"
+                        },
+                        "vertragslaufzeit": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "9999-12-31T23:59:59Z"
+                        },
+                        "kuendigungstermin": "00000000",
+                        "abschlagszyklus": {
+                            "zeiteinheit": "MONAT",
+                            "dauer": 1
+                        },
+                        "anzahlAbschlaege": 12,
+                        "vertragsverlaengerung": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "9999-12-31T23:59:59Z"
+                        }
+                    },
+                    "abrechnungUeberNna": false,
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    }
                 }
-              }
+            ],
+            "MESSSTELLENBETRIEBSVERTRAG": [
+                {
+                    "boTyp": "MESSSTELLENBETRIEBSVERTRAG",
+                    "versionStruktur": "1",
+                    "sparte": "STROM",
+                    "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+                    "vertragsnummer": "3011196685",
+                    "lokationsId": "50929830210",
+                    "lokationsTyp": "MALO",
+                    "vertragsstatus": "AKTIV",
+                    "vertragsende": "9999-12-31T22:59:59Z",
+                    "vertragsbeginn": "2006-09-22T22:00:00Z",
+                    "gemeinderabatt": 0,
+                    "vertragskonditionen": {
+                        "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+                        "haushaltskunde": true,
+                        "abrechnungUeberNna": true,
+                        "gemeinderabatt": [],
+                        "startAbrechnungsjahr": "20250924",
+                        "abrechnungsintervall": 12,
+                        "geplanteTurnusablesung": {
+                            "ableseZeitraum": "09041001"
+                        },
+                        "kuendigungstermin": "00000000"
+                    },
+                    "abrechnungUeberNna": true,
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    },
+                    "vertragspartner2": [
+                        {
+                            "boTyp": "GESCHAEFTSPARTNER",
+                            "versionStruktur": "1",
+                            "anrede": "Herr",
+                            "name1": "Dombo",
+                            "name2": "Peter",
+                            "gewerbekennzeichnung": false,
+                            "partneradresse": {
+                                "postleitzahl": "65207",
+                                "ort": "Wiesbaden",
+                                "strasse": "Schnitterweg",
+                                "hausnummer": "14",
+                                "landescode": "DE"
+                            },
+                            "geschaeftspartnerrolle": [
+                                "KUNDE"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ENERGIELIEFERVERTRAG": [
+                {
+                    "boTyp": "VERTRAG",
+                    "versionStruktur": "1",
+                    "vertragsart": "ENERGIELIEFERVERTRAG",
+                    "gemeinderabatt": 0,
+                    "vertragskonditionen": {
+                        "netznutzungszahler": "LIEFERANT",
+                        "netznutzungsvertrag": "LIEFERANTEN_NB",
+                        "netznutzungsabrechnung": {
+                            "dauer": 365,
+                            "startdatum": "2025-10-06T22:00:00Z",
+                            "enddatum": "2026-10-07T21:59:59Z",
+                            "abrechnungsZeitraum": "1007"
+                        },
+                        "beinhaltetSingulaerGenutzteBetriebsmittel": false,
+                        "netznutzungsabrechnungsgrundlage": "LIEFERSCHEIN",
+                        "haushaltskunde": true,
+                        "abrechnungUeberNna": true,
+                        "gemeinderabatt": [],
+                        "startAbrechnungsjahr": "20250924",
+                        "abrechnungsintervall": 12,
+                        "netznutzungsabrechnungIntervall": 12,
+                        "kuendigungsfrist": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "9999-12-31T23:59:59Z",
+                            "zeitraumText": "02WM"
+                        },
+                        "vertragslaufzeit": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "2026-01-31T23:00:00Z"
+                        },
+                        "kuendigungstermin": "00000000",
+                        "abschlagszyklus": {
+                            "zeiteinheit": "MONAT",
+                            "dauer": 1
+                        },
+                        "anzahlAbschlaege": 12,
+                        "vertragsverlaengerung": {
+                            "startdatum": "2006-09-22T22:00:00Z",
+                            "enddatum": "9999-12-31T23:59:59Z"
+                        }
+                    },
+                    "korrespondenzpartner": {
+                        "boTyp": "GESCHAEFTSPARTNER",
+                        "versionStruktur": "1",
+                        "anrede": "Herr",
+                        "name1": "Dombo",
+                        "name2": "Peter",
+                        "gewerbekennzeichnung": false,
+                        "partneradresse": {
+                            "postleitzahl": "65207",
+                            "ort": "Wiesbaden",
+                            "strasse": "Schnitterweg",
+                            "hausnummer": "14",
+                            "landescode": "DE"
+                        },
+                        "geschaeftspartnerrolle": [
+                            "KUNDE"
+                        ]
+                    },
+                    "abrechnungUeberNna": false,
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    },
+                    "vertragspartner2": [
+                        {
+                            "boTyp": "GESCHAEFTSPARTNER",
+                            "versionStruktur": "1",
+                            "anrede": "Herr",
+                            "name1": "Dombo",
+                            "name2": "Peter",
+                            "gewerbekennzeichnung": false,
+                            "partneradresse": {
+                                "postleitzahl": "65207",
+                                "ort": "Wiesbaden",
+                                "strasse": "Schnitterweg",
+                                "hausnummer": "14",
+                                "landescode": "DE"
+                            },
+                            "geschaeftspartnerrolle": [
+                                "KUNDE",
+                                "KUNDE"
+                            ]
+                        }
+                    ],
+                    "enFG": [
+                        {
+                            "grundlageVerringerungUmlagen": "ERFUELLT_NICHT_VORAUSSETZUNG_NACH_ENFG"
+                        }
+                    ]
+                }
+            ],
+            "ZAEHLER": [
+                {
+                    "boTyp": "ZAEHLER",
+                    "versionStruktur": "1",
+                    "zaehlernummer": "1DZG0040240416",
+                    "sparte": "STROM",
+                    "zaehlerauspraegung": "ZWEIRICHTUNGSZAEHLER",
+                    "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+                    "tarifart": "EINTARIF",
+                    "zaehlerhersteller": {
+                        "boTyp": "GESCHAEFTSPARTNER",
+                        "versionStruktur": "1",
+                        "name1": "DZG",
+                        "gewerbekennzeichnung": false
+                    },
+                    "gateway": "EPPC0205728526",
+                    "fernschaltung": "NICHT_VORHANDEN",
+                    "messwerterfassung": "FERNAUSLESBAR",
+                    "zaehlertypspezifikation": "MME_STANDARD",
+                    "befestigungsart": "DREIPUNKT",
+                    "serialnummer": "1DZG0040240416",
+                    "baujahr": "2025",
+                    "messlokationsId": "DE00068365207STROM000008000253284",
+                    "marktlokationsId": "50929830210",
+                    "geraete": [
+                        {
+                            "geraetenummer": "EPPC0205728526"
+                        },
+                        {
+                            "geraetenummer": "EPPC0205728526",
+                            "geraeteeigenschaften": {
+                                "geraetetyp": "SMARTMETERGATEWAY"
+                            }
+                        }
+                    ],
+                    "zaehlwerke": [
+                        {
+                            "zaehlwerkId": "003",
+                            "bezeichnung": "HT",
+                            "richtung": "AUSSP",
+                            "konfiguration": "KONFIG12345",
+                            "obisKennzahl": "1-65:1.8.0",
+                            "wandlerfaktor": 1,
+                            "einheit": "KWH",
+                            "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+                            "verbrauchsart": [
+                                "KL"
+                            ],
+                            "unterbrechbarkeit": "NUV",
+                            "steuerbefreit": false,
+                            "vorkommastelle": 6,
+                            "nachkommastelle": 0,
+                            "abrechnungsrelevant": true,
+                            "wertegranularitaet": "JAEHRLICH",
+                            "keinKonfigurationsprodukt": true,
+                            "verwendungszwecke": [
+                                {
+                                    "marktrolle": "LF",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG",
+                                        "ENDKUNDENABRECHNUNG"
+                                    ]
+                                },
+                                {
+                                    "marktrolle": "NB",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "zaehlwerkId": "012",
+                            "bezeichnung": "HT",
+                            "richtung": "AUSSP",
+                            "obisKennzahl": "1-1:1.29.0",
+                            "wandlerfaktor": 1,
+                            "einheit": "KWH",
+                            "schwachlastfaehig": "NICHT_SCHWACHLASTFAEHIG",
+                            "verbrauchsart": [
+                                "KL"
+                            ],
+                            "unterbrechbarkeit": "NUV",
+                            "steuerbefreit": false,
+                            "vorkommastelle": 6,
+                            "nachkommastelle": 0,
+                            "abrechnungsrelevant": false,
+                            "keinKonfigurationsprodukt": true,
+                            "verwendungszwecke": [
+                                {
+                                    "marktrolle": "LF",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG",
+                                        "ENDKUNDENABRECHNUNG"
+                                    ]
+                                },
+                                {
+                                    "marktrolle": "NB",
+                                    "zweck": [
+                                        "NETZNUTZUNGSABRECHNUNG",
+                                        "MEHRMINDERMENGENABRECHNUNG"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    }
+                }
+            ],
+            "LOKATIONSBUENDEL": [
+                {
+                    "boTyp": "LOKATIONSBUENDEL",
+                    "versionStruktur": "1",
+                    "lokationsbuendelstrukturId": "9992000000026",
+                    "standardisierteLokationsbuendelstruktur": true,
+                    "datenqualitaet": "GUELTIGE_DATEN",
+                    "gueltigkeitszeitraum": {
+                        "startdatum": "2025-11-17T23:00:00Z",
+                        "zeitraumId": 1
+                    },
+                    "zuordnungObjectcode": [
+                        {
+                            "referenzLokationsTyp": "MELO",
+                            "referenzLokationsId": "DE00068365207STROM000008000253284",
+                            "objectcode": [
+                                {
+                                    "objectcode": "9992000001032",
+                                    "lokationsbuendelNummer": 1
+                                }
+                            ]
+                        },
+                        {
+                            "referenzLokationsTyp": "MALO",
+                            "referenzLokationsId": "50929830210",
+                            "objectcode": [
+                                {
+                                    "objectcode": "9992000001016",
+                                    "lokationsbuendelNummer": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "VERWENDUNGSZEITRAUM": [
+                {
+                    "boTyp": "VERWENDUNGSZEITRAUM",
+                    "versionStruktur": "1",
+                    "verwendungAb": "2025-11-17T23:00:00Z",
+                    "zeitraumId": 1,
+                    "datenqualitaet": "GUELTIGE_DATEN"
+                }
             ]
-          }
-        ]
-      },
-      "transaktionsdaten": {
-        "datenaustauschreferenz": "M3KZJRZH",
-        "sparte": "STROM",
-        "transaktionsgrund": "ZX7",
-        "vorgangsnummer": "KBG27094210000000000929931413171000",
-        "pruefidentifikator": "55653",
-        "absender": {
-          "boTyp": "MARKTTEILNEHMER",
-          "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
-          "rollencodenummer": "9900496000001",
-          "rollencodetyp": "BDEW"
         },
-        "empfaenger": {
-          "boTyp": "MARKTTEILNEHMER",
-          "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
-          "rollencodenummer": "9900496000002",
-          "rollencodetyp": "BDEW"
+        "transaktionsdaten": {
+            "sparte": "STROM",
+            "transaktionsgrund": "ZX7",
+            "pruefidentifikator": "55653",
+            "absender": {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": true,
+                "marktrolle": "MSB",
+                "rollencodenummer": "9906464000001",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "ansprechpartner": {
+                    "boTyp": "ANSPRECHPARTNER",
+                    "eMailAdresse": null,
+                    "nachname": null,
+                    "versionStruktur": "1"
+                }
+            },
+            "empfaenger": {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "gewerbekennzeichnung": true,
+                "marktrolle": "LF",
+                "rollencodenummer": "9903854000005",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false
+            },
+            "kategorie": "E03",
+            "abonnement": null,
+            "anfrageReferenz": null,
+            "anfragereferenznummer": null,
+            "angebotsart": null,
+            "angebotsnummer": null,
+            "angebotsreferenz": null,
+            "annahmedatum": null,
+            "antwortstatus": null,
+            "antwortstatusCodeliste": null,
+            "antwortstatusdritter": null,
+            "antwortstatusdritterCodeliste": null,
+            "anwendungsreferenznummer": null,
+            "apiKennung": null,
+            "apiPath": null,
+            "auftragsReferenz": null,
+            "ausfuehrungsdatum": null,
+            "begruendung": null,
+            "bestellungzaehlzeiten": null,
+            "beteiligterMarktpartnerReferenz": null,
+            "beteiligterMarktpartnerReferenzcode": null,
+            "bilanzkreiszuordnung": null,
+            "code": null,
+            "datenaustauschreferenz": "B231EC54CDD4A0",
+            "datumKuendigungKd": null,
+            "datumKuendigungLf": null,
+            "datumleistungsbeginn": null,
+            "datumsformat": null,
+            "dokumentenname": null,
+            "dokumentennummer": "70E1BB231EC54CDD4A0",
+            "enddatum": null,
+            "endezumtermin": null,
+            "fehlerbeschreibung": null,
+            "fertigstellungsdatum": null,
+            "freitext": null,
+            "geplantesProduktpaket": null,
+            "gueltigAb": null,
+            "identifikationslogik": null,
+            "infoAbweichung": null,
+            "leistungsperiode": null,
+            "lieferbeginndatuminbearbeitung": null,
+            "lieferdatum": null,
+            "lieferrichtung": null,
+            "liste": null,
+            "lokationsId": "DE00068365207STROM000008000253284",
+            "meldepunkt": "DE00068365207STROM000008000253284",
+            "menge": null,
+            "mitteilungsnummer": null,
+            "nachrichtendatum": "2026-01-30T01:30:51Z",
+            "nachrichtenfunktion": null,
+            "nachrichtenreferenznummer": "B231EC54CDD4A1",
+            "naechsteBearbeitung": null,
+            "naechsteNetznutzungsabrechnung": null,
+            "naechsteTurnusAblesungGas": null,
+            "naechsteTurnusAblesungStrom": null,
+            "netznutzungsabrechnungsintervall": null,
+            "positionsnummer": null,
+            "produktbeschreibung": null,
+            "prozessdatum": null,
+            "referenzMalo": null,
+            "referenzMelo": null,
+            "referenzPreisschluesselstamm": null,
+            "sendungsposition": null,
+            "startdatum": null,
+            "tarifstufe": null,
+            "transaktionsgrundergaenzung": null,
+            "typ": null,
+            "verarbeitungsReihenfolge": null,
+            "vertragsbeginn": null,
+            "vertragsende": null,
+            "verwendungAb": null,
+            "verwendungBis": null,
+            "vorgangsnummer": "F8868DC7E75FE8D70E1BB231EC54CDD4A0",
+            "vorgangsreferenznummer": null,
+            "zaehlerstandsinfo": null,
+            "zeitraumId": null,
+            "beteiligterMarktpartner": {
+                "rollencodenummer": null,
+                "rollencodetyp": null
+            }
         },
-        "dokumentennummer": "BGMM3O37Z21",
-        "kategorie": "E03",
-        "nachrichtendatum": "2025-06-05T09:45:00Z",
-        "nachrichtenreferenznummer": "UNHM35S7BK0"
-      },
-      "zusatzdaten": {}
+        "zusatzdaten": {}
+      }
     }
-  }
 ]

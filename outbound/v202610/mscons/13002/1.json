@@ -1,0 +1,123 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "30203458",
+            "sparte": "GAS"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE7000874940100000000000070866366",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "messwertstatus": "ERSATZWERT",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "INTERPOLATION"
+                  },
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "AENDERUNG_DER_BERECHNUNG"
+                  },
+                  {
+                    "art": "GRUND_ERSATZWERTBILDUNGSVERFAHREN",
+                    "status": "KEIN_ZUGANG"
+                  }
+                ],
+                "obiskennzahl": "7-20:3.0.0",
+                "wert": 9608,
+                "nutzungszeitpunkt": "2024-08-02T04:00:00Z",
+                "position": 1
+              },
+              {
+                "startdatum": "2023-12-22T05:00:00Z",
+                "enddatum": "2024-08-02T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "LEERSTAND"
+                  },
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "AENDERUNG_DER_BERECHNUNG"
+                  },
+                  {
+                    "art": "GASQUALITAET",
+                    "status": "UMSTELLUNG_GASQUALITAET"
+                  }
+                ],
+                "obiskennzahl": "7-0:54.0.22",
+                "wert": 11.492,
+                "position": 2
+              },
+              {
+                "startdatum": "2023-12-22T05:00:00Z",
+                "enddatum": "2024-08-02T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "LEERSTAND"
+                  },
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "AENDERUNG_DER_BERECHNUNG"
+                  },
+                  {
+                    "art": "GASQUALITAET",
+                    "status": "UMSTELLUNG_GASQUALITAET"
+                  }
+                ],
+                "obiskennzahl": "7-0:52.0.22",
+                "wert": 0.9650,
+                "position": 3
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001099269230",
+        "sparte": "GAS",
+        "pruefidentifikator": "13002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870000000001",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800100000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM1Z3HQ32",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2024-10-01T06:07:00Z",
+        "nachrichtenreferenznummer": "P1001099269231",
+        "typ": "VL",
+        "anfrageReferenz": "PP172409301012154888888888888563413"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

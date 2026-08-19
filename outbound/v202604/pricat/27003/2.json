@@ -1,0 +1,71 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "PREISBLATT": [
+          {
+            "boTyp": "PREISBLATT",
+            "versionStruktur": "1",
+            "gueltigkeit": {
+              "startdatum": "2024-12-31T23:00:00Z"
+            },
+            "preispositionen": [
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 1.23155
+                  }
+                ],
+                "positionsnummer": 1,
+                "artikelId": "1-01-1-001"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.123456
+                  }
+                ],
+                "positionsnummer": 2,
+                "artikelId": "1-01-1-002"
+              }
+            ],
+            "sparte": "STROM",
+            "preisNetzbetreiberCodenummer": "9907165000001"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "119477",
+        "sparte": "STROM",
+        "pruefidentifikator": "27003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900371000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903526000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "861628BGM",
+        "kategorie": "Z64",
+        "nachrichtendatum": "2024-05-02T09:50:00Z",
+        "nachrichtenreferenznummer": "861628",
+        "vorgangsreferenznummer": "100000000001"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

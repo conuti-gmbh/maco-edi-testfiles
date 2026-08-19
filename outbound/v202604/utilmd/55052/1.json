@@ -1,7 +1,7 @@
 [
   {
     "businessKey": "<businessKey>",
-    "processDate": "<prozessDatum>",
+    "processDate": null,
     "dataSource": "OUTBOUND",
     "version": 1,
     "edifactVersion": 202604,
@@ -29,7 +29,7 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsbeginn": "2025-06-30T22:00:00Z"
+            "vertragsbeginn": "2026-06-30T22:00:00Z"
           }
         ]
       },
@@ -59,12 +59,12 @@
         },
         "dokumentennummer": "373923BGM",
         "kategorie": "E02",
-        "nachrichtendatum": "2025-04-04T09:16:00Z",
+        "nachrichtendatum": "2026-04-01T09:16:00Z",
         "nachrichtenreferenznummer": "373923",
         "anfragereferenznummer": "REF12345678910",
         "antwortstatus": "E15",
         "antwortstatusCodeliste": "S_0059",
-        "vertragsbeginn": "2025-06-30T22:00:00Z"
+        "vertragsbeginn": "2026-06-30T22:00:00Z"
       }
     }
   }

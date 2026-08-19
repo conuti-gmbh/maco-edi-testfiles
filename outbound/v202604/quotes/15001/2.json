@@ -1,0 +1,229 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001234",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragetyp": "KAUF"
+          }
+        ],
+        "ANGEBOT": [
+          {
+            "boTyp": "ANGEBOT",
+            "versionStruktur": "1",
+            "anfragereferenz": "REQOTE123456",
+            "angebotsdatum": "2025-06-30T22:00:00Z",
+            "sparte": "STROM",
+            "gesamtkosten": {
+              "waehrung": "EUR"
+            },
+            "positionsdaten": [
+              {
+                "positionsbezeichnung": "1",
+                "positionspreis": [
+                  {
+                    "wert": 100,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "ZAEHLEINRICHTUNG",
+                "freitext": "Allgemeine Informationen",
+                "verweisKatalognummer": {
+                  "katalognummer": "1",
+                  "zeilennummer": "2",
+                  "versionsnummer": "3"
+                }
+              },
+              {
+                "positionsbezeichnung": "2",
+                "positionspreis": [
+                  {
+                    "wert": 300,
+                    "menge": 2,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "WANDLER_MENGENUMWERTER"
+              },
+              {
+                "positionsbezeichnung": "3",
+                "positionspreis": [
+                  {
+                    "wert": 1,
+                    "menge": 100,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "KOMMUNIKATIONSEINRICHTUNG"
+              },
+              {
+                "positionsbezeichnung": "4",
+                "positionspreis": [
+                  {
+                    "wert": 50,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "TECHNISCHE_STEUEREINRICHTUNG"
+              },
+              {
+                "positionsbezeichnung": "5",
+                "positionspreis": [
+                  {
+                    "wert": 1,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "BEFESTIGUNGSEINRICHTUNG"
+              },
+              {
+                "positionsbezeichnung": "6",
+                "positionspreis": [
+                  {
+                    "wert": 1,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "SMARTMETER_GATEWAY"
+              },
+              {
+                "positionsbezeichnung": "7",
+                "positionspreis": [
+                  {
+                    "wert": 2,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "STEUERBOX"
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "1ESY0012345678",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+            "tarifart": "EINTARIF",
+            "eichungBis": "2033",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "befestigungsart": "STECKTECHNIK",
+            "serialnummer": "SERIAL123456",
+            "herstellungsdatum": "2023",
+            "geraete": [
+              {
+                "geraetenummer": "WANDLER1",
+                "weitereGeraetenummern": [
+                  "WANDLER2"
+                ],
+                "geraeteeigenschaften": {
+                  "geraetetyp": "WANDLER",
+                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
+                  "faktor": 50,
+                  "baujahr": "2022"
+                }
+              },
+              {
+                "geraetenummer": "LTE123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                  "geraetemerkmal": "DSL_KOM",
+                  "herstellungsdatum": "2021",
+                  "serialnummer": "SERIAL777777"
+                }
+              },
+              {
+                "geraetenummer": "RSU123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "TECHNISCHESTEUEREINRICHTUNG",
+                  "geraetemerkmal": "RUNDSTEUEREMPFAENGER",
+                  "herstellungsdatum": "2020"
+                }
+              },
+              {
+                "geraetenummer": "ABC123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "BEFESTIGUNGSEINRICHTUNG",
+                  "herstellungsdatum": "2022"
+                }
+              },
+              {
+                "geraetenummer": "SMG12345",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY",
+                  "baujahr": "2020",
+                  "eichungBis": "2030"
+                }
+              },
+              {
+                "geraeteeigenschaften": {
+                  "geraetetyp": "STEUERBOX",
+                  "herstellungsdatum": "2020"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MCVYAG0T",
+        "sparte": "STROM",
+        "pruefidentifikator": "15001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9906464000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMMCM3BZLS",
+        "kategorie": "310",
+        "nachrichtendatum": "2025-06-17T08:00:00Z",
+        "nachrichtenreferenznummer": "UNHMCD6T51U"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

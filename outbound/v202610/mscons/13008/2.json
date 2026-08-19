@@ -1,0 +1,68 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE7000871556200000000000070986000",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2025-09-29T04:00:00Z",
+                "enddatum": "2025-09-29T05:00:00Z",
+                "messwertstatus": "NICHT_VERWENDBAR",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "KUNDENSELBSTABLESUNG"
+                  }
+                ],
+                "obiskennzahl": "7-10:99.36.17",
+                "wert": 80.563,
+                "position": 1
+              }
+            ],
+            "startdatum": "2025-09-29T04:00:00Z",
+            "enddatum": "2025-09-30T04:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "BGMM24GIX6V",
+        "sparte": "GAS",
+        "pruefidentifikator": "13008",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9800451100008",
+          "marktrolle": "MSB",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9870012500004",
+          "marktrolle": "NB",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM24GIX6V",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM228NQHP",
+        "typ": "TL",
+        "anfrageReferenz": "PP172409301012154888888888888563000"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

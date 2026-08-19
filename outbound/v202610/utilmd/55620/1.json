@@ -1,0 +1,154 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2026-06-23T22:00:00Z",
+            "verwendungBis": "2026-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2026-07-23T22:00:00Z"
+          }
+        ],
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00713739359S0000000000001222221",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2026-06-23T22:00:00Z",
+              "enddatum": "2026-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9904990000008",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9904990000008",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          },
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE00713739359S0000000000001222221",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2026-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "marktrollen": [
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "MSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9904990000008",
+                "rollencodetyp": "BDEW",
+                "weiterverpflichtet": false,
+                "messstellenbetreiberEigenschaft": "GRUNDZUSTAENDIGER_MESSSTELLENBETREIBER"
+              },
+              {
+                "boTyp": "MARKTTEILNEHMER",
+                "versionStruktur": "1",
+                "marktrolle": "GMSB",
+                "gewerbekennzeichnung": true,
+                "rollencodenummer": "9904990000008",
+                "rollencodetyp": "BDEW"
+              }
+            ]
+          }
+        ],
+        "MESSSTELLENBETRIEBSVERTRAG": [
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2026-06-23T22:00:00Z",
+              "enddatum": "2026-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragskonditionen": {
+              "abrechnungUeberNna": true
+            },
+            "lokationsId": "DE00713739359S0000000000001222221",
+            "lokationsTyp": "MELO"
+          },
+          {
+            "boTyp": "VERTRAG",
+            "versionStruktur": "1",
+            "vertragsart": "MESSSTELLENBETRIEBSVERTRAG",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2026-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "vertragskonditionen": {
+              "abrechnungUeberNna": true
+            },
+            "lokationsId": "DE00713739359S0000000000001222221",
+            "lokationsTyp": "MELO"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "002351596028",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZX7",
+        "vorgangsnummer": "24062416225400000000000102159662022",
+        "pruefidentifikator": "55620",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904990000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "002351596028",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-10-02T11:00:00Z",
+        "nachrichtenreferenznummer": "002351596028"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

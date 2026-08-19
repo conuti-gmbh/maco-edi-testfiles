@@ -1,0 +1,173 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "MESSLOKATION": [
+          {
+            "boTyp": "MESSLOKATION",
+            "versionStruktur": "1",
+            "messlokationsId": "DE0032106765712000000000000001234",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE0032106765712000000000000001234",
+            "lokationsTyp": "MELO",
+            "anfragetyp": "KAUF"
+          }
+        ],
+        "ANGEBOT": [
+          {
+            "boTyp": "ANGEBOT",
+            "versionStruktur": "1",
+            "anfragereferenz": "REQOTE123456",
+            "angebotsdatum": "2025-09-30T22:00:00Z",
+            "sparte": "STROM",
+            "gesamtkosten": {
+              "waehrung": "EUR"
+            },
+            "positionsdaten": [
+              {
+                "positionsbezeichnung": "1",
+                "positionspreis": [
+                  {
+                    "wert": 100,
+                    "menge": 1,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "ZAEHLEINRICHTUNG",
+                "freitext": "weil ich das so sage",
+                "verweisKatalognummer": {
+                  "katalognummer": "1",
+                  "zeilennummer": "2",
+                  "versionsnummer": "3"
+                }
+              },
+              {
+                "positionsbezeichnung": "2",
+                "positionspreis": [
+                  {
+                    "wert": 300,
+                    "menge": 2,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "WANDLER_MENGENUMWERTER"
+              },
+              {
+                "positionsbezeichnung": "3",
+                "anbietbar": false,
+                "artikelnummer": "SMARTMETER_GATEWAY",
+                "beteiligterMarktpartner": {
+                  "boTyp": "MARKTTEILNEHMER",
+                  "versionStruktur": "1",
+                  "gewerbekennzeichnung": true,
+                  "rollencodenummer": "9904858000009",
+                  "rollencodetyp": "BDEW"
+                }
+              },
+              {
+                "positionsbezeichnung": "4",
+                "positionspreis": [
+                  {
+                    "wert": 1,
+                    "menge": 100,
+                    "bezugswert": "STUECK"
+                  }
+                ],
+                "artikelnummer": "KOMMUNIKATIONSEINRICHTUNG"
+              }
+            ]
+          }
+        ],
+        "ZAEHLER": [
+          {
+            "boTyp": "ZAEHLER",
+            "versionStruktur": "1",
+            "zaehlernummer": "1ESY0012345678",
+            "sparte": "STROM",
+            "zaehlerauspraegung": "EINRICHTUNGSZAEHLER",
+            "zaehlertyp": "MODERNEMESSEINRICHTUNG",
+            "tarifart": "EINTARIF",
+            "eichungBis": "2033",
+            "messwerterfassung": "MANUELL_AUSGELESENE",
+            "zaehlertypspezifikation": "MME_STANDARD",
+            "befestigungsart": "STECKTECHNIK",
+            "geraete": [
+              {
+                "geraetenummer": "WANDLER1",
+                "weitereGeraetenummern": [
+                  "WANDLER2"
+                ],
+                "geraeteeigenschaften": {
+                  "geraetetyp": "WANDLER",
+                  "geraetemerkmal": "MESSWANDLERSATZ_IMS_MME",
+                  "faktor": 50,
+                  "baujahr": "2025"
+                }
+              },
+              {
+                "geraeteeigenschaften": {
+                  "geraetetyp": "SMARTMETERGATEWAY"
+                }
+              },
+              {
+                "geraetenummer": "LTE123",
+                "geraeteeigenschaften": {
+                  "geraetetyp": "KOMMUNIKATIONSEINRICHTUNG",
+                  "geraetemerkmal": "LTE_KOM",
+                  "herstellungsdatum": "2025",
+                  "serialnummer": "SERIAL777777"
+                }
+              }
+            ],
+            "serialnummer": "SERIAL123456",
+            "herstellungsdatum": "2025"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MC1KD4Q0",
+        "sparte": "STROM",
+        "pruefidentifikator": "15001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9906464000001",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+012345678910"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMMCM3BZLS",
+        "kategorie": "310",
+        "nachrichtendatum": "2025-10-08T08:00:00Z",
+        "nachrichtenreferenznummer": "UNHMCEYDAOS"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

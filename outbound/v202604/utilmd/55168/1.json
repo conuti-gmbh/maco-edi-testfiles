@@ -431,22 +431,20 @@
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
           "rollencodenummer": "9900321000005",
           "rollencodetyp": "BDEW"
         },
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
           "rollencodenummer": "9904446000007",
           "rollencodetyp": "BDEW"
         },
         "dokumentennummer": "BGMM42HSI1V",
         "kategorie": "E01",
-        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtendatum": "2026-04-01T12:00:00Z",
         "nachrichtenreferenznummer": "UNHM44RYD60",
-        "datumleistungsbeginn": "2025-06-30T22:00:00Z"
+        "datumleistungsbeginn": "2026-06-30T22:00:00Z"
       },
       "zusatzdaten": {}
     }

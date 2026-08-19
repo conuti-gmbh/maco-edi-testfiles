@@ -245,13 +245,13 @@
             "boTyp": "BILANZIERUNG",
             "versionStruktur": "1",
             "datenqualitaet": "INFORMATIVE_DATEN",
-            "jahresverbrauchsprognose": {
-              "wert": 4100,
-              "einheit": "KWH"
-            },
             "temperaturarbeit": {
               "wert": 3,
               "einheit": "KWHK"
+            },
+            "jahresverbrauchsprognose": {
+              "wert": 4100,
+              "einheit": "KWH"
             },
             "prognosegrundlage": "PROFILE",
             "detailsPrognosegrundlage": [

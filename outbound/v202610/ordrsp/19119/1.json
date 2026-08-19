@@ -1,0 +1,46 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M40H0DOO",
+        "sparte": "GAS",
+        "pruefidentifikator": "19119",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9800227200008",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9870091900001",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMM3VK6917",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM41Y2UH0",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "A02",
+        "antwortstatusCodeliste": "E_1001",
+        "freitext": "ist so"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

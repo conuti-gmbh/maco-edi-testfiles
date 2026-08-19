@@ -1,0 +1,88 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "AD_HOC_STEUERKANAL": [
+          {
+            "boTyp": "AD_HOC_STEUERKANAL",
+            "versionStruktur": "1",
+            "konfigurationsprodukt": "9991000000739"
+          }
+        ],
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688117482",
+            "sparte": "STROM"
+          }
+        ],
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "lokationsId": "E1688117482",
+            "lokationsTyp": "NELO",
+            "anfragetyp": "NEUKONFIGURATION"
+          }
+        ],
+        "ANGEBOT": [
+          {
+            "boTyp": "ANGEBOT",
+            "versionStruktur": "1",
+            "anfragereferenz": "AVV12345",
+            "sparte": "STROM",
+            "positionsdaten": [
+              {
+                "positionsbezeichnung": "1",
+                "artikelId": [
+                  "9991000000739-01",
+                  "9991000000739-02",
+                  "9991000000739-03"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MCXABF82",
+        "sparte": "STROM",
+        "pruefidentifikator": "15004",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+001234567"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMMC2WCO3K",
+        "kategorie": "Z74",
+        "nachrichtendatum": "2025-10-10T08:00:00Z",
+        "nachrichtenreferenznummer": "UNHMC75CA7G"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

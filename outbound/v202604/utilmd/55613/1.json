@@ -13,15 +13,15 @@
             "versionStruktur": "1",
             "zeitraumId": 1,
             "datenqualitaet": "GUELTIGE_DATEN",
-            "verwendungAb": "2025-06-23T22:00:00Z",
-            "verwendungBis": "2025-07-23T22:00:00Z"
+            "verwendungAb": "2026-06-23T22:00:00Z",
+            "verwendungBis": "2026-07-23T22:00:00Z"
           },
           {
             "boTyp": "VERWENDUNGSZEITRAUM",
             "versionStruktur": "1",
             "zeitraumId": 2,
             "datenqualitaet": "GUELTIGE_DATEN",
-            "verwendungAb": "2025-07-23T22:00:00Z"
+            "verwendungAb": "2026-07-23T22:00:00Z"
           }
         ],
         "MARKTLOKATION": [
@@ -32,8 +32,8 @@
             "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1,
-              "startdatum": "2025-06-23T22:00:00Z",
-              "enddatum": "2025-07-23T22:00:00Z"
+              "startdatum": "2026-06-23T22:00:00Z",
+              "enddatum": "2026-07-23T22:00:00Z"
             },
             "netzebene": "NSP",
             "umspannung": "MSP_NSP_UMSP",
@@ -56,7 +56,7 @@
             "datenqualitaet": "GUELTIGE_DATEN",
             "gueltigkeitszeitraum": {
               "zeitraumId": 2,
-              "startdatum": "2025-07-23T22:00:00Z"
+              "startdatum": "2026-07-23T22:00:00Z"
             },
             "netzebene": "NSP",
             "umspannung": "MSP_NSP_UMSP",
@@ -97,8 +97,8 @@
             "versionStruktur": "1",
             "gueltigkeitszeitraum": {
               "zeitraumId": 1,
-              "startdatum": "2025-06-23T22:00:00Z",
-              "enddatum": "2025-07-23T22:00:00Z"
+              "startdatum": "2026-06-23T22:00:00Z",
+              "enddatum": "2026-07-23T22:00:00Z"
             },
             "datenqualitaet": "GUELTIGE_DATEN",
             "lastprofile": [
@@ -126,7 +126,7 @@
             "versionStruktur": "1",
             "gueltigkeitszeitraum": {
               "zeitraumId": 2,
-              "startdatum": "2025-07-23T22:00:00Z"
+              "startdatum": "2026-07-23T22:00:00Z"
             },
             "datenqualitaet": "GUELTIGE_DATEN",
             "lastprofile": [
@@ -160,7 +160,6 @@
         "absender": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
           "rollencodenummer": "9900327000009",
           "rollencodetyp": "BDEW",
           "ansprechpartner": {
@@ -178,13 +177,12 @@
         "empfaenger": {
           "boTyp": "MARKTTEILNEHMER",
           "versionStruktur": "1",
-          "gewerbekennzeichnung": true,
           "rollencodenummer": "9911835000001",
           "rollencodetyp": "BDEW"
         },
         "dokumentennummer": "DA172410171056109903323000007105581",
         "kategorie": "E03",
-        "nachrichtendatum": "2025-06-24T12:31:00Z",
+        "nachrichtendatum": "2026-04-01T12:31:00Z",
         "nachrichtenreferenznummer": "DAVQNQSFBGPQQC"
       },
       "zusatzdaten": {}

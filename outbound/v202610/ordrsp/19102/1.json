@@ -1,0 +1,48 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "PROZESSDATENBERICHT",
+            "anfragetyp": "ZAEHLERSTAENDE"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAZROLOEZPHVXX",
+        "sparte": "STROM",
+        "pruefidentifikator": "19102",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9910812000000",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9979015000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA832411190857579903323000007074564",
+        "kategorie": "7",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "DAXJVFETPAECDM",
+        "auftragsReferenz": "AFN9523",
+        "antwortstatus": "A02",
+        "antwortstatusCodeliste": "E_0442"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {},
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M2QSI98I",
+        "sparte": "STROM",
+        "transaktionsgrund": "E01",
+        "transaktionsgrundergaenzung": "ZW4",
+        "vorgangsnummer": "KBG27094210000000000929931413171000",
+        "pruefidentifikator": "55003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000001",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9980000000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM37574AD",
+        "kategorie": "E01",
+        "nachrichtendatum": "2026-10-02T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2FDVMMI",
+        "anfragereferenznummer": "NNV1230",
+        "antwortstatus": "A45",
+        "antwortstatusCodeliste": "E_0622"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

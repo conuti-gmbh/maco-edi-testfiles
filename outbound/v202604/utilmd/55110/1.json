@@ -21,29 +21,32 @@
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
             "marktlokationsId": "50754153861",
-            "sparte": "STROM",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            }
+            "marktlokationsTyp": [
+              {
+                "typ": "STANDARD_MARKTLOKATION"
+              }
+            ],
+            "sparte": "STROM"
           }
         ],
         "ENERGIELIEFERVERTRAG": [
           {
             "boTyp": "VERTRAG",
             "versionStruktur": "1",
-            "datenqualitaet": "GUELTIGE_DATEN",
-            "gueltigkeitszeitraum": {
-              "zeitraumId": 1
-            },
             "vertragsart": "ENERGIELIEFERVERTRAG",
             "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
             "vertragspartner2": [
               {
                 "boTyp": "GESCHAEFTSPARTNER",
                 "versionStruktur": "1",
-                "name1": "Mustermann",
-                "name2": "Max",
-                "gewerbekennzeichnung": false,
+                "name1": "Firma AG",
+                "name2": "Musterfirma",
+                "gewerbekennzeichnung": true,
                 "geschaeftspartnerrolle": [
                   "KUNDE"
                 ]
@@ -52,15 +55,15 @@
             "korrespondenzpartner": {
               "boTyp": "GESCHAEFTSPARTNER",
               "versionStruktur": "1",
-              "name1": "Mustermann",
-              "name2": "Max",
+              "name1": "Fank Müller",
               "gewerbekennzeichnung": false,
               "partneradresse": {
-                "postleitzahl": "12345",
-                "ort": "Ort",
-                "strasse": "Str",
-                "hausnummer": "1",
-                "landescode": "DE"
+                "postleitzahl": "55555",
+                "ort": "Musterstadt",
+                "strasse": "Wohnstrasse",
+                "hausnummer": "25",
+                "landescode": "DE",
+                "ortsteil": "Musterortsteil"
               }
             }
           }
@@ -70,6 +73,7 @@
         "datenaustauschreferenz": "M08K5D57",
         "sparte": "STROM",
         "transaktionsgrund": "ZX6",
+        "transaktionsgrundergaenzung": "ZW4",
         "vorgangsnummer": "123456",
         "pruefidentifikator": "55110",
         "absender": {

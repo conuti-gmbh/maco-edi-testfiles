@@ -1,0 +1,88 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "DE7000871626900000000000070100000",
+            "lokationsTyp": "MELO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2023-09-27T04:00:00Z",
+                "enddatum": "2024-09-27T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "PLAUSIBEL_WG_KONTROLLABLESUNG"
+                  },
+                  {
+                    "art": "GASQUALITAET",
+                    "status": "UMSTELLUNG_GASQUALITAET"
+                  }
+                ],
+                "obiskennzahl": "7-0:54.0.22",
+                "wert": 11.549,
+                "position": 1
+              },
+              {
+                "startdatum": "2023-09-27T04:00:00Z",
+                "enddatum": "2024-09-27T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "PLAUSIBEL_WG_KONTROLLABLESUNG"
+                  },
+                  {
+                    "art": "GASQUALITAET",
+                    "status": "UMSTELLUNG_GASQUALITAET"
+                  }
+                ],
+                "obiskennzahl": "7-0:54.0.22",
+                "wert": 0.9693,
+                "position": 2
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001099071538",
+        "sparte": "GAS",
+        "pruefidentifikator": "13009",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "marktrolle": "NB",
+          "rollencodenummer": "9870013800007",
+          "rollencodetyp": "DVGW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "marktrolle": "LF",
+          "rollencodenummer": "9800044300007",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "P1001099071539",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "P1001099071539",
+        "typ": "EM",
+        "anfrageReferenz": "PP172409301012154888888888888563000"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

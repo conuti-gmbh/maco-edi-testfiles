@@ -1,0 +1,64 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "HANDELSUNSTIMMIGKEIT": [
+          {
+            "boTyp": "HANDELSUNSTIMMIGKEIT",
+            "versionStruktur": "1",
+            "nummer": "ABC123456",
+            "typ": "HANDELSRECHNUNG",
+            "begruendung": {
+              "richtigkeit": "ORDCHG",
+              "referenzDar": "BLABLA1",
+              "referenznummer": "BLABLA2",
+              "bestaetigungDar": "BLABLA3",
+              "anerkennungsmeldung": "BLABLA4",
+              "grund": "KORREKTE_ARTIKEL_ID_FUER_ABRECHNUNG_STORNIERTER_SPERRAUFTRAG_ANGEGEBEN"
+            },
+            "zuZahlen": {
+              "wert": 123,
+              "waehrung": "EUR"
+            }
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "MBZ0MEA1",
+        "sparte": "GAS",
+        "pruefidentifikator": "29001",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900321000005",
+          "rollencodetyp": "DVGW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "x@x.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "DVGW"
+        },
+        "dokumentennummer": "BGMMC2TM5WU",
+        "kategorie": "456",
+        "nachrichtendatum": "2025-06-05T12:00:00Z",
+        "nachrichtenreferenznummer": "UNHMC0VCGUW",
+        "antwortstatusCodeliste": "E_1008"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

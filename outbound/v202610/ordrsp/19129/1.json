@@ -1,0 +1,45 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DARRMSWPWFCUFR",
+        "sparte": "STROM",
+        "pruefidentifikator": "19129",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900327000009",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9979015000001",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA462411200729119903323000007362119",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "DAHABOXNVNJSQH",
+        "vorgangsreferenznummer": "REF32412",
+        "antwortstatus": "A02",
+        "antwortstatusCodeliste": "E_0468"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

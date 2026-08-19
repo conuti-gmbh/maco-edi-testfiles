@@ -1,0 +1,51 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "SPERRUNG"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M3ETI9F9",
+        "sparte": "STROM",
+        "pruefidentifikator": "19118",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904733000009",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Max Mustermann",
+            "eMailAdresse": "Max.Mustermann@conuti.de"
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900244000009",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM423DC2W",
+        "kategorie": "Z51",
+        "nachrichtendatum": "2026-04-01T06:09:00Z",
+        "nachrichtenreferenznummer": "UNHM3F74NWH",
+        "auftragsReferenz": "P10011000000011",
+        "antwortstatus": "A01",
+        "antwortstatusCodeliste": "E_0488"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

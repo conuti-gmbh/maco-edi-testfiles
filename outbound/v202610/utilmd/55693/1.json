@@ -1,0 +1,83 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-06-23T22:00:00Z",
+            "verwendungBis": "2025-07-23T22:00:00Z"
+          },
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 2,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-07-23T22:00:00Z"
+          }
+        ],
+        "TECHNISCHE_RESSOURCE": [
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-06-23T22:00:00Z",
+              "enddatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "fernsteuerbarkeit": true
+          },
+          {
+            "boTyp": "TECHNISCHE_RESSOURCE",
+            "versionStruktur": "1",
+            "ressourcenId": "D417MLM8164",
+            "sparte": "STROM",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 2,
+              "startdatum": "2025-07-23T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "fernsteuerbarkeit": true
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "DAAZPSHRYDEGQZ",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY0",
+        "vorgangsnummer": "24062416225400000000000102159662011",
+        "pruefidentifikator": "55693",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9979052000006",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9900683000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "DA142411081003059903323000007901049",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-10-02T11:00:00Z",
+        "nachrichtenreferenznummer": "DAWTXTAVQRCZDO"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

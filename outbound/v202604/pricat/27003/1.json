@@ -1,0 +1,153 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "PREISBLATT": [
+          {
+            "boTyp": "PREISBLATT",
+            "versionStruktur": "1",
+            "preisNetzbetreiberCodenummer": "9900371000005",
+            "gueltigkeit": {
+              "startdatum": "2026-01-31T23:00:00Z"
+            },
+            "preispositionen": [
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0011
+                  }
+                ],
+                "positionsnummer": 1,
+                "artikelId": "1-08-3-09274126"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0011
+                  }
+                ],
+                "positionsnummer": 2,
+                "artikelId": "1-08-3-09274113"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0159
+                  }
+                ],
+                "positionsnummer": 3,
+                "artikelId": "1-08-4-09261000-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0061
+                  }
+                ],
+                "positionsnummer": 4,
+                "artikelId": "1-08-1-09261000-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0061
+                  }
+                ],
+                "positionsnummer": 5,
+                "artikelId": "1-08-1-09274113-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0011
+                  }
+                ],
+                "positionsnummer": 6,
+                "artikelId": "1-08-3-09261000"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0132
+                  }
+                ],
+                "positionsnummer": 7,
+                "artikelId": "1-08-4-09274113-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0132
+                  }
+                ],
+                "positionsnummer": 8,
+                "artikelId": "1-08-4-09274126-03"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0061,
+                    "staffelgrenzeVon": 0,
+                    "staffelgrenzeBis": 3
+                  }
+                ],
+                "positionsnummer": 9,
+                "artikelId": "1-08-1-09274126-03-1"
+              },
+              {
+                "preiseinheit": "EUR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 0.0061,
+                    "staffelgrenzeVon": 3,
+                    "staffelgrenzeBis": 6
+                  }
+                ],
+                "positionsnummer": 10,
+                "artikelId": "1-08-1-09274126-03-2"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "139198",
+        "sparte": "STROM",
+        "pruefidentifikator": "27003",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900371000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9903526000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "301546BGM",
+        "kategorie": "Z70",
+        "nachrichtendatum": "2024-04-01T05:00:00Z",
+        "nachrichtenreferenznummer": "301546",
+        "vorgangsreferenznummer": "100000000001"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

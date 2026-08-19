@@ -1,0 +1,78 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "NETZLOKATION": [
+          {
+            "boTyp": "NETZLOKATION",
+            "versionStruktur": "1",
+            "netzlokationsId": "E1688110000",
+            "sparte": "STROM"
+          }
+        ],
+        "ENERGIEMENGE": [
+          {
+            "boTyp": "ENERGIEMENGE",
+            "versionStruktur": "1",
+            "lokationsId": "E1688110000",
+            "lokationsTyp": "NELO",
+            "energieverbrauch": [
+              {
+                "startdatum": "2024-12-22T05:00:00Z",
+                "enddatum": "2025-08-02T04:00:00Z",
+                "messwertstatus": "ABGELESEN",
+                "statuszusatzinformationen": [
+                  {
+                    "art": "PLAUSIBILISIERUNGSHINWEIS",
+                    "status": "AUSTAUSCH_DES_ERSATZWERTES"
+                  },
+                  {
+                    "art": "KORREKTURGRUND",
+                    "status": "MESSEINRICHTUNG_GESTOERT_DEFEKT"
+                  }
+                ],
+                "obiskennzahl": "1-0:5.29.0",
+                "wert": 1250.465,
+                "position": 1
+              }
+            ],
+            "startdatum": "2024-12-22T05:00:00Z",
+            "enddatum": "2025-08-02T04:00:00Z"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "P1001099269230",
+        "sparte": "STROM",
+        "pruefidentifikator": "13018",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "MSB",
+          "rollencodenummer": "9910015000005",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "marktrolle": "LF",
+          "rollencodenummer": "9904099000008",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM2OK54U5",
+        "kategorie": "7",
+        "nachrichtenfunktion": "9",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM2A21HUI",
+        "typ": "TL",
+        "anfrageReferenz": "PP172409301012154888888888888563413"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

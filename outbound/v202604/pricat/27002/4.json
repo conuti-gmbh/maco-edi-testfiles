@@ -1,0 +1,81 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202604,
+    "data": {
+      "stammdaten": {
+        "PREISBLATT": [
+          {
+            "boTyp": "PREISBLATT",
+            "versionStruktur": "1",
+            "gueltigkeit": {
+              "startdatum": "2023-12-01T23:00:00Z"
+            },
+            "preispositionen": [
+              {
+                "leistungsbezeichnung": "ZUSATZLEISTUNG",
+                "preiseinheit": "EUR",
+                "bdewArtikelnummer": "ZUSATZDIENSTLEISTUNG_PARAGRAPH_35_2_1_MSBG",
+                "zeitbasis": "JAHR",
+                "preisstaffeln": [
+                  {
+                    "einheitspreis": 168.06
+                  }
+                ],
+                "preisschluesselstamm": "FX12",
+                "positionsnummer": 1,
+                "beschreibungsformat": "TEILSTRUKTURIERT",
+                "messebene": "NSP",
+                "beschreibung": "Blockstromwandler und weitere Details zu diesem"
+              }
+            ],
+            "sparte": "STROM"
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "5576673PF",
+        "sparte": "STROM",
+        "pruefidentifikator": "27002",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW",
+          "ansprechpartner": {
+            "boTyp": "ANSPRECHPARTNER",
+            "versionStruktur": "1",
+            "nachname": "Gross",
+            "eMailAdresse": "m.gross@swe-emmendingen.de",
+            "rufnummern": [
+              {
+                "nummerntyp": "FAX_DURCHWAHL",
+                "rufnummer": "+076414689910"
+              },
+              {
+                "nummerntyp": "RUF_DURCHWAHL",
+                "rufnummer": "+076414689911"
+              }
+            ]
+          }
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9903790000002",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "990562800000505102023000001733337",
+        "kategorie": "Z32",
+        "nachrichtendatum": "2025-10-02T12:21:00Z",
+        "nachrichtenreferenznummer": "5576674PF"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "VERWENDUNGSZEITRAUM": [
+          {
+            "boTyp": "VERWENDUNGSZEITRAUM",
+            "versionStruktur": "1",
+            "zeitraumId": 1,
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "verwendungAb": "2025-04-02T22:00:00Z"
+          }
+        ],
+        "TRANCHE": [
+          {
+            "boTyp": "TRANCHE",
+            "versionStruktur": "1",
+            "tranchenId": "50074561189",
+            "gueltigkeitszeitraum": {
+              "zeitraumId": 1,
+              "startdatum": "2025-04-02T22:00:00Z"
+            },
+            "datenqualitaet": "GUELTIGE_DATEN",
+            "sparte": "STROM",
+            "zaehlwerke": [
+              {
+                "obisKennzahl": "1-1:2.9.0",
+                "verwendungszweckNB": "V08",
+                "verwendungszweckLF": "V10",
+                "verwendungszweckUENB": "V11"
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "LZZUYCSN",
+        "sparte": "STROM",
+        "transaktionsgrund": "ZY1",
+        "vorgangsnummer": "123456",
+        "pruefidentifikator": "55662",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "gewerbekennzeichnung": true,
+          "rollencodenummer": "9904446000007",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "BGMM07EWGS8",
+        "kategorie": "E03",
+        "nachrichtendatum": "2026-10-02T11:00:00Z",
+        "nachrichtenreferenznummer": "UNHM0ITAQQ3"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]

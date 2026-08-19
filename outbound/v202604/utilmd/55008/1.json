@@ -13,7 +13,7 @@
             "versionStruktur": "1",
             "vertragsart": "NETZNUTZUNGSVERTRAG",
             "sparte": "STROM",
-            "vertragsende": "2024-06-30T22:00:00Z"
+            "vertragsende": "2026-06-30T22:00:00Z"
           }
         ]
       },
@@ -37,12 +37,13 @@
         },
         "dokumentennummer": "171574BGM",
         "kategorie": "E02",
-        "nachrichtendatum": "2025-05-04T14:09:00Z",
+        "nachrichtendatum": "2026-04-01T14:09:00Z",
         "nachrichtenreferenznummer": "171574",
         "anfragereferenznummer": "ABC123456",
         "antwortstatus": "A10",
         "antwortstatusCodeliste": "E_0609",
-        "vertragsende": "2024-06-30T22:00:00Z"
+        "vertragsende": "2026-06-30T22:00:00Z",
+        "geraeteausbaudatum": "2025-04-01T22:00:00Z"
       },
       "zusatzdaten": {}
     }

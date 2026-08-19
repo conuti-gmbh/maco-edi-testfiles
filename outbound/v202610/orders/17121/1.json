@@ -1,0 +1,76 @@
+[
+  {
+    "businessKey": "<businessKey>",
+    "processDate": null,
+    "dataSource": "OUTBOUND",
+    "version": 1,
+    "edifactVersion": 202610,
+    "data": {
+      "stammdaten": {
+        "ANFRAGE": [
+          {
+            "boTyp": "ANFRAGE",
+            "versionStruktur": "1",
+            "anfragekategorie": "AENDERUNG",
+            "energierichtung": "AUSSP",
+            "lokationsId": "44897654121",
+            "lokationsTyp": "MALO"
+          }
+        ],
+        "AUFTRAG": [
+          {
+            "boTyp": "AUFTRAG",
+            "versionStruktur": "1",
+            "ausfuehrungsdatum": "2026-09-29T22:00:00Z",
+            "positionsdaten": [
+              {
+                "positionsnummer": 1,
+                "lokationsId": "44897654121",
+                "lokationsTyp": "MALO"
+              }
+            ]
+          }
+        ],
+        "MARKTLOKATION": [
+          {
+            "boTyp": "MARKTLOKATION",
+            "versionStruktur": "1",
+            "marktlokationsId": "44897654121",
+            "zaehlwerke": [
+              {
+                "messprodukt": "9991000000044",
+                "verwendungszweckNB": "V01",
+                "verwendungszweckLF": "V01",
+                "verwendungszweckUENB": "V15",
+                "zaehlzeiten": {
+                  "zaehlzeitDefinition": "Aal"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "transaktionsdaten": {
+        "datenaustauschreferenz": "M0LI678W",
+        "sparte": "STROM",
+        "pruefidentifikator": "17121",
+        "absender": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9900259000002",
+          "rollencodetyp": "BDEW"
+        },
+        "empfaenger": {
+          "boTyp": "MARKTTEILNEHMER",
+          "versionStruktur": "1",
+          "rollencodenummer": "9904629000006",
+          "rollencodetyp": "BDEW"
+        },
+        "dokumentennummer": "M05AQP3S",
+        "nachrichtendatum": "2026-10-01T11:00:00Z",
+        "nachrichtenreferenznummer": "M0V0OCVO"
+      },
+      "zusatzdaten": {}
+    }
+  }
+]
