@@ -36,7 +36,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "marktlokationsId": "50074561182",
             "sparte": "STROM",
             "gueltigkeitszeitraum": {
               "zeitraumId": 2,
@@ -48,7 +48,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50074561188",
+            "marktlokationsId": "50074561182",
             "sparte": "STROM",
             "gueltigkeitszeitraum": {
               "zeitraumId": 3,
@@ -72,7 +72,7 @@
             "vertragskonditionen": {
               "haushaltskunde": true
             },
-            "lokationsId": "50074561188",
+            "lokationsId": "50074561182",
             "lokationsTyp": "MALO"
           },
           {
@@ -88,7 +88,7 @@
             "vertragskonditionen": {
               "haushaltskunde": true
             },
-            "lokationsId": "50074561188",
+            "lokationsId": "50074561182",
             "lokationsTyp": "MALO"
           }
         ],
