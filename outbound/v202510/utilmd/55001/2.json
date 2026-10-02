@@ -11,7 +11,7 @@
           {
             "boTyp": "MARKTLOKATION",
             "versionStruktur": "1",
-            "marktlokationsId": "50363198100",
+            "marktlokationsId": "50363198109",
             "marktlokationsTyp": [
               {
                 "typ": "STANDARD_MARKTLOKATION"
@@ -43,7 +43,7 @@
             "vertragskonditionen": {
               "haushaltskunde": true
             },
-            "lokationsId": "50363198100",
+            "lokationsId": "50363198109",
             "lokationsTyp": "MALO"
           }
         ],
